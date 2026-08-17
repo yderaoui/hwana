@@ -743,11 +743,22 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
     contain: paint;
     scroll-snap-align: center;
     border: 0;
-    background: #eceae5;
+    background: var(--navy-deep);
+    transition: none;
   }
+  .department-accordion > button:hover,
+  .department-accordion > button:focus-visible { flex: 0 0 min(78vw, 330px); }
+  .department-accordion > button:active { transform: none; }
+  .department-accordion > button:not(:hover) img,
+  .department-accordion > button:not(:hover) .motion-media,
+  .department-accordion > button:hover .motion-media { filter: none; }
+  .department-accordion img,
   .department-accordion .motion-media,
   .department-accordion .motion-media > img,
-  .department-accordion .motion-media > .image-placeholder { background: #eceae5; }
+  .department-accordion .motion-media > video { transition: none; }
+  .department-accordion > button:hover img,
+  .department-accordion > button:hover .motion-media > img,
+  .department-accordion > button:hover .motion-media > video { transform: none; }
   .department-accordion > button::after { background: linear-gradient(0deg, rgba(9,15,29,.9), transparent 54%); }
   .department-title { inset: auto 20px 19px; font-size: 31px; }
   .department-title svg { width: 21px; }
@@ -906,3 +917,9 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
   .hero-actions .text-link { font-size: 12px; }
   .house-brand p { font-size: 11px; }
 }
+
+@media (max-width: 780px) and (prefers-reduced-motion: no-preference) {
+  .department-accordion > button:nth-child(3) .motion-poster.is-loaded { animation: portrait-breathe 7s cubic-bezier(.45,0,.55,1) infinite alternate; }
+}
+
+@keyframes portrait-breathe { from { transform: scale(1); } to { transform: scale(1.025); } }
