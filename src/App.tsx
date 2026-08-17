@@ -51,15 +51,16 @@ function MotionMedia({ video, poster, alt, pending, className = "" }: { video: s
     const host = hostRef.current;
     if (!host || !video || reduceMotion) return;
     const loader = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) { setNearby(true); loader.disconnect(); }
-    }, { rootMargin: "240px 0px" });
+      setNearby(entry.isIntersecting && entry.intersectionRatio >= .4);
+    }, { rootMargin: "180px 0px", threshold: [0, .4] });
     const player = new IntersectionObserver(([entry]) => {
-      setActive(entry.isIntersecting && entry.intersectionRatio > .22);
-    }, { threshold: [0, .22, .6] });
+      setActive(entry.isIntersecting && entry.intersectionRatio >= .6);
+    }, { threshold: [0, .6, .9] });
     loader.observe(host);
     player.observe(host);
     return () => { loader.disconnect(); player.disconnect(); };
   }, [reduceMotion, video]);
+  useEffect(() => { if (!nearby) setReady(false); }, [nearby]);
   useEffect(() => {
     const media = videoRef.current;
     if (!media) return;
@@ -89,11 +90,9 @@ function HeroFilm({ video, mobileVideo, poster, alt, pending, onReady }: { video
     const reveal = () => setRevealVideo(true);
     const timer = window.setTimeout(reveal, 8000);
     window.addEventListener("pointerdown", reveal, { once: true, passive: true });
-    window.addEventListener("scroll", reveal, { once: true, passive: true });
     return () => {
       window.clearTimeout(timer);
       window.removeEventListener("pointerdown", reveal);
-      window.removeEventListener("scroll", reveal);
     };
   }, [mobile, reduceMotion]);
   useEffect(() => {
@@ -201,7 +200,7 @@ function App() {
         animate(entry.target);
         observer.unobserve(entry.target);
       }), { rootMargin: "0px 0px -6%", threshold: .08 });
-      root.querySelectorAll(".section-reveal, .department-accordion > button, .campaign-card, .color-rail > button, .house-brand, .house-product, .wear-panel, .pack-stage, .pack-builder").forEach((element) => observer.observe(element));
+      root.querySelectorAll(".section-reveal, .house-brand, .house-product, .pack-stage, .pack-builder").forEach((element) => observer.observe(element));
       return () => { observer.disconnect(); animations.forEach((animation) => animation.cancel()); };
     }
     let cancelled = false;
@@ -241,7 +240,11 @@ function App() {
   const updatePack = (id: string, amount: number) => setPackCounts((current) => { const total = Object.values(current).reduce((sum, count) => sum + count, 0); if (amount > 0 && total >= packTarget) return current; return { ...current, [id]: Math.max(0, (current[id] ?? 0) + amount) }; });
   const addPack = () => { if (packCount !== packTarget) return; const packId = `pack-${Date.now()}`; packProducts.forEach((product) => { for (let index = 0; index < (packCounts[product.id] ?? 0); index += 1) addToCart(product, product.colors[0].id, product.sizes[0] ?? "TU", Math.round((product.price ?? 0) * (1 - packDiscount)), packId); }); setPackCounts({}); setCartOpen(true); };
   const submitOrder = (event: FormEvent<HTMLFormElement>) => { event.preventDefault(); const form = new FormData(event.currentTarget); const id = `HW-${new Date().getFullYear()}-${Math.floor(1000 + Math.random() * 9000)}`; localStorage.setItem("hawana-last-order", JSON.stringify({ id, customer: Object.fromEntries(form), cart, payment: "cash_on_delivery", total: Math.round(cartTotal), createdAt: new Date().toISOString() })); setOrderId(id); setCart([]); };
-  const goToShop = (nextFilter: Filter) => { setFilter(nextFilter); document.getElementById("shop")?.scrollIntoView({ behavior: "smooth" }); };
+  const goToShop = (nextFilter: Filter) => {
+    setFilter(nextFilter);
+    const useInstantNavigation = window.matchMedia("(max-width: 780px), (prefers-reduced-motion: reduce)").matches;
+    window.requestAnimationFrame(() => document.getElementById("shop")?.scrollIntoView({ behavior: useInstantNavigation ? "auto" : "smooth", block: "start" }));
+  };
 
   const media = campaignMedia as { heroVideo: string | null; cinematicHeroVideo?: string | null; runwayHeroVideo?: string | null; houseVideo?: string | null; packVideo?: string | null; bodyVideo?: string | null; fitVideo?: string | null; kidsVideo?: string | null; hosieryVideo?: string | null };
   const categories: { filter: Filter; label: string; image: string; video: string | null }[] = [{ filter: "femme", label: t.catalog.women, image: "/assets/official/body-top-bretelles.jpg", video: media.bodyVideo ?? null }, { filter: "homme", label: t.catalog.men, image: "/assets/lifestyle/round-neck-navy-worn.webp", video: media.fitVideo ?? media.heroVideo }, { filter: "enfants", label: t.catalog.kids, image: "/assets/official/leen-girls-legging.jpg", video: null }, { filter: "autres", label: language === "ar" ? "جوارب" : language === "en" ? "Hosiery" : "Collants", image: "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg", video: media.hosieryVideo ?? null }];

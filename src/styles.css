@@ -676,8 +676,7 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
 /* Mobile storefront: compact story flow, touch-first controls, viewport-aware media. */
 @media (max-width: 780px) {
   :root { --section: 82px; }
-  html { scroll-padding-top: 66px; }
-  body { overscroll-behavior-y: none; }
+  html { scroll-padding-top: 66px; scroll-behavior: auto; }
   .site-shell { padding-bottom: 68px; }
   .section-wrap { width: calc(100% - 32px); }
 
@@ -730,14 +729,18 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
     display: flex;
     gap: 9px;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    overscroll-behavior-inline: contain;
+    scroll-padding-inline: 16px;
+    scroll-snap-type: x proximity;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
     background: transparent;
   }
   .department-accordion::-webkit-scrollbar { display: none; }
   .department-accordion > button {
     flex: 0 0 min(78vw, 330px);
     aspect-ratio: 4 / 5;
+    contain: paint;
     scroll-snap-align: center;
     border: 0;
     background: var(--navy-deep);
@@ -770,8 +773,11 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
     display: flex;
     gap: 10px;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    overscroll-behavior-inline: contain;
+    scroll-padding-inline: 16px;
+    scroll-snap-type: x proximity;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
   }
   .campaign-stories::-webkit-scrollbar { display: none; }
   .campaign-card {
@@ -785,7 +791,7 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
 
   .color-heading { gap: 0; }
   .rail-controls { display: none; }
-  .color-rail { margin-top: 36px; padding-inline: 16px; gap: 9px; }
+  .color-rail { margin-top: 36px; padding-inline: 16px; gap: 9px; overscroll-behavior-inline: contain; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; }
   .color-rail > button { flex-basis: min(72vw, 300px); }
   .color-rail img, .color-rail .image-placeholder { padding: 8px; }
   .color-rail span { margin-top: 13px; }
@@ -797,8 +803,11 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
     display: flex;
     gap: 9px;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    overscroll-behavior-inline: contain;
+    scroll-padding-inline: 16px;
+    scroll-snap-type: x proximity;
     scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
     background: transparent;
   }
   .wear-stage::-webkit-scrollbar { display: none; }
