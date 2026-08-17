@@ -1,0 +1,398 @@
+[
+  {
+    "catalogId": "collants-brillants-ete-dayana",
+    "catalogName": "Shiny Summer Tights (Dayana)",
+    "officialTitle": "Women's Diana Shiny Toeless Pantyhose 15 Den - Sandal Foot Summer Tight",
+    "officialHandle": "class-summer-panty-15den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/class-summer-panty-15den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collants-brillants",
+    "catalogName": "Shiny Tights",
+    "officialTitle": "Women's Silky Semi Sheer Pantyhose 30 Den - With Reinforced Toe",
+    "officialHandle": "class-panty-30den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/class-panty-30den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collants-brillants-dayana",
+    "catalogName": "Shiny Tights (Dayana)",
+    "officialTitle": "Women's Silky Semi Sheer Pantyhose 30 Den - With Reinforced Toe",
+    "officialHandle": "class-panty-30den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/class-panty-30den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "slip-en-microfibre-sans-couture",
+    "catalogName": "Seamless microfiber panty",
+    "officialTitle": "Slip T3301",
+    "officialHandle": "slip-1",
+    "method": "workbook_product_url",
+    "image": "/assets/official/slip-1.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-en-coton",
+    "catalogName": "Cotton Socks",
+    "officialTitle": "Ankle Simple socks boy (وسط)",
+    "officialHandle": "ankle-simple-socks-1",
+    "method": "workbook_product_url",
+    "image": "/assets/official/ankle-simple-socks-1.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-a-motifs-alice",
+    "catalogName": "Alice Patterned Socks",
+    "officialTitle": "Fashion, romi Style, Ultra Sheer 20 Den Patterned Socks",
+    "officialHandle": "fashion-romi-style-ultra-sheer-20-den-patterned-socks",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fashion-romi-style-ultra-sheer-20-den-patterned-socks.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-en-crepe",
+    "catalogName": "Crepe Socks",
+    "officialTitle": "Leen 80 Den, Velvet Touch, Reinforced Toe Socks",
+    "officialHandle": "leen-socks-80den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/leen-socks-80den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collants-a-motif-tigre",
+    "catalogName": "Tiger Print Tights",
+    "officialTitle": "Fantasia Roshan Pantyhose 20D",
+    "officialHandle": "fantasia-roshan-pantyhose-20d",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fantasia-roshan-pantyhose-20d.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-dentelle-fille",
+    "catalogName": "GIRLS' LACE SOCKS",
+    "officialTitle": "Orkinza Socks",
+    "officialHandle": "orkinza-socks",
+    "method": "workbook_product_url",
+    "image": "/assets/official/orkinza-socks.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "soutien-de-gorge-de-sport",
+    "catalogName": "sports bra",
+    "officialTitle": "Sport Bra T3305",
+    "officialHandle": "sport-bra",
+    "method": "workbook_product_url",
+    "image": "/assets/official/sport-bra.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collant-push-up",
+    "catalogName": "Push-up tights",
+    "officialTitle": "Push up Tight Ultra Sheer 15 Den, Silk Reflections, Reinforced Toe",
+    "officialHandle": "push-up-tight-ultra-sheer-15-den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/push-up-tight-ultra-sheer-15-den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "debardeur-garcon-100-coton",
+    "catalogName": "100% Cotton Boy's Tank Top",
+    "officialTitle": "100% Cotton Boy's Tank Top",
+    "officialHandle": "3-pack-boys-tank-top",
+    "method": "workbook_product_url",
+    "image": "/assets/official/3-pack-boys-tank-top.png",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-pour-enfants",
+    "catalogName": "Children's Socks",
+    "officialTitle": "Simple socks low cut girl(قصير)",
+    "officialHandle": "simple-socks-low-cut",
+    "method": "workbook_product_url",
+    "image": "/assets/official/simple-socks-low-cut.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "boxer-en-microfibre-sans-couture",
+    "catalogName": "Seamless Microfibre Boxer",
+    "officialTitle": "Boxer T3303",
+    "officialHandle": "boxer-seamless",
+    "method": "workbook_product_url",
+    "image": "/assets/official/boxer-seamless.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-brillantes-dayana",
+    "catalogName": "Shiny Socks (Dayana)",
+    "officialTitle": "2-Pack Ultra Sheer 15 Den, Silk Reflections, Reinforced Toe Kneehigh",
+    "officialHandle": "chiffon-knee-high-15-den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/chiffon-knee-high-15-den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-a-motifs-laryn",
+    "catalogName": "Laryn Patterned Socks",
+    "officialTitle": "Fashion, romi Style, Ultra Sheer 20 Den Patterned Socks",
+    "officialHandle": "fashion-romi-style-ultra-sheer-20-den-patterned-socks",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fashion-romi-style-ultra-sheer-20-den-patterned-socks.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "body-top-en-microfibre-sans-couture",
+    "catalogName": "Seamless Microfibre Body Top",
+    "officialTitle": "Cut - Body Top T3311",
+    "officialHandle": "cut-body-top",
+    "method": "workbook_product_url",
+    "image": "/assets/official/cut-body-top.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes",
+    "catalogName": "Socks",
+    "officialTitle": "2-Pack Ultra Sheer 15 Den, Silk Reflections, Reinforced Toe Socks",
+    "officialHandle": "ultra-sheer-15-den-silk-reflections-reinforced",
+    "method": "workbook_product_url",
+    "image": "/assets/official/ultra-sheer-15-den-silk-reflections-reinforced.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-resille",
+    "catalogName": "Fishnet Socks",
+    "officialTitle": "Fashion Large-Fishnet 80 Den, Pantyhose",
+    "officialHandle": "fashion-large-fishnet-80-den-pantyhose",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "brassiere-sport",
+    "catalogName": "Sports Bralette",
+    "officialTitle": "Sport Bra T3305",
+    "officialHandle": "sport-bra",
+    "method": "workbook_product_url",
+    "image": "/assets/official/sport-bra.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collants-a-motifs-roshan",
+    "catalogName": "Roshan Patterned Tights",
+    "officialTitle": "Fantasia Roshan Pantyhose 20D",
+    "officialHandle": "fantasia-roshan-pantyhose-20d",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fantasia-roshan-pantyhose-20d.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collant-leen",
+    "catalogName": "Leen Tight",
+    "officialTitle": "Double Covered Lycra 120 Den, High Elasticity Legging",
+    "officialHandle": "tania-legging",
+    "method": "workbook_product_url",
+    "image": "/assets/official/tania-legging.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussette-leen",
+    "catalogName": "Leen Socks",
+    "officialTitle": "2-Pack Ultra Sheer 15 Den, Silk Reflections, Reinforced Toe Socks",
+    "officialHandle": "ultra-sheer-15-den-silk-reflections-reinforced",
+    "method": "workbook_product_url",
+    "image": "/assets/official/ultra-sheer-15-den-silk-reflections-reinforced.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-diabetiques-pour-femmes",
+    "catalogName": "Women's Diabetic Socks",
+    "officialTitle": "Women Diabetics Cotton Socks",
+    "officialHandle": "women-diabetics-cotton-socks",
+    "method": "workbook_product_url",
+    "image": "/assets/official/women-diabetics-cotton-socks.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-hautes-a-motifs-tilma",
+    "catalogName": "Tilma Patterned Knee-High Socks",
+    "officialTitle": "Fashion Root Style, Ultra Sheer 20 Den Patterned KneeHigh",
+    "officialHandle": "lzia-fashion-knee-high-20den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/lzia-fashion-knee-high-20den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "pantakour-en-microfibre-sans-couture",
+    "catalogName": "Seamless microfiber capri pants",
+    "officialTitle": "Pantakour T3318",
+    "officialHandle": "pantakour",
+    "method": "workbook_product_url",
+    "image": "/assets/official/pantakour.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-hautes-brillantes",
+    "catalogName": "Shiny Knee-High Socks",
+    "officialTitle": "2-Pack Ultra Sheer 15 Den, Silk Reflections, Reinforced Toe Socks",
+    "officialHandle": "ultra-sheer-15-den-silk-reflections-reinforced",
+    "method": "workbook_product_url",
+    "image": "/assets/official/ultra-sheer-15-den-silk-reflections-reinforced.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-a-motifs-gillan",
+    "catalogName": "Gillan Patterned Socks",
+    "officialTitle": "Fashion, romi Style, Ultra Sheer 20 Den Patterned Socks",
+    "officialHandle": "fashion-romi-style-ultra-sheer-20-den-patterned-socks",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fashion-romi-style-ultra-sheer-20-den-patterned-socks.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collant-grande-resille-pour-filles",
+    "catalogName": "Girls' Large Fishnet Tights",
+    "officialTitle": "Fashion Large-Fishnet 40 Den, Tight",
+    "officialHandle": "girls-fishnet-tight",
+    "method": "workbook_product_url",
+    "image": "/assets/official/girls-fishnet-tight.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-brillantes",
+    "catalogName": "Shiny Socks",
+    "officialTitle": "2-Pack Ultra Sheer 15 Den, Silk Reflections, Reinforced Toe Socks",
+    "officialHandle": "ultra-sheer-15-den-silk-reflections-reinforced",
+    "method": "workbook_product_url",
+    "image": "/assets/official/ultra-sheer-15-den-silk-reflections-reinforced.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "body-de-grossesse-a-large-bande",
+    "catalogName": "Pregnant Body Wide Band",
+    "officialTitle": "Pregnant Body Wide Band",
+    "officialHandle": "pregnant-body-wide-band",
+    "method": "workbook_product_url",
+    "image": "/assets/official/pregnant-body-wide-band.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-hautes-anti-cernes",
+    "catalogName": "Anti-Dark Circle Knee-High Socks",
+    "officialTitle": "Semi Sheer 30 Den, Silk Reflections, Reinforced Toe KneeHigh",
+    "officialHandle": "crystal-knee-high-30den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/crystal-knee-high-30den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "body-en-microfibre-sans-couture-a-manches-longues",
+    "catalogName": "Seamless Microfibre Long-Sleeve Body",
+    "officialTitle": "Long Sleeve Body Top T3309",
+    "officialHandle": "long-sleeve-body-top",
+    "method": "workbook_product_url",
+    "image": "/assets/official/long-sleeve-body-top.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-hautes-brillantes-dayana",
+    "catalogName": "Shiny Knee-High Socks (Dayana)",
+    "officialTitle": "2-Pack Ultra Sheer 15 Den, Silk Reflections, Reinforced Toe Socks",
+    "officialHandle": "ultra-sheer-15-den-silk-reflections-reinforced",
+    "method": "workbook_product_url",
+    "image": "/assets/official/ultra-sheer-15-den-silk-reflections-reinforced.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collants-brillants-enfant",
+    "catalogName": "Children's Shiny Tights",
+    "officialTitle": "Semi Sheer 30 Den, Simple Silky Style Tight",
+    "officialHandle": "silky-30-d",
+    "method": "workbook_product_url",
+    "image": "/assets/official/silky-30-d.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-hautes-a-motifs-root",
+    "catalogName": "Root Patterned Knee-High Socks",
+    "officialTitle": "Fashion Root Style, Ultra Sheer 20 Den Patterned KneeHigh",
+    "officialHandle": "lzia-fashion-knee-high-20den",
+    "method": "workbook_product_url",
+    "image": "/assets/official/lzia-fashion-knee-high-20den.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "boxer-fille-en-dentelle",
+    "catalogName": "Girls' Lace Boxer",
+    "officialTitle": "100% Cotton Rib Girls' Dantel Boxer Briefs",
+    "officialHandle": "girls-dantel-boxer-briefs",
+    "method": "workbook_product_url",
+    "image": "/assets/official/girls-dantel-boxer-briefs.png",
+    "status": "matched"
+  },
+  {
+    "catalogId": "chaussettes-fantasia-lareen",
+    "catalogName": "Fantasia Lareen Socks",
+    "officialTitle": "Fashion, romi Style, Ultra Sheer 20 Den Patterned Socks",
+    "officialHandle": "fashion-romi-style-ultra-sheer-20-den-patterned-socks",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fashion-romi-style-ultra-sheer-20-den-patterned-socks.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collant-opaque-fille",
+    "catalogName": "Girls' Opaque Tights",
+    "officialTitle": "Opaque 120 Den, Simple Leen Style Legging",
+    "officialHandle": "leen-girls-legging",
+    "method": "workbook_product_url",
+    "image": "/assets/official/leen-girls-legging.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "bretelles-en-microfibre-sans-couture",
+    "catalogName": "Seamless Microfibre Straps",
+    "officialTitle": "Body Top Bretelles T3306",
+    "officialHandle": "body-top-bretelles",
+    "method": "workbook_product_url",
+    "image": "/assets/official/body-top-bretelles.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "boxer-raye-pour-homme",
+    "catalogName": "Striped boxer shorts for men",
+    "officialTitle": "2-Pack 100% Cotton Men's Striped short",
+    "officialHandle": "striped-shorts",
+    "method": "workbook_product_url",
+    "image": "/assets/official/striped-shorts.png",
+    "status": "matched"
+  },
+  {
+    "catalogId": "brassiere-de-sport",
+    "catalogName": "Sports Bralette",
+    "officialTitle": "Sport Bra T3305",
+    "officialHandle": "sport-bra",
+    "method": "workbook_product_url",
+    "image": "/assets/official/sport-bra.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "collants-a-motifs-glamour",
+    "catalogName": "Glamour Patterned Tights",
+    "officialTitle": "Fantasia Pantyhose Glamor",
+    "officialHandle": "fantasia-pantyhose-glamor",
+    "method": "workbook_product_url",
+    "image": "/assets/official/fantasia-pantyhose-glamor.jpg",
+    "status": "matched"
+  },
+  {
+    "catalogId": "bourkini-femme",
+    "catalogName": "Women's Burkini",
+    "officialTitle": "Cut - Body Top T3311",
+    "officialHandle": "cut-body-top",
+    "method": "workbook_product_url",
+    "image": "/assets/official/cut-body-top.jpg",
+    "status": "matched"
+  }
+]

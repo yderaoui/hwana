@@ -1,0 +1,481 @@
+<title>Déstockage WASSAL 2025</title>
+<style>
+:root{
+  --paper:#EDEDE8;
+  --panel:#F6F6F2;
+  --ink:#15181E;
+  --ink-2:#3D434E;
+  --ink-3:#71767F;
+  --rule:#CFCFC7;
+  --rule-soft:#E0E0D9;
+  --navy:#22365E;
+  --navy-soft:#DDE1EA;
+  --signal:#A93B2A;
+  --signal-soft:#F0DCD8;
+  --ochre:#8A6A1C;
+  --sage:#3F6B4A;
+  --shadow:rgba(21,24,30,.07);
+  --font-display:Georgia,"Times New Roman",serif;
+  --font-body:system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --font-data:ui-monospace,"Cascadia Mono",Consolas,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#101319; --panel:#171B23; --ink:#E6E6DF; --ink-2:#AEB3BD; --ink-3:#7E838E;
+    --rule:#2B303A; --rule-soft:#22262F; --navy:#93AEE0; --navy-soft:#1D2635;
+    --signal:#E08A76; --signal-soft:#33211D; --ochre:#D4A94A; --sage:#7FB48C;
+    --shadow:rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101319; --panel:#171B23; --ink:#E6E6DF; --ink-2:#AEB3BD; --ink-3:#7E838E;
+  --rule:#2B303A; --rule-soft:#22262F; --navy:#93AEE0; --navy-soft:#1D2635;
+  --signal:#E08A76; --signal-soft:#33211D; --ochre:#D4A94A; --sage:#7FB48C;
+  --shadow:rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:var(--font-body); font-size:15px; line-height:1.55;
+  margin:0; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1120px; margin:0 auto; padding:0 28px 80px}
+h1,h2,h3{font-family:var(--font-display); font-weight:400; text-wrap:balance; margin:0}
+a{color:var(--navy)}
+:focus-visible{outline:2px solid var(--navy); outline-offset:3px}
+
+.lbl{
+  font-family:var(--font-data); font-size:10.5px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-3);
+}
+.num{font-family:var(--font-data); font-variant-numeric:tabular-nums}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:2px solid var(--ink); padding:26px 0 14px; margin-bottom:0}
+.mast-top{display:flex; justify-content:space-between; align-items:baseline; gap:20px; flex-wrap:wrap}
+.mast h1{font-size:clamp(30px,4.6vw,50px); line-height:1.03; letter-spacing:-.022em; margin-top:14px}
+.mast .sub{color:var(--ink-2); max-width:60ch; margin-top:12px; font-size:15.5px}
+
+/* ---------- verdict ---------- */
+.verdict{
+  border-left:3px solid var(--signal); background:var(--signal-soft);
+  padding:22px 26px; margin:30px 0 0; display:grid; gap:16px;
+  grid-template-columns:minmax(0,1fr) auto; align-items:center;
+}
+.verdict p{margin:0; font-size:16.5px; line-height:1.5; max-width:58ch}
+.verdict strong{font-weight:600}
+.verdict .big{
+  font-family:var(--font-display); font-size:clamp(52px,9vw,88px); line-height:.86;
+  color:var(--signal); letter-spacing:-.03em; font-variant-numeric:tabular-nums;
+  text-align:right; white-space:nowrap;
+}
+.verdict .big span{display:block; font-size:11px; letter-spacing:.14em; font-family:var(--font-data);
+  text-transform:uppercase; color:var(--ink-2); margin-top:12px; text-align:right}
+@media(max-width:720px){.verdict{grid-template-columns:1fr}.verdict .big,.verdict .big span{text-align:left}}
+
+/* ---------- kpi strip ---------- */
+.kpis{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(178px,1fr));
+  border-top:1px solid var(--rule); margin-top:44px;
+}
+.kpi{padding:18px 20px 20px; border-bottom:1px solid var(--rule); border-right:1px solid var(--rule-soft)}
+.kpi:last-child{border-right:none}
+.kpi .v{font-family:var(--font-display); font-size:31px; line-height:1.1; letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums; margin-top:8px}
+.kpi .n{font-size:12.5px; color:var(--ink-3); margin-top:6px; line-height:1.35}
+.kpi.accent .v{color:var(--navy)}
+.kpi.bad .v{color:var(--signal)}
+
+/* ---------- sections ---------- */
+section{margin-top:60px}
+.shead{display:flex; align-items:baseline; gap:14px; border-bottom:1px solid var(--ink); padding-bottom:9px}
+.shead h2{font-size:24px; letter-spacing:-.015em}
+.shead .lbl{margin-left:auto}
+.intro{color:var(--ink-2); margin:14px 0 24px; max-width:68ch; font-size:14.5px}
+
+/* ---------- ribbon ---------- */
+.ribbon{display:flex; height:54px; overflow:hidden; border:1px solid var(--rule)}
+.ribbon div{
+  display:flex; align-items:center; justify-content:center; min-width:0;
+  font-family:var(--font-data); font-size:11px; letter-spacing:.06em; color:#F6F6F2;
+  transition:flex-grow .3s ease;
+}
+.ribbon-key{display:flex; flex-wrap:wrap; gap:6px 22px; margin-top:12px}
+.ribbon-key span{font-family:var(--font-data); font-size:11px; color:var(--ink-2);
+  display:flex; align-items:center; gap:7px}
+.ribbon-key i{width:11px; height:11px; display:inline-block; border-radius:1px}
+
+/* ---------- tier ladder ---------- */
+.ladder{display:grid; gap:0; margin-top:30px; border-top:1px solid var(--rule)}
+.rung{
+  display:grid; grid-template-columns:46px minmax(0,1.5fr) 88px 96px 122px;
+  gap:16px; align-items:center; padding:15px 4px; border-bottom:1px solid var(--rule-soft);
+}
+.rung .tag{
+  font-family:var(--font-display); font-size:22px; width:36px; height:36px;
+  display:grid; place-items:center; color:#F6F6F2;
+}
+.rung .who{font-weight:600; font-size:14.5px}
+.rung .who em{display:block; font-style:normal; font-weight:400; color:var(--ink-3);
+  font-size:12.5px; margin-top:3px}
+.rung .cell{text-align:right}
+.rung .cell b{font-family:var(--font-data); font-variant-numeric:tabular-nums;
+  font-weight:600; font-size:15px; display:block}
+.rung .cell .lbl{margin-top:2px; display:block}
+@media(max-width:760px){
+  .rung{grid-template-columns:40px minmax(0,1fr); gap:10px 14px}
+  .rung .cell{grid-column:2; display:flex; justify-content:space-between; align-items:baseline; text-align:left}
+  .rung .cell b{font-size:14px}
+}
+
+/* ---------- tables ---------- */
+.scroll{overflow-x:auto; border-bottom:1px solid var(--rule)}
+table{border-collapse:collapse; width:100%; min-width:600px; font-size:14px}
+th{
+  font-family:var(--font-data); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-3); font-weight:400; text-align:left; padding:0 12px 9px 0;
+  border-bottom:1px solid var(--ink); white-space:nowrap;
+}
+th.r,td.r{text-align:right}
+td{padding:11px 12px 11px 0; border-bottom:1px solid var(--rule-soft); vertical-align:middle}
+td.r{font-family:var(--font-data); font-variant-numeric:tabular-nums; white-space:nowrap}
+tbody tr:hover td{background:var(--panel)}
+.pname{font-weight:500}
+.pcat{font-size:11.5px; color:var(--ink-3); font-family:var(--font-data); margin-top:2px}
+.bar{height:5px; background:var(--navy); display:block; min-width:2px}
+.bar.blk{background:var(--signal)}
+.barcell{width:120px; padding-right:0}
+.chip{
+  font-family:var(--font-data); font-size:10.5px; letter-spacing:.06em; padding:2px 7px;
+  border:1px solid currentColor; white-space:nowrap;
+}
+.chip.ok{color:var(--sage)} .chip.warn{color:var(--ochre)} .chip.bad{color:var(--signal)}
+
+/* ---------- steps ---------- */
+.steps{display:grid; gap:0; border-top:1px solid var(--rule); margin-top:6px}
+.step{display:grid; grid-template-columns:64px minmax(0,1fr); gap:20px;
+  padding:20px 0; border-bottom:1px solid var(--rule-soft)}
+.step .no{font-family:var(--font-display); font-size:30px; color:var(--ink-3); line-height:1;
+  font-variant-numeric:tabular-nums}
+.step h3{font-size:17px; letter-spacing:-.01em}
+.step p{margin:7px 0 0; color:var(--ink-2); font-size:14.5px; max-width:66ch}
+.step .meta{margin-top:9px; display:flex; gap:8px; flex-wrap:wrap}
+
+/* ---------- gaps grid ---------- */
+.gaps{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); border-top:1px solid var(--rule)}
+.gap{padding:16px 18px 18px; border-bottom:1px solid var(--rule); border-right:1px solid var(--rule-soft)}
+.gap:last-child{border-right:none}
+.gap .v{font-family:var(--font-display); font-size:27px; line-height:1.1; margin-top:7px;
+  font-variant-numeric:tabular-nums}
+.gap .v.hot{color:var(--signal)}
+.gap .n{font-size:12.5px; color:var(--ink-3); margin-top:5px}
+.meter{height:4px; background:var(--rule); margin-top:11px; overflow:hidden}
+.meter i{display:block; height:100%; background:var(--signal)}
+.meter.calm i{background:var(--navy)}
+
+/* ---------- mix ---------- */
+.mix{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:40px; margin-top:6px}
+.mixrow{display:grid; grid-template-columns:88px 1fr 44px; gap:12px; align-items:center;
+  padding:6px 0; border-bottom:1px solid var(--rule-soft)}
+.mixrow span:first-child{font-family:var(--font-data); font-size:12.5px}
+.mixrow .r{font-family:var(--font-data); font-size:12.5px; text-align:right;
+  font-variant-numeric:tabular-nums; color:var(--ink-3)}
+.mixbar{height:8px; background:var(--navy-soft)}
+.mixbar i{display:block; height:100%; background:var(--navy)}
+
+footer{margin-top:64px; padding-top:18px; border-top:2px solid var(--ink);
+  color:var(--ink-3); font-size:12.5px; display:flex; justify-content:space-between;
+  gap:16px; flex-wrap:wrap}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="mast-top">
+    <span class="lbl">ALSAMAH · Fichier Excel WASSAL 2025</span>
+    <span class="lbl">958 lignes · 287 produits · 12 415 unités</span>
+  </div>
+  <h1>Plan de déstockage</h1>
+  <p class="sub">Analyse complète du fichier d'import produit, paliers de remise proposés,
+  et liste des blocages à lever avant de pouvoir vendre. Montants en MAD, au prix catalogue.</p>
+</header>
+
+<div class="verdict">
+  <p><strong>39 % de votre stock physique ne peut pas être mis en vente aujourd'hui.</strong>
+  672 lignes — soit 4 794 unités — n'ont ni prix, ni catégorie, ni photo, ni fiche produit.
+  Elles occupent l'entrepôt sans pouvoir être listées. C'est le premier chantier, avant toute remise.</p>
+  <div class="big">4&nbsp;794<span>unités bloquées</span></div>
+</div>
+
+<div class="kpis">
+  <div class="kpi">
+    <div class="lbl">Stock total</div>
+    <div class="v num">12 415</div>
+    <div class="n">unités sur 958 variantes</div>
+  </div>
+  <div class="kpi">
+    <div class="lbl">Valeur catalogue</div>
+    <div class="v num">799 260</div>
+    <div class="n">MAD, prix plein</div>
+  </div>
+  <div class="kpi accent">
+    <div class="lbl">Vendable aujourd'hui</div>
+    <div class="v num">7 621</div>
+    <div class="n">unités · 61 % du stock</div>
+  </div>
+  <div class="kpi accent">
+    <div class="lbl">Recette estimée</div>
+    <div class="v num">521 074</div>
+    <div class="n">MAD après remises du plan</div>
+  </div>
+  <div class="kpi bad">
+    <div class="lbl">Bloqué</div>
+    <div class="v num">4 794</div>
+    <div class="n">unités non listables</div>
+  </div>
+</div>
+
+<section>
+  <div class="shead"><h2>Répartition du stock</h2><span class="lbl">en unités</span></div>
+  <p class="intro">Chaque bande représente une part du stock physique. Le bloc rouge à droite est
+  du stock immobilisé : tant que les données manquent, il ne rapporte rien.</p>
+  <div class="ribbon" id="ribbon"></div>
+  <div class="ribbon-key" id="key"></div>
+</section>
+
+<section>
+  <div class="shead"><h2>Paliers de remise</h2><span class="lbl">stratégie</span></div>
+  <p class="intro">La profondeur de stock sert d'indicateur de rotation : plus il en reste,
+  plus la remise doit être franche pour écouler. Les articles à 1 ou 2 pièces (tailles orphelines)
+  ne se vendent plus à l'unité — ils partent en lots mixtes.</p>
+  <div class="ladder" id="ladder"></div>
+</section>
+
+<section>
+  <div class="shead"><h2>Où est l'argent</h2><span class="lbl">top 12 produits</span></div>
+  <p class="intro">Douze références concentrent l'essentiel de la valeur vendable.
+  Traitez-les en premier : c'est là que la remise génère du cash immédiatement.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr>
+        <th>Produit</th><th class="r">Var.</th><th class="r">Unités</th>
+        <th class="r">Valeur</th><th class="r">Recette est.</th><th></th>
+      </tr></thead>
+      <tbody id="prods"></tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>Par univers</h2><span class="lbl">catégories</span></div>
+  <div class="scroll">
+    <table>
+      <thead><tr>
+        <th>Catégorie</th><th class="r">Lignes</th><th class="r">Unités</th>
+        <th class="r">Valeur</th><th class="r">Recette est.</th><th></th>
+      </tr></thead>
+      <tbody id="cats"></tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>Trous dans les données</h2><span class="lbl">à corriger</span></div>
+  <p class="intro">Sur 958 lignes. Les quatre premiers défauts touchent tous le même bloc
+  de 672 lignes ajoutées sans être complétées — un seul chantier, pas quatre.</p>
+  <div class="gaps" id="gaps"></div>
+</section>
+
+<section>
+  <div class="shead"><h2>Composition du stock</h2><span class="lbl">tailles &amp; couleurs</span></div>
+  <p class="intro">M / L / XL représentent la moitié des lignes, et le noir-blanc-beige les deux tiers
+  des couleurs. Utile pour composer les lots : mélangez les tailles, gardez les couleurs basiques
+  comme locomotive.</p>
+  <div class="mix">
+    <div><div class="lbl" style="margin-bottom:10px">Tailles · nb de lignes</div><div id="sizes"></div></div>
+    <div><div class="lbl" style="margin-bottom:10px">Couleurs · nb de lignes</div><div id="colors"></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>Marche à suivre</h2><span class="lbl">séquence</span></div>
+  <p class="intro">Dans cet ordre : les étapes suivantes dépendent des précédentes.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="no num">01</div>
+      <div>
+        <h3>Débloquer les 672 lignes mortes</h3>
+        <p>Onglet <em>6. À corriger</em> du classeur. Il faut un prix et une catégorie par ligne —
+        les photos et fiches produit peuvent suivre. 198 produits parents n'ont aucun prix de référence
+        nulle part dans le fichier, ils demandent une saisie manuelle.</p>
+        <div class="meta"><span class="chip bad">4 794 unités en jeu</span><span class="chip warn">bloquant</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="no num">02</div>
+      <div>
+        <h3>Lancer le palier A sur les 12 top produits</h3>
+        <p>Collants, bodies et sous-vêtements homme : 4 233 unités à −30 %, soit 255 705 MAD
+        de recette estimée. Stock profond et références connues — c'est la vente flash à ouvrir en premier.</p>
+        <div class="meta"><span class="chip ok">255 705 MAD</span><span class="chip ok">action immédiate</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="no num">03</div>
+      <div>
+        <h3>Composer les lots pour les tailles orphelines</h3>
+        <p>362 lignes ne comptent que 1 ou 2 pièces. Vendues à l'unité elles ne partiront pas.
+        Onglet <em>5. Lots à composer</em> : packs de 5 pièces mixtes par catégorie, à −50 %.</p>
+        <div class="meta"><span class="chip warn">48 unités débloquables</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="no num">04</div>
+      <div>
+        <h3>Corriger les 5 anomalies de stock</h3>
+        <p>Quatre lignes à stock négatif (−1) et une à 0,67 unité. Inventaire physique à refaire
+        sur ces références avant de les publier, sinon vous vendrez ce que vous n'avez pas.</p>
+        <div class="meta"><span class="chip warn">lignes 421, 465, 722, 787, 789</span></div>
+      </div>
+    </div>
+    <div class="step">
+      <div class="no num">05</div>
+      <div>
+        <h3>Dédupliquer avant l'import</h3>
+        <p>Le SKU variante <span class="num">T3308003009-S/M</span> apparaît deux fois.
+        Un import en l'état écrasera l'une des deux lignes. Les codes-barres, eux, sont tous uniques.</p>
+        <div class="meta"><span class="chip warn">1 doublon</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><h2>Méthode &amp; réserves</h2><span class="lbl">à savoir</span></div>
+  <p class="intro" style="max-width:74ch">
+  <strong>Le fichier ne contient aucun historique de ventes.</strong> Les paliers de remise sont donc
+  basés sur la profondeur de stock comme indicateur de rotation, pas sur la vitesse d'écoulement réelle.
+  Si vous disposez des ventes par SKU, elles affineraient nettement le classement.<br><br>
+  <strong>18 prix ont été estimés</strong> à partir d'une variante sœur du même produit (médiane des
+  tailles/couleurs déjà tarifées) ; ils sont marqués <em>« estimé (variante sœur) »</em> dans le classeur.
+  Les 654 lignes restantes n'ont aucune référence exploitable.<br><br>
+  <strong>La valeur bloquée de 16 479 MAD est très sous-estimée</strong> — elle ne couvre que les
+  18 lignes rattrapées. En appliquant le prix médian du catalogue (95 MAD) aux 4 794 unités bloquées,
+  l'ordre de grandeur réel se situe autour de 455 000 MAD, soit potentiellement plus du tiers de la
+  valeur totale du stock.</p>
+</section>
+
+<footer>
+  <span>Source : Excel WASSAL 2025.xlsx · onglet bulk_import</span>
+  <span>Classeur détaillé : LIQUIDATION_WASSAL_2025.xlsx</span>
+</footer>
+</div>
+
+<script>
+const nf = n => Math.round(n).toLocaleString('fr-FR').replace(/ |,/g,' ');
+
+const TIERS = [
+  {t:'A', label:'Vente flash volume', note:'stock ≥ 50 pièces', dis:30, rows:54,  units:4233, value:366439, rev:255705, c:'#2E5C3E'},
+  {t:'B', label:'Remise ciblée',      note:'11 à 49 pièces',    dis:35, rows:119, units:2853, value:335671, rev:218187, c:'#22365E'},
+  {t:'C', label:'Déstockage',         note:'3 à 10 pièces',     dis:40, rows:80,  units:487,  value:69165,  rev:41426,  c:'#8A6A1C'},
+  {t:'D', label:'Lot / bundle mixte', note:'1 ou 2 pièces',     dis:50, rows:33,  units:48,   value:11506,  rev:5756,   c:'#6B4A6E'},
+  {t:'X', label:'Bloqué',             note:'ni prix ni catégorie', dis:0, rows:672, units:4794, value:16479, rev:0,     c:'#A93B2A'}
+];
+
+/* ribbon */
+const totU = TIERS.reduce((s,x)=>s+x.units,0);
+document.getElementById('ribbon').innerHTML = TIERS.map(x=>{
+  const pct = x.units/totU*100;
+  return `<div style="flex:${x.units} 1 0;background:${x.c}" title="${x.label} — ${nf(x.units)} unités">`+
+         (pct>7 ? `${Math.round(pct)} %` : '') + `</div>`;
+}).join('');
+document.getElementById('key').innerHTML = TIERS.map(x=>
+  `<span><i style="background:${x.c}"></i>${x.t} · ${x.label} — ${nf(x.units)} u.</span>`).join('');
+
+/* ladder */
+document.getElementById('ladder').innerHTML = TIERS.map(x=>`
+  <div class="rung">
+    <div class="tag" style="background:${x.c}">${x.t}</div>
+    <div class="who">${x.label}<em>${x.note} · ${x.rows} lignes</em></div>
+    <div class="cell"><b>${x.dis ? '−'+x.dis+' %' : '—'}</b><span class="lbl">remise</span></div>
+    <div class="cell"><b>${nf(x.units)}</b><span class="lbl">unités</span></div>
+    <div class="cell"><b style="color:${x.rev?'inherit':'var(--signal)'}">${x.rev?nf(x.rev):'0'}</b><span class="lbl">recette MAD</span></div>
+  </div>`).join('');
+
+/* products */
+const PRODS = [
+  ["Collants brillants été (Dayana)","Fashion Femme",11,0,769,53830,37483],
+  ["Collants à motifs Havana","Fashion Femme",3,0,390,42510,29640],
+  ["Body à manches courtes","Fashion Femme",6,0,218,41202,27264],
+  ["Collants brillants","Fashion Femme",14,0,581,40670,27956],
+  ["Men's corset boxer","Homme / Sous-vêtements",7,0,101,39289,25374],
+  ["Manche courte col rond","Homme / Sous-vêtements",8,0,446,37910,25718],
+  ["Manche courte col V","Homme / Sous-vêtements",7,0,426,36210,24902],
+  ["Collants à motifs Musica","Fashion Femme",3,0,306,33354,23256],
+  ["Collants à motifs Peace","Fashion Femme",3,0,298,32482,22648],
+  ["Collants brillants (Dayana)","Fashion Femme",13,0,446,31220,21317],
+  ["Slip en microfibre sans couture","Fashion Femme / Culotte",17,7,311,29545,14273],
+  ["Corset femme à poitrine ouverte","Fashion Femme",2,0,63,22995,14931]
+];
+const maxP = Math.max(...PRODS.map(p=>p[5]));
+document.getElementById('prods').innerHTML = PRODS.map(p=>`
+  <tr>
+    <td><div class="pname">${p[0]}</div><div class="pcat">${p[1]}${p[3]?` · ${p[3]} var. bloquées`:''}</div></td>
+    <td class="r">${p[2]}</td><td class="r">${nf(p[4])}</td>
+    <td class="r">${nf(p[5])}</td><td class="r">${nf(p[6])}</td>
+    <td class="barcell"><i class="bar${p[3]?' blk':''}" style="width:${p[5]/maxP*100}%"></i></td>
+  </tr>`).join('');
+
+/* categories */
+const CATS = [
+  ["Fashion Femme","Fashion Femme",190,5246,513611,343213,0],
+  ["Homme / Sous-vêtements","Homme",43,1380,169605,112860,0],
+  ["Non classé","—",672,4794,16479,0,1],
+  ["Enfants","Enfants",19,300,24850,16099,0],
+  ["Fashion Femme / Culotte","Fashion Femme",12,253,24035,15609,0],
+  ["Moroccan Vibes / Garçon","Moroccan Vibes",2,104,16848,11424,0],
+  ["Enfants / Fille / Sous-vêtements","Enfants",10,166,13345,8698,0],
+  ["Fashion Femme / Soutien-gorge","Fashion Femme",5,118,11682,7552,0],
+  ["Fashion Femme / Pantalons","Fashion Femme",2,29,4930,3190,0],
+  ["Enfants / Garçon / Sous-vêtements","Enfants",3,25,3875,2429,0]
+];
+const maxC = Math.max(...CATS.map(c=>c[4]));
+document.getElementById('cats').innerHTML = CATS.map(c=>`
+  <tr>
+    <td><div class="pname">${c[0]}</div><div class="pcat">${c[1]}</div></td>
+    <td class="r">${c[2]}</td><td class="r">${nf(c[3])}</td>
+    <td class="r">${nf(c[4])}</td>
+    <td class="r">${c[6]?'<span class="chip bad">bloqué</span>':nf(c[5])}</td>
+    <td class="barcell"><i class="bar${c[6]?' blk':''}" style="width:${c[4]/maxC*100}%"></i></td>
+  </tr>`).join('');
+
+/* gaps */
+const GAPS = [
+  ["Fiche produit vide",692,"aucun texte descriptif long",1],
+  ["Photo manquante",690,"produit invendable en ligne",1],
+  ["Catégorie manquante",672,"introuvable en navigation",1],
+  ["Prix manquant",654,"impossible à mettre en vente",1],
+  ["Stock incohérent",5,"4 lignes à −1, une à 0,67",0],
+  ["SKU dupliqué",1,"écrasement à l'import",0]
+];
+document.getElementById('gaps').innerHTML = GAPS.map(g=>`
+  <div class="gap">
+    <div class="lbl">${g[0]}</div>
+    <div class="v${g[3]?' hot':''} num">${nf(g[1])}</div>
+    <div class="n">${g[2]}</div>
+    <div class="meter${g[3]?'':' calm'}"><i style="width:${Math.max(g[1]/958*100,1.5)}%"></i></div>
+  </div>`).join('');
+
+/* mix */
+const SIZES=[["M",170],["XL",149],["L",148],["S",101],["2XL",44],["Free Size",39],["10",30],["2",28],["3XL",23],["4",23]];
+const COLORS=[["noir",243],["blanc",169],["beige",131],["bleu marine",68],["gris",66],["rose",39],["blanc cassé",31],["bleu ciel",30],["violet",24],["jaune",24]];
+const mix=(el,rows)=>{
+  const m=Math.max(...rows.map(r=>r[1]));
+  document.getElementById(el).innerHTML=rows.map(r=>`
+    <div class="mixrow"><span>${r[0]}</span>
+    <span class="mixbar"><i style="width:${r[1]/m*100}%"></i></span>
+    <span class="r">${r[1]}</span></div>`).join('');
+};
+mix('sizes',SIZES); mix('colors',COLORS);
+</script>

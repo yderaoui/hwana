@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+tmp/
+*.tsbuildinfo
+
+# Private catalogue source files are processed into web-ready assets/data.
+*.xls
+*.xlsx
+*.pdf
+~$*
+
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
