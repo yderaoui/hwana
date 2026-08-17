@@ -40,16 +40,18 @@ function ProductImage({ src, alt, pending, className = "", eager = false }: { sr
   return <img className={`${className} product-image ${loaded ? "is-loaded" : "is-loading"}`} src={src} alt={alt} onLoad={() => setLoaded(true)} onError={() => setFailed(true)} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : "auto"} decoding="async" />;
 }
 
-function MotionMedia({ video, poster, alt, pending, className = "" }: { video: string | null; poster: string; alt: string; pending: string; className?: string }) {
+function MotionMedia({ video, poster, alt, pending, className = "", mobileStatic = false }: { video: string | null; poster: string; alt: string; pending: string; className?: string; mobileStatic?: boolean }) {
   const hostRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [reduceMotion] = useState(() => window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  const [mobile] = useState(() => window.matchMedia("(max-width: 780px)").matches);
   const [ready, setReady] = useState(false);
   const [nearby, setNearby] = useState(false);
   const [active, setActive] = useState(false);
+  const activeVideo = mobileStatic && mobile ? null : video;
   useEffect(() => {
     const host = hostRef.current;
-    if (!host || !video || reduceMotion) return;
+    if (!host || !activeVideo || reduceMotion) return;
     const loader = new IntersectionObserver(([entry]) => {
       setNearby(entry.isIntersecting && entry.intersectionRatio >= .4);
     }, { rootMargin: "180px 0px", threshold: [0, .4] });
@@ -59,7 +61,7 @@ function MotionMedia({ video, poster, alt, pending, className = "" }: { video: s
     loader.observe(host);
     player.observe(host);
     return () => { loader.disconnect(); player.disconnect(); };
-  }, [reduceMotion, video]);
+  }, [activeVideo, reduceMotion]);
   useEffect(() => { if (!nearby) setReady(false); }, [nearby]);
   useEffect(() => {
     const media = videoRef.current;
@@ -74,7 +76,7 @@ function MotionMedia({ video, poster, alt, pending, className = "" }: { video: s
   }, [active, nearby]);
   return <div ref={hostRef} className={`motion-media ${className}`}>
     <ProductImage className={ready ? "motion-poster is-hidden" : "motion-poster"} src={poster} alt={alt} pending={pending} />
-    {video && nearby && !reduceMotion && <video ref={videoRef} muted loop playsInline preload="metadata" src={video} aria-label={alt} onCanPlay={() => setReady(true)} />}
+    {activeVideo && nearby && !reduceMotion && <video ref={videoRef} muted loop playsInline preload="metadata" src={activeVideo} aria-label={alt} onCanPlay={() => setReady(true)} />}
   </div>;
 }
 
@@ -260,7 +262,7 @@ function App() {
     <main id="top">
       <section className="hero-section"><HeroFilm video={heroVideo} mobileVideo="/assets/video/hawana-runway-hero-v2-mobile.mp4" poster="/assets/storyboards/hero-runway-v2.webp" alt="HAWANA campaign with ALSAMAH adults, child and hosiery" pending={t.catalog.imagePending} onReady={() => setHeroVideoReady(true)} /><div className={heroVideoReady ? "hero-brandbar video-ready" : "hero-brandbar"}><img src="/assets/brand/hawana-wordmark.png" alt="HAWANA" /><div><img className="hero-alsamah" src="/assets/brand/alsamah-lockup.png" alt="ALSAMAH" /><img className="hero-elko" src="/assets/brand/elko-logo-transparent.png" alt="ELKO" /></div></div><div className="hero-copy"><h1><span>{c.heroA}</span><span>{c.heroB}</span></h1><p>{c.heroLead}</p><div className="hero-actions"><a className="button primary" href="#shop">{t.hero.shop}<ArrowRight size={18} /></a><a className="text-link light" href="#packs">{t.hero.pack}<ArrowRight size={17} /></a></div></div></section>
       <div className="offer-marquee" aria-hidden="true"><div>{[...t.strip, ...t.strip].map((item, index) => <span key={`${item}-${index}`}>{item}<i /></span>)}</div></div>
-      <section className="departments-section section-wrap" id="departments"><div className="section-heading section-reveal"><h2>{c.departments}</h2><p>{c.categoriesLead}</p></div><div className="department-accordion">{categories.map((item) => <button key={item.label} onClick={() => goToShop(item.filter)}><MotionMedia video={item.video} poster={item.image} alt={item.label} pending={t.catalog.imagePending} /><span className="department-title">{item.label}<ArrowRight size={23} /></span></button>)}</div></section>
+      <section className="departments-section section-wrap" id="departments"><div className="section-heading section-reveal"><h2>{c.departments}</h2><p>{c.categoriesLead}</p></div><div className="department-accordion">{categories.map((item) => <button key={item.label} onClick={() => goToShop(item.filter)}><MotionMedia mobileStatic video={item.video} poster={item.image} alt={item.label} pending={t.catalog.imagePending} /><span className="department-title">{item.label}<ArrowRight size={23} /></span></button>)}</div></section>
       <section className="house-section" id="brands"><div className="section-wrap"><div className="house-copy section-reveal"><h2>{c.house}</h2><p>{c.houseLead}</p></div><div className="house-unified"><img className="house-watermark" src="/assets/brand/hawana-wordmark.png" alt="HAWANA" /><article className="house-brand house-alsamah"><img src="/assets/brand/alsamah-lockup.png" alt="ALSAMAH - your final touch" /><p>{t.brands.alsamah}</p><button className="text-link" onClick={() => goToShop("ALSAMAH")}>{t.brands.discover}<ArrowRight size={17} /></button></article><ProductImage className="house-product" src="/assets/products/body-black.webp" alt="ALSAMAH body" pending={t.catalog.imagePending} /><article className="house-brand house-elko"><img src="/assets/brand/elko-logo-transparent.png" alt="ELKO" /><p>{t.brands.elko}</p><span>{c.catalogPending}</span></article></div></div></section>
       <section className="campaign-section section-wrap"><div className="campaign-intro"><h2>{c.chapterTitle}</h2><p>{c.chapterBody}</p><button className="text-link" onClick={() => goToShop("all")}>{t.hero.shop}<ArrowRight size={17} /></button></div><div className="campaign-stories">{campaignStories.map((story, index) => <article className="campaign-card" style={{ "--stack-index": index } as CSSProperties} key={story.image}><MotionMedia className="scale-reveal" video={story.video} poster={story.image} alt={story.title} pending={t.catalog.imagePending} /><div><h3>{story.title}</h3><p>{story.detail}</p></div></article>)}</div></section>
       <section className="color-section"><div className="section-wrap color-heading section-reveal"><div><h2>{c.colorTitle}</h2><p>{c.colorLead}</p></div><div className="rail-controls"><button onClick={() => colorRail.current?.scrollBy({ left: -430, behavior: "smooth" })} aria-label={c.previous}><ArrowLeft size={22} /></button><button onClick={() => colorRail.current?.scrollBy({ left: 430, behavior: "smooth" })} aria-label={c.next}><ArrowRight size={22} /></button></div></div><div className="color-rail" ref={colorRail}>{colorItems.map(({ product, color }) => <button key={`${product.id}-${color.id}`} onClick={() => setActiveProduct(product)}><ProductImage src={color.image} alt={`${product.name[language]}, ${color.label[language]}`} pending={t.catalog.imagePending} /><span>{product.name[language]}</span><small>{color.label[language]}</small></button>)}</div></section>
