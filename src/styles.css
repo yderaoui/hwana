@@ -197,6 +197,9 @@ h1, h2, h3 { letter-spacing: -.055em; font-weight: 550; }
 .filters button.active { border-color: var(--navy); background: var(--navy); color: var(--white); }
 .catalog-search { width: min(270px, 100%); height: 42px; padding: 0 13px; display: flex; align-items: center; gap: 9px; border-bottom: 1px solid var(--navy); }
 .catalog-search input { width: 100%; outline: 0; background: transparent; color: var(--ink); font-size: 13px; }
+.subfilters { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 12px; }
+.subfilters button { min-height: 30px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 10.5px; font-weight: 600; color: var(--muted); }
+.subfilters button.active { border-color: var(--navy); background: var(--navy); color: var(--white); }
 .result-count { margin: 28px 0 30px; color: var(--muted); font-size: 12px; }
 .product-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 12px; row-gap: 68px; }
 .product-media { position: relative; width: 100%; aspect-ratio: 4 / 5; overflow: hidden; background: #ebe6dc; }
@@ -373,6 +376,8 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
   .filters { width: calc(100vw - 32px); flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
   .filters button { flex: 0 0 auto; }
   .catalog-search { width: 100%; }
+  .subfilters { width: calc(100vw - 32px); flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .subfilters button { flex: 0 0 auto; }
   .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 7px; row-gap: 48px; }
   .product-kicker span:last-child { display: none; }
   .product-title { font-size: 13px; }
@@ -855,6 +860,7 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
   .catalog-search { order: -1; height: 40px; }
   .filters { width: calc(100vw - 32px); padding-bottom: 1px; }
   .filters button { min-height: 38px; padding-inline: 13px; }
+  .subfilters { width: calc(100vw - 32px); margin-top: 10px; }
   .result-count { margin: 21px 0 24px; }
   .product-grid { column-gap: 8px; row-gap: 36px; }
   .product-card { min-width: 0; content-visibility: auto; contain-intrinsic-size: 0 390px; }

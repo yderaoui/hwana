@@ -122,6 +122,51 @@ def category_bucket(category: str | None) -> str:
     return "autres"
 
 
+def fold(text: str) -> str:
+    normalized = unicodedata.normalize("NFD", text.casefold())
+    return "".join(char for char in normalized if unicodedata.category(char) != "Mn")
+
+
+def subcategory_bucket(bucket: str, purchasable: bool, name: str, category_name: str | None) -> str | None:
+    if not purchasable:
+        return None
+    folded_name = fold(name)
+    folded_category = fold(category_name or "")
+    if bucket == "femme":
+        if re.search(r"corset|gainant", folded_name):
+            return "corsets"
+        if re.search(r"\b(soutien|brassiere|bra)\b", folded_name):
+            return "soutien-gorge"
+        if re.search(r"\bbody\b|corps|bretelles", folded_name):
+            return "bodies"
+        if "collant" in folded_name:
+            return "collants"
+        if "chaussette" in folded_name:
+            return "chaussettes"
+        if "nuisette" in folded_name or "chemise de nuit" in folded_name:
+            return "nuisettes"
+        if re.search(r"boxer|culotte|slip", folded_name):
+            return "culottes"
+        return "vetements"
+    if bucket == "homme":
+        if re.search(r"sleeve|manche|debardeur", folded_name):
+            return "hauts"
+        if re.search(r"corset|gainant", folded_name):
+            return "corsets"
+        if re.search(r"boxer|slip", folded_name):
+            return "sous-vetements"
+        return "hauts"
+    if bucket == "enfants":
+        if "garcon" in folded_category or "garcon" in folded_name:
+            return "garcon"
+        if "fille" in folded_category or "fille" in folded_name:
+            return "fille"
+        if "chaussette" in folded_name:
+            return "chaussettes"
+        return "collants"
+    return None
+
+
 def load_xlsx(path: Path) -> tuple[list[dict[str, Any]], dict[str, str], dict[str, str]]:
     import openpyxl
 
@@ -226,12 +271,14 @@ def export_catalog(input_path: Path, output_path: Path) -> None:
         has_generated = any(color["imageKind"] == "generated" for color in colors)
         has_image = any(color["image"] for color in colors)
         purchasable = price is not None and category_id is not None and positive_stock > 0
+        bucket = category_bucket(category_name)
 
         products.append({
             "id": identifier,
             "brand": brand,
-            "category": category_bucket(category_name),
+            "category": bucket,
             "categoryName": category_name,
+            "subcategory": subcategory_bucket(bucket, purchasable, name, category_name),
             "name": {"fr": name, "ar": name_ar, "en": name_en},
             "short": {"fr": short_fr, "ar": short_ar, "en": short_en},
             "description": {"fr": description_fr, "ar": description_ar, "en": description_en},

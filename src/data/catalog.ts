@@ -1,6 +1,28 @@
 export type Language = "fr" | "ar" | "en";
 export type ProductCategory = "femme" | "homme" | "enfants" | "autres" | "non-classe";
+export type ProductSubcategory = "soutien-gorge" | "culottes" | "corsets" | "bodies" | "collants" | "chaussettes" | "nuisettes" | "vetements" | "sous-vetements" | "hauts" | "fille" | "garcon";
 export type LocalizedText = Record<Language, string>;
+
+export const subcategoriesByCategory: Record<string, ProductSubcategory[]> = {
+  femme: ["soutien-gorge", "culottes", "corsets", "bodies", "collants", "chaussettes", "nuisettes", "vetements"],
+  homme: ["hauts", "sous-vetements", "corsets"],
+  enfants: ["fille", "garcon", "chaussettes", "collants"],
+};
+
+export const subcategoryLabels: Record<ProductSubcategory, LocalizedText> = {
+  "soutien-gorge": { fr: "Soutiens-gorge", ar: "حمالات صدر", en: "Bras" },
+  culottes: { fr: "Culottes & Boxers", ar: "سراويل داخلية", en: "Briefs & Boxers" },
+  corsets: { fr: "Corsets & Gainants", ar: "مشد", en: "Shapewear" },
+  bodies: { fr: "Bodies & Caracos", ar: "بودي", en: "Bodysuits & Camis" },
+  collants: { fr: "Collants", ar: "جوارب طويلة", en: "Tights" },
+  chaussettes: { fr: "Chaussettes", ar: "شرابات", en: "Socks" },
+  nuisettes: { fr: "Nuisettes", ar: "ملابس النوم", en: "Sleepwear" },
+  vetements: { fr: "Vêtements", ar: "ملابس", en: "Clothing" },
+  "sous-vetements": { fr: "Sous-vêtements", ar: "ملابس داخلية", en: "Underwear" },
+  hauts: { fr: "Hauts", ar: "قمصان", en: "Tops" },
+  fille: { fr: "Fille", ar: "بنات", en: "Girls" },
+  garcon: { fr: "Garçon", ar: "أولاد", en: "Boys" },
+};
 
 export type ProductColor = {
   id: string;
@@ -16,6 +38,7 @@ export type Product = {
   brand: string;
   category: ProductCategory;
   categoryName: string | null;
+  subcategory: ProductSubcategory | null;
   name: LocalizedText;
   short: LocalizedText;
   description: LocalizedText;
