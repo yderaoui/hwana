@@ -241,7 +241,23 @@ function App() {
   const changeQuantity = (key: string, amount: number) => setCart((current) => current.map((line) => line.key === key ? { ...line, quantity: line.quantity + amount } : line).filter((line) => line.quantity > 0));
   const updatePack = (id: string, amount: number) => setPackCounts((current) => { const total = Object.values(current).reduce((sum, count) => sum + count, 0); if (amount > 0 && total >= packTarget) return current; return { ...current, [id]: Math.max(0, (current[id] ?? 0) + amount) }; });
   const addPack = () => { if (packCount !== packTarget) return; const packId = `pack-${Date.now()}`; packProducts.forEach((product) => { for (let index = 0; index < (packCounts[product.id] ?? 0); index += 1) addToCart(product, product.colors[0].id, product.sizes[0] ?? "TU", Math.round((product.price ?? 0) * (1 - packDiscount)), packId); }); setPackCounts({}); setCartOpen(true); };
-  const submitOrder = (event: FormEvent<HTMLFormElement>) => { event.preventDefault(); const form = new FormData(event.currentTarget); const id = `HW-${new Date().getFullYear()}-${Math.floor(1000 + Math.random() * 9000)}`; localStorage.setItem("hawana-last-order", JSON.stringify({ id, customer: Object.fromEntries(form), cart, payment: "cash_on_delivery", total: Math.round(cartTotal), createdAt: new Date().toISOString() })); setOrderId(id); setCart([]); };
+  const submitOrder = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const form = new FormData(event.currentTarget);
+    const id = `HW-${new Date().getFullYear()}-${Math.floor(1000 + Math.random() * 9000)}`;
+    const customer = Object.fromEntries(form) as Record<string, string>;
+    const items = cart.map((line) => {
+      const product = products.find((item) => item.id === line.productId);
+      const color = product?.colors.find((item) => item.id === line.colorId);
+      return { name: product?.name[language] ?? line.productId, color: color?.label[language] ?? line.colorId, size: line.size, quantity: line.quantity, unitPrice: line.unitPrice, lineTotal: line.unitPrice * line.quantity };
+    });
+    const order = { id, customer, items, payment: "cash_on_delivery", total: Math.round(cartTotal), createdAt: new Date().toISOString() };
+    localStorage.setItem("hawana-last-order", JSON.stringify(order));
+    const sheetUrl = import.meta.env.VITE_ORDERS_SHEET_URL;
+    if (sheetUrl) void fetch(sheetUrl, { method: "POST", mode: "no-cors", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(order) }).catch(() => undefined);
+    setOrderId(id);
+    setCart([]);
+  };
   const goToShop = (nextFilter: Filter) => {
     setFilter(nextFilter);
     const useInstantNavigation = window.matchMedia("(max-width: 780px), (prefers-reduced-motion: reduce)").matches;
