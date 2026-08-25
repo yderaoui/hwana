@@ -660,7 +660,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/collections/girls-tight-1/products/ankle-simple-socks-1",
     "variantCount": 15,
     "missing": {
@@ -2021,7 +2021,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/collections/socks/products/ultra-sheer-15-den-silk-reflections-reinforced?variant=36331163025568",
     "variantCount": 1,
     "missing": {
@@ -19987,6 +19987,1655 @@
       "price": false,
       "category": false,
       "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-a-capuche-motifs-curs",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama à Capuche & Motifs Cœurs",
+      "ar": "Ensemble Pyjama à Capuche & Motifs Cœurs",
+      "en": "Ensemble Pyjama à Capuche & Motifs Cœurs"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama à Capuche & Motifs Cœurs, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama à Capuche & Motifs Cœurs",
+      "en": "Ensemble Pyjama à Capuche & Motifs Cœurs, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama à Capuche & Motifs Cœurs",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 4.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "rose",
+        "label": {
+          "fr": "Rose",
+          "ar": "وردي",
+          "en": "Pink"
+        },
+        "hex": "#c9828e",
+        "image": "/assets/generated/colors/ensemble-pyjama-a-capuche-motifs-curs-rose.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-a-capuche-cool",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama à Capuche « Cool »",
+      "ar": "Ensemble Pyjama à Capuche « Cool »",
+      "en": "Ensemble Pyjama à Capuche « Cool »"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama à Capuche « Cool », sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama à Capuche « Cool »",
+      "en": "Ensemble Pyjama à Capuche « Cool », an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama à Capuche « Cool »",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 3.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": "/assets/generated/colors/ensemble-pyjama-a-capuche-cool-gris.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants",
+      "ar": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants",
+      "en": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants"
+    },
+    "short": {
+      "fr": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants, sélection ALSAMAH.",
+      "ar": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants",
+      "en": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 9.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "vert",
+        "label": {
+          "fr": "Vert",
+          "ar": "أخضر",
+          "en": "Green"
+        },
+        "hex": "#627b54",
+        "image": "/assets/generated/colors/pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants-vert.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-a-capuche-hello-winter",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama à Capuche « Hello Winter »",
+      "ar": "Ensemble Pyjama à Capuche « Hello Winter »",
+      "en": "Ensemble Pyjama à Capuche « Hello Winter »"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama à Capuche « Hello Winter », sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama à Capuche « Hello Winter »",
+      "en": "Ensemble Pyjama à Capuche « Hello Winter », an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama à Capuche « Hello Winter »",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 4.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "rose-poudre",
+        "label": {
+          "fr": "Rose poudré",
+          "ar": "rose poudré",
+          "en": "Rose poudré"
+        },
+        "hex": "#8a8882",
+        "image": "/assets/generated/colors/ensemble-pyjama-a-capuche-hello-winter-rose-poudre.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-ours-hipster",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama« Ours Hipster »",
+      "ar": "Ensemble Pyjama« Ours Hipster »",
+      "en": "Ensemble Pyjama« Ours Hipster »"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama« Ours Hipster », sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama« Ours Hipster »",
+      "en": "Ensemble Pyjama« Ours Hipster », an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama« Ours Hipster »",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 3.0,
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": "/assets/generated/colors/ensemble-pyjama-ours-hipster-gris.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-2-pieces-a-poche-fleurie",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama 2 Pièces à Poche Fleurie",
+      "ar": "Ensemble Pyjama 2 Pièces à Poche Fleurie",
+      "en": "Ensemble Pyjama 2 Pièces à Poche Fleurie"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama 2 Pièces à Poche Fleurie, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama 2 Pièces à Poche Fleurie",
+      "en": "Ensemble Pyjama 2 Pièces à Poche Fleurie, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama 2 Pièces à Poche Fleurie",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 3.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "moutarde-bleu-marine",
+        "label": {
+          "fr": "Moutarde / bleu marine",
+          "ar": "moutarde / bleu marine",
+          "en": "Moutarde / bleu marine"
+        },
+        "hex": "#8a8882",
+        "image": "/assets/generated/colors/ensemble-pyjama-2-pieces-a-poche-fleurie-moutarde-bleu-marine.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-love-good-vibes-only-a-carreaux-verts",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts",
+      "ar": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts",
+      "en": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts"
+    },
+    "short": {
+      "fr": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts, sélection ALSAMAH.",
+      "ar": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts",
+      "en": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 7.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "blanc-casse",
+        "label": {
+          "fr": "Blanc cassé",
+          "ar": "أوف وايت",
+          "en": "Off-white"
+        },
+        "hex": "#e9e2d2",
+        "image": "/assets/generated/colors/pyjama-2-pieces-love-good-vibes-only-a-carreaux-verts-blanc-casse.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-homewear-a-capuche-believe",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Homewear à Capuche \"Believe\"",
+      "ar": "Ensemble Homewear à Capuche \"Believe\"",
+      "en": "Ensemble Homewear à Capuche \"Believe\""
+    },
+    "short": {
+      "fr": "Ensemble Homewear à Capuche \"Believe\", sélection ALSAMAH.",
+      "ar": "Ensemble Homewear à Capuche \"Believe\"",
+      "en": "Ensemble Homewear à Capuche \"Believe\", an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Homewear à Capuche \"Believe\"",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 4.0,
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": "/assets/generated/colors/ensemble-homewear-a-capuche-believe-beige.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjamar-vert-d-eau-a-micro-motifs-fleuris",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris",
+      "ar": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris",
+      "en": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris"
+    },
+    "short": {
+      "fr": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris",
+      "en": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 5.0,
+    "sizes": [
+      "L",
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "vert",
+        "label": {
+          "fr": "Vert",
+          "ar": "أخضر",
+          "en": "Green"
+        },
+        "hex": "#627b54",
+        "image": "/assets/generated/colors/ensemble-pyjamar-vert-d-eau-a-micro-motifs-fleuris-vert.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-fluide-a-manches-longues",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 pièces fluide à manches longues",
+      "ar": "Pyjama 2 pièces fluide à manches longues",
+      "en": "Pyjama 2 pièces fluide à manches longues"
+    },
+    "short": {
+      "fr": "Pyjama 2 pièces fluide à manches longues, sélection ALSAMAH.",
+      "ar": "Pyjama 2 pièces fluide à manches longues",
+      "en": "Pyjama 2 pièces fluide à manches longues, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 pièces fluide à manches longues",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 5.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "marron",
+        "label": {
+          "fr": "Marron",
+          "ar": "بني",
+          "en": "Brown"
+        },
+        "hex": "#6f4a35",
+        "image": "/assets/generated/colors/pyjama-2-pieces-fluide-a-manches-longues-marron.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-tete-d-ours",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Tête d'Ours",
+      "ar": "Ensemble Pyjama Tête d'Ours",
+      "en": "Ensemble Pyjama Tête d'Ours"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Tête d'Ours, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Tête d'Ours",
+      "en": "Ensemble Pyjama Tête d'Ours, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Tête d'Ours",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 8.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": "/assets/generated/colors/ensemble-pyjama-tete-d-ours-gris.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
+      {
+        "id": "bleu",
+        "label": {
+          "fr": "Bleu",
+          "ar": "أزرق",
+          "en": "Blue"
+        },
+        "hex": "#36608d",
+        "image": "/assets/generated/colors/ensemble-pyjama-tete-d-ours-bleu.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 4,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-a-capuche-angel-baby",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama à Capuche Angel Baby",
+      "ar": "Pyjama à Capuche Angel Baby",
+      "en": "Pyjama à Capuche Angel Baby"
+    },
+    "short": {
+      "fr": "Pyjama à Capuche Angel Baby, sélection ALSAMAH.",
+      "ar": "Pyjama à Capuche Angel Baby",
+      "en": "Pyjama à Capuche Angel Baby, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama à Capuche Angel Baby",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 7.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": "/assets/generated/colors/pyjama-a-capuche-angel-baby-gris.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-sweet-today",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 Pièces \"SWEET TODAY\"",
+      "ar": "Pyjama 2 Pièces \"SWEET TODAY\"",
+      "en": "Pyjama 2 Pièces \"SWEET TODAY\""
+    },
+    "short": {
+      "fr": "Pyjama 2 Pièces \"SWEET TODAY\", sélection ALSAMAH.",
+      "ar": "Pyjama 2 Pièces \"SWEET TODAY\"",
+      "en": "Pyjama 2 Pièces \"SWEET TODAY\", an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 Pièces \"SWEET TODAY\"",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 1.0,
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "jaune",
+        "label": {
+          "fr": "Jaune",
+          "ar": "أصفر",
+          "en": "Yellow"
+        },
+        "hex": "#d0a53a",
+        "image": "/assets/generated/colors/pyjama-2-pieces-sweet-today-jaune.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-homewear",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 Pièces Homewear",
+      "ar": "Pyjama 2 Pièces Homewear",
+      "en": "Pyjama 2 Pièces Homewear"
+    },
+    "short": {
+      "fr": "Pyjama 2 Pièces Homewear, sélection ALSAMAH.",
+      "ar": "Pyjama 2 Pièces Homewear",
+      "en": "Pyjama 2 Pièces Homewear, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 Pièces Homewear",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 1.0,
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": "/assets/generated/colors/pyjama-2-pieces-homewear-noir.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "cotton-girls-tank-top",
+    "brand": "ALSAMAH",
+    "category": "enfants",
+    "categoryName": "Enfants",
+    "subcategory": null,
+    "name": {
+      "fr": "% Cotton Girls' Tank Top",
+      "ar": "% Cotton Girls' Tank Top",
+      "en": "% Cotton Girls' Tank Top"
+    },
+    "short": {
+      "fr": "% Cotton Girls' Tank Top, sélection ALSAMAH.",
+      "ar": "% Cotton Girls' Tank Top",
+      "en": "% Cotton Girls' Tank Top, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "% Cotton Girls' Tank Top",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 150.0,
+    "price": 105,
+    "stock": 5.67,
+    "sizes": [
+      "2"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": "/assets/generated/colors/cotton-girls-tank-top-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": "https://www.alsamah.com/products/3-pack-girls-tank-top",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "slip-hi-cuts",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Slip Hi-Cuts",
+      "ar": "Slip Hi-Cuts",
+      "en": "Slip Hi-Cuts"
+    },
+    "short": {
+      "fr": "Slip Hi-Cuts, sélection ALSAMAH.",
+      "ar": "Slip Hi-Cuts",
+      "en": "Slip Hi-Cuts, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Slip Hi-Cuts",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 95.0,
+    "price": 66,
+    "stock": 63.0,
+    "sizes": [
+      "L",
+      "M",
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": "/assets/generated/colors/slip-hi-cuts-beige.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": "/assets/generated/colors/slip-hi-cuts-noir.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": "/assets/generated/colors/slip-hi-cuts-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": "https://www.alsamah.com/products/slip-hi-cuts",
+    "variantCount": 7,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-quadrille",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Quadrillé",
+      "ar": "Ensemble Pyjama Quadrillé",
+      "en": "Ensemble Pyjama Quadrillé"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Quadrillé, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Quadrillé",
+      "en": "Ensemble Pyjama Quadrillé, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Quadrillé",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 6.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "blanc-casse",
+        "label": {
+          "fr": "Blanc cassé",
+          "ar": "أوف وايت",
+          "en": "Off-white"
+        },
+        "hex": "#e9e2d2",
+        "image": "/assets/generated/colors/ensemble-pyjama-quadrille-blanc-casse.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-quadrille-everything-is-possible",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Quadrillé « Everything is Possible »",
+      "ar": "Ensemble Pyjama Quadrillé « Everything is Possible »",
+      "en": "Ensemble Pyjama Quadrillé « Everything is Possible »"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Quadrillé « Everything is Possible », sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Quadrillé « Everything is Possible »",
+      "en": "Ensemble Pyjama Quadrillé « Everything is Possible », an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Quadrillé « Everything is Possible »",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 2.0,
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "blanc-casse",
+        "label": {
+          "fr": "Blanc cassé",
+          "ar": "أوف وايت",
+          "en": "Off-white"
+        },
+        "hex": "#e9e2d2",
+        "image": "/assets/generated/colors/ensemble-pyjama-quadrille-everything-is-possible-blanc-casse.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-marines-crew-84",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama « Marines Crew 84 »",
+      "ar": "Ensemble Pyjama « Marines Crew 84 »",
+      "en": "Ensemble Pyjama « Marines Crew 84 »"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama « Marines Crew 84 », sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama « Marines Crew 84 »",
+      "en": "Ensemble Pyjama « Marines Crew 84 », an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama « Marines Crew 84 »",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 9.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": "/assets/generated/colors/ensemble-pyjama-marines-crew-84-gris.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-choco-prune-imprime-curs-love-for-all",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All »",
+      "ar": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All »",
+      "en": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All »"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All », sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All »",
+      "en": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All », an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All »",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 6.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "marron",
+        "label": {
+          "fr": "Marron",
+          "ar": "بني",
+          "en": "Brown"
+        },
+        "hex": "#6f4a35",
+        "image": "/assets/generated/colors/ensemble-pyjama-choco-prune-imprime-curs-love-for-all-marron.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-femme-2-pieces",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama femme 2 pièces",
+      "ar": "Pyjama femme 2 pièces",
+      "en": "Pyjama femme 2 pièces"
+    },
+    "short": {
+      "fr": "Pyjama femme 2 pièces, sélection ALSAMAH.",
+      "ar": "Pyjama femme 2 pièces",
+      "en": "Pyjama femme 2 pièces, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama femme 2 pièces",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 10.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "marron-chocolat",
+        "label": {
+          "fr": "Marron chocolat",
+          "ar": "marron chocolat",
+          "en": "Marron chocolat"
+        },
+        "hex": "#8a8882",
+        "image": "/assets/generated/colors/pyjama-femme-2-pieces-marron-chocolat.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-femme-2-pieces-all-day",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama femme 2 pièces ALL DAY",
+      "ar": "Pyjama femme 2 pièces ALL DAY",
+      "en": "Pyjama femme 2 pièces ALL DAY"
+    },
+    "short": {
+      "fr": "Pyjama femme 2 pièces ALL DAY, sélection ALSAMAH.",
+      "ar": "Pyjama femme 2 pièces ALL DAY",
+      "en": "Pyjama femme 2 pièces ALL DAY, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama femme 2 pièces ALL DAY",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 2.0,
+    "sizes": [
+      "L"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": "/assets/generated/colors/pyjama-femme-2-pieces-all-day-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-friday",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama « Friday",
+      "ar": "Ensemble Pyjama « Friday",
+      "en": "Ensemble Pyjama « Friday"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama « Friday, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama « Friday",
+      "en": "Ensemble Pyjama « Friday, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama « Friday",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 3.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": "/assets/generated/colors/ensemble-pyjama-friday-gris.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-2-pieces-a-carreaux",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama 2 Pièces à Carreaux",
+      "ar": "Ensemble Pyjama 2 Pièces à Carreaux",
+      "en": "Ensemble Pyjama 2 Pièces à Carreaux"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama 2 Pièces à Carreaux, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama 2 Pièces à Carreaux",
+      "en": "Ensemble Pyjama 2 Pièces à Carreaux, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama 2 Pièces à Carreaux",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 2.0,
+    "sizes": [
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "bleu-marine",
+        "label": {
+          "fr": "Bleu marine",
+          "ar": "كحلي",
+          "en": "Navy"
+        },
+        "hex": "#17233d",
+        "image": "/assets/generated/colors/ensemble-pyjama-2-pieces-a-carreaux-bleu-marine.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-homewear-bleu-raye",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 Pièces Homewear Bleu Rayé",
+      "ar": "Pyjama 2 Pièces Homewear Bleu Rayé",
+      "en": "Pyjama 2 Pièces Homewear Bleu Rayé"
+    },
+    "short": {
+      "fr": "Pyjama 2 Pièces Homewear Bleu Rayé, sélection ALSAMAH.",
+      "ar": "Pyjama 2 Pièces Homewear Bleu Rayé",
+      "en": "Pyjama 2 Pièces Homewear Bleu Rayé, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 Pièces Homewear Bleu Rayé",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 2.0,
+    "sizes": [
+      "L"
+    ],
+    "colors": [
+      {
+        "id": "bleu-marine-blanc",
+        "label": {
+          "fr": "Bleu marine/blanc",
+          "ar": "bleu marine/blanc",
+          "en": "Bleu marine/blanc"
+        },
+        "hex": "#8a8882",
+        "image": "/assets/generated/colors/pyjama-2-pieces-homewear-bleu-raye-bleu-marine-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-2-pieces-a-carreaux-pochette-assortie",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie",
+      "ar": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie",
+      "en": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie",
+      "en": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 6.0,
+    "sizes": [
+      "L",
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "bleu-marine-blanc",
+        "label": {
+          "fr": "Bleu marine/blanc",
+          "ar": "bleu marine/blanc",
+          "en": "Bleu marine/blanc"
+        },
+        "hex": "#8a8882",
+        "image": "/assets/generated/colors/ensemble-pyjama-2-pieces-a-carreaux-pochette-assortie-bleu-marine-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-pure-softness",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 pièces Pure Softness",
+      "ar": "Pyjama 2 pièces Pure Softness",
+      "en": "Pyjama 2 pièces Pure Softness"
+    },
+    "short": {
+      "fr": "Pyjama 2 pièces Pure Softness, sélection ALSAMAH.",
+      "ar": "Pyjama 2 pièces Pure Softness",
+      "en": "Pyjama 2 pièces Pure Softness, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 pièces Pure Softness",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 3.0,
+    "sizes": [
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": "/assets/generated/colors/pyjama-2-pieces-pure-softness-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-love-pantalon-a-carreaux-multicolores",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores",
+      "ar": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores",
+      "en": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores"
+    },
+    "short": {
+      "fr": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores, sélection ALSAMAH.",
+      "ar": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores",
+      "en": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 2.0,
+    "sizes": [
+      "L"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": "/assets/generated/colors/pyjama-2-pieces-love-pantalon-a-carreaux-multicolores-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-vert-sauge-imprime-etoiles",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Vert Sauge Imprimé Étoiles",
+      "ar": "Ensemble Pyjama Vert Sauge Imprimé Étoiles",
+      "en": "Ensemble Pyjama Vert Sauge Imprimé Étoiles"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Vert Sauge Imprimé Étoiles, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Vert Sauge Imprimé Étoiles",
+      "en": "Ensemble Pyjama Vert Sauge Imprimé Étoiles, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Vert Sauge Imprimé Étoiles",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 4.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "vert",
+        "label": {
+          "fr": "Vert",
+          "ar": "أخضر",
+          "en": "Green"
+        },
+        "hex": "#627b54",
+        "image": "/assets/generated/colors/ensemble-pyjama-vert-sauge-imprime-etoiles-vert.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-soft-check",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 pièces Soft Check",
+      "ar": "Pyjama 2 pièces Soft Check",
+      "en": "Pyjama 2 pièces Soft Check"
+    },
+    "short": {
+      "fr": "Pyjama 2 pièces Soft Check, sélection ALSAMAH.",
+      "ar": "Pyjama 2 pièces Soft Check",
+      "en": "Pyjama 2 pièces Soft Check, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 pièces Soft Check",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 4.0,
+    "sizes": [
+      "L",
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": "/assets/generated/colors/pyjama-2-pieces-soft-check-blanc.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-en-maille-avec-motif-cur-carreaux-et-effet-bimatiere",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière",
+      "ar": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière",
+      "en": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière"
+    },
+    "short": {
+      "fr": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière, sélection ALSAMAH.",
+      "ar": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière",
+      "en": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 3.0,
+    "sizes": [
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": "/assets/generated/colors/pyjama-2-pieces-en-maille-avec-motif-cur-carreaux-et-effet-bimatiere-gris.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
     }
   }
 ]

@@ -43,6 +43,39 @@ def category(name):
     return "femme"
 
 catalog=json.loads(CATALOG.read_text(encoding="utf-8"))
+FORCE_NAMES={fold(name) for name in [
+    "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière",
+    "Slip Hi-Cuts",
+    "Pyjama 2 Pièces LOVE - Good Vibes Only à Carreaux Verts",
+    "Pyjama 2 Pièces Homewear Bleu Rayé",
+    "Pyjama 2 pièces fluide à manches longues",
+    "Pyjama 2 pièces Soft Check",
+    "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants",
+    "Pyjama 2 Pièces SWEET TODAY",
+    "Pyjama 2 pièces Pure Softness",
+    "Pyjama 2 Pièces Homewear",
+    "Ensemble Pyjama Quadrillé Everything is Possible",
+    "Pyjama à Capuche Angel Baby",
+    "Pyjama 2 Pièces LOVE & Pantalon à Carreaux Multicolores",
+    "Ensemble Homewear à Capuche Believe",
+    "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris",
+    "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie",
+    "Ensemble Pyjama Choco / Prune Imprimé Cœurs Love For All",
+    "Pyjama femme 2 pièces ALL DAY",
+    "Ensemble Pyjama Marines Crew 84",
+    "Ensemble Pyjama à Capuche Hello Winter",
+    "Ensemble Pyjama à Capuche & Motifs Cœurs",
+    "Ensemble Pyjama Friday",
+    "Pyjama femme 2 pièces",
+    "Ensemble Pyjama Quadrillé",
+    "Ensemble Pyjama à Capuche Cool",
+    "Ensemble Pyjama Vert Sauge Imprimé Étoiles",
+    "Ensemble Pyjama Tête d'Ours",
+    "Ensemble Pyjama 2 Pièces à Poche Fleurie",
+    "Ensemble Pyjama 2 Pièces à Carreaux",
+    "Ensemble Pyjama Ours Hipster",
+    "100% Cotton Girls' Tank Top",
+]}
 old=openpyxl.load_workbook(OLD_BOOK,read_only=True,data_only=True)["bulk_import"]
 rows=old.iter_rows(values_only=True); headers=[str(x).strip() if x else "" for x in next(rows)]
 old_barcodes={str(dict(zip(headers,row)).get("barcode") or "").strip() for row in rows}
@@ -51,8 +84,10 @@ rows=sheet.iter_rows(values_only=True); headers=[str(x).strip() if x else "" for
 groups=defaultdict(list)
 for row in rows:
     item=dict(zip(headers,row)); barcode=str(item.get("Code Barre") or "").strip()
-    if not barcode or barcode in old_barcodes: continue
-    groups[fold(clean_name(item.get("DESCRIPTION")))].append(item)
+    identity=fold(clean_name(item.get("DESCRIPTION")))
+    forced_identity=any(difflib.SequenceMatcher(None,identity,name).ratio() >= .90 for name in FORCE_NAMES)
+    if not barcode or (barcode in old_barcodes and not forced_identity): continue
+    groups[identity].append(item)
 
 keys=[]
 for product in catalog:
@@ -65,7 +100,8 @@ for identity, items in groups.items():
     handle=fold(urlparse(url or "").path.rstrip("/").split("/")[-1])
     score=max(difflib.SequenceMatcher(None,identity,key).ratio() for key in keys if key)
     if handle: score=max(score,max(difflib.SequenceMatcher(None,handle,key).ratio() for key in keys if key))
-    if score >= .88: continue
+    forced_identity=any(difflib.SequenceMatcher(None,identity,name).ratio() >= .90 for name in FORCE_NAMES)
+    if score >= .88 and not forced_identity: continue
     name=clean_name(items[0].get("DESCRIPTION"))
     if fold(name) == fold("NIPPLE COVER PAD"): continue
     pid=slug(name); base=pid; i=2
