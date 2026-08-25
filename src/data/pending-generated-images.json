@@ -1,0 +1,58 @@
+[
+  {
+    "productId": "soutien-gorge-d-allaitement-en-coton",
+    "productName": "Soutien-gorge d'allaitement en coton",
+    "colorId": "beige",
+    "color": "Beige",
+    "hex": "#cfb491",
+    "path": "/assets/generated/colors/soutien-gorge-d-allaitement-en-coton-beige.png"
+  },
+  {
+    "productId": "soutien-gorge-d-allaitement-en-coton",
+    "productName": "Soutien-gorge d'allaitement en coton",
+    "colorId": "blanc",
+    "color": "White",
+    "hex": "#f5f5f0",
+    "path": "/assets/generated/colors/soutien-gorge-d-allaitement-en-coton-blanc.png"
+  },
+  {
+    "productId": "doubled-slip-corset-with-high",
+    "productName": "Doubled Slip Corset With High",
+    "colorId": "beige",
+    "color": "Beige",
+    "hex": "#cfb491",
+    "path": "/assets/generated/colors/doubled-slip-corset-with-high-beige.png"
+  },
+  {
+    "productId": "doubled-slip-corset-with-high-rise",
+    "productName": "Doubled Slip Corset With High-Rise",
+    "colorId": "blanc",
+    "color": "White",
+    "hex": "#f5f5f0",
+    "path": "/assets/generated/colors/doubled-slip-corset-with-high-rise-blanc.png"
+  },
+  {
+    "productId": "pyjama-panda",
+    "productName": "PYJAMA PANDA",
+    "colorId": "saumon-blanc",
+    "color": "saumon/blanc",
+    "hex": "#8a8882",
+    "path": "/assets/generated/colors/pyjama-panda-saumon-blanc.png"
+  },
+  {
+    "productId": "ensemble-pyjama-d-ete-pour-femme-avec-pantakour",
+    "productName": "ensemble pyjama d ete pour femme avec pantakour",
+    "colorId": "non-renseignee",
+    "color": "non renseignée",
+    "hex": "#8a8882",
+    "path": "/assets/generated/colors/ensemble-pyjama-d-ete-pour-femme-avec-pantakour-non-renseignee.png"
+  },
+  {
+    "productId": "nuisette-longue-bretelle-avec-peignoir",
+    "productName": "nuisette longue bretelle avec peignoir",
+    "colorId": "rose",
+    "color": "Pink",
+    "hex": "#c9828e",
+    "path": "/assets/generated/colors/nuisette-longue-bretelle-avec-peignoir-rose.png"
+  }
+]

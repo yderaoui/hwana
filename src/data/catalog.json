@@ -403,19 +403,19 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": null,
-        "imageKind": "missing",
+        "image": "/assets/generated/colors/collants-a-motifs-havana-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "missing",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 3,
     "missing": {
       "price": false,
       "category": false,
-      "image": true
+      "image": false
     },
     "subcategory": "collants"
   },
@@ -533,19 +533,19 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": null,
-        "imageKind": "missing",
+        "image": "/assets/generated/colors/collants-a-motifs-musica-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "missing",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 3,
     "missing": {
       "price": false,
       "category": false,
-      "image": true
+      "image": false
     },
     "subcategory": "collants"
   },
@@ -586,19 +586,19 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": null,
-        "imageKind": "missing",
+        "image": "/assets/generated/colors/collants-a-motifs-peace-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "missing",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 3,
     "missing": {
       "price": false,
       "category": false,
-      "image": true
+      "image": false
     },
     "subcategory": "collants"
   },
@@ -17307,5 +17307,2686 @@
       "image": true
     },
     "subcategory": null
+  },
+  {
+    "id": "cache-tetons-silicone",
+    "brand": "ALSAMAH",
+    "category": "autres",
+    "categoryName": "Accessoires femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Cache-tétons adhésifs en silicone",
+      "ar": "أغطية حلمات لاصقة من السيليكون",
+      "en": "Adhesive Silicone Nipple Covers"
+    },
+    "short": {
+      "fr": "Paire réutilisable, douce et invisible sous les vêtements.",
+      "ar": "زوج قابل لإعادة الاستخدام، ناعم وغير ظاهر تحت الملابس.",
+      "en": "A soft, reusable pair designed to stay invisible under clothing."
+    },
+    "description": {
+      "fr": "Cache-tétons adhésifs en silicone à finition lisse et bords discrets, adaptés aux tenues sans bretelles.",
+      "ar": "أغطية حلمات لاصقة من السيليكون بسطح ناعم وحواف رقيقة، مناسبة للملابس بدون حمالات.",
+      "en": "Reusable adhesive silicone nipple covers with a smooth finish and discreet edges for strapless outfits."
+    },
+    "regularPrice": 159,
+    "price": 111,
+    "stock": 8,
+    "sizes": [
+      "Taille unique"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": "/assets/generated/colors/cache-tetons-silicone-beige.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "generated",
+    "sourcePage": "https://www.walmart.com/ip/Extra-Nipple-Covers-for-Women-Thicker-Adhesive-Silicone-Bra-Pasties-for-Strapless-Dress/8434307694",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": false
+    }
+  },
+  {
+    "id": "ensemble-pyjama-damier-a-poche-etoile",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Damier à Poche Étoile",
+      "ar": "Ensemble Pyjama Damier à Poche Étoile",
+      "en": "Ensemble Pyjama Damier à Poche Étoile"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Damier à Poche Étoile, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Damier à Poche Étoile",
+      "en": "Ensemble Pyjama Damier à Poche Étoile, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Damier à Poche Étoile",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 3.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "vert",
+        "label": {
+          "fr": "Vert",
+          "ar": "أخضر",
+          "en": "Green"
+        },
+        "hex": "#627b54",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-damier-motifs-fantaisie",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Damier & Motifs Fantaisie",
+      "ar": "Ensemble Pyjama Damier & Motifs Fantaisie",
+      "en": "Ensemble Pyjama Damier & Motifs Fantaisie"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Damier & Motifs Fantaisie, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Damier & Motifs Fantaisie",
+      "en": "Ensemble Pyjama Damier & Motifs Fantaisie, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Damier & Motifs Fantaisie",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 1.0,
+    "sizes": [
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pyjama-zebra-shine-like-a-diamond",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama Zebra Shine Like A Diamond",
+      "ar": "Pyjama Zebra Shine Like A Diamond",
+      "en": "Pyjama Zebra Shine Like A Diamond"
+    },
+    "short": {
+      "fr": "Pyjama Zebra Shine Like A Diamond, sélection ALSAMAH.",
+      "ar": "Pyjama Zebra Shine Like A Diamond",
+      "en": "Pyjama Zebra Shine Like A Diamond, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama Zebra Shine Like A Diamond",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 2.0,
+    "sizes": [
+      "L"
+    ],
+    "colors": [
+      {
+        "id": "marron",
+        "label": {
+          "fr": "Marron",
+          "ar": "بني",
+          "en": "Brown"
+        },
+        "hex": "#6f4a35",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-a-capuche-imprime-graphique-touches-vert-neon",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon",
+      "ar": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon",
+      "en": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon",
+      "en": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 3.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "multicolores",
+        "label": {
+          "fr": "Multicolores",
+          "ar": "multicolores",
+          "en": "Multicolores"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "high-neck",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "high neck",
+      "ar": "high neck",
+      "en": "high neck"
+    },
+    "short": {
+      "fr": "high neck, sélection ALSAMAH.",
+      "ar": "high neck",
+      "en": "high neck, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "high neck",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 169.0,
+    "price": 118,
+    "stock": 5.0,
+    "sizes": [
+      "S/M"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/high-neck-3328",
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "slimcontour-shaping-top",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "SlimContour shaping top",
+      "ar": "SlimContour shaping top",
+      "en": "SlimContour shaping top"
+    },
+    "short": {
+      "fr": "SlimContour shaping top, sélection ALSAMAH.",
+      "ar": "SlimContour shaping top",
+      "en": "SlimContour shaping top, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "SlimContour shaping top",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 249.0,
+    "price": 174,
+    "stock": 3.0,
+    "sizes": [
+      "S/M"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "waistsculpt-adjustable-shaper",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "WaistSculpt Adjustable Shaper",
+      "ar": "WaistSculpt Adjustable Shaper",
+      "en": "WaistSculpt Adjustable Shaper"
+    },
+    "short": {
+      "fr": "WaistSculpt Adjustable Shaper, sélection ALSAMAH.",
+      "ar": "WaistSculpt Adjustable Shaper",
+      "en": "WaistSculpt Adjustable Shaper, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "WaistSculpt Adjustable Shaper",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 4.0,
+    "sizes": [
+      "L",
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "corset-boxer-a-fesses-ouvertes",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Corset boxer à fesses ouvertes",
+      "ar": "Corset boxer à fesses ouvertes",
+      "en": "Corset boxer à fesses ouvertes"
+    },
+    "short": {
+      "fr": "Corset boxer à fesses ouvertes, sélection ALSAMAH.",
+      "ar": "Corset boxer à fesses ouvertes",
+      "en": "Corset boxer à fesses ouvertes, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Corset boxer à fesses ouvertes",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 289.0,
+    "price": 202,
+    "stock": 5.0,
+    "sizes": [
+      "M",
+      "S",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.emaykorse.com/siyah-mi-emay-5320-agrafli-emzirme-sutyen",
+    "variantCount": 4,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pack-no-show-simple-sport-cotton-socks",
+    "brand": "ALSAMAH",
+    "category": "autres",
+    "categoryName": "Hosiery & Accessories",
+    "subcategory": null,
+    "name": {
+      "fr": "Pack No-Show Simple, Sport Cotton socks",
+      "ar": "Pack No-Show Simple, Sport Cotton socks",
+      "en": "Pack No-Show Simple, Sport Cotton socks"
+    },
+    "short": {
+      "fr": "Pack No-Show Simple, Sport Cotton socks, sélection ALSAMAH.",
+      "ar": "Pack No-Show Simple, Sport Cotton socks",
+      "en": "Pack No-Show Simple, Sport Cotton socks, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pack No-Show Simple, Sport Cotton socks",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 109.0,
+    "price": 76,
+    "stock": 2.0,
+    "sizes": [
+      "Free Size"
+    ],
+    "colors": [
+      {
+        "id": "multicolores",
+        "label": {
+          "fr": "Multicolores",
+          "ar": "multicolores",
+          "en": "Multicolores"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/no-show-1",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "cotton-boys-crewneck-undershirt",
+    "brand": "ALSAMAH",
+    "category": "enfants",
+    "categoryName": "Enfants",
+    "subcategory": null,
+    "name": {
+      "fr": "% Cotton Boys' Crewneck Undershirt",
+      "ar": "% Cotton Boys' Crewneck Undershirt",
+      "en": "% Cotton Boys' Crewneck Undershirt"
+    },
+    "short": {
+      "fr": "% Cotton Boys' Crewneck Undershirt, sélection ALSAMAH.",
+      "ar": "% Cotton Boys' Crewneck Undershirt",
+      "en": "% Cotton Boys' Crewneck Undershirt, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "% Cotton Boys' Crewneck Undershirt",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 170.0,
+    "price": 119,
+    "stock": 1.0,
+    "sizes": [
+      "12"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/3-pack-boys-crewneck-undershirt",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "slip-printed-girls",
+    "brand": "ALSAMAH",
+    "category": "enfants",
+    "categoryName": "Enfants",
+    "subcategory": null,
+    "name": {
+      "fr": "SLIP Printed Girls",
+      "ar": "SLIP Printed Girls",
+      "en": "SLIP Printed Girls"
+    },
+    "short": {
+      "fr": "SLIP Printed Girls, sélection ALSAMAH.",
+      "ar": "SLIP Printed Girls",
+      "en": "SLIP Printed Girls, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "SLIP Printed Girls",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 155.0,
+    "price": 108,
+    "stock": 63.0,
+    "sizes": [
+      "10",
+      "12",
+      "4",
+      "6",
+      "8"
+    ],
+    "colors": [
+      {
+        "id": "multicolores",
+        "label": {
+          "fr": "Multicolores",
+          "ar": "multicolores",
+          "en": "Multicolores"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/slip-printed-girls",
+    "variantCount": 5,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "printed-girls-boxers",
+    "brand": "ALSAMAH",
+    "category": "enfants",
+    "categoryName": "Enfants",
+    "subcategory": null,
+    "name": {
+      "fr": "Printed Girls' Boxers",
+      "ar": "Printed Girls' Boxers",
+      "en": "Printed Girls' Boxers"
+    },
+    "short": {
+      "fr": "Printed Girls' Boxers, sélection ALSAMAH.",
+      "ar": "Printed Girls' Boxers",
+      "en": "Printed Girls' Boxers, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Printed Girls' Boxers",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 160.0,
+    "price": 112,
+    "stock": 13.0,
+    "sizes": [
+      "12",
+      "2"
+    ],
+    "colors": [
+      {
+        "id": "multicolores",
+        "label": {
+          "fr": "Multicolores",
+          "ar": "multicolores",
+          "en": "Multicolores"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/3-pack-printed-girls-boxers",
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "total-control-laser-shaper-short",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Total Control Laser Shaper Short",
+      "ar": "Total Control Laser Shaper Short",
+      "en": "Total Control Laser Shaper Short"
+    },
+    "short": {
+      "fr": "Total Control Laser Shaper Short, sélection ALSAMAH.",
+      "ar": "Total Control Laser Shaper Short",
+      "en": "Total Control Laser Shaper Short, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Total Control Laser Shaper Short",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 195.0,
+    "price": 136,
+    "stock": 5.0,
+    "sizes": [
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/total-control-laser-shaper-shorts-4607",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "seamless-slip-pregnant",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Seamless slip pregnant",
+      "ar": "Seamless slip pregnant",
+      "en": "Seamless slip pregnant"
+    },
+    "short": {
+      "fr": "Seamless slip pregnant, sélection ALSAMAH.",
+      "ar": "Seamless slip pregnant",
+      "en": "Seamless slip pregnant, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Seamless slip pregnant",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 139.0,
+    "price": 97,
+    "stock": 5.0,
+    "sizes": [
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/slip-pregnant",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pyjama-2-pieces-style-jogger-avec-chevilles-et-poignets-resserres",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés",
+      "ar": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés",
+      "en": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés"
+    },
+    "short": {
+      "fr": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés, sélection ALSAMAH.",
+      "ar": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés",
+      "en": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 1.0,
+    "sizes": [
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-col-boutonne-pantalon-raye-multicolore",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore",
+      "ar": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore",
+      "en": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore",
+      "en": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 6.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "multicolore",
+        "label": {
+          "fr": "Multicolore",
+          "ar": "متعدد الألوان",
+          "en": "Multicolor"
+        },
+        "hex": "#8a756f",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "maillot-de-bain-crochet",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Maillot de bain crochet",
+      "ar": "Maillot de bain crochet",
+      "en": "Maillot de bain crochet"
+    },
+    "short": {
+      "fr": "Maillot de bain crochet, sélection ALSAMAH.",
+      "ar": "Maillot de bain crochet",
+      "en": "Maillot de bain crochet, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Maillot de bain crochet",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 249.0,
+    "price": 174,
+    "stock": 6.0,
+    "sizes": [
+      "L",
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.kiabi.com/maillot-de-bain-2-pieces-crochet-gerane-noir_P3151479C3150619",
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "sport-bra-m-l-grey",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Sport BRA-M L-GREY",
+      "ar": "Sport BRA-M L-GREY",
+      "en": "Sport BRA-M L-GREY"
+    },
+    "short": {
+      "fr": "Sport BRA-M L-GREY, sélection ALSAMAH.",
+      "ar": "Sport BRA-M L-GREY",
+      "en": "Sport BRA-M L-GREY, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Sport BRA-M L-GREY",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 199.0,
+    "price": 139,
+    "stock": 1.0,
+    "sizes": [
+      "M/L"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.walmart.com/ip/Women-s-3-Pack-Seamless-Comfortable-Sports-Bra-with-Removable-Pads-Full-Coverage-Pullover-Stretchy-Sports-Bras/3881971286",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-col-boutonne",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Col Boutonné",
+      "ar": "Ensemble Pyjama Col Boutonné",
+      "en": "Ensemble Pyjama Col Boutonné"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Col Boutonné, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Col Boutonné",
+      "en": "Ensemble Pyjama Col Boutonné, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Col Boutonné",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 3.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-2-pieces-decontracte",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama 2 pièces décontracté",
+      "ar": "Ensemble Pyjama 2 pièces décontracté",
+      "en": "Ensemble Pyjama 2 pièces décontracté"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama 2 pièces décontracté, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama 2 pièces décontracté",
+      "en": "Ensemble Pyjama 2 pièces décontracté, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama 2 pièces décontracté",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 3.0,
+    "sizes": [
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pull-col-montant-garcon",
+    "brand": "ALSAMAH",
+    "category": "enfants",
+    "categoryName": "Enfants",
+    "subcategory": null,
+    "name": {
+      "fr": "Pull col montant garçon",
+      "ar": "Pull col montant garçon",
+      "en": "Pull col montant garçon"
+    },
+    "short": {
+      "fr": "Pull col montant garçon, sélection ALSAMAH.",
+      "ar": "Pull col montant garçon",
+      "en": "Pull col montant garçon, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pull col montant garçon",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 129.0,
+    "price": 90,
+    "stock": 17.0,
+    "sizes": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "2",
+      "6",
+      "8"
+    ],
+    "colors": [
+      {
+        "id": "rose",
+        "label": {
+          "fr": "Rose",
+          "ar": "وردي",
+          "en": "Pink"
+        },
+        "hex": "#c9828e",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.monoprix.fr/p/mode/pulls-gilets/sous-pull-uni-a-col-montant-torsade-6855756.html",
+    "variantCount": 9,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "lace-wrist-armes",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Lace Wrist Armes",
+      "ar": "Lace Wrist Armes",
+      "en": "Lace Wrist Armes"
+    },
+    "short": {
+      "fr": "Lace Wrist Armes, sélection ALSAMAH.",
+      "ar": "Lace Wrist Armes",
+      "en": "Lace Wrist Armes, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Lace Wrist Armes",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 45.0,
+    "price": 31,
+    "stock": 20.0,
+    "sizes": [
+      "Free Size"
+    ],
+    "colors": [
+      {
+        "id": "saumon",
+        "label": {
+          "fr": "Saumon",
+          "ar": "سلموني",
+          "en": "Salmon"
+        },
+        "hex": "#d79079",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "bleu",
+        "label": {
+          "fr": "Bleu",
+          "ar": "أزرق",
+          "en": "Blue"
+        },
+        "hex": "#36608d",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "bordeaux",
+        "label": {
+          "fr": "Bordeaux",
+          "ar": "عنابي",
+          "en": "Burgundy"
+        },
+        "hex": "#6e2639",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/lace-wrist-armes?variant=47582598365344",
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pack-men-ankle-simple-sport-cotton-socks",
+    "brand": "ALSAMAH",
+    "category": "homme",
+    "categoryName": "Homme",
+    "subcategory": null,
+    "name": {
+      "fr": "Pack Men Ankle Simple Sport Cotton socks",
+      "ar": "Pack Men Ankle Simple Sport Cotton socks",
+      "en": "Pack Men Ankle Simple Sport Cotton socks"
+    },
+    "short": {
+      "fr": "Pack Men Ankle Simple Sport Cotton socks, sélection ALSAMAH.",
+      "ar": "Pack Men Ankle Simple Sport Cotton socks",
+      "en": "Pack Men Ankle Simple Sport Cotton socks, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Pack Men Ankle Simple Sport Cotton socks",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 109.0,
+    "price": 76,
+    "stock": 33.0,
+    "sizes": [
+      "Free Size"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/ankle-1",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "collants-anti-cernes",
+    "brand": "ALSAMAH",
+    "category": "autres",
+    "categoryName": "Hosiery & Accessories",
+    "subcategory": null,
+    "name": {
+      "fr": "collants anti-cernes",
+      "ar": "collants anti-cernes",
+      "en": "collants anti-cernes"
+    },
+    "short": {
+      "fr": "collants anti-cernes, sélection ALSAMAH.",
+      "ar": "collants anti-cernes",
+      "en": "collants anti-cernes, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "collants anti-cernes",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 83.0,
+    "price": 58,
+    "stock": 69.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/lycra-matt-tight-30den",
+    "variantCount": 4,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "grille-de-prise-fantasia-epaisseur-40",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Grille de prise Fantasia épaisseur 40",
+      "ar": "Grille de prise Fantasia épaisseur 40",
+      "en": "Grille de prise Fantasia épaisseur 40"
+    },
+    "short": {
+      "fr": "Grille de prise Fantasia épaisseur 40, sélection ALSAMAH.",
+      "ar": "Grille de prise Fantasia épaisseur 40",
+      "en": "Grille de prise Fantasia épaisseur 40, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Grille de prise Fantasia épaisseur 40",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 70.0,
+    "price": 49,
+    "stock": 6.0,
+    "sizes": [
+      "Free Size"
+    ],
+    "colors": [
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "couvre-bras-aleen",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "couvre-bras aleen",
+      "ar": "couvre-bras aleen",
+      "en": "couvre-bras aleen"
+    },
+    "short": {
+      "fr": "couvre-bras aleen, sélection ALSAMAH.",
+      "ar": "couvre-bras aleen",
+      "en": "couvre-bras aleen, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "couvre-bras aleen",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 45.0,
+    "price": 31,
+    "stock": 9.0,
+    "sizes": [
+      "Taille unique"
+    ],
+    "colors": [
+      {
+        "id": "non-renseignee",
+        "label": {
+          "fr": "Non renseignée",
+          "ar": "non renseignée",
+          "en": "Non renseignée"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "contour-effect-ultra-sheer-15-den-silk-reflections-full-control-top",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,",
+      "ar": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,",
+      "en": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,"
+    },
+    "short": {
+      "fr": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,, sélection ALSAMAH.",
+      "ar": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,",
+      "en": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 105.0,
+    "price": 74,
+    "stock": 3.0,
+    "sizes": [
+      "M/L"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/contour-tight",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-ecru-volants-sweet-pantalon-quadrille-prune",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune",
+      "ar": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune",
+      "en": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune, sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune",
+      "en": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 1.0,
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "rouge",
+        "label": {
+          "fr": "Rouge",
+          "ar": "أحمر",
+          "en": "Red"
+        },
+        "hex": "#a7473e",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-terracotta-a-pois-weekending",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Ensemble Pyjama Terracotta à Pois « Weekending »",
+      "ar": "Ensemble Pyjama Terracotta à Pois « Weekending »",
+      "en": "Ensemble Pyjama Terracotta à Pois « Weekending »"
+    },
+    "short": {
+      "fr": "Ensemble Pyjama Terracotta à Pois « Weekending », sélection ALSAMAH.",
+      "ar": "Ensemble Pyjama Terracotta à Pois « Weekending »",
+      "en": "Ensemble Pyjama Terracotta à Pois « Weekending », an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Ensemble Pyjama Terracotta à Pois « Weekending »",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 4.0,
+    "sizes": [
+      "L",
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "orange",
+        "label": {
+          "fr": "Orange",
+          "ar": "برتقالي",
+          "en": "Orange"
+        },
+        "hex": "#c8733d",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pyjama-dentel-chic-avec-pantalon-dentel",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "pyjama dentel chic avec pantalon dentel",
+      "ar": "pyjama dentel chic avec pantalon dentel",
+      "en": "pyjama dentel chic avec pantalon dentel"
+    },
+    "short": {
+      "fr": "pyjama dentel chic avec pantalon dentel, sélection ALSAMAH.",
+      "ar": "pyjama dentel chic avec pantalon dentel",
+      "en": "pyjama dentel chic avec pantalon dentel, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "pyjama dentel chic avec pantalon dentel",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.01,
+    "price": 265,
+    "stock": 12.0,
+    "sizes": [
+      "2XL",
+      "4XL",
+      "6XL"
+    ],
+    "colors": [
+      {
+        "id": "vert-kaki",
+        "label": {
+          "fr": "Vert kaki",
+          "ar": "vert kaki",
+          "en": "Vert kaki"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 6,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "robe-dos-nu-fleuri",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "robe dos nu fleuri",
+      "ar": "robe dos nu fleuri",
+      "en": "robe dos nu fleuri"
+    },
+    "short": {
+      "fr": "robe dos nu fleuri, sélection ALSAMAH.",
+      "ar": "robe dos nu fleuri",
+      "en": "robe dos nu fleuri, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "robe dos nu fleuri",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 1.0,
+    "sizes": [
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "blanc-casse",
+        "label": {
+          "fr": "Blanc cassé",
+          "ar": "أوف وايت",
+          "en": "Off-white"
+        },
+        "hex": "#e9e2d2",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pyjama-long-pour-femme-avec-des-fleur-imprime-au-col",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "pyjama long pour femme avec des fleur imprime au col",
+      "ar": "pyjama long pour femme avec des fleur imprime au col",
+      "en": "pyjama long pour femme avec des fleur imprime au col"
+    },
+    "short": {
+      "fr": "pyjama long pour femme avec des fleur imprime au col, sélection ALSAMAH.",
+      "ar": "pyjama long pour femme avec des fleur imprime au col",
+      "en": "pyjama long pour femme avec des fleur imprime au col, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "pyjama long pour femme avec des fleur imprime au col",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 4.0,
+    "sizes": [
+      "3XL",
+      "4XL",
+      "6XL"
+    ],
+    "colors": [
+      {
+        "id": "gris",
+        "label": {
+          "fr": "Gris",
+          "ar": "رمادي",
+          "en": "Gray"
+        },
+        "hex": "#a8aaad",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "nuisette-longue-ouvert-sexy",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "nuisette longue ouvert sexy",
+      "ar": "nuisette longue ouvert sexy",
+      "en": "nuisette longue ouvert sexy"
+    },
+    "short": {
+      "fr": "nuisette longue ouvert sexy, sélection ALSAMAH.",
+      "ar": "nuisette longue ouvert sexy",
+      "en": "nuisette longue ouvert sexy, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "nuisette longue ouvert sexy",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 259.0,
+    "price": 181,
+    "stock": 7.0,
+    "sizes": [
+      "3XL",
+      "L",
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "rose",
+        "label": {
+          "fr": "Rose",
+          "ar": "وردي",
+          "en": "Pink"
+        },
+        "hex": "#c9828e",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "bleu-ciel",
+        "label": {
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
+        },
+        "hex": "#91b9d0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "corset-boxer-taille-haute-en-dentelle",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Corset boxer taille haute en dentelle",
+      "ar": "Corset boxer taille haute en dentelle",
+      "en": "Corset boxer taille haute en dentelle"
+    },
+    "short": {
+      "fr": "Corset boxer taille haute en dentelle, sélection ALSAMAH.",
+      "ar": "Corset boxer taille haute en dentelle",
+      "en": "Corset boxer taille haute en dentelle, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Corset boxer taille haute en dentelle",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 320.0,
+    "price": 224,
+    "stock": 2.0,
+    "sizes": [
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.emaykorse.com/ten-mi-emay-2091-onu-dantelli-yuksek-bel-boxer-korse",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "boxer-model-corset",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Boxer Model Corset",
+      "ar": "Boxer Model Corset",
+      "en": "Boxer Model Corset"
+    },
+    "short": {
+      "fr": "Boxer Model Corset, sélection ALSAMAH.",
+      "ar": "Boxer Model Corset",
+      "en": "Boxer Model Corset, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Boxer Model Corset",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 385.0,
+    "price": 270,
+    "stock": 13.0,
+    "sizes": [
+      "3/4 XL",
+      "M",
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/boxer-model-corset",
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "cotton-4-elastane-short-sleeves",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "% Cotton 4% Elastane Short Sleeves",
+      "ar": "% Cotton 4% Elastane Short Sleeves",
+      "en": "% Cotton 4% Elastane Short Sleeves"
+    },
+    "short": {
+      "fr": "% Cotton 4% Elastane Short Sleeves, sélection ALSAMAH.",
+      "ar": "% Cotton 4% Elastane Short Sleeves",
+      "en": "% Cotton 4% Elastane Short Sleeves, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "% Cotton 4% Elastane Short Sleeves",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 99.0,
+    "price": 69,
+    "stock": 5.0,
+    "sizes": [
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/short-sleeves",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "cotton-girls-half-sleeve-undershirt",
+    "brand": "ALSAMAH",
+    "category": "enfants",
+    "categoryName": "Enfants",
+    "subcategory": null,
+    "name": {
+      "fr": "% Cotton Girls' Half Sleeve Undershirt",
+      "ar": "% Cotton Girls' Half Sleeve Undershirt",
+      "en": "% Cotton Girls' Half Sleeve Undershirt"
+    },
+    "short": {
+      "fr": "% Cotton Girls' Half Sleeve Undershirt, sélection ALSAMAH.",
+      "ar": "% Cotton Girls' Half Sleeve Undershirt",
+      "en": "% Cotton Girls' Half Sleeve Undershirt, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "% Cotton Girls' Half Sleeve Undershirt",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 170.0,
+    "price": 119,
+    "stock": 4.67,
+    "sizes": [
+      "10",
+      "14"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/girls-half-sleeve-undershirt",
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "debardeur-corset-en-coton",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Débardeur corset en coton",
+      "ar": "Débardeur corset en coton",
+      "en": "Débardeur corset en coton"
+    },
+    "short": {
+      "fr": "Débardeur corset en coton, sélection ALSAMAH.",
+      "ar": "Débardeur corset en coton",
+      "en": "Débardeur corset en coton, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Débardeur corset en coton",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 179.0,
+    "price": 125,
+    "stock": 5.0,
+    "sizes": [
+      "2XL",
+      "S",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.emaykorse.com/siyah-mi-emay-1401-modal-cotton-kadin-atlet-korse",
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "couvre-orteils-elegant",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "couvre-orteils élégant",
+      "ar": "couvre-orteils élégant",
+      "en": "couvre-orteils élégant"
+    },
+    "short": {
+      "fr": "couvre-orteils élégant, sélection ALSAMAH.",
+      "ar": "couvre-orteils élégant",
+      "en": "couvre-orteils élégant, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "couvre-orteils élégant",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 60.0,
+    "price": 42,
+    "stock": 8.0,
+    "sizes": [
+      "Free Size"
+    ],
+    "colors": [
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/petra-toe-cover",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "chaussettes-montantes-romantiques",
+    "brand": "ALSAMAH",
+    "category": "autres",
+    "categoryName": "Hosiery & Accessories",
+    "subcategory": null,
+    "name": {
+      "fr": "chaussettes montantes romantiques",
+      "ar": "chaussettes montantes romantiques",
+      "en": "chaussettes montantes romantiques"
+    },
+    "short": {
+      "fr": "chaussettes montantes romantiques, sélection ALSAMAH.",
+      "ar": "chaussettes montantes romantiques",
+      "en": "chaussettes montantes romantiques, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "chaussettes montantes romantiques",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 120.0,
+    "price": 84,
+    "stock": 1.0,
+    "sizes": [
+      "Free Size"
+    ],
+    "colors": [
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/leen-panty-80den",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-pour-homme",
+    "brand": "ALSAMAH",
+    "category": "homme",
+    "categoryName": "Homme",
+    "subcategory": null,
+    "name": {
+      "fr": "ensemble pyjama pour homme",
+      "ar": "ensemble pyjama pour homme",
+      "en": "ensemble pyjama pour homme"
+    },
+    "short": {
+      "fr": "ensemble pyjama pour homme, sélection ALSAMAH.",
+      "ar": "ensemble pyjama pour homme",
+      "en": "ensemble pyjama pour homme, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "ensemble pyjama pour homme",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 1.0,
+    "sizes": [
+      "3XL"
+    ],
+    "colors": [
+      {
+        "id": "bleu-ciel",
+        "label": {
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
+        },
+        "hex": "#91b9d0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pyjama-longue-dentel-demi-manche-pour-femme-fleuri",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "pyjama longue dentel demi manche pour femme fleuri",
+      "ar": "pyjama longue dentel demi manche pour femme fleuri",
+      "en": "pyjama longue dentel demi manche pour femme fleuri"
+    },
+    "short": {
+      "fr": "pyjama longue dentel demi manche pour femme fleuri, sélection ALSAMAH.",
+      "ar": "pyjama longue dentel demi manche pour femme fleuri",
+      "en": "pyjama longue dentel demi manche pour femme fleuri, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "pyjama longue dentel demi manche pour femme fleuri",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 2.0,
+    "sizes": [
+      "M"
+    ],
+    "colors": [
+      {
+        "id": "bleu-ciel",
+        "label": {
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
+        },
+        "hex": "#91b9d0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "soutien-gorge-d-allaitement-en-coton",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Soutien-gorge d'allaitement en coton",
+      "ar": "Soutien-gorge d'allaitement en coton",
+      "en": "Soutien-gorge d'allaitement en coton"
+    },
+    "short": {
+      "fr": "Soutien-gorge d'allaitement en coton, sélection ALSAMAH.",
+      "ar": "Soutien-gorge d'allaitement en coton",
+      "en": "Soutien-gorge d'allaitement en coton, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Soutien-gorge d'allaitement en coton",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 169.0,
+    "price": 118,
+    "stock": 2.0,
+    "sizes": [
+      "L",
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      },
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.emaykorse.com/siyah-mi-emay-1421-modal-cotton-emzirme-sutyen",
+    "variantCount": 2,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "doubled-slip-corset-with-high",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Doubled Slip Corset With High",
+      "ar": "Doubled Slip Corset With High",
+      "en": "Doubled Slip Corset With High"
+    },
+    "short": {
+      "fr": "Doubled Slip Corset With High, sélection ALSAMAH.",
+      "ar": "Doubled Slip Corset With High",
+      "en": "Doubled Slip Corset With High, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Doubled Slip Corset With High",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 295.0,
+    "price": 206,
+    "stock": 1.0,
+    "sizes": [
+      "3/4 XL"
+    ],
+    "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/doubled-slip-corset-with-high-rise",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "doubled-slip-corset-with-high-rise",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "Doubled Slip Corset With High-Rise",
+      "ar": "Doubled Slip Corset With High-Rise",
+      "en": "Doubled Slip Corset With High-Rise"
+    },
+    "short": {
+      "fr": "Doubled Slip Corset With High-Rise, sélection ALSAMAH.",
+      "ar": "Doubled Slip Corset With High-Rise",
+      "en": "Doubled Slip Corset With High-Rise, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "Doubled Slip Corset With High-Rise",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 295.0,
+    "price": 206,
+    "stock": 6.0,
+    "sizes": [
+      "S"
+    ],
+    "colors": [
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": "https://www.alsamah.com/products/doubled-slip-corset-with-high-rise",
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "pyjama-panda",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "PYJAMA PANDA",
+      "ar": "PYJAMA PANDA",
+      "en": "PYJAMA PANDA"
+    },
+    "short": {
+      "fr": "PYJAMA PANDA, sélection ALSAMAH.",
+      "ar": "PYJAMA PANDA",
+      "en": "PYJAMA PANDA, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "PYJAMA PANDA",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 389.0,
+    "price": 272,
+    "stock": 6.0,
+    "sizes": [
+      "L",
+      "M",
+      "XL"
+    ],
+    "colors": [
+      {
+        "id": "saumon-blanc",
+        "label": {
+          "fr": "Saumon/blanc",
+          "ar": "saumon/blanc",
+          "en": "Saumon/blanc"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 3,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "ensemble-pyjama-d-ete-pour-femme-avec-pantakour",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "ensemble pyjama d ete pour femme avec pantakour",
+      "ar": "ensemble pyjama d ete pour femme avec pantakour",
+      "en": "ensemble pyjama d ete pour femme avec pantakour"
+    },
+    "short": {
+      "fr": "ensemble pyjama d ete pour femme avec pantakour, sélection ALSAMAH.",
+      "ar": "ensemble pyjama d ete pour femme avec pantakour",
+      "en": "ensemble pyjama d ete pour femme avec pantakour, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "ensemble pyjama d ete pour femme avec pantakour",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 389.0,
+    "price": 272,
+    "stock": 1.0,
+    "sizes": [
+      "Taille unique"
+    ],
+    "colors": [
+      {
+        "id": "non-renseignee",
+        "label": {
+          "fr": "Non renseignée",
+          "ar": "non renseignée",
+          "en": "Non renseignée"
+        },
+        "hex": "#8a8882",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
+  },
+  {
+    "id": "nuisette-longue-bretelle-avec-peignoir",
+    "brand": "ALSAMAH",
+    "category": "femme",
+    "categoryName": "Fashion Femme",
+    "subcategory": null,
+    "name": {
+      "fr": "nuisette longue bretelle avec peignoir",
+      "ar": "nuisette longue bretelle avec peignoir",
+      "en": "nuisette longue bretelle avec peignoir"
+    },
+    "short": {
+      "fr": "nuisette longue bretelle avec peignoir, sélection ALSAMAH.",
+      "ar": "nuisette longue bretelle avec peignoir",
+      "en": "nuisette longue bretelle avec peignoir, an ALSAMAH essential."
+    },
+    "description": {
+      "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquées.",
+      "ar": "nuisette longue bretelle avec peignoir",
+      "en": "ALSAMAH product available in the listed sizes and colors."
+    },
+    "regularPrice": 419.0,
+    "price": 293,
+    "stock": 1.0,
+    "sizes": [
+      "L"
+    ],
+    "colors": [
+      {
+        "id": "rose",
+        "label": {
+          "fr": "Rose",
+          "ar": "وردي",
+          "en": "Pink"
+        },
+        "hex": "#c9828e",
+        "image": null,
+        "imageKind": "missing",
+        "lifestyleImage": null
+      }
+    ],
+    "purchasable": true,
+    "imageStatus": "missing",
+    "sourcePage": null,
+    "variantCount": 1,
+    "missing": {
+      "price": false,
+      "category": false,
+      "image": true
+    }
   }
 ]
