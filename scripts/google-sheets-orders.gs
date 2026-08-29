@@ -20,11 +20,7 @@ function doPost(e) {
   if (!sheet) {
     sheet = SpreadsheetApp.getActiveSpreadsheet().insertSheet(SHEET_NAME);
   }
-  if (sheet.getLastRow() === 0) {
-    sheet.appendRow(HEADERS);
-    sheet.setFrozenRows(1);
-    sheet.setColumnWidth(IMAGE_COLUMN, 90);
-  }
+  ensureHeaders(sheet);
 
   var order = JSON.parse(e.postData.contents);
   var customer = order.customer || {};
@@ -57,4 +53,26 @@ function doPost(e) {
   });
 
   return ContentService.createTextOutput(JSON.stringify({ ok: true })).setMimeType(ContentService.MimeType.JSON);
+}
+
+// Forces row 1 to match HEADERS exactly, every single call. Self-healing: works whether
+// the sheet is brand new, already has data, or has stale headers from an older version
+// of this script — no manual sheet surgery ever required after a schema change.
+function ensureHeaders(sheet) {
+  var headerRange = sheet.getRange(1, 1, 1, HEADERS.length);
+  var current = sheet.getLastRow() >= 1 ? headerRange.getValues()[0] : [];
+  var matches = current.length === HEADERS.length && current.every(function (value, index) {
+    return value === HEADERS[index];
+  });
+  if (matches) return;
+
+  if (sheet.getLastRow() === 0) {
+    sheet.appendRow(HEADERS);
+  } else {
+    sheet.insertRowBefore(1);
+    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
+  }
+  sheet.getRange(1, 1, 1, HEADERS.length).setFontWeight("bold");
+  sheet.setFrozenRows(1);
+  sheet.setColumnWidth(IMAGE_COLUMN, 90);
 }

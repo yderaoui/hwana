@@ -51,6 +51,10 @@ App as a free, serverless endpoint — no backend needed.
   `=IMAGE(...)` formula in the Image column, rendering that item's product photo inline.
 - If `VITE_ORDERS_SHEET_URL` is unset, the app behaves exactly as before — order only
   saved to `localStorage`, no network call made.
+- Every call also self-heals the header row: if row 1 doesn't exactly match the expected
+  column titles (missing, blank sheet, or left over from an older version of this
+  script), it inserts a fresh, correct header row above whatever was already there —
+  it never overwrites or deletes existing rows, just shifts them down by one.
 
 ### About the product images
 
@@ -78,9 +82,12 @@ version. To pick up a change:
 4. The Web app URL stays the same — no need to touch `VITE_ORDERS_SHEET_URL` or redeploy
    the site.
 
-If you changed the column layout (like moving from one-row-per-order to one-row-per-item),
-old rows already in the sheet won't match the new headers. Clear the sheet's existing
-rows (keep or re-paste the header row) so the columns line up cleanly going forward.
+If the column layout changed (like moving from one-row-per-order to one-row-per-item),
+you don't need to manually fix the header row — the next order that comes in will insert
+a correct one automatically (see "self-heals the header row" above). Rows placed under
+the *old* layout, before this fix existed, will still have their old columns misaligned
+under the new headers — those are worth clearing out by hand since old data can't be
+reshuffled automatically, but nothing new will drift out of alignment again.
 
 ## Testing it
 
