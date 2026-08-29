@@ -249,7 +249,8 @@ function App() {
     const items = cart.map((line) => {
       const product = products.find((item) => item.id === line.productId);
       const color = product?.colors.find((item) => item.id === line.colorId);
-      return { name: product?.name[language] ?? line.productId, color: color?.label[language] ?? line.colorId, size: line.size, quantity: line.quantity, unitPrice: line.unitPrice, lineTotal: line.unitPrice * line.quantity };
+      const image = color?.image ? new URL(color.image, window.location.origin).toString() : "";
+      return { name: product?.name[language] ?? line.productId, color: color?.label[language] ?? line.colorId, size: line.size, quantity: line.quantity, unitPrice: line.unitPrice, lineTotal: line.unitPrice * line.quantity, image };
     });
     const order = { id, customer, items, payment: "cash_on_delivery", total: Math.round(cartTotal), createdAt: new Date().toISOString() };
     localStorage.setItem("hawana-last-order", JSON.stringify(order));

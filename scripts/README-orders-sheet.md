@@ -45,10 +45,42 @@ App as a free, serverless endpoint — no backend needed.
   using `mode: "no-cors"` (a browser requirement for calling Apps Script directly — it
   means the app can't read the response, so the "order confirmed" screen doesn't wait on
   or depend on the sheet write succeeding).
-- The Apps Script's `doPost` appends one row per order: order ID, date, customer name,
-  phone, city, address, an items summary, the total, and the payment method.
+- The Apps Script's `doPost` appends **one row per item**, not per order — a 3-item
+  order becomes 3 rows, with the order/customer fields (order ID, date, name, phone,
+  city, address, order total, payment) repeated on each one. Each row also gets an
+  `=IMAGE(...)` formula in the Image column, rendering that item's product photo inline.
 - If `VITE_ORDERS_SHEET_URL` is unset, the app behaves exactly as before — order only
   saved to `localStorage`, no network call made.
+
+### About the product images
+
+`=IMAGE()` is fetched by Google's servers, not your browser — so the URL in the sheet
+must be a real, publicly reachable address. The app builds it from each product's image
+path resolved against the page's own origin (`window.location.origin`), which means:
+- On the **deployed site** (Vercel etc.), images resolve to that public domain and load
+  fine.
+- On **localhost** during `npm run dev`, the URL resolves to `http://127.0.0.1:...` —
+  which Google's servers can't reach, so the Image cell will show a broken-image icon
+  during local testing. This isn't a bug; test the image rendering against the deployed
+  URL, not localhost.
+
+## Already deployed and the script changed?
+
+Editing `scripts/google-sheets-orders.gs` in this repo does **not** touch your live
+deployment — Apps Script only updates what's actually live when you publish a new
+version. To pick up a change:
+
+1. Open the same Apps Script project (**Extensions > Apps Script** on the sheet).
+2. Select all the existing code and replace it with the new contents of
+   `google-sheets-orders.gs`. Save.
+3. **Deploy > Manage deployments** > click the pencil (edit) icon on the existing
+   deployment > **Version: New version** > **Deploy**.
+4. The Web app URL stays the same — no need to touch `VITE_ORDERS_SHEET_URL` or redeploy
+   the site.
+
+If you changed the column layout (like moving from one-row-per-order to one-row-per-item),
+old rows already in the sheet won't match the new headers. Clear the sheet's existing
+rows (keep or re-paste the header row) so the columns line up cleanly going forward.
 
 ## Testing it
 
