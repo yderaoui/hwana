@@ -29,6 +29,7 @@ const categoryLabels: Record<Filter, LocalizedText> = {
 };
 
 const retailSubcategoryLabels: Record<ProductSubcategory, LocalizedText> = {
+  lingerie: { fr: "Lingerie", ar: "لانجري", en: "Lingerie" },
   "soutien-gorge": { fr: "Soutiens-gorge", ar: "حمالات صدر", en: "Bras" },
   culottes: { fr: "Slips & boxers", ar: "سراويل داخلية", en: "Briefs & boxers" },
   corsets: { fr: "Gainants", ar: "مشدات", en: "Shapewear" },
@@ -47,7 +48,7 @@ const productCategoryLabel = (product: Product, language: Language) =>
   categoryLabels[product.category as Filter]?.[language] ?? product.categoryName ?? product.category;
 
 const productSubcategoryLabel = (product: Product, language: Language) =>
-  product.subcategory ? retailSubcategoryLabels[product.subcategory][language] : productCategoryLabel(product, language);
+  product.subcategory ? retailSubcategoryLabels[product.subcategory]?.[language] ?? product.subcategory : productCategoryLabel(product, language);
 
 const elkoAvailableCopy: LocalizedText = {
   fr: "Des basiques coton propres et confortables, disponibles en slips, boxers, débardeurs et t-shirts.",
@@ -370,7 +371,7 @@ function App() {
   };
 
   const media = campaignMedia as { heroVideo: string | null; cinematicHeroVideo?: string | null; runwayHeroVideo?: string | null; houseVideo?: string | null; packVideo?: string | null; bodyVideo?: string | null; fitVideo?: string | null; kidsVideo?: string | null; hosieryVideo?: string | null };
-  const categories: { filter: Filter; label: string; image: string; video: string | null }[] = [{ filter: "femme", label: t.catalog.women, image: "/assets/official/body-top-bretelles.jpg", video: media.bodyVideo ?? null }, { filter: "homme", label: t.catalog.men, image: "/assets/lifestyle/round-neck-navy-worn.webp", video: media.fitVideo ?? media.heroVideo }, { filter: "enfants", label: t.catalog.kids, image: "/assets/official/leen-girls-legging.jpg", video: null }, { filter: "autres", label: language === "ar" ? "جوارب" : language === "en" ? "Hosiery" : "Collants", image: "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg", video: media.hosieryVideo ?? null }];
+  const categories: { filter: Filter; label: string; image: string; video: string | null }[] = [{ filter: "femme", label: t.catalog.women, image: "/assets/official/body-top-bretelles.jpg", video: media.bodyVideo ?? null }, { filter: "homme", label: t.catalog.men, image: "/assets/lifestyle/round-neck-navy-worn.webp", video: media.fitVideo ?? media.heroVideo }, { filter: "enfants", label: t.catalog.kids, image: "/assets/official/leen-girls-legging.jpg", video: null }, { filter: "autres", label: t.catalog.other, image: "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg", video: media.hosieryVideo ?? null }];
   const campaignStories = [{ image: "/assets/lifestyle/round-neck-navy-worn.webp", video: media.heroVideo, title: language === "ar" ? "قميص رجالي بياقة دائرية" : language === "en" ? "Men’s round-neck top" : "Haut homme col rond", detail: language === "ar" ? "أزرق داكن" : language === "en" ? "Navy" : "Bleu marine" }, { image: "/assets/lifestyle/body-offwhite-worn.webp", video: media.bodyVideo ?? null, title: language === "ar" ? "بودي بأكمام قصيرة" : language === "en" ? "Short-sleeve body" : "Body manches courtes", detail: language === "ar" ? "أبيض مائل للسكري" : language === "en" ? "Off-white" : "Blanc cassé" }, { image: "/assets/lifestyle/v-neck-gray-worn.webp", video: media.fitVideo ?? null, title: language === "ar" ? "قميص بياقة V" : language === "en" ? "V-neck top" : "Haut col V", detail: language === "ar" ? "رمادي" : language === "en" ? "Grey" : "Gris" }];
   const colorItems = packProducts.flatMap((product) => product.colors.map((color) => ({ product, color }))).filter((item) => item.color.image).slice(0, 16);
   const heroVideo = media.runwayHeroVideo ?? media.cinematicHeroVideo ?? media.heroVideo;

@@ -450,13 +450,17 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
 .hero-brandbar > div img { width: 88px; height: 44px; padding: 7px; object-fit: contain; background: rgba(255,255,255,.9); }
 .hero-copy {
   position: absolute;
-  z-index: 4;
+  z-index: 8;
   inset: auto auto clamp(92px, 11vh, 145px) max(40px, calc((100vw - 1560px) / 2));
   width: min(1280px, calc(100vw - 96px));
   min-height: 0;
   padding: 0;
   overflow: visible;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
 }
+.hero-copy > * { opacity: 1 !important; visibility: visible !important; transform: none !important; }
 .hero-copy h1 { max-width: 1120px; font-size: clamp(4.6rem, 8.2vw, 10.5rem); font-weight: 500; line-height: .8; }
 .hero-copy h1 span { white-space: normal; }
 .hero-copy h1 span:last-child { margin-inline-start: clamp(40px, 10vw, 180px); color: var(--orange); }
