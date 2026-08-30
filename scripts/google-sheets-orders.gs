@@ -16,43 +16,85 @@ var HEADERS = [
 ];
 
 function doPost(e) {
-  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
-  if (!sheet) {
-    sheet = SpreadsheetApp.getActiveSpreadsheet().insertSheet(SHEET_NAME);
-  }
-  ensureHeaders(sheet);
-
-  var order = JSON.parse(e.postData.contents);
-  var customer = order.customer || {};
-  var items = (order.items && order.items.length) ? order.items : [{}];
-
-  items.forEach(function (item) {
-    sheet.appendRow([
-      order.id || "",
-      order.createdAt || new Date().toISOString(),
-      customer.name || "",
-      customer.phone || "",
-      customer.city || "",
-      customer.address || "",
-      "", // image cell — filled in below with a real =IMAGE() formula, not a plain value
-      item.name || "",
-      item.color || "",
-      item.size || "",
-      item.quantity || "",
-      item.unitPrice || "",
-      item.lineTotal || "",
-      order.total || "",
-      order.payment || "",
-    ]);
-
-    var lastRow = sheet.getLastRow();
-    if (item.image) {
-      sheet.getRange(lastRow, IMAGE_COLUMN).setFormula('=IMAGE("' + item.image + '", 4, 80, 80)');
+  var lock = LockService.getDocumentLock();
+  lock.waitLock(10000);
+  try {
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+    if (!sheet) {
+      sheet = SpreadsheetApp.getActiveSpreadsheet().insertSheet(SHEET_NAME);
     }
-    sheet.setRowHeight(lastRow, 84);
-  });
+    ensureHeaders(sheet);
 
-  return ContentService.createTextOutput(JSON.stringify({ ok: true })).setMimeType(ContentService.MimeType.JSON);
+    var order = JSON.parse((e.postData && e.postData.contents) || "{}");
+    if (!order.id) throw new Error("Missing order id");
+    if (orderExists(sheet, order.id)) {
+      return jsonResponse({ ok: true, duplicate: true, id: order.id });
+    }
+
+    var customer = order.customer || {};
+    var items = (order.items && order.items.length) ? order.items : [{}];
+
+    items.forEach(function (item) {
+      sheet.appendRow([
+        safeText(order.id),
+        safeText(order.createdAt || new Date().toISOString()),
+        safeText(customer.name),
+        safeText(customer.phone),
+        safeText(customer.city),
+        safeText(customer.address),
+        "", // image cell — filled in below with a real =IMAGE() formula, not a plain value
+        safeText(item.name),
+        safeText(item.color),
+        safeText(item.size),
+        safeNumber(item.quantity),
+        safeNumber(item.unitPrice),
+        safeNumber(item.lineTotal),
+        safeNumber(order.total),
+        safeText(order.payment),
+      ]);
+
+      var lastRow = sheet.getLastRow();
+      var imageUrl = safeImageUrl(item.image);
+      if (imageUrl) {
+        sheet.getRange(lastRow, IMAGE_COLUMN).setFormula('=IMAGE("' + imageUrl + '", 4, 80, 80)');
+      }
+      sheet.setRowHeight(lastRow, 84);
+    });
+
+    return jsonResponse({ ok: true, id: order.id });
+  } catch (error) {
+    return jsonResponse({ ok: false, error: String(error && error.message ? error.message : error) });
+  } finally {
+    lock.releaseLock();
+  }
+}
+
+function jsonResponse(payload) {
+  return ContentService.createTextOutput(JSON.stringify(payload)).setMimeType(ContentService.MimeType.JSON);
+}
+
+function orderExists(sheet, orderId) {
+  var lastRow = sheet.getLastRow();
+  if (lastRow < 2) return false;
+  var values = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
+  return values.some(function (row) {
+    return String(row[0]) === String(orderId);
+  });
+}
+
+function safeText(value) {
+  var text = String(value || "").trim();
+  return /^[=+\-@]/.test(text) ? "'" + text : text;
+}
+
+function safeNumber(value) {
+  var number = Number(value);
+  return isFinite(number) ? number : "";
+}
+
+function safeImageUrl(value) {
+  var url = String(value || "").trim().replace(/"/g, "%22");
+  return /^https?:\/\//i.test(url) ? url : "";
 }
 
 // Forces row 1 to match HEADERS exactly, every single call. Self-healing: works whether

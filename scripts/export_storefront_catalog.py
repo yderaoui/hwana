@@ -12,6 +12,7 @@ import json
 import re
 import unicodedata
 from collections import defaultdict
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -229,8 +230,7 @@ def export_catalog(input_path: Path, output_path: Path) -> None:
         if price is None:
             sale_price = None
         else:
-            discount = 0.30 if positive_stock >= 50 else 0.35 if positive_stock >= 11 else 0.40 if positive_stock >= 3 else 0.50
-            sale_price = round(price * (1 - discount))
+            sale_price = int((Decimal(str(price)) * Decimal("0.70")).quantize(Decimal("1"), rounding=ROUND_HALF_UP))
 
         original_images = [direct_image(clean(row.get("photo_urls"))) for row in variants]
         original_image = next((image for image in original_images if image), None)

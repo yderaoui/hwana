@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "check": "tsc -b --pretty false",
+    "catalog:launch": "python scripts/prepare_launch_catalog.py && python scripts/apply_excel_product_images.py",
     "assets:plan": "python scripts/kie_generate_assets.py --plan && python scripts/kie_generate_videos.py --plan",
     "assets:videos": "python scripts/kie_generate_videos.py",
     "assets:generate": "python scripts/kie_generate_videos.py"

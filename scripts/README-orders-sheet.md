@@ -45,6 +45,9 @@ App as a free, serverless endpoint — no backend needed.
   using `mode: "no-cors"` (a browser requirement for calling Apps Script directly — it
   means the app can't read the response, so the "order confirmed" screen doesn't wait on
   or depend on the sheet write succeeding).
+- The browser also keeps a local retry queue (`hawana-pending-orders`) and re-sends
+  queued orders when the site opens again. The Apps Script checks the order ID before
+  writing, so retries are safe and do not duplicate rows.
 - The Apps Script's `doPost` appends **one row per item**, not per order — a 3-item
   order becomes 3 rows, with the order/customer fields (order ID, date, name, phone,
   city, address, order total, payment) repeated on each one. Each row also gets an

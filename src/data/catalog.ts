@@ -33,6 +33,14 @@ export type ProductColor = {
   lifestyleImage?: string;
 };
 
+export type ProductVariant = {
+  id: string;
+  colorId: string;
+  size: string;
+  stock: number;
+  barcode?: string | null;
+};
+
 export type Product = {
   id: string;
   brand: string;
@@ -47,9 +55,11 @@ export type Product = {
   stock: number;
   sizes: string[];
   colors: ProductColor[];
+  variants?: ProductVariant[];
   purchasable: boolean;
   imageStatus: "generated" | "source" | "missing";
   sourcePage: string | null;
+  sourceWorkbook?: string;
   variantCount: number;
   missing: { price: boolean; category: boolean; image: boolean };
 };

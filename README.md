@@ -19,6 +19,24 @@ npm run build
 npm run preview
 ```
 
+## Launch preparation
+
+The storefront catalog can be refreshed from the private Excel files in this
+project root:
+
+```bash
+npm run catalog:launch
+```
+
+That command adds ELKO products, attaches available size/color stock variants,
+applies a flat 30% discount to Excel/base prices, and preserves only real or
+product-specific generated imagery.
+
+Before launching, deploy `scripts/google-sheets-orders.gs` as a Google Apps
+Script Web App and set `VITE_ORDERS_SHEET_URL` in the hosting environment.
+Orders are queued locally and retried from the browser; the sheet script is
+idempotent so retries do not duplicate rows.
+
 ## Optional campaign generation
 
 Copy `.env.example` to `.env`, add a Kie API key locally, then run:

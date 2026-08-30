@@ -155,12 +155,28 @@ class KieClient:
 def source_for(product: dict[str, Any]) -> Path | str | None:
     for color in product.get("colors", []):
         image = color.get("image")
+        if color.get("imageKind") == "fallback" or color.get("fallbackImage"):
+            continue
         candidate = local_asset(image)
         if candidate:
             return candidate
         if isinstance(image, str) and image.startswith(("https://", "http://")):
             return image
     return None
+
+
+def product_jobs(catalog: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    jobs: list[dict[str, Any]] = []
+    for product in catalog:
+        reference = source_for(product)
+        if not reference:
+            continue
+        for color in product.get("colors", []):
+            destination = PUBLIC / "assets" / "generated" / "products" / f"{slug(product['id'])}-{slug(color['id'])}.png"
+            if destination.exists() or color.get("imageKind") == "generated":
+                continue
+            jobs.append({"kind": "product", "product": product, "color": color, "reference": reference, "destination": destination})
+    return jobs
 
 
 def color_jobs(catalog: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -204,6 +220,13 @@ def prompt_for(job: dict[str, Any]) -> str:
             "Preserve the garment's cut, seams, neckline, sleeve length, proportions, fabric texture, and every construction detail exactly. "
             "Neutral warm studio, confident natural posture, full garment visible, realistic skin and fabric, soft directional light. "
             "Do not add logos, text, patterns, accessories covering the garment, or any extra product."
+        )
+    if job["kind"] == "product":
+        return (
+            f"Create a clean e-commerce catalog product image from the reference for {name} in {color_name}. "
+            "Preserve the exact garment type, cut, silhouette, seams, neckline, sleeve length, proportions, color, fabric texture, print, lace, packaging, and construction details from the reference. "
+            "Place the product on a warm off-white studio background with soft natural shadow, centered and fully visible. "
+            "Do not invent a different product. Do not add logos, readable text, people, extra garments, props, hangers, mannequins, or packaging that is not in the reference."
         )
     return (
         f"Recolor the exact {name} in the reference to {color_name}. Preserve the product's cut, seams, neckline, sleeve length, proportions, "
@@ -289,6 +312,7 @@ def main() -> int:
     parser.add_argument("--plan", action="store_true", help="Show safe generation counts without calling Kie")
     parser.add_argument("--credits", action="store_true", help="Show remaining Kie credits")
     parser.add_argument("--colors", action="store_true", help="Generate source-locked color variants")
+    parser.add_argument("--products", action="store_true", help="Generate one source-locked catalog product image per product/color")
     parser.add_argument("--lifestyle", action="store_true", help="Generate source-locked worn views")
     parser.add_argument("--video", action="store_true", help="Generate the 720p hero film")
     parser.add_argument("--all", action="store_true", help="Run colors, lifestyle, and video until complete or credits run out")
@@ -296,15 +320,17 @@ def main() -> int:
     args = parser.parse_args()
 
     catalog = read_json(CATALOG_PATH, [])
+    products = product_jobs(catalog)
     colors = color_jobs(catalog)
     lifestyles = lifestyle_jobs(catalog)
     source_ready = sum(1 for product in catalog if source_for(product))
     missing_source = len(catalog) - source_ready
 
-    if args.plan or not any((args.credits, args.colors, args.lifestyle, args.video, args.all)):
+    if args.plan or not any((args.credits, args.products, args.colors, args.lifestyle, args.video, args.all)):
         print(f"Catalog products: {len(catalog)}")
         print(f"Products with a verified source reference: {source_ready}")
         print(f"Products blocked until a reference arrives: {missing_source}")
+        print(f"Pending product image jobs: {len(products)}")
         print(f"Pending color jobs: {len(colors)}")
         print(f"Pending lifestyle jobs: {len(lifestyles)}")
         if args.plan:
@@ -319,8 +345,10 @@ def main() -> int:
 
     client = KieClient(api_key)
     print(f"Kie credits available: {client.credits():g}")
-    if args.credits and not any((args.colors, args.lifestyle, args.video, args.all)):
+    if args.credits and not any((args.products, args.colors, args.lifestyle, args.video, args.all)):
         return 0
+    if args.products or args.all:
+        print(f"Completed product image jobs: {run_jobs(client, catalog, products, args.max_jobs)}")
     if args.colors or args.all:
         print(f"Completed color jobs: {run_jobs(client, catalog, colors, args.max_jobs)}")
     if args.lifestyle or args.all:
