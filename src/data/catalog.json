@@ -3,7 +3,7 @@
     "id": "collants-brillants-ete-dayana",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants brillants été (Dayana)",
       "ar": "كولون لامع صيفي (دايانا)",
@@ -82,7 +82,7 @@
     "id": "collants-brillants",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants brillants",
       "ar": "كولون لامع",
@@ -257,7 +257,7 @@
     "id": "collants-brillants-dayana",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants brillants (Dayana)",
       "ar": "كولون لامع (دايانا)",
@@ -324,7 +324,7 @@
     "id": "manche-courte-col-rond",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Manche courte col rond",
       "ar": "أكمام قصيرة مع ياقة دائرية",
@@ -403,7 +403,7 @@
     "id": "manche-courte-col-v",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Manche courte col V",
       "ar": "أكمام قصيرة مع ياقة على شكل V",
@@ -690,7 +690,7 @@
     "id": "collants-a-motifs-havana",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants à motifs Havana",
       "ar": "كولون بنقوش هافانا",
@@ -960,7 +960,7 @@
     "id": "sport-bra",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "SPORT BRA",
       "ar": "سبور برا",
@@ -1227,7 +1227,7 @@
     "id": "collants-a-motifs-musica",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants à motifs Musica",
       "ar": "كولون بنقوش موسيكا",
@@ -1281,7 +1281,7 @@
     "id": "collants-a-motifs-peace",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants à motifs Peace",
       "ar": "كولون بنقوش بيس",
@@ -1335,7 +1335,7 @@
     "id": "slip-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme / Lingerie / Culotte",
+    "categoryName": "Femme",
     "name": {
       "fr": "Slip en microfibre sans couture",
       "ar": "سروال داخلي من الميكروفايبر بدون خياطة",
@@ -1478,7 +1478,7 @@
     "id": "corset-boxer-a-fesses-ouvertes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Corset boxer à fesses ouvertes",
@@ -2269,7 +2269,7 @@
     "id": "body-a-manches-courtes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body à manches courtes",
       "ar": "بودي بأكمام قصيرة",
@@ -2346,7 +2346,7 @@
     "id": "chaussettes-a-motifs-alice",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes à motifs Alice",
       "ar": "جوارب بنقوش أليس",
@@ -2407,7 +2407,7 @@
     "id": "chaussettes-en-crepe",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes en crêpe",
       "ar": "جوارب كريب",
@@ -2501,7 +2501,7 @@
     "id": "debardeur-col-en-v-100-coton",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Débardeur col en V 100 % coton",
       "ar": "قميص بدون أكمام وبياقة على شكل V مصنوع من القطن 100٪",
@@ -2568,7 +2568,7 @@
     "id": "collants-a-motif-tigre",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants à Motif Tigre",
       "ar": "كولون بنقش النمر",
@@ -2637,7 +2637,7 @@
     "id": "chaussettes-dentelle-fille",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CHAUSSETTES DENTELLE FILLE",
       "ar": "جوارب دانتيل للبنات",
@@ -2705,7 +2705,7 @@
     "id": "soutien-de-gorge-de-sport",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme / Lingerie / Soutien-gorge",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien de gorge de sport",
       "ar": "حمالة صدر رياضية",
@@ -2771,7 +2771,7 @@
     "id": "collant-push-up",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collant push up",
       "ar": "جوارب ضاغطة بتأثير رفع وشدّ القوام.",
@@ -2835,7 +2835,7 @@
     "id": "corset-long-leg",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset long leg",
       "ar": "كورسيه لونغ ليغ",
@@ -3106,7 +3106,7 @@
     "id": "debardeur-garcon-100-coton",
     "brand": "ALSAMAH",
     "category": "enfants",
-    "categoryName": "Moroccan Vibes / Enfants / Accessoires / Garçon / Sous - vêtements",
+    "categoryName": "Enfants",
     "name": {
       "fr": "Débardeur garçon 100 % coton",
       "ar": "قميص بلا أكمام للأولاد مصنوع من القطن 100٪",
@@ -3159,7 +3159,7 @@
     "id": "men-s-corset-boxer",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Men's corset boxer",
       "ar": "بوكسر مشد رجالي",
@@ -3226,7 +3226,7 @@
     "id": "debardeur-corset-en-coton",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Débardeur corset en coton",
@@ -3464,7 +3464,7 @@
     "id": "collants-anti-cernes",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "subcategory": null,
     "name": {
       "fr": "collants anti-cernes",
@@ -3573,7 +3573,7 @@
     "id": "chaussettes-en-coton-pour-femmes-diabetiques",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes en coton pour femmes diabétiques",
       "ar": "جوارب قطنية للنساء المصابات بالسكري",
@@ -3637,7 +3637,7 @@
     "id": "legging-opaque-epais-120-den-style-simple",
     "brand": "ALSAMAH",
     "category": "enfants",
-    "categoryName": "Enfants / FASHION / Accessoires / Fille / Sous - vêtements",
+    "categoryName": "Enfants",
     "name": {
       "fr": "Legging opaque épais - 120 den, style simple",
       "ar": "ليغينغ سميك غير شفاف - 120 دن بتصميم بسيط",
@@ -3715,7 +3715,7 @@
     "id": "chaussettes-hautes-brillantes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes hautes brillantes",
       "ar": "جوارب طويلة لامعة",
@@ -3846,7 +3846,7 @@
     "id": "lace-wrist-armes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Lace Wrist Armes",
@@ -3988,7 +3988,7 @@
     "id": "chaussettes-pour-enfants",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes pour enfants",
       "ar": "جوارب للأطفال",
@@ -4055,7 +4055,7 @@
     "id": "boxer-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Boxer en microfibre sans couture",
       "ar": "بوكسير ميكروفايبر بدون خياطة",
@@ -4133,7 +4133,7 @@
     "id": "chaussettes-brillantes-dayana",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes brillantes (Dayana)",
       "ar": "جوارب لامعة (دايانا)",
@@ -4197,7 +4197,7 @@
     "id": "top-body-a-bretelles",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Top body à bretelles",
       "ar": "قطعة داخلية برباطات كتف",
@@ -4298,7 +4298,7 @@
     "id": "boxer-en-coton",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Boxer en coton",
       "ar": "بوكسر رجالي",
@@ -4351,7 +4351,7 @@
     "id": "chaussettes-a-motifs-laryn",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes à motifs Laryn",
       "ar": "جوارب بنقوش لارين",
@@ -4403,7 +4403,7 @@
     "id": "manches-courtes-col-rond",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Manches courtes, col rond",
       "ar": "أكمام قصيرة مع ياقة دائرية",
@@ -4455,7 +4455,7 @@
     "id": "body-top-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body-top en microfibre sans couture",
       "ar": "بودي توب ميكروفايبر بدون خياطة",
@@ -4545,7 +4545,7 @@
     "id": "collants-pour-femmes-enceintes",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Collants pour femmes enceintes",
       "ar": "كولون للحوامل",
@@ -4655,7 +4655,7 @@
     "id": "chaussettes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes",
       "ar": "جوارب",
@@ -4707,7 +4707,7 @@
     "id": "chaussettes-resille",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes résille",
       "ar": "جوارب شبكية",
@@ -4759,7 +4759,7 @@
     "id": "corset-femme-a-poitrine-ouverte-avec-jambe-longue-facon-pantalon",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset femme à poitrine ouverte avec jambe longue façon pantalon",
       "ar": "مشّد نسائي مفتوح الصدر مع ساق طويلة بطراز بنطال",
@@ -4823,7 +4823,7 @@
     "id": "slip-hi-cuts",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Slip Hi-Cuts",
@@ -5045,7 +5045,7 @@
     "id": "brassiere-sport",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Brassière sport",
       "ar": "براسيير رياضي",
@@ -5124,7 +5124,7 @@
     "id": "collants-a-motifs-roshan",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants à motifs Roshan",
       "ar": "كولون بنقوش روشان",
@@ -5201,7 +5201,7 @@
     "id": "boxer-gainant-double-avec-jambe-longue",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Boxer gainant doublé avec jambe longue",
       "ar": "بوكسر مشد مزدوج بساق طويلة",
@@ -5268,7 +5268,7 @@
     "id": "collant-leen",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collant leen",
       "ar": "كولون لين",
@@ -5590,7 +5590,7 @@
     "id": "legging-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Legging sans couture",
       "ar": "ليغينغ بدون خياطة",
@@ -5694,7 +5694,7 @@
     "id": "total-control-laser-shaper-short",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Total Control Laser Shaper Short",
@@ -5850,7 +5850,7 @@
     "id": "chaussettes-hautes-anti-cernes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes hautes anti-cernes",
       "ar": "جوارب طويلة مضادة للهالات",
@@ -5936,7 +5936,7 @@
     "id": "corset-boxer-taille-haute-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Corset boxer taille haute en dentelle",
@@ -6061,7 +6061,7 @@
     "id": "collant-femme-scintillant-effet-correcteur-20-den-avec-bout-renforce",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collant femme scintillant effet correcteur - 20 den avec bout renforcé",
       "ar": "جوارب نسائية لامعة بتأثير خافي - 20 دن مع أطراف معززة",
@@ -6125,7 +6125,7 @@
     "id": "collant-resille-large-tendance-40-den",
     "brand": "ALSAMAH",
     "category": "enfants",
-    "categoryName": "Enfants / FASHION / Accessoires / Fille / Sous - vêtements",
+    "categoryName": "Enfants",
     "name": {
       "fr": "Collant résille large tendance - 40 den",
       "ar": "جوارب شبكية عصرية كبيرة - 40 دن",
@@ -6177,7 +6177,7 @@
     "id": "seamless-slip-pregnant",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Seamless slip pregnant",
@@ -6296,7 +6296,7 @@
     "id": "body-a-bretelles-avec-bande-large",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body à bretelles avec bande large",
       "ar": "بودي بحمالات مزوّد بشريط داعم عريض",
@@ -6361,7 +6361,7 @@
     "id": "chaussettes-a-motifs-gillan",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes à motifs Gillan",
       "ar": "جوارب بنقوش جيلان",
@@ -6422,7 +6422,7 @@
     "id": "body-slip-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body slip dentelle",
       "ar": "بودي سليب دانتيل",
@@ -6500,7 +6500,7 @@
     "id": "chaussette-leen",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussette leen",
       "ar": "جوارب كتان",
@@ -6552,7 +6552,7 @@
     "id": "chaussettes-diabetiques-pour-femmes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes diabétiques pour femmes",
       "ar": "جوارب ديابيتيك للنساء",
@@ -6616,7 +6616,7 @@
     "id": "chaussettes-hautes-a-motifs-tilma",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes hautes à motifs Tilma",
       "ar": "جوارب طويلة بنقوش تيلما",
@@ -6729,7 +6729,7 @@
     "id": "collant-classique-femme-diana-mat-20-den-avec-renfort-au-bout-des-pieds",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collant classique femme Diana mat - 20 den avec renfort au bout des pieds",
       "ar": "جوارب ديانا كلاسيكية مطفية للنساء - 20 دن مع دعم معزز عند الأصابع",
@@ -6781,7 +6781,7 @@
     "id": "body-robe-a-manches-longues-avec-col-rond",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body-robe à manches longues avec col rond",
       "ar": "بودي فستان بأكمام طويلة وياقة دائرية",
@@ -6845,7 +6845,7 @@
     "id": "pantakour-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme / Vêtements / Pantalons & Bermudas",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pantakour en microfibre sans couture",
       "ar": "بنطال قصير (بانتاكور) من الميكروفايبر بدون خياطة، غير شفاف تمامًا",
@@ -6910,7 +6910,7 @@
     "id": "boxer-corset-homme",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Boxer corset homme",
       "ar": "بوكسر مشد رجالي",
@@ -6975,7 +6975,7 @@
     "id": "debardeur-corset-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Débardeur corset femme",
       "ar": "دبردور كورسيه نسائي",
@@ -7063,7 +7063,7 @@
     "id": "lot-de-3-slips-homme-100-coton",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Lot de 3 slips homme 100 % coton",
       "ar": "عبوة من 3 سراويل داخلية رجالية 100٪ قطن",
@@ -7116,7 +7116,7 @@
     "id": "boxer-model-corset",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Boxer Model Corset",
@@ -7245,7 +7245,7 @@
     "id": "lot-de-3-slips-garcon-colores",
     "brand": "ALSAMAH",
     "category": "enfants",
-    "categoryName": "Enfants / FASHION / Accessoires / Garçon / Sous - vêtements",
+    "categoryName": "Enfants",
     "name": {
       "fr": "Lot de 3 slips garçon (colorés)",
       "ar": "عبوة من 3 سراويل داخلية ملونة للأولاد",
@@ -7299,7 +7299,7 @@
     "id": "boxer",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme / Lingerie / Culotte",
+    "categoryName": "Femme",
     "name": {
       "fr": "Boxer",
       "ar": "بوكسَر",
@@ -7404,7 +7404,7 @@
     "id": "couvre-orteils-elegant",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "couvre-orteils élégant",
@@ -7472,7 +7472,7 @@
     "id": "chaussettes-brillantes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes brillantes",
       "ar": "جوارب لامعة",
@@ -7536,7 +7536,7 @@
     "id": "doubled-slip-corset-with-high-rise",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Doubled Slip Corset With High-Rise",
@@ -7633,7 +7633,7 @@
     "id": "culotte-fille-100-coton-taille-basse",
     "brand": "ALSAMAH",
     "category": "enfants",
-    "categoryName": "Enfants / FASHION / Accessoires / Fille / Sous - vêtements",
+    "categoryName": "Enfants",
     "name": {
       "fr": "Culotte fille 100 % coton - taille basse",
       "ar": "سروال داخلي قطني 100% للفتيات - بخصر منخفض",
@@ -7687,7 +7687,7 @@
     "id": "body-de-grossesse-a-large-bande",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body de grossesse à large bande",
       "ar": "بودي للحامل بحزام عريض",
@@ -7740,7 +7740,7 @@
     "id": "robe-corset",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Robe corset",
       "ar": "فستان كورسيه",
@@ -7992,7 +7992,7 @@
     "id": "body-en-microfibre-sans-couture-a-manches-longues",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body en microfibre sans couture à manches longues",
       "ar": "بودي ميكروفايبر بدون خياطة بأكمام طويلة",
@@ -8044,7 +8044,7 @@
     "id": "chaussettes-hautes-brillantes-dayana",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes hautes brillantes (Dayana)",
       "ar": "جوارب طويلة لامعة (دايانا)",
@@ -8108,7 +8108,7 @@
     "id": "collant-femme-doux-semi-transparent-30-den-avec-bout-renforce",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collant femme doux semi-transparent - 30 den avec bout renforcé",
       "ar": "جوارب نسائية ناعمة شبه شفافة - 30 دن مع أطراف معززة",
@@ -8297,7 +8297,7 @@
     "id": "boxer-short-pour-homme",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Boxer short pour  homme",
       "ar": "بوكسر رجالي قصير",
@@ -8361,7 +8361,7 @@
     "id": "slimcontour-shaping-top",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "SlimContour shaping top",
@@ -8482,7 +8482,7 @@
     "id": "bande-large-pour-le-corps-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Bande large pour le corps en microfibre sans couture",
       "ar": "باند عريض للجسم ميكروفايبر بدون خياطة",
@@ -8534,7 +8534,7 @@
     "id": "pyjama-pantalon-imprime-fleuri",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama pantalon imprimé fleuri",
       "ar": "بيجامة بنطلون بطبعة زهرية",
@@ -8627,7 +8627,7 @@
     "id": "chemise-de-nuit-en-lycra-avec-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chemise de nuit en lycra avec dentelle",
       "ar": "قميص نوم من الليكرا بالدانتيل",
@@ -8826,7 +8826,7 @@
     "id": "body-corset",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body Corset",
       "ar": "بودي كورسيه",
@@ -8904,7 +8904,7 @@
     "id": "ensemble-pyjama-homewear-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble pyjama homewear femme",
       "ar": "طقم بيجامة هوم وير نسائي",
@@ -9027,7 +9027,7 @@
     "id": "men-s-corset-short-sleeve",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Men's corset short sleeve",
       "ar": "مشد رجالي بأكمام قصيرة",
@@ -9080,7 +9080,7 @@
     "id": "pyjama-dentel-chic-avec-pantalon-dentel",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "pyjama dentel chic avec pantalon dentel",
@@ -9182,7 +9182,7 @@
     "id": "pyjama-en-coton-avec-legging-pour-femme-a-motif-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama en coton avec legging pour femme à motif floral",
       "ar": "يجامة قطنية مع ليغنز نسائية بنقشة زهور",
@@ -9339,7 +9339,7 @@
     "id": "culotte-corset-fine-avec-ouverture-fessier-et-coupe-boxer",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Culotte corset fine avec ouverture fessier et coupe boxer",
       "ar": "كورسيه سروال داخلي رفيع مع فتحة خلفية بتصميم بوكسر",
@@ -9391,7 +9391,7 @@
     "id": "pyjama-femme-2-pieces",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama femme 2 pièces",
@@ -9468,7 +9468,7 @@
     "id": "100-coton-sans-manches-col-en-v",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "100 % coton, sans manches, col en V",
       "ar": "قطن 100٪، بدون أكمام، برقبة على شكل حرف V",
@@ -9520,7 +9520,7 @@
     "id": "boxer-short-pour-homme-d110062913",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Boxer short pour homme",
       "ar": "بوكسر رجالي قصير",
@@ -9584,7 +9584,7 @@
     "id": "couvre-bras-aleen",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "couvre-bras aleen",
@@ -9636,7 +9636,7 @@
     "id": "ensemble-pyjama-marines-crew-84",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama « Marines Crew 84 »",
@@ -9713,7 +9713,7 @@
     "id": "pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants",
@@ -9801,7 +9801,7 @@
     "id": "pyjama-dentelle-avec-haut-court-sexy",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama dentelle avec haut court sexy",
       "ar": "بيجامة دانتيل بتوب قصير سيكسي",
@@ -9948,7 +9948,7 @@
     "id": "pyjama-femme-avec-pantalon-imprime-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme avec pantalon imprimé floral",
       "ar": "بيجامة نسائية مع بنطلون بطبعة زهور",
@@ -10033,7 +10033,7 @@
     "id": "pyjama-robe-floral-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama robe floral en dentelle",
       "ar": "بيجامة فستان زهري بالدانتيل",
@@ -10118,7 +10118,7 @@
     "id": "body-de-maternite-avec-bande-large",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body de maternité avec bande large",
       "ar": "بودي حمل بحزام عريض",
@@ -10170,7 +10170,7 @@
     "id": "cache-tetons-silicone",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Accessoires femme",
+    "categoryName": "Collants & chaussettes",
     "subcategory": null,
     "name": {
       "fr": "Cache-tétons adhésifs en silicone",
@@ -10222,7 +10222,7 @@
     "id": "chaussettes-hautes-a-motifs-root",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes hautes à motifs Root",
       "ar": "جوارب طويلة بنقوش روت",
@@ -10274,7 +10274,7 @@
     "id": "ensemble-pyjama-tete-d-ours",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Tête d'Ours",
@@ -10370,7 +10370,7 @@
     "id": "pyjama-femme-epaules-dentelle-imprime-fleuri",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme épaules dentelle imprimé fleuri",
       "ar": "بيجامة نسائية بأكتاف دانتيل وطبعة زهرية",
@@ -10455,7 +10455,7 @@
     "id": "body-slip-a-manches-longues",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Body-slip à manches longues",
       "ar": "بودي سليب بأكمام طويلة",
@@ -10507,7 +10507,7 @@
     "id": "collant-semi-transparent-30-den-style-doux-et-simple",
     "brand": "ALSAMAH",
     "category": "enfants",
-    "categoryName": "Enfants / FASHION / Accessoires / Fille / Sous - vêtements",
+    "categoryName": "Enfants",
     "name": {
       "fr": "Collant semi-transparent - 30 den, style doux et simple",
       "ar": "جوارب شبه شفافة - 30 دن بتصميم ناعم وبسيط",
@@ -10559,7 +10559,7 @@
     "id": "ensemble-pyjama-terracotta-a-pois-weekending",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Terracotta à Pois « Weekending »",
@@ -10653,7 +10653,7 @@
     "id": "nuisette-longue-ouvert-sexy",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "nuisette longue ouvert sexy",
@@ -10742,7 +10742,7 @@
     "id": "pyjama-2-pieces-love-good-vibes-only-a-carreaux-verts",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 Pièces \"LOVE - Good Vibes Only\" à Carreaux Verts",
@@ -10819,7 +10819,7 @@
     "id": "pyjama-a-capuche-angel-baby",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama à Capuche Angel Baby",
@@ -10896,7 +10896,7 @@
     "id": "boxer-fille-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Boxer fille en dentelle",
       "ar": "بوكسير بنات دانتي",
@@ -10948,7 +10948,7 @@
     "id": "bra-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Bra dentelle",
       "ar": "برا دانتيل",
@@ -11000,7 +11000,7 @@
     "id": "chaussettes-fantasia-lareen",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chaussettes Fantasia Lareen",
       "ar": "جوارب فانتازيا لارين",
@@ -11117,7 +11117,7 @@
     "id": "ensemble-pyjama-2-pieces-a-carreaux-pochette-assortie",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie",
@@ -11186,7 +11186,7 @@
     "id": "ensemble-pyjama-choco-prune-imprime-curs-love-for-all",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Choco / Prune Imprimé Cœurs « Love For All »",
@@ -11263,7 +11263,7 @@
     "id": "ensemble-pyjama-col-boutonne-pantalon-raye-multicolore",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Col Boutonné & Pantalon Rayé Multicolore",
@@ -11332,7 +11332,7 @@
     "id": "ensemble-pyjama-quadrille",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Quadrillé",
@@ -11401,7 +11401,7 @@
     "id": "grille-de-prise-fantasia-epaisseur-40",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "subcategory": "collants",
     "name": {
       "fr": "Collant résille Fantasia 40 deniers",
@@ -11453,7 +11453,7 @@
     "id": "maillot-de-bain-crochet",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": "vetements",
     "name": {
       "fr": "Maillot de bain crochet",
@@ -11522,7 +11522,7 @@
     "id": "pyjama-avec-bretelles-et-manches-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama avec bretelles et manches en dentelle",
       "ar": "بيجامة بحمالات وأكمام دانتيل",
@@ -11617,7 +11617,7 @@
     "id": "pyjama-panda",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": "nuisettes",
     "name": {
       "fr": "Pyjama panda",
@@ -11723,7 +11723,7 @@
     "id": "cotton-4-elastane-short-sleeves",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": "bodies",
     "name": {
       "fr": "T-shirt manches courtes 96% coton 4% élasthanne",
@@ -11775,7 +11775,7 @@
     "id": "bretelles-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Bretelles en microfibre sans couture",
       "ar": "حمالات ميكروفايبر بدون خياطة",
@@ -11828,7 +11828,7 @@
     "id": "chemise-de-nuit-en-lycra",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Chemise de nuit en lycra",
       "ar": "قميص نوم من الليكرا",
@@ -11924,7 +11924,7 @@
     "id": "ensemble-pyjama-2-pieces-decontracte",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama 2 pièces décontracté",
@@ -12001,7 +12001,7 @@
     "id": "ensemble-pyjama-d-ete-avec-pantacourt-pour-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble pyjama d'été avec pantacourt pour femme",
       "ar": "طقم بيجامة صيفي مع بنطلون قصير للنساء",
@@ -12086,7 +12086,7 @@
     "id": "ensemble-pyjama-damier-motifs-fantaisie",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Damier & Motifs Fantaisie",
@@ -12163,7 +12163,7 @@
     "id": "ensemble-pyjama-en-lycra-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble pyjama en lycra floral",
       "ar": "طقم بيجامة من الليكرا بنقشة زهور",
@@ -12258,7 +12258,7 @@
     "id": "ensemble-pyjamar-vert-d-eau-a-micro-motifs-fleuris",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjamar Vert d'Eau à Micro-Motifs Fleuris",
@@ -12338,7 +12338,7 @@
     "id": "high-neck",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "high neck",
@@ -12418,7 +12418,7 @@
     "id": "pyjama-2-pieces-fluide-a-manches-longues",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 pièces fluide à manches longues",
@@ -12495,7 +12495,7 @@
     "id": "pyjama-femme-type-pencock",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme type pencock",
       "ar": "بيجامة نسائية نوع بينكوك",
@@ -12580,7 +12580,7 @@
     "id": "pyjama-robe-avec-boutons",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama robe avec boutons",
       "ar": "بيجامة فستان بأزرار",
@@ -12710,7 +12710,7 @@
     "id": "boxer-raye-pour-homme",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Boxer rayé pour homme",
       "ar": "بوكسر مخطط رجالي",
@@ -12762,7 +12762,7 @@
     "id": "boxer-short-homme",
     "brand": "ALSAMAH",
     "category": "homme",
-    "categoryName": "Homme / FASHION / Accessoires / Sous - vêtements",
+    "categoryName": "Homme",
     "name": {
       "fr": "Boxer short homme",
       "ar": "بوكسر رجالي قصير",
@@ -12814,7 +12814,7 @@
     "id": "brassiere-de-sport",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Brassière de sport",
       "ar": "براسيير رياضي",
@@ -12879,7 +12879,7 @@
     "id": "collants-a-motifs-glamour",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Collants à motifs Glamour",
       "ar": "كولون بنقوش غلامور",
@@ -12932,7 +12932,7 @@
     "id": "ensemble-homewear-a-capuche-believe",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Homewear à Capuche \"Believe\"",
@@ -12993,7 +12993,7 @@
     "id": "ensemble-pyjama-vert-sauge-imprime-etoiles",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Vert Sauge Imprimé Étoiles",
@@ -13081,7 +13081,7 @@
     "id": "ensemble-pyjama-a-capuche-motifs-curs",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama à Capuche & Motifs Cœurs",
@@ -13150,7 +13150,7 @@
     "id": "ensemble-pyjama-a-capuche-hello-winter",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama à Capuche « Hello Winter »",
@@ -13219,7 +13219,7 @@
     "id": "pyjama-2-pieces-soft-check",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 pièces Soft Check",
@@ -13288,7 +13288,7 @@
     "id": "pyjama-femme-avec-bretelles-et-finitions-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme avec bretelles et finitions en dentelle",
       "ar": "يجامة نسائية بحمالات وتشطيبات دانتيل",
@@ -13349,7 +13349,7 @@
     "id": "pyjama-long-pour-femme-avec-des-fleur-imprime-au-col",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "pyjama long pour femme avec des fleur imprime au col",
@@ -13426,7 +13426,7 @@
     "id": "pyjama-zebra-shine-like-a-diamond",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama Zebra Shine Like A Diamond",
@@ -13503,7 +13503,7 @@
     "id": "waistsculpt-adjustable-shaper",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "WaistSculpt Adjustable Shaper",
@@ -13584,7 +13584,7 @@
     "id": "contour-effect-ultra-sheer-15-den-silk-reflections-full-control-top",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,",
@@ -13645,7 +13645,7 @@
     "id": "ensemble-pyjama-2-pieces-a-poche-fleurie",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama 2 Pièces à Poche Fleurie",
@@ -13722,7 +13722,7 @@
     "id": "ensemble-pyjama-col-boutonne",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Col Boutonné",
@@ -13791,7 +13791,7 @@
     "id": "ensemble-pyjama-damier-a-poche-etoile",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Damier à Poche Étoile",
@@ -13868,7 +13868,7 @@
     "id": "ensemble-pyjama-femme-en-lycra-imprime-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble pyjama femme en lycra imprimé floral",
       "ar": "طقم بيجامة نسائي من الليكرا بطبعة زهور",
@@ -13945,7 +13945,7 @@
     "id": "ensemble-pyjama-friday",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama « Friday",
@@ -14022,7 +14022,7 @@
     "id": "ensemble-pyjama-a-capuche-imprime-graphique-touches-vert-neon",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama à Capuche Imprimé Graphique & touches Vert Néon",
@@ -14091,7 +14091,7 @@
     "id": "ensemble-pyjama-a-capuche-cool",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama à Capuche « Cool »",
@@ -14160,7 +14160,7 @@
     "id": "ensemble-pyjama-ours-hipster",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama« Ours Hipster »",
@@ -14221,7 +14221,7 @@
     "id": "pyjama-2-pieces-en-maille-avec-motif-cur-carreaux-et-effet-bimatiere",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière",
@@ -14282,7 +14282,7 @@
     "id": "pyjama-2-pieces-pure-softness",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 pièces Pure Softness",
@@ -14351,7 +14351,7 @@
     "id": "pyjama-2-pieces-style-jogger-avec-chevilles-et-poignets-resserres",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 pièces style jogger avec chevilles et poignets resserrés",
@@ -14420,7 +14420,7 @@
     "id": "boxer-corset-double-a-taille-haute",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Boxer corset doublé à taille haute",
       "ar": "بوكسَر كورسيه مُضاعف بخصر عالٍ",
@@ -14472,7 +14472,7 @@
     "id": "boxer-gainant-double",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Boxer gainant doublé",
       "ar": "بوكسير مشد مبطن",
@@ -14525,7 +14525,7 @@
     "id": "ensemble-pyjama-2-pieces-a-carreaux",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama 2 Pièces à Carreaux",
@@ -14586,7 +14586,7 @@
     "id": "ensemble-pyjama-quadrille-everything-is-possible",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Quadrillé « Everything is Possible »",
@@ -14719,7 +14719,7 @@
     "id": "pack-no-show-simple-sport-cotton-socks",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "subcategory": null,
     "name": {
       "fr": "Pack No-Show Simple, Sport Cotton socks",
@@ -14780,7 +14780,7 @@
     "id": "pyjama-2-pieces-love-pantalon-a-carreaux-multicolores",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 Pièces \"LOVE\" & Pantalon à Carreaux Multicolores",
@@ -14841,7 +14841,7 @@
     "id": "pyjama-2-pieces-homewear-bleu-raye",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 Pièces Homewear Bleu Rayé",
@@ -14902,7 +14902,7 @@
     "id": "pyjama-femme-2-pieces-all-day",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama femme 2 pièces ALL DAY",
@@ -14963,7 +14963,7 @@
     "id": "pyjama-femme-avec-epaules-en-dentelle-et-imprime-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme avec épaules en dentelle et imprimé floral",
       "ar": "بيجامة نسائية بأكتاف دانتيل وطبعة زهور",
@@ -15024,7 +15024,7 @@
     "id": "pyjama-femme-pantalon-imprime-fleuri",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme pantalon imprimé fleuri",
       "ar": "بيجامة نسائية بنطلون بطبعة زهرية",
@@ -15085,7 +15085,7 @@
     "id": "pyjama-longue-dentel-demi-manche-pour-femme-fleuri",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "pyjama longue dentel demi manche pour femme fleuri",
@@ -15146,7 +15146,7 @@
     "id": "soutien-gorge-d-allaitement-en-coton",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": "soutien-gorge",
     "name": {
       "fr": "Soutien-gorge d'allaitement en coton",
@@ -15284,7 +15284,7 @@
     "id": "bourkini-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Bourkini femme",
       "ar": "بوركيني نسائي",
@@ -15336,7 +15336,7 @@
     "id": "chaussettes-montantes-romantiques",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "subcategory": null,
     "name": {
       "fr": "chaussettes montantes romantiques",
@@ -15388,7 +15388,7 @@
     "id": "corset-a-bretelles-avec-bande-large",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset à bretelles avec bande large",
       "ar": "كورسيه بحمّالات وشريط عريض",
@@ -15440,7 +15440,7 @@
     "id": "doubled-slip-corset-with-high",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Doubled Slip Corset With High",
@@ -15501,7 +15501,7 @@
     "id": "ensemble-homewear-confortable-pour-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble homewear confortable pour femme",
       "ar": "طقم هوم وير مريح للنساء",
@@ -15562,7 +15562,7 @@
     "id": "ensemble-pyjama-d-ete-pour-femme-avec-pantakour",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "ensemble pyjama d ete pour femme avec pantakour",
@@ -15615,7 +15615,7 @@
     "id": "ensemble-pyjama-femme-en-lycra-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble pyjama femme en lycra floral",
       "ar": "طقم بيجامة نسائي من الليكرا بنقشة زهور",
@@ -15737,7 +15737,7 @@
     "id": "ensemble-pyjama-ecru-volants-sweet-pantalon-quadrille-prune",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Ensemble Pyjama Écru Volants « Sweet » & Pantalon Quadrillé Prune",
@@ -15798,7 +15798,7 @@
     "id": "nuisette-longue-bretelle-avec-peignoir",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "nuisette longue bretelle avec peignoir",
@@ -15859,7 +15859,7 @@
     "id": "pyjama",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama",
       "ar": "بيجامة",
@@ -16050,7 +16050,7 @@
     "id": "pyjama-681438770286",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA",
       "ar": "بيجامة",
@@ -16255,7 +16255,7 @@
     "id": "pyjama-694704578983",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "pyjama",
       "ar": "بيجامة",
@@ -16351,7 +16351,7 @@
     "id": "pyjama-2-pieces-sweet-today",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 Pièces \"SWEET TODAY\"",
@@ -16412,7 +16412,7 @@
     "id": "pyjama-2-pieces-homewear",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Pyjama 2 Pièces Homewear",
@@ -16473,7 +16473,7 @@
     "id": "pyjama-femme-bretelles-et-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme bretelles et dentelle",
       "ar": "بيجامة نسائية بحمالات ودانتيل",
@@ -16534,7 +16534,7 @@
     "id": "pyjama-long-avec-peignoir-floral-pour-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama long avec peignoir floral pour femme",
       "ar": "بيجامة طويلة مع روب زهري للنساء",
@@ -16595,7 +16595,7 @@
     "id": "pyjama-long-femme-en-dentelle-a-motif-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama long femme en dentelle à motif floral",
       "ar": "بيجامة طويلة نسائية بالدانتيل بنقشة زهور",
@@ -16664,7 +16664,7 @@
     "id": "robe-dos-nu-fleuri",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "robe dos nu fleuri",
@@ -16725,7 +16725,7 @@
     "id": "sport-bra-m-l-grey",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": null,
     "name": {
       "fr": "Sport BRA-M L-GREY",
@@ -16777,7 +16777,7 @@
     "id": "collants-push-up-ete",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Collants push up été",
       "ar": "كولون بوش أب صيفي",
@@ -16855,7 +16855,7 @@
     "id": "jambieres",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Jambières",
       "ar": "جمبيير",
@@ -16933,7 +16933,7 @@
     "id": "robe-imprimee",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Robe imprimée",
       "ar": "فستان مطبوع",
@@ -16999,7 +16999,7 @@
     "id": "ensemble-pyjama-avec-robe-de-chambre-fleurie",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble pyjama avec robe de chambre fleurie",
       "ar": "طقم بيجامة مع روب زهري",
@@ -17077,7 +17077,7 @@
     "id": "slip-en-microfibre-sans-couture-pop-up",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Slip en microfibre sans couture Pop-Up",
       "ar": "سليب ميكروفايبر بدون خياطة بوب أب",
@@ -17155,7 +17155,7 @@
     "id": "collants-push-up",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Collants push up",
       "ar": "كولون بوش أب",
@@ -17234,7 +17234,7 @@
     "id": "t-shirt-ras-du-cou-a-manches-courtes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "T-shirt ras du cou à manches courtes",
       "ar": "تيشيرت ياقة مستديرة بأكمام قصيرة",
@@ -17299,7 +17299,7 @@
     "id": "t-shirt-col-v-a-manches-courtes",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "T-shirt col V à manches courtes",
       "ar": "تيشيرت ياقة V بأكمام قصيرة",
@@ -17377,7 +17377,7 @@
     "id": "ensemble-short-imprime",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble short imprimé",
       "ar": "قم شورت مطبوع",
@@ -17442,7 +17442,7 @@
     "id": "couvre-orteils",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Couvre-orteils",
       "ar": "غطاء أصابع القدم",
@@ -17494,7 +17494,7 @@
     "id": "soutien-gorge-de-sport-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge de sport en microfibre sans couture",
       "ar": "سوتيان رياضي ميكروفايبر بدون خياطة",
@@ -17573,7 +17573,7 @@
     "id": "jambieres-leen",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Jambières Leen",
       "ar": "جمبيير لين",
@@ -17651,7 +17651,7 @@
     "id": "haut-de-corps-en-microfibre-sans-couture-a-bretelles",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Haut de corps en microfibre sans couture à bretelles",
       "ar": "توب ميكروفايبر بدون خياطة بحمالات",
@@ -17907,7 +17907,7 @@
     "id": "corset-butt-pump-69500000490s",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET BUTT PUMP",
       "ar": "كورسيه بوت بامب",
@@ -17987,7 +17987,7 @@
     "id": "collants-resille-avec-nud",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Collants résille avec nœud",
       "ar": "كولون شبكي بفيونكة",
@@ -18296,7 +18296,7 @@
     "id": "corset-boxer-double-a-jambe-longue",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset boxer doublé à jambe longue",
       "ar": "كورسيه بوكسير مبطن بساق طويلة",
@@ -18376,7 +18376,7 @@
     "id": "soutien-gorge-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge en dentelle",
       "ar": "سوتيان دانتيل",
@@ -18470,7 +18470,7 @@
     "id": "corset-695000008002",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET",
       "ar": "كورسيه",
@@ -18537,7 +18537,7 @@
     "id": "corset-butt-pump",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset butt pump",
       "ar": "كورسيه بوت بامب",
@@ -18617,7 +18617,7 @@
     "id": "corset-body-cotton",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset body cotton",
       "ar": "كورسيه بودي قطني",
@@ -18685,7 +18685,7 @@
     "id": "corset-body-top",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET BODY TOP",
       "ar": "كورسيه بودي توب",
@@ -18753,7 +18753,7 @@
     "id": "nuisette-longue-avec-peignoir",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Nuisette longue avec peignoir",
       "ar": "نيسيت طويلة مع روب",
@@ -18830,7 +18830,7 @@
     "id": "collants-resille",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Collants résille",
       "ar": "كولون شبكي",
@@ -18907,7 +18907,7 @@
     "id": "debardeur-a-larges-bretelles-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Débardeur à larges bretelles en microfibre sans couture",
       "ar": "دبردور بحمالات عريضة ميكروفايبر بدون خياطة",
@@ -18973,7 +18973,7 @@
     "id": "soutien-gorge",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge",
       "ar": "سوتيان",
@@ -19051,7 +19051,7 @@
     "id": "corset-high-boxer",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET HIGH BOXER",
       "ar": "كورسيه هاي بوكسير",
@@ -19116,7 +19116,7 @@
     "id": "pyjama-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama dentelle",
       "ar": "بيجامة دانتيل",
@@ -19168,7 +19168,7 @@
     "id": "corset-amincissant",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset amincissant",
       "ar": "كورسيه مشد",
@@ -19259,7 +19259,7 @@
     "id": "slip-de-grossesse-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Slip de grossesse sans couture",
       "ar": "سليب حمل بدون خياطة",
@@ -19336,7 +19336,7 @@
     "id": "high-boxer-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "HIGH BOXER DENTELLE",
       "ar": "هاي بوكسير دانتيل",
@@ -19401,7 +19401,7 @@
     "id": "corset-butt-pump-2",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset Butt Pump 2",
       "ar": "كورسيه بوت بامب 2",
@@ -19455,7 +19455,7 @@
     "id": "corset-695000004403",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "corset",
       "ar": "كورسيه",
@@ -19522,7 +19522,7 @@
     "id": "ensemble-soutien-gorge",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble soutien-gorge",
       "ar": "طقم سوتيان",
@@ -19589,7 +19589,7 @@
     "id": "pyjama-raye-251139051072",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama rayé",
       "ar": "بيجامة مقلمة",
@@ -19680,7 +19680,7 @@
     "id": "haut-de-corps-a-manches-courtes-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Haut de corps à manches courtes en microfibre sans couture",
       "ar": "توب بأكمام قصيرة ميكروفايبر بدون خياطة",
@@ -19786,7 +19786,7 @@
     "id": "corset-boxer-poitrine-ouverte-a-jambe-longue",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset boxer poitrine ouverte à jambe longue",
       "ar": "كورسيه بوكسير مفتوح الصدر بساق طويلة",
@@ -19865,7 +19865,7 @@
     "id": "corset-cotton",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "corset cotton",
       "ar": "كورسيه قطني",
@@ -19919,7 +19919,7 @@
     "id": "corset",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset",
       "ar": "كورسيه",
@@ -20232,7 +20232,7 @@
     "id": "corset-boxer-double-a-taille-haute",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset boxer doublé à taille haute",
       "ar": "كورسيه بوكسير مبطن خصر عالي",
@@ -20311,7 +20311,7 @@
     "id": "corset-body-top1",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET BODY TOP1",
       "ar": "كورسيه بودي توب 1",
@@ -20364,7 +20364,7 @@
     "id": "haut-de-corps-a-manches-longues-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Haut de corps à manches longues en microfibre sans couture",
       "ar": "توب بأكمام طويلة ميكروفايبر بدون خياطة",
@@ -20441,7 +20441,7 @@
     "id": "corset-butt-pump-695067008884",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset Butt Pump",
       "ar": "كورسيه بوت بامب",
@@ -20506,7 +20506,7 @@
     "id": "corset-putbump",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET PUTBUMP",
       "ar": "كورسيه بوت بامب",
@@ -20558,7 +20558,7 @@
     "id": "pyjama-epaules-dentelle-fleuri",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama épaules dentelle fleuri",
       "ar": "بيجامة بأكتاف دانتيل زهرية",
@@ -20614,7 +20614,7 @@
     "id": "pyjama-coton-avec-legging-fleuri",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama coton avec legging fleuri",
       "ar": "بيجامة قطنية مع ليغنز زهري",
@@ -20670,7 +20670,7 @@
     "id": "sous-vetement-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Sous-vêtement femme",
       "ar": "ملابس داخلية نسائية",
@@ -20722,7 +20722,7 @@
     "id": "corset-but-pump",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET BUT PUMP",
       "ar": "كورسيه بوت بامب",
@@ -20786,7 +20786,7 @@
     "id": "corset-slip",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET SLIP",
       "ar": "كورسيه سليب",
@@ -20891,7 +20891,7 @@
     "id": "pyjama-marine",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA MARINE",
       "ar": "بيجامة مارين",
@@ -20945,7 +20945,7 @@
     "id": "corset-butt-pump1",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET BUTT PUMP1",
       "ar": "كورسيه بوت بامب 1",
@@ -20997,7 +20997,7 @@
     "id": "corset-double-a-taille-haute",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset doublé à taille haute",
       "ar": "كورسيه مبطن خصر عالي",
@@ -21061,7 +21061,7 @@
     "id": "corset-modele-boxer",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset modèle boxer",
       "ar": "كورسيه موديل بوكسير",
@@ -21139,7 +21139,7 @@
     "id": "couvre-bras-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Couvre-bras en dentelle",
       "ar": "غطاء ذراع بالدانتي",
@@ -21218,7 +21218,7 @@
     "id": "pyjama-a-carreau",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA A CARREAU",
       "ar": "بيجامة كاروه",
@@ -21272,7 +21272,7 @@
     "id": "collants-resille-a-strass",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Collants résille à strass",
       "ar": "كولون شبكي بالسواروفسكي",
@@ -21324,7 +21324,7 @@
     "id": "corset-high-boxer-dontel",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET HIGH BOXER DONTEL",
       "ar": "كورسيه هاي بوكسير دانتيل",
@@ -21376,7 +21376,7 @@
     "id": "hoodie-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Hoodie femme",
       "ar": "هودي نسائي",
@@ -21428,7 +21428,7 @@
     "id": "pyjama-coeur",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA COEUR",
       "ar": "بيجامة كور",
@@ -21482,7 +21482,7 @@
     "id": "soutien-gorge-sexy-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge sexy en dentelle",
       "ar": "سوتيان سيكسي دانتيل",
@@ -21549,7 +21549,7 @@
     "id": "collants-fishnet",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Collants fishnet",
       "ar": "كولون فيشنيت",
@@ -21601,7 +21601,7 @@
     "id": "legging",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Legging",
       "ar": "ليغنز",
@@ -21758,7 +21758,7 @@
     "id": "corset-butt-pump-woman",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET BUTT PUMP WOMAN",
       "ar": "كورسيه بوت بامب وومن",
@@ -21810,7 +21810,7 @@
     "id": "pyjama-luxe",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama Luxe",
       "ar": "بيجامة لوكس",
@@ -21862,7 +21862,7 @@
     "id": "pyjama-robe-resille",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama robe résille",
       "ar": "يجامة فستان شبكي",
@@ -21917,7 +21917,7 @@
     "id": "pyjama902",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA902",
       "ar": "بيجامة 902",
@@ -21969,7 +21969,7 @@
     "id": "corset-butt-pump-top",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "CORSET BUTT PUMP TOP",
       "ar": "كورسيه بوت بامب توب",
@@ -22021,7 +22021,7 @@
     "id": "ensemble-pyjama-dete-avec-pantacourt",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble pyjama d’été avec pantacourt",
       "ar": "طقم بيجامة صيفي مع بنطلون قصير",
@@ -22075,7 +22075,7 @@
     "id": "pyjama-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama femme",
       "ar": "بيجامة نسائية",
@@ -22140,7 +22140,7 @@
     "id": "pyjama-kermiz",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA KERMIZ",
       "ar": "بيجامة كيرميز",
@@ -22192,7 +22192,7 @@
     "id": "pyjama-raye",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA RAYE",
       "ar": "بيجامة مقلمة",
@@ -22257,7 +22257,7 @@
     "id": "pyjama-sexy",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama sexy",
       "ar": "بيجامة سيكسي",
@@ -22310,7 +22310,7 @@
     "id": "pyjamaagreable",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMAAGREABLE",
       "ar": "بيجامة أغريابل",
@@ -22362,7 +22362,7 @@
     "id": "pyjamachouette",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMACHOUETTE",
       "ar": "بيجامة شويت",
@@ -22414,7 +22414,7 @@
     "id": "pyjamagracieuse",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMAGRACIEUSE",
       "ar": "بيجامة غراسيوز",
@@ -22523,7 +22523,7 @@
     "id": "soutien-gorge-rembourre-cute-sexy",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge rembourré cute sexy",
       "ar": "سوتيان مبطن كيوت سيكسي",
@@ -22575,7 +22575,7 @@
     "id": "soutien-gorge-rembourre-ensemble",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge rembourré ensemble",
       "ar": "طقم سوتيان مبطن",
@@ -22627,7 +22627,7 @@
     "id": "soutien-gorge-sexy-chic-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge sexy chic en dentelle",
       "ar": "سوتيان سيكسي شيك دانتيل",
@@ -22734,7 +22734,7 @@
     "id": "pujama-femme-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "pujama femme en dentelle",
       "ar": "بيجامة نسائية دانتيل",
@@ -22786,7 +22786,7 @@
     "id": "push-up-bra",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Push up bra",
       "ar": "سوتيان بوش أب",
@@ -22850,7 +22850,7 @@
     "id": "pyjama-amazing-home",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama amazing home",
       "ar": "بيجامة أميزينج هوم",
@@ -22902,7 +22902,7 @@
     "id": "pyjama-aross",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA AROSS",
       "ar": "بيجامة أروس",
@@ -22954,7 +22954,7 @@
     "id": "pyjama-bride",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama bride",
       "ar": "بيجامة برايد",
@@ -23006,7 +23006,7 @@
     "id": "pyjama-bride-angel",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama bride angel",
       "ar": "بيجامة برايد أنجيل",
@@ -23058,7 +23058,7 @@
     "id": "pyjama-chic-pour-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "pyjama chic pour femme",
       "ar": "بيجامة شيك نسائية",
@@ -23110,7 +23110,7 @@
     "id": "pyjama-femme-en-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "pyjama femme en dentelle",
       "ar": "بيجامة نسائية دانتيل",
@@ -23162,7 +23162,7 @@
     "id": "pyjama-home-penoir-sexy",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA HOME PENOIR SEXY",
       "ar": "بيجامة هوم بينوار سيكسي",
@@ -23214,7 +23214,7 @@
     "id": "pyjama-longue-demi-manche-avec-peignoir",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama longue demi-manche avec peignoir",
       "ar": "بيجامة طويلة نصف كم مع روب",
@@ -23269,7 +23269,7 @@
     "id": "pyjama-lovely",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA LOVELY",
       "ar": "بيجامة لافلي",
@@ -23321,7 +23321,7 @@
     "id": "pyjama-nighty-love",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama nighty love",
       "ar": "بيجامة نايتي لوف",
@@ -23386,7 +23386,7 @@
     "id": "pyjama-pour-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama pour femme",
       "ar": "بيجامة نسائية",
@@ -23438,7 +23438,7 @@
     "id": "pyjama-queen-bride",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama queen bride",
       "ar": "بيجامة كوين برايد",
@@ -23490,7 +23490,7 @@
     "id": "pyjama-royal",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama royal",
       "ar": "بيجامة رويال",
@@ -23542,7 +23542,7 @@
     "id": "pyjama-sabahli",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA SABAHLI",
       "ar": "بيجامة صباحلي",
@@ -23594,7 +23594,7 @@
     "id": "pyjama-zyn",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA ZYN",
       "ar": "بيجامة زين",
@@ -23646,7 +23646,7 @@
     "id": "pyjama803",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA803",
       "ar": "بيجامة 803",
@@ -23698,7 +23698,7 @@
     "id": "pyjama808",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA808",
       "ar": "بيجامة 808",
@@ -23750,7 +23750,7 @@
     "id": "pyjamacharme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMACHARME",
       "ar": "بيجامة شارم",
@@ -23802,7 +23802,7 @@
     "id": "pyjamaforyourcharme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMAFORYOURCHARME",
       "ar": "بيجامة فور يور شارم",
@@ -23854,7 +23854,7 @@
     "id": "pyjamapenoir-courte-sexy",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMAPENOIR COURTE SEXY",
       "ar": "بيجامة بينوار كورت سيكسي",
@@ -23906,7 +23906,7 @@
     "id": "soutien-gorge-basic",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge basic",
       "ar": "سوتيان بيسيك",
@@ -23958,7 +23958,7 @@
     "id": "soutien-gorge-dallaitement",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Homme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge d’allaitement",
       "ar": "سوتيان للرضاعة",
@@ -24015,7 +24015,7 @@
     "id": "corset-butt-pump-1",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Corset Butt Pump 1",
       "ar": "كورسيه بوت بامب 1",
@@ -24067,7 +24067,7 @@
     "id": "debardeur",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Débardeur",
       "ar": "دبردور",
@@ -24171,7 +24171,7 @@
     "id": "ensemble-soutien-gorge-et-slip",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Ensemble soutien-gorge et slip",
       "ar": "طقم سوتيان وسليب",
@@ -24223,7 +24223,7 @@
     "id": "jambieres-resille",
     "brand": "ALSAMAH",
     "category": "autres",
-    "categoryName": "Hosiery & Accessories",
+    "categoryName": "Collants & chaussettes",
     "name": {
       "fr": "Jambières résille",
       "ar": "جمبيير شبكي",
@@ -24275,7 +24275,7 @@
     "id": "legging-695067504138",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Legging",
       "ar": "ليغنز",
@@ -24327,7 +24327,7 @@
     "id": "legging-de-grossesse-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Legging de grossesse en microfibre sans couture",
       "ar": "ليغنز حمل ميكروفايبر بدون خياطة",
@@ -24379,7 +24379,7 @@
     "id": "pantacourt-opaque-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pantacourt opaque en microfibre sans couture",
       "ar": "بنطلون قصير معتم ميكروفايبر بدون خياطة",
@@ -24431,7 +24431,7 @@
     "id": "pyjama-beaute",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama Beauté",
       "ar": "بيجامة بيوتي",
@@ -24483,7 +24483,7 @@
     "id": "pyjama-bride-sexy",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA BRIDE SEXY",
       "ar": "بيجامة برايد سيكسي",
@@ -24535,7 +24535,7 @@
     "id": "pyjama-chic",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama chic",
       "ar": "بيجامة شيك",
@@ -24587,7 +24587,7 @@
     "id": "pyjama-court-avec-dentelle-col-v",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama court avec dentelle col V",
       "ar": "بيجامة قصيرة بدانتيل وياقة V",
@@ -24639,7 +24639,7 @@
     "id": "pyjama-en-dentelle-chic",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "pyjama en dentelle chic",
       "ar": "بيجامة دانتيل شيك",
@@ -24691,7 +24691,7 @@
     "id": "pyjama-femme-694704642899",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "pyjama femme",
       "ar": "بيجامة نسائية",
@@ -24795,7 +24795,7 @@
     "id": "pyjama-glamour",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama Glamour",
       "ar": "بيجامة غلامور",
@@ -24847,7 +24847,7 @@
     "id": "pyjama-habille",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama habillé",
       "ar": "بيجامة أنيقة",
@@ -24899,7 +24899,7 @@
     "id": "pyjama-kiss",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA KISS",
       "ar": "بيجامة كيس",
@@ -24951,7 +24951,7 @@
     "id": "pyjama-long-femme-imprime-floral",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama long femme imprimé floral",
       "ar": "بيجامة طويلة نسائية بطبعة زهور",
@@ -25003,7 +25003,7 @@
     "id": "pyjama-longue-dentelle-demi-manche",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama longue dentelle demi-manche",
       "ar": "بيجامة طويلة دانتيل نصف كم",
@@ -25056,7 +25056,7 @@
     "id": "pyjama-leger",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama léger",
       "ar": "بيجامة خفيفة",
@@ -25108,7 +25108,7 @@
     "id": "pyjama-nighty",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama nighty",
       "ar": "بيجامة نايتي",
@@ -25160,7 +25160,7 @@
     "id": "pyjama-nuisette",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama nuisette",
       "ar": "بيجامة نيسيت",
@@ -25212,7 +25212,7 @@
     "id": "pyjama-nuit",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama nuit",
       "ar": "بيجامة نايت",
@@ -25264,7 +25264,7 @@
     "id": "pyjama-penoir-queen-tresor",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA PENOIR QUEEN TRESOR",
       "ar": "بيجامة بينوار كوين تريزور",
@@ -25316,7 +25316,7 @@
     "id": "pyjama-robe-dentelle-chic",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama robe dentelle chic",
       "ar": "بيجامة فستان دانتيل شيك",
@@ -25368,7 +25368,7 @@
     "id": "pyjama-satin",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA SATIN",
       "ar": "بيجامة ساتان",
@@ -25420,7 +25420,7 @@
     "id": "pyjama-scandal",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA SCANDAL",
       "ar": "بيجامة سكاندال",
@@ -25472,7 +25472,7 @@
     "id": "pyjama-sexy-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama sexy dentelle",
       "ar": "بيجامة سيكسي دانتيل",
@@ -25524,7 +25524,7 @@
     "id": "pyjama-sexy-nighty",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama sexy nighty",
       "ar": "بيجامة سيكسي نايتي",
@@ -25576,7 +25576,7 @@
     "id": "pyjama-sweetie",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA SWEETIE",
       "ar": "بيجامة سويتي",
@@ -25628,7 +25628,7 @@
     "id": "pyjama-turkey",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA TURKEY",
       "ar": "بيجامة تيركي",
@@ -25680,7 +25680,7 @@
     "id": "pyjama-velours",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA VELOURS",
       "ar": "بيجامة فيلور",
@@ -25732,7 +25732,7 @@
     "id": "pyjama-elance",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama élançé",
       "ar": "بيجامة رشيقة",
@@ -25784,7 +25784,7 @@
     "id": "pyjama-elegant",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama élégant",
       "ar": "بيجامة إيليغانت",
@@ -25836,7 +25836,7 @@
     "id": "pyjama802",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA802",
       "ar": "بيجامة 802",
@@ -25888,7 +25888,7 @@
     "id": "pyjama805",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA805",
       "ar": "بيجامة 805",
@@ -25940,7 +25940,7 @@
     "id": "pyjama807",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMA807",
       "ar": "بيجامة 807",
@@ -25992,7 +25992,7 @@
     "id": "pyjamabienmis",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMABIENMIS",
       "ar": "بيجامة بيان ميس",
@@ -26044,7 +26044,7 @@
     "id": "pyjamabonnequalite",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMABONNEQUALITE",
       "ar": "بيجامة بون كواليتي",
@@ -26096,7 +26096,7 @@
     "id": "pyjamafashion",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMAFASHION",
       "ar": "بيجامة فاشيون",
@@ -26148,7 +26148,7 @@
     "id": "pyjamaglamour",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "PYJAMAGLAMOUR",
       "ar": "بيجامة غلامور",
@@ -26200,7 +26200,7 @@
     "id": "short-femme",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Short femme",
       "ar": "شورت نسائ",
@@ -26252,7 +26252,7 @@
     "id": "sous-vetement-femme-a-manches-longues",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Sous-vêtement femme à manches longues",
       "ar": "ملابس داخلية نسائية بأكمام طويلة",
@@ -26304,7 +26304,7 @@
     "id": "soutien-gorge-dentelle",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge dentelle",
       "ar": "سوتيان دانتيل",
@@ -26356,7 +26356,7 @@
     "id": "soutien-gorge-large-en-microfibre-sans-couture",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Soutien-gorge large en microfibre sans couture",
       "ar": "سوتيان عريض ميكروفايبر بدون خياطة",
@@ -26408,7 +26408,7 @@
     "id": "epaule-large",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Épaule large",
       "ar": "حمالة عريضة",
@@ -26460,7 +26460,7 @@
     "id": "pyjama-bella",
     "brand": "ALSAMAH",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "name": {
       "fr": "Pyjama Bella",
       "ar": "بيجامة بيلا",
@@ -26512,22 +26512,22 @@
     "id": "elko-women-s-slip",
     "brand": "ELKO",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": "culottes",
     "name": {
-      "fr": "Women's slip",
-      "ar": "Women's slip",
-      "en": "Women's slip"
+      "fr": "Slip femme",
+      "ar": "سروال داخلي نسائي",
+      "en": "Women's briefs"
     },
     "short": {
-      "fr": "Women's slip, selection ELKO.",
-      "ar": "Women's slip",
-      "en": "Women's slip, an ELKO essential."
+      "fr": "Slip femme en coton doux.",
+      "ar": "سروال داخلي نسائي قطني ناعم.",
+      "en": "Soft cotton women's briefs."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Women's slip",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Slip femme confortable pour le quotidien, disponible par couleur et taille.",
+      "ar": "سروال داخلي نسائي مريح للاستخدام اليومي، متوفر حسب اللون والمقاس.",
+      "en": "Comfortable women's briefs for everyday wear, available by color and size."
     },
     "regularPrice": 45,
     "price": 32,
@@ -26549,8 +26549,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-women-s-slip-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-women-s-slip-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -26560,8 +26560,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-women-s-slip-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-women-s-slip-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -26651,7 +26651,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -26669,19 +26669,19 @@
     "categoryName": "Homme",
     "subcategory": "sous-vetements",
     "name": {
-      "fr": "Men's slip 100% cotton",
-      "ar": "Men's slip 100% cotton",
-      "en": "Men's slip 100% cotton"
+      "fr": "Slip homme 100% coton",
+      "ar": "سروال داخلي رجالي 100% قطن",
+      "en": "Men's 100% cotton briefs"
     },
     "short": {
-      "fr": "Men's slip 100% cotton, selection ELKO.",
-      "ar": "Men's slip 100% cotton",
-      "en": "Men's slip 100% cotton, an ELKO essential."
+      "fr": "Slip homme en coton respirant.",
+      "ar": "سروال داخلي رجالي قطني ومريح.",
+      "en": "Breathable cotton men's briefs."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Men's slip 100% cotton",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Slip homme 100% coton, doux, respirant et confortable au quotidien.",
+      "ar": "سروال داخلي رجالي 100% قطن، ناعم ومريح للاستخدام اليومي.",
+      "en": "Men's 100% cotton briefs, soft, breathable and comfortable for everyday wear."
     },
     "regularPrice": 55,
     "price": 39,
@@ -26703,8 +26703,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-men-s-slip-100-cotton-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-men-s-slip-100-cotton-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -26714,8 +26714,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-men-s-slip-100-cotton-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-men-s-slip-100-cotton-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -26805,7 +26805,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -26820,22 +26820,22 @@
     "id": "elko-bretelles-wide-band",
     "brand": "ELKO",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": "bodies",
     "name": {
-      "fr": "Bretelles Wide Band",
-      "ar": "Bretelles Wide Band",
-      "en": "Bretelles Wide Band"
+      "fr": "Caraco bretelles larges",
+      "ar": "كاراكو بحمالات عريضة",
+      "en": "Wide-strap camisole"
     },
     "short": {
-      "fr": "Bretelles Wide Band, selection ELKO.",
-      "ar": "Bretelles Wide Band",
-      "en": "Bretelles Wide Band, an ELKO essential."
+      "fr": "Caraco femme à bretelles larges.",
+      "ar": "كاراكو نسائي بحمالات عريضة.",
+      "en": "Women's wide-strap camisole."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Bretelles Wide Band",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Caraco femme à bretelles larges, confortable sous les vêtements ou à la maison.",
+      "ar": "كاراكو نسائي بحمالات عريضة، مريح تحت الملابس أو في البيت.",
+      "en": "Women's wide-strap camisole, comfortable under clothing or at home."
     },
     "regularPrice": 90,
     "price": 63,
@@ -26857,8 +26857,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-bretelles-wide-band-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-bretelles-wide-band-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -26868,8 +26868,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-bretelles-wide-band-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-bretelles-wide-band-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -26959,7 +26959,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -26974,22 +26974,22 @@
     "id": "elko-short-sleeves",
     "brand": "ELKO",
     "category": "femme",
-    "categoryName": "Fashion Femme",
-    "subcategory": "vetements",
+    "categoryName": "Femme",
+    "subcategory": "hauts",
     "name": {
-      "fr": "Short Sleeves",
-      "ar": "Short Sleeves",
-      "en": "Short Sleeves"
+      "fr": "T-shirt femme manches courtes",
+      "ar": "تيشيرت نسائي بأكمام قصيرة",
+      "en": "Women's short-sleeve T-shirt"
     },
     "short": {
-      "fr": "Short Sleeves, selection ELKO.",
-      "ar": "Short Sleeves",
-      "en": "Short Sleeves, an ELKO essential."
+      "fr": "T-shirt femme doux à manches courtes.",
+      "ar": "تيشيرت نسائي ناعم بأكمام قصيرة.",
+      "en": "Soft women's short-sleeve T-shirt."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Short Sleeves",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "T-shirt femme à manches courtes, coupe simple et confortable.",
+      "ar": "تيشيرت نسائي بأكمام قصيرة، قصة بسيطة ومريحة.",
+      "en": "Women's short-sleeve T-shirt with a simple comfortable cut."
     },
     "regularPrice": 99,
     "price": 69,
@@ -27011,8 +27011,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-short-sleeves-blanc.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-short-sleeves-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -27022,8 +27022,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-short-sleeves-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-short-sleeves-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -27113,7 +27113,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -27131,19 +27131,19 @@
     "categoryName": "Homme",
     "subcategory": "sous-vetements",
     "name": {
-      "fr": "Boxer Short 100% cotton",
-      "ar": "Boxer Short 100% cotton",
-      "en": "Boxer Short 100% cotton"
+      "fr": "Boxer short homme 100% coton",
+      "ar": "بوكسر رجالي قصير 100% قطن",
+      "en": "Men's 100% cotton boxer shorts"
     },
     "short": {
-      "fr": "Boxer Short 100% cotton, selection ELKO.",
-      "ar": "Boxer Short 100% cotton",
-      "en": "Boxer Short 100% cotton, an ELKO essential."
+      "fr": "Boxer short homme en coton.",
+      "ar": "بوكسر رجالي قصير من القطن.",
+      "en": "Cotton men's boxer shorts."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Boxer Short 100% cotton",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Boxer short homme 100% coton, souple et confortable.",
+      "ar": "بوكسر رجالي قصير 100% قطن، مرن ومريح.",
+      "en": "Men's 100% cotton boxer shorts, flexible and comfortable."
     },
     "regularPrice": 85,
     "price": 60,
@@ -27165,8 +27165,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-boxer-short-100-cotton-blanc.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-short-100-cotton-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -27176,8 +27176,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-boxer-short-100-cotton-noir.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-short-100-cotton-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -27267,7 +27267,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -27282,22 +27282,22 @@
     "id": "elko-top-bretelles",
     "brand": "ELKO",
     "category": "femme",
-    "categoryName": "Fashion Femme",
+    "categoryName": "Femme",
     "subcategory": "bodies",
     "name": {
-      "fr": "Top Bretelles",
-      "ar": "Top Bretelles",
-      "en": "Top Bretelles"
+      "fr": "Débardeur femme à bretelles",
+      "ar": "فانيلة نسائية بحمالات",
+      "en": "Women's strap tank top"
     },
     "short": {
-      "fr": "Top Bretelles, selection ELKO.",
-      "ar": "Top Bretelles",
-      "en": "Top Bretelles, an ELKO essential."
+      "fr": "Débardeur femme léger à bretelles.",
+      "ar": "فانيلة نسائية خفيفة بحمالات.",
+      "en": "Light women's strap tank top."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Top Bretelles",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Débardeur femme à bretelles, doux et facile à porter au quotidien.",
+      "ar": "فانيلة نسائية بحمالات، ناعمة ومريحة للاستخدام اليومي.",
+      "en": "Women's strap tank top, soft and easy to wear every day."
     },
     "regularPrice": 90,
     "price": 63,
@@ -27319,8 +27319,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-top-bretelles-blanc.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-top-bretelles-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -27330,8 +27330,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-top-bretelles-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-top-bretelles-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -27421,7 +27421,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -27439,19 +27439,19 @@
     "categoryName": "Homme",
     "subcategory": "hauts",
     "name": {
-      "fr": "100% Cotton V Neck Short Sleeve",
-      "ar": "100% Cotton V Neck Short Sleeve",
-      "en": "100% Cotton V Neck Short Sleeve"
+      "fr": "T-shirt homme col V 100% coton",
+      "ar": "تيشيرت رجالي بياقة V 100% قطن",
+      "en": "Men's 100% cotton V-neck T-shirt"
     },
     "short": {
-      "fr": "100% Cotton V Neck Short Sleeve, selection ELKO.",
-      "ar": "100% Cotton V Neck Short Sleeve",
-      "en": "100% Cotton V Neck Short Sleeve, an ELKO essential."
+      "fr": "T-shirt homme col V en coton.",
+      "ar": "تيشيرت رجالي بياقة V من القطن.",
+      "en": "Cotton men's V-neck T-shirt."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "100% Cotton V Neck Short Sleeve",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "T-shirt homme 100% coton avec col V et manches courtes.",
+      "ar": "تيشيرت رجالي 100% قطن بياقة V وأكمام قصيرة.",
+      "en": "Men's 100% cotton V-neck short-sleeve T-shirt."
     },
     "regularPrice": 80,
     "price": 56,
@@ -27473,8 +27473,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-100-cotton-v-neck-short-sleeve-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-v-neck-short-sleeve-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -27484,8 +27484,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-100-cotton-v-neck-short-sleeve-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-v-neck-short-sleeve-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -27575,7 +27575,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -27593,19 +27593,19 @@
     "categoryName": "Homme",
     "subcategory": "hauts",
     "name": {
-      "fr": "100% Cotton No Sleeve V-Neck",
-      "ar": "100% Cotton No Sleeve V-Neck",
-      "en": "100% Cotton No Sleeve V-Neck"
+      "fr": "Débardeur homme col V 100% coton",
+      "ar": "فانيلة رجالية بدون أكمام بياقة V",
+      "en": "Men's 100% cotton sleeveless V-neck"
     },
     "short": {
-      "fr": "100% Cotton No Sleeve V-Neck, selection ELKO.",
-      "ar": "100% Cotton No Sleeve V-Neck",
-      "en": "100% Cotton No Sleeve V-Neck, an ELKO essential."
+      "fr": "Débardeur homme col V sans manches.",
+      "ar": "فانيلة رجالية بدون أكمام بياقة V.",
+      "en": "Men's sleeveless V-neck undershirt."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "100% Cotton No Sleeve V-Neck",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Débardeur homme 100% coton, sans manches avec col V.",
+      "ar": "فانيلة رجالية 100% قطن، بدون أكمام وبياقة V.",
+      "en": "Men's 100% cotton sleeveless V-neck undershirt."
     },
     "regularPrice": 75,
     "price": 53,
@@ -27627,8 +27627,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-100-cotton-no-sleeve-v-neck-blanc.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-no-sleeve-v-neck-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -27638,8 +27638,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-100-cotton-no-sleeve-v-neck-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-no-sleeve-v-neck-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -27729,7 +27729,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -27747,19 +27747,19 @@
     "categoryName": "Homme",
     "subcategory": "hauts",
     "name": {
-      "fr": "100% Cotton Crew Neck Short Sleeve",
-      "ar": "100% Cotton Crew Neck Short Sleeve",
-      "en": "100% Cotton Crew Neck Short Sleeve"
+      "fr": "T-shirt homme col rond 100% coton",
+      "ar": "تيشيرت رجالي بياقة دائرية 100% قطن",
+      "en": "Men's 100% cotton crew-neck T-shirt"
     },
     "short": {
-      "fr": "100% Cotton Crew Neck Short Sleeve, selection ELKO.",
-      "ar": "100% Cotton Crew Neck Short Sleeve",
-      "en": "100% Cotton Crew Neck Short Sleeve, an ELKO essential."
+      "fr": "T-shirt homme col rond en coton.",
+      "ar": "تيشيرت رجالي بياقة دائرية من القطن.",
+      "en": "Cotton men's crew-neck T-shirt."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "100% Cotton Crew Neck Short Sleeve",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "T-shirt homme 100% coton avec col rond et manches courtes.",
+      "ar": "تيشيرت رجالي 100% قطن بياقة دائرية وأكمام قصيرة.",
+      "en": "Men's 100% cotton crew-neck short-sleeve T-shirt."
     },
     "regularPrice": 80,
     "price": 56,
@@ -27781,8 +27781,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-100-cotton-crew-neck-short-sleeve-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-crew-neck-short-sleeve-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -27792,8 +27792,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-100-cotton-crew-neck-short-sleeve-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-crew-neck-short-sleeve-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -27883,7 +27883,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -27898,22 +27898,22 @@
     "id": "elko-long-sleeves",
     "brand": "ELKO",
     "category": "femme",
-    "categoryName": "Fashion Femme",
-    "subcategory": "vetements",
+    "categoryName": "Femme",
+    "subcategory": "hauts",
     "name": {
-      "fr": "Long Sleeves",
-      "ar": "Long Sleeves",
-      "en": "Long Sleeves"
+      "fr": "T-shirt femme manches longues",
+      "ar": "تيشيرت نسائي بأكمام طويلة",
+      "en": "Women's long-sleeve T-shirt"
     },
     "short": {
-      "fr": "Long Sleeves, selection ELKO.",
-      "ar": "Long Sleeves",
-      "en": "Long Sleeves, an ELKO essential."
+      "fr": "T-shirt femme doux à manches longues.",
+      "ar": "تيشيرت نسائي ناعم بأكمام طويلة.",
+      "en": "Soft women's long-sleeve T-shirt."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Long Sleeves",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "T-shirt femme à manches longues, doux et confortable pour le quotidien.",
+      "ar": "تيشيرت نسائي بأكمام طويلة، ناعم ومريح للاستخدام اليومي.",
+      "en": "Women's long-sleeve T-shirt, soft and comfortable for everyday wear."
     },
     "regularPrice": 129,
     "price": 90,
@@ -27935,8 +27935,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-long-sleeves-blanc.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-long-sleeves-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -27946,8 +27946,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-long-sleeves-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-long-sleeves-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -28037,7 +28037,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -28055,19 +28055,19 @@
     "categoryName": "Homme",
     "subcategory": "sous-vetements",
     "name": {
-      "fr": "Boxer brief 100% cotton",
-      "ar": "Boxer brief 100% cotton",
-      "en": "Boxer brief 100% cotton"
+      "fr": "Boxer brief homme 100% coton",
+      "ar": "بوكسر بريف رجالي 100% قطن",
+      "en": "Men's 100% cotton boxer briefs"
     },
     "short": {
-      "fr": "Boxer brief 100% cotton, selection ELKO.",
-      "ar": "Boxer brief 100% cotton",
-      "en": "Boxer brief 100% cotton, an ELKO essential."
+      "fr": "Boxer brief homme en coton.",
+      "ar": "بوكسر بريف رجالي من القطن.",
+      "en": "Cotton men's boxer briefs."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Boxer brief 100% cotton",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Boxer brief homme 100% coton, maintien confortable au quotidien.",
+      "ar": "بوكسر بريف رجالي 100% قطن، مريح للاستخدام اليومي.",
+      "en": "Men's 100% cotton boxer briefs with comfortable support."
     },
     "regularPrice": 85,
     "price": 60,
@@ -28089,8 +28089,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-boxer-brief-100-cotton-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-brief-100-cotton-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -28100,8 +28100,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-boxer-brief-100-cotton-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-brief-100-cotton-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -28191,7 +28191,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -28209,19 +28209,19 @@
     "categoryName": "Homme",
     "subcategory": "sous-vetements",
     "name": {
-      "fr": "Boxer brief",
-      "ar": "Boxer brief",
-      "en": "Boxer brief"
+      "fr": "Boxer brief homme",
+      "ar": "بوكسر بريف رجالي",
+      "en": "Men's boxer briefs"
     },
     "short": {
-      "fr": "Boxer brief, selection ELKO.",
-      "ar": "Boxer brief",
-      "en": "Boxer brief, an ELKO essential."
+      "fr": "Boxer brief homme confortable.",
+      "ar": "بوكسر بريف رجالي مريح.",
+      "en": "Comfortable men's boxer briefs."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Boxer brief",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Boxer brief homme, coupe près du corps et confort quotidien.",
+      "ar": "بوكسر بريف رجالي بقصة مريحة للاستخدام اليومي.",
+      "en": "Men's boxer briefs with a close comfortable fit."
     },
     "regularPrice": 85,
     "price": 60,
@@ -28243,8 +28243,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-boxer-brief-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-brief-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -28254,8 +28254,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-boxer-brief-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-brief-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -28345,7 +28345,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -28363,19 +28363,19 @@
     "categoryName": "Homme",
     "subcategory": "sous-vetements",
     "name": {
-      "fr": "Boxer long leg",
-      "ar": "Boxer long leg",
-      "en": "Boxer long leg"
+      "fr": "Boxer long homme",
+      "ar": "بوكسر رجالي طويل",
+      "en": "Men's long-leg boxer briefs"
     },
     "short": {
-      "fr": "Boxer long leg, selection ELKO.",
-      "ar": "Boxer long leg",
-      "en": "Boxer long leg, an ELKO essential."
+      "fr": "Boxer homme à jambe longue.",
+      "ar": "بوكسر رجالي طويل الساق.",
+      "en": "Men's long-leg boxer briefs."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "Boxer long leg",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Boxer homme à jambe longue, maintien confortable et coupe couvrante.",
+      "ar": "بوكسر رجالي طويل الساق، مريح وعملي.",
+      "en": "Men's long-leg boxer briefs with comfortable coverage and support."
     },
     "regularPrice": 85,
     "price": 60,
@@ -28397,8 +28397,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-boxer-long-leg-blanc.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-long-leg-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -28408,8 +28408,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-boxer-long-leg-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-boxer-long-leg-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -28499,7 +28499,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
@@ -28517,19 +28517,19 @@
     "categoryName": "Homme",
     "subcategory": "hauts",
     "name": {
-      "fr": "100% Cotton Tank Top",
-      "ar": "100% Cotton Tank Top",
-      "en": "100% Cotton Tank Top"
+      "fr": "Débardeur homme 100% coton",
+      "ar": "فانيلة رجالية 100% قطن",
+      "en": "Men's 100% cotton tank top"
     },
     "short": {
-      "fr": "100% Cotton Tank Top, selection ELKO.",
-      "ar": "100% Cotton Tank Top",
-      "en": "100% Cotton Tank Top, an ELKO essential."
+      "fr": "Débardeur homme en coton.",
+      "ar": "فانيلة رجالية قطنية.",
+      "en": "Cotton men's tank top."
     },
     "description": {
-      "fr": "Produit ELKO disponible dans les tailles et couleurs indiquees.",
-      "ar": "100% Cotton Tank Top",
-      "en": "ELKO product available in the listed sizes and colors."
+      "fr": "Débardeur homme 100% coton, doux, respirant et confortable.",
+      "ar": "فانيلة رجالية 100% قطن، ناعمة ومريحة.",
+      "en": "Men's 100% cotton tank top, soft, breathable and comfortable."
     },
     "regularPrice": 75,
     "price": 53,
@@ -28551,8 +28551,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/elko/elko-100-cotton-tank-top-blanc.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-tank-top-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -28562,8 +28562,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/elko/elko-100-cotton-tank-top-noir.png",
-        "imageKind": "source"
+        "image": "/assets/generated/products/elko-100-cotton-tank-top-noir.png",
+        "imageKind": "generated"
       }
     ],
     "variants": [
@@ -28618,7 +28618,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "fallbackImage": false,
     "sourcePage": null,
     "sourceWorkbook": "Les articles disponibles ELKO depot 17-08-2026.xlsx",
