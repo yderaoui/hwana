@@ -2870,7 +2870,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/generated/colors/corset-long-leg-blanc.png",
+        "image": "/assets/generated/imagegen/corset-long-leg-blanc.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -2882,7 +2882,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/generated/colors/corset-long-leg-noir.png",
+        "image": "/assets/generated/imagegen/corset-long-leg-noir.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -2894,7 +2894,7 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/generated/colors/corset-long-leg-beige.png",
+        "image": "/assets/generated/imagegen/corset-long-leg-beige.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
@@ -18397,7 +18397,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/generated/colors/collants-pour-filles-blanc.png",
+        "image": "/assets/generated/products/collants-pour-filles-blanc.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
@@ -19338,7 +19338,7 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/generated/colors/corset-high-boxer-beige.png",
+        "image": "/assets/generated/imagegen/corset-high-boxer-beige.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -19350,7 +19350,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/generated/colors/corset-high-boxer-noir.png",
+        "image": "/assets/generated/imagegen/corset-high-boxer-noir.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -19362,8 +19362,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/generated/products/corset-high-boxer-blanc.png",
-        "imageKind": "source",
+        "image": "/assets/generated/imagegen/corset-high-boxer-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
@@ -21799,7 +21799,7 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/generated/colors/corset-high-boxer-dontel-beige.png",
+        "image": "/assets/generated/imagegen/corset-high-boxer-dontel-beige.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -21811,7 +21811,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/generated/colors/corset-high-boxer-dontel-noir.png",
+        "image": "/assets/generated/imagegen/corset-high-boxer-dontel-noir.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -21823,7 +21823,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/generated/colors/corset-high-boxer-dontel-blanc.png",
+        "image": "/assets/generated/imagegen/corset-high-boxer-dontel-blanc.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
@@ -22918,7 +22918,7 @@
           "en": "Pink"
         },
         "hex": "#c9828e",
-        "image": "/assets/generated/colors/pyjama-sexy-rose.png",
+        "image": "/assets/generated/products/pyjama-sexy-rose.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
