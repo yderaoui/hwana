@@ -80,11 +80,16 @@ const pageCopy = {
 const formatPrice = (value: number, language: Language) => new Intl.NumberFormat(language === "ar" ? "ar-MA" : language === "en" ? "en-MA" : "fr-MA", { maximumFractionDigits: 0 }).format(value);
 
 function ProductImage({ src, alt, pending, className = "", eager = false }: { src: string | null; alt: string; pending: string; className?: string; eager?: boolean }) {
+  const imageRef = useRef<HTMLImageElement>(null);
   const [failed, setFailed] = useState(false);
   const [loaded, setLoaded] = useState(eager);
   useEffect(() => { setFailed(false); setLoaded(eager); }, [eager, src]);
+  useEffect(() => {
+    const image = imageRef.current;
+    if (image?.complete && image.naturalWidth > 0) setLoaded(true);
+  }, [src]);
   if (!src || failed) return <div className={`image-placeholder ${className}`} role="img" aria-label={`${alt}. ${pending}`}><Package size={25} /><span>{pending}</span></div>;
-  return <img className={`${className} product-image ${loaded ? "is-loaded" : "is-loading"}`} src={src} alt={alt} onLoad={() => setLoaded(true)} onError={() => setFailed(true)} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : "auto"} decoding="async" />;
+  return <img ref={imageRef} className={`${className} product-image ${loaded ? "is-loaded" : "is-loading"}`} src={src} alt={alt} onLoad={() => setLoaded(true)} onError={() => setFailed(true)} loading={eager ? "eager" : "lazy"} fetchPriority={eager ? "high" : "auto"} decoding="async" />;
 }
 
 function MotionMedia({ video, poster, alt, pending, className = "" }: { video: string | null; poster: string; alt: string; pending: string; className?: string }) {
@@ -277,6 +282,19 @@ function App() {
   useEffect(() => setVisibleLimit(12), [filter, subFilter, search, language]);
   useEffect(() => setSubFilter("all"), [filter]);
   useEffect(() => {
+    const id = window.location.hash.slice(1);
+    if (!id) return;
+    const scrollToHash = () => document.getElementById(id)?.scrollIntoView({ block: "start" });
+    const frame = window.requestAnimationFrame(scrollToHash);
+    const settled = window.setTimeout(scrollToHash, 900);
+    window.addEventListener("load", scrollToHash, { once: true });
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.clearTimeout(settled);
+      window.removeEventListener("load", scrollToHash);
+    };
+  }, []);
+  useEffect(() => {
     const overlayOpen = Boolean(activeProduct || cartOpen || checkoutOpen || menuOpen);
     document.body.style.overflow = overlayOpen ? "hidden" : "";
     const onKeyDown = (event: KeyboardEvent) => {
@@ -331,7 +349,21 @@ function App() {
     return () => { cancelled = true; context?.revert(); };
   }, [language]);
   const availableSubcategories = subcategoriesByCategory[filter] ?? [];
-  const filteredProducts = useMemo(() => { const needle = search.trim().toLocaleLowerCase(language); const imageScore = (product: Product) => { const available = product.colors.filter((color) => Boolean(color.image)).length; if (!available) return 0; return available === product.colors.length ? 2 : 1; }; return products.filter((product) => { const matchesFilter = filter === "all" || filter === product.category; const matchesSub = subFilter === "all" || product.subcategory === subFilter; const haystack = `${product.name[language]} ${product.short[language]} ${product.brand} ${product.categoryName ?? ""} ${productSubcategoryLabel(product, language)}`.toLocaleLowerCase(language); return matchesFilter && matchesSub && (!needle || haystack.includes(needle)); }).sort((a, b) => Number(b.purchasable) - Number(a.purchasable) || imageScore(b) - imageScore(a) || b.stock - a.stock); }, [filter, subFilter, language, search]);
+  const filteredProducts = useMemo(() => {
+    const needle = search.trim().toLocaleLowerCase(language);
+    const imageScore = (product: Product) => {
+      const available = product.colors.filter((color) => Boolean(color.image)).length;
+      if (!available) return 0;
+      return available === product.colors.length ? 2 : 1;
+    };
+    return products.filter((product) => {
+      if (!product.purchasable || product.price === null) return false;
+      const matchesFilter = filter === "all" || filter === product.category;
+      const matchesSub = subFilter === "all" || product.subcategory === subFilter;
+      const haystack = `${product.name[language]} ${product.short[language]} ${product.brand} ${product.categoryName ?? ""} ${productSubcategoryLabel(product, language)}`.toLocaleLowerCase(language);
+      return matchesFilter && matchesSub && (!needle || haystack.includes(needle));
+    }).sort((a, b) => imageScore(b) - imageScore(a) || b.stock - a.stock);
+  }, [filter, subFilter, language, search]);
   useEffect(() => {
     if (!pageRef.current || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const animations = [...pageRef.current.querySelectorAll<HTMLElement>(".product-grid .product-card")].map((card, index) => card.animate([

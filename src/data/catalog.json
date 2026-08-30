@@ -519,8 +519,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/collants-brillants-pour-filles-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -531,8 +531,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/collants-brillants-pour-filles-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -543,8 +543,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/collants-brillants-pour-filles-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -555,13 +555,13 @@
           "en": "Off-white"
         },
         "hex": "#e9e2d2",
-        "image": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/collants-brillants-pour-filles-blanc-casse.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 16,
     "missing": {
@@ -781,8 +781,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chaussettes-en-coton-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -793,8 +793,8 @@
           "en": "Navy"
         },
         "hex": "#17233d",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chaussettes-en-coton-bleu-marine.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -805,12 +805,12 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-en-coton-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/chaussettes-en-coton-blanc.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/collections/girls-tight-1/products/ankle-simple-socks-1",
     "variantCount": 19,
     "missing": {
@@ -995,8 +995,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/sport-bra-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/sport-bra-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1007,8 +1007,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/sport-bra-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/sport-bra-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1019,8 +1019,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/sport-bra-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/sport-bra-blanc.png",
+        "imageKind": "generated"
       },
       {
         "id": "rose",
@@ -1030,12 +1030,12 @@
           "en": "Pink"
         },
         "hex": "#c9828e",
-        "image": "/assets/excel-products/alsamah-url/sport-bra-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/sport-bra-rose.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 25,
     "missing": {
@@ -1368,8 +1368,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/slip-en-microfibre-sans-couture-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/slip-en-microfibre-sans-couture-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1380,8 +1380,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/slip-en-microfibre-sans-couture-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/products/slip-en-microfibre-sans-couture-pop-up-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1392,13 +1392,13 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/slip-en-microfibre-sans-couture-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/slip-en-microfibre-sans-couture-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/collections/seamless/products/slip-1",
     "variantCount": 9,
     "missing": {
@@ -1899,8 +1899,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/legging-fille-en-coton-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1911,8 +1911,8 @@
           "en": "Off-white"
         },
         "hex": "#e9e2d2",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/legging-fille-en-coton-blanc-casse.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1923,8 +1923,8 @@
           "en": "Gray"
         },
         "hex": "#a8aaad",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/legging-fille-en-coton-gris.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1935,8 +1935,8 @@
           "en": "Fleurir"
         },
         "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/legging-fille-en-coton-fleurir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1947,8 +1947,8 @@
           "en": "Navy"
         },
         "hex": "#17233d",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/legging-fille-en-coton-bleu-marine.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -1959,13 +1959,13 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/legging-fille-en-coton-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 41,
     "missing": {
@@ -2438,8 +2438,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-en-crepe-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chaussettes-en-crepe-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -2456,7 +2456,7 @@
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/collections/socks/products/leen-socks-80den",
     "variantCount": 4,
     "missing": {
@@ -2870,8 +2870,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/corset-long-leg-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/corset-long-leg-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -2882,8 +2882,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/corset-long-leg-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/corset-long-leg-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -2894,13 +2894,13 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/corset-long-leg-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/corset-long-leg-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 27,
     "missing": {
@@ -3498,8 +3498,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/collants-anti-cernes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/collants-anti-cernes-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -3510,12 +3510,12 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/collants-anti-cernes-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/collants-anti-cernes-noir.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/lycra-matt-tight-30den",
     "variantCount": 6,
     "missing": {
@@ -3746,8 +3746,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-brillantes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chaussettes-hautes-brillantes-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -3758,8 +3758,8 @@
           "en": "Brown"
         },
         "hex": "#6f4a35",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-brillantes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chaussettes-hautes-brillantes-marron.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -3770,8 +3770,8 @@
           "en": "Gray"
         },
         "hex": "#a8aaad",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-brillantes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chaussettes-hautes-brillantes-gris.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -3782,12 +3782,12 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-brillantes-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/chaussettes-hautes-brillantes-noir.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/collections/socks/products/ultra-sheer-15-den-silk-reflections-reinforced",
     "variantCount": 6,
     "missing": {
@@ -3878,8 +3878,8 @@
           "en": "Salmon"
         },
         "hex": "#d79079",
-        "image": "/assets/excel-products/alsamah-url/lace-wrist-armes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/lace-wrist-armes-saumon.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -3890,8 +3890,8 @@
           "en": "Blue"
         },
         "hex": "#36608d",
-        "image": "/assets/excel-products/alsamah-url/lace-wrist-armes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/lace-wrist-armes-bleu.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -3902,8 +3902,8 @@
           "en": "Burgundy"
         },
         "hex": "#6e2639",
-        "image": "/assets/excel-products/alsamah-url/lace-wrist-armes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/lace-wrist-armes-bordeaux.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -3914,8 +3914,8 @@
           "en": "Purple"
         },
         "hex": "#765d87",
-        "image": "/assets/excel-products/alsamah-url/lace-wrist-armes-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/lace-wrist-armes-violet.png",
+        "imageKind": "generated"
       },
       {
         "id": "bleu-marine",
@@ -3925,12 +3925,12 @@
           "en": "Navy"
         },
         "hex": "#17233d",
-        "image": "/assets/excel-products/alsamah-url/lace-wrist-armes-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/lace-wrist-armes-bleu-marine.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/lace-wrist-armes?variant=47582598365344",
     "variantCount": 6,
     "missing": {
@@ -4330,7 +4330,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/15_1_1024x1024@2x.png?v=1699525596",
+        "image": "/assets/remote-products/boxer-en-coton-blanc.png",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -4434,7 +4434,7 @@
           "en": "Navy"
         },
         "hex": "#17233d",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-13_at_4.13.12_PM_1_1024x1024@2x.jpg?v=1744729584",
+        "image": "/assets/remote-products/manches-courtes-col-rond-bleu-marine.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -4578,8 +4578,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/collants-pour-femmes-enceintes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/collants-pour-femmes-enceintes-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -4590,13 +4590,13 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/collants-pour-femmes-enceintes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/collants-pour-femmes-enceintes-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 6,
     "missing": {
@@ -4802,7 +4802,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-09_at_8.57.32_AM_1_1024x1024@2x.jpg?v=1744180686",
+        "image": "/assets/remote-products/corset-femme-a-poitrine-ouverte-avec-jambe-longue-facon-pantalon-blanc.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -4857,8 +4857,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/slip-hi-cuts-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/slip-hi-cuts-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -4869,8 +4869,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/slip-hi-cuts-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/slip-hi-cuts-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -4881,13 +4881,13 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/slip-hi-cuts-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/slip-hi-cuts-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/slip-hi-cuts",
     "variantCount": 7,
     "missing": {
@@ -5235,7 +5235,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-09_at_8.57.37_AM_2_1024x1024@2x.jpg?v=1744180686",
+        "image": "/assets/remote-products/boxer-gainant-double-avec-jambe-longue-blanc.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       },
@@ -5729,8 +5729,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/total-control-laser-shaper-short-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/total-control-laser-shaper-short-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -5741,8 +5741,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/total-control-laser-shaper-short-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/total-control-laser-shaper-short-noir.png",
+        "imageKind": "generated"
       },
       {
         "id": "beige",
@@ -5752,12 +5752,12 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/total-control-laser-shaper-short-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/total-control-laser-shaper-short-beige.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/total-control-laser-shaper-shorts-4607",
     "variantCount": 11,
     "missing": {
@@ -5881,8 +5881,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-anti-cernes-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chaussettes-hautes-anti-cernes-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -5893,12 +5893,12 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-anti-cernes-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/chaussettes-hautes-anti-cernes-noir.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/collections/kneehigh/products/crystal-knee-high-30den",
     "variantCount": 3,
     "missing": {
@@ -6092,7 +6092,7 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-09_at_8.57.29_AM_1_1024x1024@2x.jpg?v=1744180686",
+        "image": "/assets/remote-products/collant-femme-scintillant-effet-correcteur-20-den-avec-bout-renforce-beige.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       },
@@ -6156,7 +6156,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-11_at_7.15.06_PM_1024x1024@2x.jpg?v=1744477350",
+        "image": "/assets/remote-products/collant-resille-large-tendance-40-den-noir.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -6210,8 +6210,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/seamless-slip-pregnant-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/seamless-slip-pregnant-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -6222,8 +6222,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/seamless-slip-pregnant-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/seamless-slip-pregnant-noir.png",
+        "imageKind": "generated"
       },
       {
         "id": "blanc",
@@ -6233,12 +6233,12 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/seamless-slip-pregnant-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/seamless-slip-pregnant-blanc.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/slip-pregnant",
     "variantCount": 6,
     "missing": {
@@ -6760,7 +6760,7 @@
           "en": "Brown"
         },
         "hex": "#6f4a35",
-        "image": "https://www.alsamah.com/cdn/shop/products/DTY_7545_1024x1024@2x.jpg?v=1599217492",
+        "image": "/assets/remote-products/collant-classique-femme-diana-mat-20-den-avec-renfort-au-bout-des-pieds-marron.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -6954,7 +6954,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/37dfac7775626f7713e6395d5aa608c3fbd0d131_original_1024x1024@2x.jpg?v=1691867804",
+        "image": "/assets/remote-products/boxer-corset-homme-blanc.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -7007,8 +7007,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/debardeur-corset-femme-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/debardeur-corset-femme-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -7019,13 +7019,13 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/debardeur-corset-femme-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/debardeur-corset-femme-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 3,
     "missing": {
@@ -7095,7 +7095,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/5_2_d88d6d60-3ba0-4fbc-8079-835886814c01_1024x1024@2x.png?v=1699525828",
+        "image": "/assets/remote-products/lot-de-3-slips-homme-100-coton-blanc.png",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -7152,8 +7152,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/boxer-model-corset-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/boxer-model-corset-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -7164,8 +7164,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/boxer-model-corset-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/boxer-model-corset-beige.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -7175,12 +7175,12 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/boxer-model-corset-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/boxer-model-corset-noir.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/boxer-model-corset",
     "variantCount": 7,
     "missing": {
@@ -7278,7 +7278,7 @@
           "en": "Coloré"
         },
         "hex": "#8a756f",
-        "image": "https://www.alsamah.com/cdn/shop/files/6_2_1024x1024@2x.png?v=1699525684",
+        "image": "/assets/remote-products/lot-de-3-slips-garcon-colores-colore.png",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -7568,8 +7568,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/doubled-slip-corset-with-high-rise-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/doubled-slip-corset-with-high-rise-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -7580,8 +7580,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah-url/doubled-slip-corset-with-high-rise-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/doubled-slip-corset-with-high-rise-beige.png",
+        "imageKind": "generated"
       },
       {
         "id": "noir",
@@ -7591,12 +7591,12 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/doubled-slip-corset-with-high-rise-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/doubled-slip-corset-with-high-rise-noir.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/doubled-slip-corset-with-high-rise",
     "variantCount": 3,
     "missing": {
@@ -7666,7 +7666,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/1_2_1024x1024@2x.png?v=1699525245",
+        "image": "/assets/remote-products/culotte-fille-100-coton-taille-basse-blanc.png",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -7774,8 +7774,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah/robe-corset-noir.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/robe-corset-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -7786,12 +7786,12 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah/robe-corset-noir.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/robe-corset-noir.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 7,
     "missing": {
@@ -8139,7 +8139,7 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "https://www.alsamah.com/cdn/shop/products/DTY_7106_1024x1024@2x.jpg?v=1599218266",
+        "image": "/assets/remote-products/collant-femme-doux-semi-transparent-30-den-avec-bout-renforce-beige.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -8395,8 +8395,8 @@
           "en": "Beige"
         },
         "hex": "#cfb491",
-        "image": "/assets/excel-products/alsamah/slimcontour-shaping-top-beige.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/slimcontour-shaping-top-beige.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -8407,8 +8407,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah/slimcontour-shaping-top-beige.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/slimcontour-shaping-top-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -8419,12 +8419,12 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah/slimcontour-shaping-top-beige.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/slimcontour-shaping-top-noir.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 6,
     "missing": {
@@ -8673,8 +8673,8 @@
           "en": "Saumon"
         },
         "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/chemise-de-nuit-en-lycra-avec-dentelle-saumon.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chemise-de-nuit-en-lycra-avec-dentelle-saumon.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -8685,13 +8685,13 @@
           "en": "Sky blue"
         },
         "hex": "#91b9d0",
-        "image": "/assets/excel-products/alsamah/chemise-de-nuit-en-lycra-avec-dentelle-saumon.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/chemise-de-nuit-en-lycra-avec-dentelle-bleu-ciel.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 7,
     "missing": {
@@ -8951,20 +8951,9 @@
           "en": "Pink"
         },
         "hex": "#c9828e",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-homewear-femme-rose.jpg",
+        "image": "/assets/excel-products/alsamah/ensemble-pyjama-homewear-femme-rose-2.jpg",
         "imageKind": "source",
         "lifestyleImage": null
-      },
-      {
-        "id": "non-renseignee",
-        "label": {
-          "fr": "Non renseignee",
-          "ar": "Non renseignee",
-          "en": "Non renseignee"
-        },
-        "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-homewear-femme-rose.jpg",
-        "imageKind": "source"
       }
     ],
     "purchasable": true,
@@ -8993,8 +8982,8 @@
         "barcode": "252006058"
       },
       {
-        "id": "250006058",
-        "colorId": "non-renseignee",
+        "id": "250006058-bleu-ciel",
+        "colorId": "bleu-ciel",
         "size": "TU",
         "stock": 2,
         "barcode": "250006058"
@@ -9113,7 +9102,7 @@
           "en": "Vert kaki"
         },
         "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/pyjama-dentel-chic-avec-pantalon-dentel-vert-kaki.jpg",
+        "image": "/assets/excel-products/alsamah/pyjama-dentel-chic-avec-pantalon-dentel-vert-kaki-10.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       },
@@ -9125,7 +9114,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah/pyjama-dentel-chic-avec-pantalon-dentel-vert-kaki.jpg",
+        "image": "/assets/excel-products/alsamah/2346006243-6243-pyjama-dentel-chic-avec-pantalon-dentel-2xl-black-noir-2.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -9217,8 +9206,8 @@
           "en": "Bleu pétrole"
         },
         "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/pyjama-en-coton-avec-legging-pour-femme-a-motif-floral-bleu-petrole.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/pyjama-en-coton-avec-legging-pour-femme-a-motif-floral-bleu-petrole.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -9229,13 +9218,13 @@
           "en": "Sky blue"
         },
         "hex": "#91b9d0",
-        "image": "/assets/excel-products/alsamah/pyjama-en-coton-avec-legging-pour-femme-a-motif-floral-bleu-ciel.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/pyjama-en-coton-avec-legging-pour-femme-a-motif-floral-bleu-ciel.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 5,
     "missing": {
@@ -9370,7 +9359,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-09_at_8.57.31_AM_1_1024x1024@2x.jpg?v=1744180686",
+        "image": "/assets/remote-products/culotte-corset-fine-avec-ouverture-fessier-et-coupe-boxer-blanc.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -9499,7 +9488,7 @@
           "en": "Navy"
         },
         "hex": "#17233d",
-        "image": "https://www.alsamah.com/cdn/shop/files/41vA77t3NSL_1024x1024@2x.jpg?v=1691683036",
+        "image": "/assets/remote-products/100-coton-sans-manches-col-en-v-bleu-marine.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -9563,7 +9552,7 @@
           "en": "Blue"
         },
         "hex": "#36608d",
-        "image": "https://www.alsamah.com/cdn/shop/files/13_1_1024x1024@2x.png?v=1699525477",
+        "image": "/assets/remote-products/boxer-short-pour-homme-d110062913-bleu.png",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -9609,13 +9598,13 @@
     ],
     "colors": [
       {
-        "id": "non-renseignee",
+        "id": "beige",
         "label": {
-          "fr": "Non renseignée",
-          "ar": "non renseignée",
-          "en": "Non renseignée"
+          "fr": "Beige",
+          "ar": "???",
+          "en": "Beige"
         },
-        "hex": "#8a8882",
+        "hex": "#d8d1c6",
         "image": "/assets/generated/products/couvre-bras-aleen.png",
         "imageKind": "generated",
         "lifestyleImage": null
@@ -9747,8 +9736,8 @@
           "en": "Green"
         },
         "hex": "#627b54",
-        "image": "/assets/excel-products/alsamah/pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants-vert-d-eau.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants-vert.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -9759,12 +9748,12 @@
           "en": "Vert d'eau"
         },
         "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants-vert-d-eau.jpg",
+        "image": "/assets/excel-products/alsamah/pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants-vert-d-eau-2.jpg",
         "imageKind": "source"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 3,
     "missing": {
@@ -9835,8 +9824,8 @@
           "en": "Pink"
         },
         "hex": "#c9828e",
-        "image": "/assets/excel-products/alsamah/pyjama-dentelle-avec-haut-court-sexy-rose.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/pyjama-dentelle-avec-haut-court-sexy-rose.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -9847,20 +9836,8 @@
           "en": "Vert"
         },
         "hex": "#627b54",
-        "image": "/assets/excel-products/alsamah/pyjama-dentelle-avec-haut-court-sexy-vert.jpg",
-        "imageKind": "source",
-        "lifestyleImage": null
-      },
-      {
-        "id": "non-renseignee",
-        "label": {
-          "fr": "Non renseignée",
-          "ar": "non renseignée",
-          "en": "Non renseignée"
-        },
-        "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/pyjama-dentelle-avec-haut-court-sexy-vert.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/pyjama-dentelle-avec-haut-court-sexy-vert.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -9871,8 +9848,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah/pyjama-dentelle-avec-haut-court-sexy-vert.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/pyjama-dentelle-avec-haut-court-sexy-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -9883,13 +9860,13 @@
           "en": "Sky blue"
         },
         "hex": "#91b9d0",
-        "image": "/assets/excel-products/alsamah/pyjama-dentelle-avec-haut-court-sexy-vert.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/pyjama-dentelle-avec-haut-court-sexy-bleu-ciel.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 6,
     "missing": {
@@ -10149,7 +10126,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "https://www.alsamah.com/cdn/shop/products/ee5034f1-4ee0-4886-99af-8343ece11408123__80581_1024x1024@2x.jpg?v=1597827249",
+        "image": "/assets/remote-products/body-de-maternite-avec-bande-large-noir.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -10308,8 +10285,8 @@
           "en": "Gray"
         },
         "hex": "#a8aaad",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-tete-d-ours-gris.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/ensemble-pyjama-tete-d-ours-gris.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -10320,13 +10297,13 @@
           "en": "Blue"
         },
         "hex": "#36608d",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-tete-d-ours-gris.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/ensemble-pyjama-tete-d-ours-bleu.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 4,
     "missing": {
@@ -10538,7 +10515,7 @@
           "en": "Off-white"
         },
         "hex": "#e9e2d2",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-11_at_7.15.06_PM_1_1024x1024@2x.jpg?v=1744477401",
+        "image": "/assets/remote-products/collant-semi-transparent-30-den-style-doux-et-simple-blanc-casse.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -10592,8 +10569,8 @@
           "en": "Orange"
         },
         "hex": "#c8733d",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-terracotta-a-pois-weekending-orange.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/ensemble-pyjama-terracotta-a-pois-weekending-orange.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -10604,12 +10581,12 @@
           "en": "Gray"
         },
         "hex": "#a8aaad",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-terracotta-a-pois-weekending-orange.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/ensemble-pyjama-terracotta-a-pois-weekending-gris.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 4,
     "missing": {
@@ -10687,8 +10664,8 @@
           "en": "Pink"
         },
         "hex": "#c9828e",
-        "image": "/assets/excel-products/alsamah/nuisette-longue-ouvert-sexy-rose.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/nuisette-longue-ouvert-sexy-rose.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -10699,13 +10676,13 @@
           "en": "Sky blue"
         },
         "hex": "#91b9d0",
-        "image": "/assets/excel-products/alsamah/nuisette-longue-ouvert-sexy-bleu-ciel.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/nuisette-longue-ouvert-sexy-bleu-ciel.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 3,
     "missing": {
@@ -12196,8 +12173,8 @@
           "en": "Yellow"
         },
         "hex": "#d0a53a",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-en-lycra-floral-jaune.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/ensemble-pyjama-en-lycra-floral-jaune.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -12208,12 +12185,12 @@
           "en": "Bleu ciel"
         },
         "hex": "#91b9d0",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-en-lycra-floral-bleu-ciel.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/ensemble-pyjama-en-lycra-floral-bleu-ciel.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 4,
     "missing": {
@@ -12291,8 +12268,8 @@
           "en": "Green"
         },
         "hex": "#627b54",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjamar-vert-d-eau-a-micro-motifs-fleuris-vert-d-eau.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/ensemble-pyjamar-vert-d-eau-a-micro-motifs-fleuris-vert.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -12303,12 +12280,12 @@
           "en": "Vert d'eau"
         },
         "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjamar-vert-d-eau-a-micro-motifs-fleuris-vert-d-eau.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/ensemble-pyjamar-vert-d-eau-a-micro-motifs-fleuris-vert-d-eau.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 2,
     "missing": {
@@ -12370,8 +12347,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/high-neck-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/high-neck-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -12382,13 +12359,13 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/high-neck-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/high-neck-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": "https://www.alsamah.com/products/high-neck-3328",
     "variantCount": 2,
     "missing": {
@@ -12793,7 +12770,7 @@
           "en": "Blue"
         },
         "hex": "#36608d",
-        "image": "https://www.alsamah.com/cdn/shop/files/13_1_1024x1024@2x.png?v=1699525477",
+        "image": "/assets/remote-products/boxer-short-homme-bleu.png",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -13027,8 +13004,8 @@
           "en": "Green"
         },
         "hex": "#627b54",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-vert-sauge-imprime-etoiles-vert-d-eau.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/ensemble-pyjama-vert-sauge-imprime-etoiles-vert.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -13039,12 +13016,12 @@
           "en": "Vert d'eau"
         },
         "hex": "#8a8882",
-        "image": "/assets/excel-products/alsamah/ensemble-pyjama-vert-sauge-imprime-etoiles-vert-d-eau.jpg",
+        "image": "/assets/excel-products/alsamah/ensemble-pyjama-vert-sauge-imprime-etoiles-vert-d-eau-2.jpg",
         "imageKind": "source"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 3,
     "missing": {
@@ -13536,8 +13513,8 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah/waistsculpt-adjustable-shaper-blanc.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/waistsculpt-adjustable-shaper-blanc.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -13548,13 +13525,13 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah/waistsculpt-adjustable-shaper-blanc.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/waistsculpt-adjustable-shaper-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 2,
     "missing": {
@@ -14451,7 +14428,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsApp_Image_2025-04-09_at_8.57.37_AM_1024x1024@2x.jpg?v=1744180686",
+        "image": "/assets/remote-products/boxer-corset-double-a-taille-haute-noir.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -14678,8 +14655,8 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-9.jpg",
-        "imageKind": "source",
+        "image": "/assets/generated/colors/legging-fille-noir.png",
+        "imageKind": "generated",
         "lifestyleImage": null
       },
       {
@@ -14690,12 +14667,12 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/excel-products/alsamah-url/legging-fille-9.jpg",
-        "imageKind": "source"
+        "image": "/assets/generated/colors/legging-fille-blanc.png",
+        "imageKind": "generated"
       }
     ],
     "purchasable": true,
-    "imageStatus": "source",
+    "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
@@ -15419,7 +15396,7 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "https://www.alsamah.com/cdn/shop/files/WhatsAppImage2023-10-22at11.31.08PM_1024x1024@2x.jpg?v=1698086111",
+        "image": "/assets/remote-products/corset-a-bretelles-avec-bande-large-blanc.jpg",
         "imageKind": "source",
         "lifestyleImage": null
       }
@@ -15587,17 +15564,16 @@
     ],
     "colors": [
       {
-        "id": "non-renseignee",
+        "id": "jaune",
         "label": {
-          "fr": "Non renseignée",
-          "ar": "non renseignée",
-          "en": "Non renseignée"
+          "fr": "Jaune",
+          "ar": "????",
+          "en": "Yellow"
         },
-        "hex": "#8a8882",
+        "hex": "#d9ad2b",
         "image": "/assets/excel-products/alsamah/1740005078-5078-ensemble-pyjama-d-ete-pour-femme-avec-pantakour-m-jaune-jaune-2.jpg",
         "imageKind": "source",
-        "lifestyleImage": null,
-        "fallbackImage": false
+        "lifestyleImage": null
       }
     ],
     "purchasable": true,
@@ -16793,9 +16769,9 @@
       "ar": ". جوارب صيفية ضاغطة خفيفة.",
       "en": "Lightweight summer tights with shaping effect."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 299,
+    "regularPrice": 130.0,
+    "price": 91,
+    "stock": 434,
     "sizes": [
       "L",
       "M",
@@ -16803,26 +16779,14 @@
     ],
     "colors": [
       {
-        "id": "non-renseignee",
+        "id": "marron",
         "label": {
-          "fr": "Non renseignée",
-          "ar": "non renseignée",
-          "en": "Non renseignée"
+          "fr": "Marron",
+          "ar": "بني",
+          "en": "Brown"
         },
-        "hex": "#8a8882",
-        "image": "/assets/generated/products/collants-push-up-ete-non-renseignee.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "noir",
-        "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
-        },
-        "hex": "#1d1d1c",
-        "image": "/assets/generated/products/collants-push-up-ete-noir.png",
+        "hex": "#6f4a35",
+        "image": "/assets/generated/colors/collants-push-up-ete-marron.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -16835,21 +16799,98 @@
         },
         "hex": "#cfb491",
         "image": "/assets/generated/products/collants-push-up-ete-beige.png",
-        "imageKind": "generated",
+        "imageKind": "source",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": "/assets/generated/products/collants-push-up-ete-noir.png",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 9,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139056657",
+        "colorId": "marron",
+        "size": "XL",
+        "stock": 64,
+        "barcode": "6251139056657"
+      },
+      {
+        "id": "6251139056633",
+        "colorId": "beige",
+        "size": "XL",
+        "stock": 35,
+        "barcode": "6251139056633"
+      },
+      {
+        "id": "6251139012226",
+        "colorId": "noir",
+        "size": "XL",
+        "stock": 45,
+        "barcode": "6251139012226"
+      },
+      {
+        "id": "6251139012219",
+        "colorId": "noir",
+        "size": "L",
+        "stock": 41,
+        "barcode": "6251139012219"
+      },
+      {
+        "id": "6251139012202",
+        "colorId": "noir",
+        "size": "M",
+        "stock": 43,
+        "barcode": "6251139012202"
+      },
+      {
+        "id": "6251139012196",
+        "colorId": "marron",
+        "size": "L",
+        "stock": 55,
+        "barcode": "6251139012196"
+      },
+      {
+        "id": "6251139012189",
+        "colorId": "marron",
+        "size": "M",
+        "stock": 60,
+        "barcode": "6251139012189"
+      },
+      {
+        "id": "6251139012158",
+        "colorId": "beige",
+        "size": "L",
+        "stock": 46,
+        "barcode": "6251139012158"
+      },
+      {
+        "id": "6251139012141",
+        "colorId": "beige",
+        "size": "M",
+        "stock": 45,
+        "barcode": "6251139012141"
+      }
+    ]
   },
   {
     "id": "jambieres",
@@ -17015,63 +17056,46 @@
       "ar": ". طقم بيجامة مع روب زهري ناعم وأنثوي.",
       "en": "Pajama set with floral robe, elegant and comfortable homewear."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 172,
+    "regularPrice": 389.0,
+    "price": 272,
+    "stock": 1,
     "sizes": [
-      "Free Size",
-      "M",
-      "XL"
+      "M"
     ],
     "colors": [
-      {
-        "id": "bleu-marine",
-        "label": {
-          "fr": "Bleu marine",
-          "ar": "كحلي",
-          "en": "Navy"
-        },
-        "hex": "#17233d",
-        "image": "/assets/generated/products/ensemble-pyjama-avec-robe-de-chambre-fleurie-bleu-marine.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "noir",
-        "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
-        },
-        "hex": "#1d1d1c",
-        "image": "/assets/generated/products/ensemble-pyjama-avec-robe-de-chambre-fleurie-noir.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
       {
         "id": "fushia",
         "label": {
           "fr": "Fushia",
-          "ar": "fushia",
-          "en": "Fushia"
+          "ar": "فوشيا",
+          "en": "Fuchsia"
         },
         "hex": "#b73577",
         "image": "/assets/generated/products/ensemble-pyjama-avec-robe-de-chambre-fleurie-fushia.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 5,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "4040006180",
+        "colorId": "fushia",
+        "size": "M",
+        "stock": 1,
+        "barcode": "4040006180"
+      }
+    ]
   },
   {
     "id": "slip-en-microfibre-sans-couture-pop-up",
@@ -17093,39 +17117,13 @@
       "ar": "سروال داخلي Pop-Up من الميكروفايبر بدون خياطة مرن ومريح.",
       "en": "Seamless Pop-Up microfiber briefs, flexible and comfortable."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 166,
+    "regularPrice": 190.0,
+    "price": 133,
+    "stock": 18,
     "sizes": [
-      "L",
-      "M",
-      "S"
+      "L"
     ],
     "colors": [
-      {
-        "id": "blanc",
-        "label": {
-          "fr": "Blanc",
-          "ar": "أبيض",
-          "en": "White"
-        },
-        "hex": "#f5f5f0",
-        "image": "/assets/generated/products/slip-en-microfibre-sans-couture-pop-up-blanc.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "noir",
-        "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
-        },
-        "hex": "#1d1d1c",
-        "image": "/assets/generated/products/slip-en-microfibre-sans-couture-pop-up-noir.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
       {
         "id": "beige",
         "label": {
@@ -17135,21 +17133,30 @@
         },
         "hex": "#cfb491",
         "image": "/assets/generated/products/slip-en-microfibre-sans-couture-pop-up-beige.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 9,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "culottes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8681534000340",
+        "colorId": "beige",
+        "size": "L",
+        "stock": 18,
+        "barcode": "8681534000340"
+      }
+    ]
   },
   {
     "id": "collants-push-up",
@@ -17171,28 +17178,15 @@
       "ar": ". جوارب ضاغطة تبرز شكل الجسم.",
       "en": "Sculpting tights that enhance body shape."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 165,
+    "regularPrice": 130.0,
+    "price": 91,
+    "stock": 313,
     "sizes": [
-      "2XL",
       "L",
       "M",
       "XL"
     ],
     "colors": [
-      {
-        "id": "bleu-marine",
-        "label": {
-          "fr": "Bleu marine",
-          "ar": "كحلي",
-          "en": "Navy"
-        },
-        "hex": "#17233d",
-        "image": "/assets/generated/products/collants-push-up-bleu-marine.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
       {
         "id": "beige",
         "label": {
@@ -17202,33 +17196,124 @@
         },
         "hex": "#cfb491",
         "image": "/assets/generated/products/collants-push-up-beige.png",
+        "imageKind": "source",
+        "lifestyleImage": null
+      },
+      {
+        "id": "noir",
+        "label": {
+          "fr": "Noir",
+          "ar": "أسود",
+          "en": "Black"
+        },
+        "hex": "#1d1d1c",
+        "image": "/assets/generated/colors/collants-push-up-noir.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
       {
-        "id": "gris",
+        "id": "marron",
         "label": {
-          "fr": "Gris",
-          "ar": "رمادي",
-          "en": "Gray"
+          "fr": "Marron",
+          "ar": "بني",
+          "en": "Brown"
         },
-        "hex": "#a8aaad",
-        "image": "/assets/generated/products/collants-push-up-gris.png",
+        "hex": "#6f4a35",
+        "image": "/assets/generated/colors/collants-push-up-marron.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
-    "variantCount": 12,
+    "variantCount": 11,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139060784",
+        "colorId": "beige",
+        "size": "XL",
+        "stock": 33,
+        "barcode": "6251139060784"
+      },
+      {
+        "id": "6251139060777",
+        "colorId": "beige",
+        "size": "L",
+        "stock": 28,
+        "barcode": "6251139060777"
+      },
+      {
+        "id": "6251139060760",
+        "colorId": "beige",
+        "size": "M",
+        "stock": 37,
+        "barcode": "6251139060760"
+      },
+      {
+        "id": "6251139012103",
+        "colorId": "noir",
+        "size": "XL",
+        "stock": 3,
+        "barcode": "6251139012103"
+      },
+      {
+        "id": "6251139012097",
+        "colorId": "noir",
+        "size": "L",
+        "stock": 8,
+        "barcode": "6251139012097"
+      },
+      {
+        "id": "6251139012073",
+        "colorId": "marron",
+        "size": "XL",
+        "stock": 39,
+        "barcode": "6251139012073"
+      },
+      {
+        "id": "6251139012066",
+        "colorId": "marron",
+        "size": "L",
+        "stock": 39,
+        "barcode": "6251139012066"
+      },
+      {
+        "id": "6251139012059",
+        "colorId": "marron",
+        "size": "M",
+        "stock": 55,
+        "barcode": "6251139012059"
+      },
+      {
+        "id": "6251139011991",
+        "colorId": "beige",
+        "size": "XL",
+        "stock": 5,
+        "barcode": "6251139011991"
+      },
+      {
+        "id": "6251139011984",
+        "colorId": "beige",
+        "size": "L",
+        "stock": 27,
+        "barcode": "6251139011984"
+      },
+      {
+        "id": "6251139011977",
+        "colorId": "beige",
+        "size": "M",
+        "stock": 39,
+        "barcode": "6251139011977"
+      }
+    ]
   },
   {
     "id": "t-shirt-ras-du-cou-a-manches-courtes",
@@ -17393,50 +17478,46 @@
       "ar": ". فستان بطبعة خفيفة وأنيقة.",
       "en": "Printed dress, light and elegant design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 137,
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 1,
     "sizes": [
-      "L",
-      "XXL"
+      "S"
     ],
     "colors": [
       {
-        "id": "beige",
+        "id": "bleu-marine",
         "label": {
-          "fr": "Beige",
-          "ar": "بيج",
-          "en": "Beige"
+          "fr": "Bleu marine",
+          "ar": "كحلي",
+          "en": "Navy"
         },
-        "hex": "#cfb491",
+        "hex": "#17233d",
         "image": "/assets/generated/products/ensemble-short-imprime-beige.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "noir",
-        "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
-        },
-        "hex": "#1d1d1c",
-        "image": "/assets/generated/products/ensemble-short-imprime-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 2,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "vetements",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "738005190",
+        "colorId": "bleu-marine",
+        "size": "S",
+        "stock": 1,
+        "barcode": "738005190"
+      }
+    ]
   },
   {
     "id": "couvre-orteils",
@@ -17458,9 +17539,9 @@
       "ar": ". أغطية أصابع القدم مريحة وناعمة.",
       "en": "Fishnet socks, stylish and breathable design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 129,
+    "regularPrice": 60.0,
+    "price": 42,
+    "stock": 21,
     "sizes": [
       "Free Size"
     ],
@@ -17474,21 +17555,37 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/couvre-orteils-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 2,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "vetements",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139051034",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 13,
+        "barcode": "6251139051034"
+      },
+      {
+        "id": "6251139051027",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 8,
+        "barcode": "6251139051027"
+      }
+    ]
   },
   {
     "id": "soutien-gorge-de-sport-en-microfibre-sans-couture",
@@ -17589,37 +17686,26 @@
       "ar": "فايات ساق Leen دافئة ومريحة للاستخدام اليومي.",
       "en": "Leen leg warmers, warm and comfortable for everyday wear."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 111,
+    "regularPrice": 105.0,
+    "price": 74,
+    "stock": 508,
     "sizes": [
-      "10",
-      "11",
-      "9"
+      "Free Size",
+      "L",
+      "M",
+      "XL"
     ],
     "colors": [
       {
-        "id": "blanc",
+        "id": "beige",
         "label": {
-          "fr": "Blanc",
-          "ar": "أبيض",
-          "en": "White"
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
         },
-        "hex": "#f5f5f0",
+        "hex": "#cfb491",
         "image": "/assets/generated/products/jambieres-leen-blanc.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "bleu-marine",
-        "label": {
-          "fr": "Bleu marine",
-          "ar": "كحلي",
-          "en": "Navy"
-        },
-        "hex": "#17233d",
-        "image": "/assets/generated/products/jambieres-leen-bleu-marine.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       },
       {
@@ -17631,21 +17717,119 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/jambieres-leen-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
+        "lifestyleImage": null
+      },
+      {
+        "id": "bleu-marine",
+        "label": {
+          "fr": "Bleu marine",
+          "ar": "كحلي",
+          "en": "Navy"
+        },
+        "hex": "#17233d",
+        "image": "/assets/generated/products/jambieres-leen-bleu-marine.png",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 7,
+    "variantCount": 12,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139060753",
+        "colorId": "beige",
+        "size": "XL",
+        "stock": 2,
+        "barcode": "6251139060753"
+      },
+      {
+        "id": "6251139060746",
+        "colorId": "noir",
+        "size": "L",
+        "stock": 22,
+        "barcode": "6251139060746"
+      },
+      {
+        "id": "6251139060739",
+        "colorId": "bleu-marine",
+        "size": "XL",
+        "stock": 7,
+        "barcode": "6251139060739"
+      },
+      {
+        "id": "6251139060609",
+        "colorId": "bleu-marine",
+        "size": "L",
+        "stock": 57,
+        "barcode": "6251139060609"
+      },
+      {
+        "id": "6251139060586",
+        "colorId": "beige",
+        "size": "L",
+        "stock": 28,
+        "barcode": "6251139060586"
+      },
+      {
+        "id": "6251139056596",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 135,
+        "barcode": "6251139056596"
+      },
+      {
+        "id": "6251139014176",
+        "colorId": "noir",
+        "size": "XL",
+        "stock": 36,
+        "barcode": "6251139014176"
+      },
+      {
+        "id": "6251139013902",
+        "colorId": "noir",
+        "size": "M",
+        "stock": 51,
+        "barcode": "6251139013902"
+      },
+      {
+        "id": "6251139013896",
+        "colorId": "bleu-marine",
+        "size": "XL",
+        "stock": 50,
+        "barcode": "6251139013896"
+      },
+      {
+        "id": "6251139013889",
+        "colorId": "bleu-marine",
+        "size": "L",
+        "stock": 54,
+        "barcode": "6251139013889"
+      },
+      {
+        "id": "6251139013872",
+        "colorId": "bleu-marine",
+        "size": "M",
+        "stock": 65,
+        "barcode": "6251139013872"
+      },
+      {
+        "id": "6251139013131",
+        "colorId": "noir",
+        "size": "M",
+        "stock": 1,
+        "barcode": "6251139013131"
+      }
+    ]
   },
   {
     "id": "haut-de-corps-en-microfibre-sans-couture-a-bretelles",
@@ -17829,19 +18013,27 @@
       "ar": ". كولون للبنات (Kowloon Jen) مريح للارتداء اليومي.",
       "en": "Girls’ tights (Kowloon Jen), comfortable for everyday wear."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 87,
+    "regularPrice": 80.0,
+    "price": 56,
+    "stock": 238,
     "sizes": [
-      "2",
-      "4",
-      "6",
-      "8",
       "L",
       "M",
       "S"
     ],
     "colors": [
+      {
+        "id": "blanc-casse",
+        "label": {
+          "fr": "Blanc casse",
+          "ar": "أوف وايت",
+          "en": "Off-white"
+        },
+        "hex": "#e9e2d2",
+        "image": "/assets/generated/products/jambieres-pour-filles-blanc-casse.png",
+        "imageKind": "source",
+        "lifestyleImage": null
+      },
       {
         "id": "noir",
         "label": {
@@ -17851,19 +18043,7 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/jambieres-pour-filles-noir.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "beige",
-        "label": {
-          "fr": "Beige",
-          "ar": "بيج",
-          "en": "Beige"
-        },
-        "hex": "#cfb491",
-        "image": "/assets/generated/products/jambieres-pour-filles-beige.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       },
       {
@@ -17875,33 +18055,86 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/generated/products/jambieres-pour-filles-blanc.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "blanc-casse",
-        "label": {
-          "fr": "Blanc cassé",
-          "ar": "أوف وايت",
-          "en": "Off-white"
-        },
-        "hex": "#e9e2d2",
-        "image": "/assets/generated/products/jambieres-pour-filles-blanc-casse.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 9,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "fille",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139024908",
+        "colorId": "blanc-casse",
+        "size": "L",
+        "stock": 17,
+        "barcode": "6251139024908"
+      },
+      {
+        "id": "6251139024892",
+        "colorId": "blanc-casse",
+        "size": "M",
+        "stock": 15,
+        "barcode": "6251139024892"
+      },
+      {
+        "id": "6251139024885",
+        "colorId": "blanc-casse",
+        "size": "S",
+        "stock": 25,
+        "barcode": "6251139024885"
+      },
+      {
+        "id": "6251139024694",
+        "colorId": "noir",
+        "size": "L",
+        "stock": 17,
+        "barcode": "6251139024694"
+      },
+      {
+        "id": "6251139024687",
+        "colorId": "noir",
+        "size": "M",
+        "stock": 74,
+        "barcode": "6251139024687"
+      },
+      {
+        "id": "6251139024670",
+        "colorId": "noir",
+        "size": "S",
+        "stock": 23,
+        "barcode": "6251139024670"
+      },
+      {
+        "id": "6251139024632",
+        "colorId": "blanc",
+        "size": "L",
+        "stock": 20,
+        "barcode": "6251139024632"
+      },
+      {
+        "id": "6251139024625",
+        "colorId": "blanc",
+        "size": "M",
+        "stock": 17,
+        "barcode": "6251139024625"
+      },
+      {
+        "id": "6251139024618",
+        "colorId": "blanc",
+        "size": "S",
+        "stock": 30,
+        "barcode": "6251139024618"
+      }
+    ]
   },
   {
     "id": "corset-butt-pump-69500000490s",
@@ -18003,9 +18236,9 @@
       "ar": ". كولون شبكي مع فيونكة بتصميم أنثوي.",
       "en": "Rhinestone fishnet tights, glamorous and stylish design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 74,
+    "regularPrice": 109.0,
+    "price": 76,
+    "stock": 17,
     "sizes": [
       "Free Size"
     ],
@@ -18019,21 +18252,30 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/collants-resille-avec-nud-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139051072",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 17,
+        "barcode": "6251139051072"
+      }
+    ]
   },
   {
     "id": "mes-filles-kowloon-jen",
@@ -18123,15 +18365,30 @@
       "ar": "كولون لامع للبنات ناعم وأنيق.",
       "en": "Shiny tights for girls, soft and flexible."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 62,
+    "regularPrice": 62.5,
+    "price": 44,
+    "stock": 77,
     "sizes": [
       "10",
+      "12",
+      "14",
       "2",
+      "4",
       "8"
     ],
     "colors": [
+      {
+        "id": "blanc-casse",
+        "label": {
+          "fr": "Blanc casse",
+          "ar": "أوف وايت",
+          "en": "Off-white"
+        },
+        "hex": "#e9e2d2",
+        "image": "/assets/generated/colors/collants-pour-filles-blanc-casse.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
       {
         "id": "blanc",
         "label": {
@@ -18140,22 +18397,66 @@
           "en": "White"
         },
         "hex": "#f5f5f0",
-        "image": "/assets/generated/products/collants-pour-filles-blanc.png",
+        "image": "/assets/generated/colors/collants-pour-filles-blanc.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
-    "variantCount": 3,
+    "variantCount": 6,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "fille",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139022225",
+        "colorId": "blanc-casse",
+        "size": "14",
+        "stock": 1,
+        "barcode": "6251139022225"
+      },
+      {
+        "id": "6251139022195",
+        "colorId": "blanc",
+        "size": "8",
+        "stock": 12,
+        "barcode": "6251139022195"
+      },
+      {
+        "id": "6251139022164",
+        "colorId": "blanc",
+        "size": "2",
+        "stock": 14,
+        "barcode": "6251139022164"
+      },
+      {
+        "id": "6251139021655",
+        "colorId": "blanc",
+        "size": "12",
+        "stock": 3,
+        "barcode": "6251139021655"
+      },
+      {
+        "id": "6251139021648",
+        "colorId": "blanc",
+        "size": "10",
+        "stock": 44,
+        "barcode": "6251139021648"
+      },
+      {
+        "id": "6251139021617",
+        "colorId": "blanc",
+        "size": "4",
+        "stock": 3,
+        "barcode": "6251139021617"
+      }
+    ]
   },
   {
     "id": "maillot-de-corps-turc-a-manches-courtes-pour-garcons",
@@ -18233,40 +18534,13 @@
       "ar": "باك سليب للأولاد ناعم ومريح.",
       "en": "Boys' briefs pack, soft and comfortable."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 55,
+    "regularPrice": 270.0,
+    "price": 189,
+    "stock": 10,
     "sizes": [
-      "2",
-      "4",
-      "6",
-      "8"
+      "2"
     ],
     "colors": [
-      {
-        "id": "bleu-marine",
-        "label": {
-          "fr": "Bleu marine",
-          "ar": "كحلي",
-          "en": "Navy"
-        },
-        "hex": "#17233d",
-        "image": "/assets/generated/products/pack-slip-pour-garcons-bleu-marine.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "colore",
-        "label": {
-          "fr": "Coloré",
-          "ar": "coloré",
-          "en": "Coloré"
-        },
-        "hex": "#8a756f",
-        "image": "/assets/generated/products/pack-slip-pour-garcons-colore.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
       {
         "id": "blanc",
         "label": {
@@ -18276,21 +18550,30 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/generated/products/pack-slip-pour-garcons-blanc.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 7,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "garcon",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139026612",
+        "colorId": "blanc",
+        "size": "2",
+        "stock": 10,
+        "barcode": "6251139026612"
+      }
+    ]
   },
   {
     "id": "corset-boxer-double-a-jambe-longue",
@@ -18769,62 +19052,46 @@
       "ar": ". قميص نوم ليكرا مع دانتيل ناعم.",
       "en": "Lycra nightdress with lace, soft and comfortable."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 40,
+    "regularPrice": 419.0,
+    "price": 293,
+    "stock": 1,
     "sizes": [
-      "2XL",
-      "M"
+      "L"
     ],
     "colors": [
       {
-        "id": "noir",
+        "id": "rose",
         "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
+          "fr": "Rose",
+          "ar": "وردي",
+          "en": "Pink"
         },
-        "hex": "#1d1d1c",
+        "hex": "#c9828e",
         "image": "/assets/generated/products/nuisette-longue-avec-peignoir-noir.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "bleu-ciel",
-        "label": {
-          "fr": "Bleu ciel",
-          "ar": "أزرق سماوي",
-          "en": "Sky blue"
-        },
-        "hex": "#91b9d0",
-        "image": "/assets/generated/products/nuisette-longue-avec-peignoir-bleu-ciel.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "blanc-casse",
-        "label": {
-          "fr": "Blanc cassé",
-          "ar": "أوف وايت",
-          "en": "Off-white"
-        },
-        "hex": "#e9e2d2",
-        "image": "/assets/generated/products/nuisette-longue-avec-peignoir-blanc-casse.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 3,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "242006069",
+        "colorId": "rose",
+        "size": "L",
+        "stock": 1,
+        "barcode": "242006069"
+      }
+    ]
   },
   {
     "id": "collants-resille",
@@ -18846,38 +19113,13 @@
       "ar": ". كولون شبكي بتصميم جذاب وجريء.",
       "en": "Fishnet tights, stylish and comfortable."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 36,
+    "regularPrice": 60.0,
+    "price": 42,
+    "stock": 75,
     "sizes": [
-      "Free Size",
-      "S"
+      "Free Size"
     ],
     "colors": [
-      {
-        "id": "violet",
-        "label": {
-          "fr": "Violet",
-          "ar": "بنفسجي",
-          "en": "Purple"
-        },
-        "hex": "#765d87",
-        "image": "/assets/generated/products/collants-resille-violet.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "beige",
-        "label": {
-          "fr": "Beige",
-          "ar": "بيج",
-          "en": "Beige"
-        },
-        "hex": "#cfb491",
-        "image": "/assets/generated/products/collants-resille-beige.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
       {
         "id": "noir",
         "label": {
@@ -18887,21 +19129,30 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/collants-resille-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 3,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139050723",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 75,
+        "barcode": "6251139050723"
+      }
+    ]
   },
   {
     "id": "debardeur-a-larges-bretelles-en-microfibre-sans-couture",
@@ -19067,14 +19318,30 @@
       "ar": "كورسيه High Boxer مريح ومشدود.",
       "en": "High boxer corset, comfortable and firm."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 33,
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 97,
     "sizes": [
+      "2XL",
+      "3/4 XL",
       "L",
+      "M",
+      "S",
       "XL"
     ],
     "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": "/assets/generated/colors/corset-high-boxer-beige.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
       {
         "id": "noir",
         "label": {
@@ -19083,7 +19350,7 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/generated/products/corset-high-boxer-noir.png",
+        "image": "/assets/generated/colors/corset-high-boxer-noir.png",
         "imageKind": "generated",
         "lifestyleImage": null
       },
@@ -19096,21 +19363,114 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/generated/products/corset-high-boxer-blanc.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
-    "variantCount": 3,
+    "variantCount": 13,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "corsets",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8681534015368",
+        "colorId": "beige",
+        "size": "3/4 XL",
+        "stock": 1,
+        "barcode": "8681534015368"
+      },
+      {
+        "id": "8681534015351",
+        "colorId": "noir",
+        "size": "3/4 XL",
+        "stock": 2,
+        "barcode": "8681534015351"
+      },
+      {
+        "id": "8681534015344",
+        "colorId": "noir",
+        "size": "3/4 XL",
+        "stock": 12,
+        "barcode": "8681534015344"
+      },
+      {
+        "id": "8681534011353",
+        "colorId": "beige",
+        "size": "2XL",
+        "stock": 4,
+        "barcode": "8681534011353"
+      },
+      {
+        "id": "8681534011346",
+        "colorId": "noir",
+        "size": "2XL",
+        "stock": 11,
+        "barcode": "8681534011346"
+      },
+      {
+        "id": "8681534001194",
+        "colorId": "beige",
+        "size": "S",
+        "stock": 3,
+        "barcode": "8681534001194"
+      },
+      {
+        "id": "8681534001187",
+        "colorId": "beige",
+        "size": "M",
+        "stock": 4,
+        "barcode": "8681534001187"
+      },
+      {
+        "id": "8681534001163",
+        "colorId": "noir",
+        "size": "XL",
+        "stock": 22,
+        "barcode": "8681534001163"
+      },
+      {
+        "id": "8681534001156",
+        "colorId": "noir",
+        "size": "S",
+        "stock": 16,
+        "barcode": "8681534001156"
+      },
+      {
+        "id": "8681534001149",
+        "colorId": "noir",
+        "size": "M",
+        "stock": 2,
+        "barcode": "8681534001149"
+      },
+      {
+        "id": "8681534001125",
+        "colorId": "blanc",
+        "size": "XL",
+        "stock": 2,
+        "barcode": "8681534001125"
+      },
+      {
+        "id": "8681534001118",
+        "colorId": "blanc",
+        "size": "S",
+        "stock": 10,
+        "barcode": "8681534001118"
+      },
+      {
+        "id": "8681534001095",
+        "colorId": "blanc",
+        "size": "L",
+        "stock": 8,
+        "barcode": "8681534001095"
+      }
+    ]
   },
   {
     "id": "pyjama-dentelle",
@@ -19132,37 +19492,70 @@
       "ar": ". قميص نوم دانتيل ناعم وأنيق.",
       "en": "Lace pyjama, soft and elegant."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 32,
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 9,
     "sizes": [
-      "Free Size"
+      "L",
+      "M",
+      "S",
+      "XL"
     ],
     "colors": [
       {
-        "id": "noir",
+        "id": "blanc-casse",
         "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
+          "fr": "Blanc casse",
+          "ar": "أوف وايت",
+          "en": "Off-white"
         },
-        "hex": "#1d1d1c",
+        "hex": "#e9e2d2",
         "image": "/assets/generated/products/pyjama-dentelle-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 4,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "2144006175",
+        "colorId": "blanc-casse",
+        "size": "XL",
+        "stock": 3,
+        "barcode": "2144006175"
+      },
+      {
+        "id": "2142006175",
+        "colorId": "blanc-casse",
+        "size": "L",
+        "stock": 2,
+        "barcode": "2142006175"
+      },
+      {
+        "id": "2140006175",
+        "colorId": "blanc-casse",
+        "size": "M",
+        "stock": 2,
+        "barcode": "2140006175"
+      },
+      {
+        "id": "2138006175",
+        "colorId": "blanc-casse",
+        "size": "S",
+        "stock": 2,
+        "barcode": "2138006175"
+      }
+    ]
   },
   {
     "id": "corset-amincissant",
@@ -19605,76 +19998,46 @@
       "ar": ". بيجامة مخططة كلاسيكية ومريحة.",
       "en": "Pajama, soft and relaxed fit."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 19,
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 2,
     "sizes": [
-      "Free Size",
-      "L",
-      "M",
-      "XL"
+      "L"
     ],
     "colors": [
       {
-        "id": "noir",
+        "id": "bleu-marine-blanc",
         "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
-        },
-        "hex": "#1d1d1c",
-        "image": "/assets/generated/products/pyjama-raye-251139051072-noir.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "blanc",
-        "label": {
-          "fr": "Blanc",
-          "ar": "أبيض",
-          "en": "White"
-        },
-        "hex": "#f5f5f0",
-        "image": "/assets/generated/products/pyjama-raye-251139051072-blanc.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "kaki",
-        "label": {
-          "fr": "Kaki",
-          "ar": "kaki",
-          "en": "Kaki"
+          "fr": "Bleu marine blanc",
+          "ar": "Bleu marine blanc",
+          "en": "Bleu marine blanc"
         },
         "hex": "#8a8882",
-        "image": "/assets/generated/products/pyjama-raye-251139051072-kaki.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "rouge",
-        "label": {
-          "fr": "Rouge",
-          "ar": "أحمر",
-          "en": "Red"
-        },
-        "hex": "#a7473e",
-        "image": "/assets/generated/products/pyjama-raye-251139051072-rouge.png",
-        "imageKind": "generated",
+        "image": "/assets/generated/products/pyjama-raye-251139051072-noir.png",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 7,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "696800000134",
+        "colorId": "bleu-marine-blanc",
+        "size": "L",
+        "stock": 2,
+        "barcode": "696800000134"
+      }
+    ]
   },
   {
     "id": "haut-de-corps-a-manches-courtes-en-microfibre-sans-couture",
@@ -19943,18 +20306,6 @@
     ],
     "colors": [
       {
-        "id": "non-renseignee",
-        "label": {
-          "fr": "Non renseignée",
-          "ar": "non renseignée",
-          "en": "Non renseignée"
-        },
-        "hex": "#8a8882",
-        "image": "/assets/generated/products/corset-non-renseignee.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
         "id": "bleu-marine",
         "label": {
           "fr": "Bleu marine",
@@ -20104,40 +20455,13 @@
       "ar": "بوكسر رجالي قطني ناعم وقابل للتهوية.",
       "en": "Mens cotton briefs, soft and breathable."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 15,
+    "regularPrice": 160.0,
+    "price": 112,
+    "stock": 5,
     "sizes": [
-      "2XL",
-      "3XL",
-      "S",
-      "XL"
+      "3XL"
     ],
     "colors": [
-      {
-        "id": "blanche",
-        "label": {
-          "fr": "Blanc casse",
-          "ar": "blanche",
-          "en": "Off-white"
-        },
-        "hex": "#e9e2d2",
-        "image": "/assets/generated/products/slip-pour-homme-blanche.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "bleu-marine",
-        "label": {
-          "fr": "Bleu marine",
-          "ar": "كحلي",
-          "en": "Navy"
-        },
-        "hex": "#17233d",
-        "image": "/assets/generated/products/slip-pour-homme-bleu-marine.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
       {
         "id": "noir",
         "label": {
@@ -20147,33 +20471,30 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/slip-pour-homme-noir.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "blanc",
-        "label": {
-          "fr": "Blanc",
-          "ar": "أبيض",
-          "en": "White"
-        },
-        "hex": "#f5f5f0",
-        "image": "/assets/generated/products/slip-pour-homme-blanc.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 6,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "sous-vetements",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139061125",
+        "colorId": "noir",
+        "size": "3XL",
+        "stock": 5,
+        "barcode": "6251139061125"
+      }
+    ]
   },
   {
     "id": "debardeur-turc-pour-garcons",
@@ -20248,14 +20569,12 @@
       "ar": "كورسيه بوكسر مزدوج الطبقة بخصر عالٍ، مشدّ ومريح.",
       "en": "Double-layer high-waist corset boxer, shaping and supportive."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 14,
+    "regularPrice": 295.0,
+    "price": 207,
+    "stock": 28,
     "sizes": [
-      "4XL",
-      "M",
-      "S",
-      "XL"
+      "2XL",
+      "L"
     ],
     "colors": [
       {
@@ -20267,19 +20586,7 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/generated/products/corset-boxer-double-a-taille-haute-blanc.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "noir",
-        "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
-        },
-        "hex": "#1d1d1c",
-        "image": "/assets/generated/products/corset-boxer-double-a-taille-haute-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       },
       {
@@ -20291,21 +20598,44 @@
         },
         "hex": "#cfb491",
         "image": "/assets/generated/products/corset-boxer-double-a-taille-haute-beige.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 4,
+    "variantCount": 3,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "corsets",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8695000008337",
+        "colorId": "blanc",
+        "size": "L",
+        "stock": 25,
+        "barcode": "8695000008337"
+      },
+      {
+        "id": "8695000008335",
+        "colorId": "beige",
+        "size": "2XL",
+        "stock": 2,
+        "barcode": "8695000008335"
+      },
+      {
+        "id": "8695000008333",
+        "colorId": "blanc",
+        "size": "2XL",
+        "stock": 1,
+        "barcode": "8695000008333"
+      }
+    ]
   },
   {
     "id": "corset-body-top1",
@@ -20574,11 +20904,10 @@
       "ar": ". بيجامة بأكتاف دانتيل مزهرة بتصميم أنثوي راقٍ.",
       "en": "Pajama with floral shoulders and feminine design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 11,
+    "regularPrice": 389.0,
+    "price": 272,
+    "stock": 8,
     "sizes": [
-      "2XL",
       "3XL",
       "4XL",
       "5XL",
@@ -20586,29 +20915,59 @@
     ],
     "colors": [
       {
-        "id": "jaune",
+        "id": "bleu-ciel",
         "label": {
-          "fr": "Jaune",
-          "ar": "أصفر",
-          "en": "Yellow"
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
         },
-        "hex": "#d0a53a",
+        "hex": "#91b9d0",
         "image": "/assets/generated/products/pyjama-epaules-dentelle-fleuri-jaune.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 5,
+    "variantCount": 4,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "154005082",
+        "colorId": "bleu-ciel",
+        "size": "6XL",
+        "stock": 2,
+        "barcode": "154005082"
+      },
+      {
+        "id": "152005082",
+        "colorId": "bleu-ciel",
+        "size": "5XL",
+        "stock": 3,
+        "barcode": "152005082"
+      },
+      {
+        "id": "150005082",
+        "colorId": "bleu-ciel",
+        "size": "4XL",
+        "stock": 1,
+        "barcode": "150005082"
+      },
+      {
+        "id": "148005082",
+        "colorId": "bleu-ciel",
+        "size": "3XL",
+        "stock": 2,
+        "barcode": "148005082"
+      }
+    ]
   },
   {
     "id": "pyjama-coton-avec-legging-fleuri",
@@ -20630,9 +20989,9 @@
       "ar": ". بيجامة قطن مع ليقينغ مزهر ناعم ومريح للبيت.",
       "en": "Cotton pajama with floral leggings, soft and comfortable homewear."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 10,
+    "regularPrice": 389.0,
+    "price": 272,
+    "stock": 11,
     "sizes": [
       "2XL",
       "3XL",
@@ -20642,29 +21001,78 @@
     ],
     "colors": [
       {
-        "id": "jaune",
+        "id": "bleu-petrole",
         "label": {
-          "fr": "Jaune",
-          "ar": "أصفر",
-          "en": "Yellow"
+          "fr": "Bleu petrole",
+          "ar": "Bleu petrole",
+          "en": "Bleu petrole"
         },
-        "hex": "#d0a53a",
-        "image": "/assets/generated/products/pyjama-coton-avec-legging-fleuri-jaune.png",
+        "hex": "#8a8882",
+        "image": "/assets/generated/colors/pyjama-coton-avec-legging-fleuri-bleu-petrole.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
+      {
+        "id": "bleu-ciel",
+        "label": {
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
+        },
+        "hex": "#91b9d0",
+        "image": "/assets/generated/colors/pyjama-coton-avec-legging-fleuri-bleu-ciel.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
     "variantCount": 5,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "148005077",
+        "colorId": "bleu-petrole",
+        "size": "3XL",
+        "stock": 3,
+        "barcode": "148005077"
+      },
+      {
+        "id": "146005077",
+        "colorId": "bleu-petrole",
+        "size": "2XL",
+        "stock": 2,
+        "barcode": "146005077"
+      },
+      {
+        "id": "144005077",
+        "colorId": "bleu-ciel",
+        "size": "XL",
+        "stock": 2,
+        "barcode": "144005077"
+      },
+      {
+        "id": "142005077",
+        "colorId": "bleu-ciel",
+        "size": "L",
+        "stock": 1,
+        "barcode": "142005077"
+      },
+      {
+        "id": "140005077",
+        "colorId": "bleu-petrole",
+        "size": "M",
+        "stock": 3,
+        "barcode": "140005077"
+      }
+    ]
   },
   {
     "id": "sous-vetement-femme",
@@ -20802,11 +21210,11 @@
       "ar": "كورسيه High Boxer مريح ومشدود.",
       "en": "High boxer corset, comfortable and shaping."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 9,
+    "regularPrice": 295.0,
+    "price": 207,
+    "stock": 1,
     "sizes": [
-      "l"
+      "3/4 XL"
     ],
     "colors": [
       {
@@ -20818,21 +21226,30 @@
         },
         "hex": "#cfb491",
         "image": "/assets/generated/products/corset-slip-beige.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "corsets",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8681534015269",
+        "colorId": "beige",
+        "size": "3/4 XL",
+        "stock": 1,
+        "barcode": "8681534015269"
+      }
+    ]
   },
   {
     "id": "lot-de-3-slips-colores-pour-garcon",
@@ -21013,23 +21430,24 @@
       "ar": "كورسيه مزدوج الطبقة بخصر عالٍ، يوفر دعماً قوياً وتأثيراً مشدوداً.",
       "en": "Double-layer high-waist corset, providing firm shaping and support."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 7,
+    "regularPrice": 295.0,
+    "price": 207,
+    "stock": 28,
     "sizes": [
-      "S"
+      "2XL",
+      "L"
     ],
     "colors": [
       {
-        "id": "noir",
+        "id": "blanc",
         "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
         },
-        "hex": "#1d1d1c",
+        "hex": "#f5f5f0",
         "image": "/assets/generated/products/corset-double-a-taille-haute-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       },
       {
@@ -21041,21 +21459,44 @@
         },
         "hex": "#cfb491",
         "image": "/assets/generated/products/corset-double-a-taille-haute-beige.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 2,
+    "variantCount": 3,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "corsets",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8695000008337",
+        "colorId": "blanc",
+        "size": "L",
+        "stock": 25,
+        "barcode": "8695000008337"
+      },
+      {
+        "id": "8695000008335",
+        "colorId": "beige",
+        "size": "2XL",
+        "stock": 2,
+        "barcode": "8695000008335"
+      },
+      {
+        "id": "8695000008333",
+        "colorId": "blanc",
+        "size": "2XL",
+        "stock": 1,
+        "barcode": "8695000008333"
+      }
+    ]
   },
   {
     "id": "corset-modele-boxer",
@@ -21155,64 +21596,53 @@
       "ar": "أكمام دانتيل أنيقة وإكسسوار أنثوي راق.",
       "en": "Elegant lace arm covers for a refined feminine finish."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 7,
+    "regularPrice": 45.0,
+    "price": 32,
+    "stock": 9,
     "sizes": [
-      "2",
-      "2XL",
-      "3XL",
       "Free Size"
     ],
     "colors": [
       {
-        "id": "violet",
+        "id": "colore",
         "label": {
-          "fr": "Violet",
-          "ar": "بنفسجي",
-          "en": "Purple"
+          "fr": "Colore",
+          "ar": "ملون",
+          "en": "Colored"
         },
-        "hex": "#765d87",
+        "hex": "#8a756f",
         "image": "/assets/generated/products/couvre-bras-en-dentelle-violet.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "noir",
-        "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
-        },
-        "hex": "#1d1d1c",
-        "image": "/assets/generated/products/couvre-bras-en-dentelle-noir.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "non-renseignee",
-        "label": {
-          "fr": "Non renseignée",
-          "ar": "non renseignée",
-          "en": "Non renseignée"
-        },
-        "hex": "#8a8882",
-        "image": "/assets/generated/products/couvre-bras-en-dentelle-non-renseignee.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 5,
+    "variantCount": 2,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": "vetements",
-    "fallbackImage": false
+    "subcategory": "soutien-gorge",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139015241",
+        "colorId": "colore",
+        "size": "Free Size",
+        "stock": 7,
+        "barcode": "6251139015241"
+      },
+      {
+        "id": "6251139015234",
+        "colorId": "colore",
+        "size": "Free Size",
+        "stock": 2,
+        "barcode": "6251139015234"
+      }
+    ]
   },
   {
     "id": "pyjama-a-carreau",
@@ -21288,11 +21718,11 @@
       "ar": "كولون شبكي مرصع بالستراس أنيق وفاخر.",
       "en": "Rhinestone fishnet tights with a glamorous, elegant finish."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 6,
+    "regularPrice": 109.0,
+    "price": 76,
+    "stock": 24,
     "sizes": [
-      "0"
+      "Free Size"
     ],
     "colors": [
       {
@@ -21304,21 +21734,30 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/collants-resille-a-strass-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139051041",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 24,
+        "barcode": "6251139051041"
+      }
+    ]
   },
   {
     "id": "corset-high-boxer-dontel",
@@ -21340,13 +21779,30 @@
       "ar": "بوكسر عالي بالدانتيل، مريح وأنيق.",
       "en": "High-waist lace boxer corset, comfortable and elegant."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 6,
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 97,
     "sizes": [
-      "S"
+      "2XL",
+      "3/4 XL",
+      "L",
+      "M",
+      "S",
+      "XL"
     ],
     "colors": [
+      {
+        "id": "beige",
+        "label": {
+          "fr": "Beige",
+          "ar": "بيج",
+          "en": "Beige"
+        },
+        "hex": "#cfb491",
+        "image": "/assets/generated/colors/corset-high-boxer-dontel-beige.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
       {
         "id": "noir",
         "label": {
@@ -21355,22 +21811,127 @@
           "en": "Black"
         },
         "hex": "#1d1d1c",
-        "image": "/assets/generated/products/corset-high-boxer-dontel-noir.png",
+        "image": "/assets/generated/colors/corset-high-boxer-dontel-noir.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
+      {
+        "id": "blanc",
+        "label": {
+          "fr": "Blanc",
+          "ar": "أبيض",
+          "en": "White"
+        },
+        "hex": "#f5f5f0",
+        "image": "/assets/generated/colors/corset-high-boxer-dontel-blanc.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 13,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "corsets",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8681534015368",
+        "colorId": "beige",
+        "size": "3/4 XL",
+        "stock": 1,
+        "barcode": "8681534015368"
+      },
+      {
+        "id": "8681534015351",
+        "colorId": "noir",
+        "size": "3/4 XL",
+        "stock": 2,
+        "barcode": "8681534015351"
+      },
+      {
+        "id": "8681534015344",
+        "colorId": "noir",
+        "size": "3/4 XL",
+        "stock": 12,
+        "barcode": "8681534015344"
+      },
+      {
+        "id": "8681534011353",
+        "colorId": "beige",
+        "size": "2XL",
+        "stock": 4,
+        "barcode": "8681534011353"
+      },
+      {
+        "id": "8681534011346",
+        "colorId": "noir",
+        "size": "2XL",
+        "stock": 11,
+        "barcode": "8681534011346"
+      },
+      {
+        "id": "8681534001194",
+        "colorId": "beige",
+        "size": "S",
+        "stock": 3,
+        "barcode": "8681534001194"
+      },
+      {
+        "id": "8681534001187",
+        "colorId": "beige",
+        "size": "M",
+        "stock": 4,
+        "barcode": "8681534001187"
+      },
+      {
+        "id": "8681534001163",
+        "colorId": "noir",
+        "size": "XL",
+        "stock": 22,
+        "barcode": "8681534001163"
+      },
+      {
+        "id": "8681534001156",
+        "colorId": "noir",
+        "size": "S",
+        "stock": 16,
+        "barcode": "8681534001156"
+      },
+      {
+        "id": "8681534001149",
+        "colorId": "noir",
+        "size": "M",
+        "stock": 2,
+        "barcode": "8681534001149"
+      },
+      {
+        "id": "8681534001125",
+        "colorId": "blanc",
+        "size": "XL",
+        "stock": 2,
+        "barcode": "8681534001125"
+      },
+      {
+        "id": "8681534001118",
+        "colorId": "blanc",
+        "size": "S",
+        "stock": 10,
+        "barcode": "8681534001118"
+      },
+      {
+        "id": "8681534001095",
+        "colorId": "blanc",
+        "size": "L",
+        "stock": 8,
+        "barcode": "8681534001095"
+      }
+    ]
   },
   {
     "id": "hoodie-femme",
@@ -21565,11 +22126,11 @@
       "ar": ". كولون fishnet بتصميم أنثوي جذاب.",
       "en": "Fishnet tights, bold and fashionable look."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 5,
+    "regularPrice": 60.0,
+    "price": 42,
+    "stock": 75,
     "sizes": [
-      "S"
+      "Free Size"
     ],
     "colors": [
       {
@@ -21581,21 +22142,30 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/collants-fishnet-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139050723",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 75,
+        "barcode": "6251139050723"
+      }
+    ]
   },
   {
     "id": "legging",
@@ -21878,13 +22448,10 @@
       "ar": ". بيجامة فستان شبكي بتصميم أنثوي جذاب.",
       "en": "Mesh robe pajama, sensual and elegant design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 4,
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 2,
     "sizes": [
-      "2XL",
-      "L",
-      "M",
       "XL"
     ],
     "colors": [
@@ -21897,21 +22464,30 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/pyjama-robe-resille-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 4,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "2344006156",
+        "colorId": "noir",
+        "size": "XL",
+        "stock": 2,
+        "barcode": "2344006156"
+      }
+    ]
   },
   {
     "id": "pyjama902",
@@ -22037,39 +22613,70 @@
       "ar": ". طقم بيجامة صيفي مع بنطلون قصير خفيف ومريح.",
       "en": "Summer pajama set with capri pants, lightweight and breathable."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 3,
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 5,
     "sizes": [
+      "2XL",
+      "3XL",
       "L",
-      "M",
       "XL"
     ],
     "colors": [
       {
-        "id": "jaune",
+        "id": "bleu-ciel",
         "label": {
-          "fr": "Jaune",
-          "ar": "أصفر",
-          "en": "Yellow"
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
         },
-        "hex": "#d0a53a",
+        "hex": "#91b9d0",
         "image": "/assets/generated/products/ensemble-pyjama-dete-avec-pantacourt-jaune.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 3,
+    "variantCount": 4,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "148005078",
+        "colorId": "bleu-ciel",
+        "size": "3XL",
+        "stock": 1,
+        "barcode": "148005078"
+      },
+      {
+        "id": "146005078",
+        "colorId": "bleu-ciel",
+        "size": "2XL",
+        "stock": 2,
+        "barcode": "146005078"
+      },
+      {
+        "id": "144005078",
+        "colorId": "bleu-ciel",
+        "size": "XL",
+        "stock": 1,
+        "barcode": "144005078"
+      },
+      {
+        "id": "142005078",
+        "colorId": "bleu-ciel",
+        "size": "L",
+        "stock": 1,
+        "barcode": "142005078"
+      }
+    ]
   },
   {
     "id": "pyjama-femme",
@@ -22091,50 +22698,62 @@
       "ar": ". دافئات الساق دافئة ومريحة.",
       "en": "Women pajama, soft and comfortable homewear."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 3,
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 10,
     "sizes": [
+      "L",
       "M",
       "XL"
     ],
     "colors": [
       {
-        "id": "beige",
+        "id": "marron-chocolat",
         "label": {
-          "fr": "Beige",
-          "ar": "بيج",
-          "en": "Beige"
-        },
-        "hex": "#cfb491",
-        "image": "/assets/generated/products/pyjama-femme-beige.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "orange",
-        "label": {
-          "fr": "Orange",
-          "ar": "orange",
-          "en": "Orange"
+          "fr": "Marron chocolat",
+          "ar": "Marron chocolat",
+          "en": "Marron chocolat"
         },
         "hex": "#8a8882",
-        "image": "/assets/generated/products/pyjama-femme-orange.png",
-        "imageKind": "generated",
+        "image": "/assets/generated/products/pyjama-femme-beige.png",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 2,
+    "variantCount": 3,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8681438770486",
+        "colorId": "marron-chocolat",
+        "size": "XL",
+        "stock": 3,
+        "barcode": "8681438770486"
+      },
+      {
+        "id": "8681438770386",
+        "colorId": "marron-chocolat",
+        "size": "L",
+        "stock": 3,
+        "barcode": "8681438770386"
+      },
+      {
+        "id": "8681438770286",
+        "colorId": "marron-chocolat",
+        "size": "M",
+        "stock": 4,
+        "barcode": "8681438770286"
+      }
+    ]
   },
   {
     "id": "pyjama-kermiz",
@@ -22208,50 +22827,46 @@
       "ar": "بيجامة مريحة وخفيفة.",
       "en": "Lightweight and comfortable pajama."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 3,
+    "regularPrice": 420.0,
+    "price": 294,
+    "stock": 2,
     "sizes": [
-      "BLACK",
       "L"
     ],
     "colors": [
       {
-        "id": "coloree",
+        "id": "bleu-marine-blanc",
         "label": {
-          "fr": "Coloree",
-          "ar": "coloree",
-          "en": "Coloree"
+          "fr": "Bleu marine blanc",
+          "ar": "Bleu marine blanc",
+          "en": "Bleu marine blanc"
         },
         "hex": "#8a8882",
         "image": "/assets/generated/products/pyjama-raye-coloree.png",
-        "imageKind": "generated",
-        "lifestyleImage": null
-      },
-      {
-        "id": "gris",
-        "label": {
-          "fr": "Gris",
-          "ar": "رمادي",
-          "en": "Gray"
-        },
-        "hex": "#a8aaad",
-        "image": "/assets/generated/products/pyjama-raye-gris.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 2,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "696800000134",
+        "colorId": "bleu-marine-blanc",
+        "size": "L",
+        "stock": 2,
+        "barcode": "696800000134"
+      }
+    ]
   },
   {
     "id": "pyjama-sexy",
@@ -22273,14 +22888,28 @@
       "ar": "بيجامة جريئة ومريحة للنوم.",
       "en": "Sexy and comfortable night pajama."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 3,
+    "regularPrice": 419.0,
+    "price": 293,
+    "stock": 9,
     "sizes": [
+      "2XL",
+      "L",
       "M",
-      "S"
+      "XL"
     ],
     "colors": [
+      {
+        "id": "vert",
+        "label": {
+          "fr": "Vert",
+          "ar": "أخضر",
+          "en": "Green"
+        },
+        "hex": "#627b54",
+        "image": "/assets/generated/colors/pyjama-sexy-vert.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
       {
         "id": "rose",
         "label": {
@@ -22289,22 +22918,66 @@
           "en": "Pink"
         },
         "hex": "#c9828e",
-        "image": "/assets/generated/products/pyjama-sexy-rose.png",
+        "image": "/assets/generated/colors/pyjama-sexy-rose.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
-    "variantCount": 2,
+    "variantCount": 6,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "446036044",
+        "colorId": "vert",
+        "size": "2XL",
+        "stock": 1,
+        "barcode": "446036044"
+      },
+      {
+        "id": "442016044",
+        "colorId": "vert",
+        "size": "L",
+        "stock": 1,
+        "barcode": "442016044"
+      },
+      {
+        "id": "246006044",
+        "colorId": "rose",
+        "size": "2XL",
+        "stock": 1,
+        "barcode": "246006044"
+      },
+      {
+        "id": "244006044",
+        "colorId": "rose",
+        "size": "XL",
+        "stock": 2,
+        "barcode": "244006044"
+      },
+      {
+        "id": "242006044",
+        "colorId": "rose",
+        "size": "L",
+        "stock": 3,
+        "barcode": "242006044"
+      },
+      {
+        "id": "240006044",
+        "colorId": "rose",
+        "size": "M",
+        "stock": 1,
+        "barcode": "240006044"
+      }
+    ]
   },
   {
     "id": "pyjamaagreable",
@@ -22482,9 +23155,9 @@
       "ar": "سليب بنات أبيض من القطن، ناعم ومريح للاستخدام اليومي.",
       "en": "White cotton girls' briefs, soft and comfortable for everyday wear."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 3,
+    "regularPrice": 270.0,
+    "price": 189,
+    "stock": 9,
     "sizes": [
       "10"
     ],
@@ -22498,16 +23171,16 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/generated/products/slip-fille-blanc.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
@@ -22517,6 +23190,15 @@
       "slip fille",
       "girls briefs",
       "cotton underwear"
+    ],
+    "variants": [
+      {
+        "id": "6251139053298",
+        "colorId": "blanc",
+        "size": "10",
+        "stock": 9,
+        "barcode": "6251139053298"
+      }
     ]
   },
   {
@@ -22697,8 +23379,8 @@
       "ar": "مجموعة جوارب مخفية للأولاد مريحة وعملية.",
       "en": "Pack of invisible socks for boys, practical and comfortable."
     },
-    "regularPrice": null,
-    "price": null,
+    "regularPrice": 80.0,
+    "price": 56,
     "stock": 2,
     "sizes": [
       "10",
@@ -22714,21 +23396,37 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/generated/products/lot-de-chaussettes-invisibles-garcon-blanc.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 2,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "garcon",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8680652272981",
+        "colorId": "blanc",
+        "size": "4",
+        "stock": 1,
+        "barcode": "8680652272981"
+      },
+      {
+        "id": "8680652267055",
+        "colorId": "blanc",
+        "size": "10",
+        "stock": 1,
+        "barcode": "8680652267055"
+      }
+    ]
   },
   {
     "id": "pujama-femme-en-dentelle",
@@ -23126,37 +23824,46 @@
       "ar": "بيجامة دانتيل أنيقة وراقية.",
       "en": "Lace pajama, elegant and refined."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 2,
+    "regularPrice": 299.0,
+    "price": 209,
+    "stock": 1,
     "sizes": [
-      "L"
+      "3XL"
     ],
     "colors": [
       {
-        "id": "violet",
+        "id": "bleu-ciel",
         "label": {
-          "fr": "Violet",
-          "ar": "بنفسجي",
-          "en": "Purple"
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
         },
-        "hex": "#765d87",
+        "hex": "#91b9d0",
         "image": "/assets/generated/products/pyjama-femme-en-dentelle-violet.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "148006054",
+        "colorId": "bleu-ciel",
+        "size": "3XL",
+        "stock": 1,
+        "barcode": "148006054"
+      }
+    ]
   },
   {
     "id": "pyjama-home-penoir-sexy",
@@ -23230,14 +23937,11 @@
       "ar": ". بيجامة طويلة مع روب بأكمام نصفية طقم أنيق ومريح.",
       "en": "Long pajama with robe, comfortable and stylish home set."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 2,
+    "regularPrice": 389.0,
+    "price": 272,
+    "stock": 1,
     "sizes": [
-      "3XL",
-      "L",
-      "M",
-      "XL"
+      "3XL"
     ],
     "colors": [
       {
@@ -23249,21 +23953,30 @@
         },
         "hex": "#d0a53a",
         "image": "/assets/generated/products/pyjama-longue-demi-manche-avec-peignoir-jaune.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 4,
+    "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "1748005085",
+        "colorId": "jaune",
+        "size": "3XL",
+        "stock": 1,
+        "barcode": "1748005085"
+      }
+    ]
   },
   {
     "id": "pyjama-lovely",
@@ -23402,37 +24115,62 @@
       "ar": "بيجامة دانتيل أنثوية وأنيقة.",
       "en": "Lace pajama, feminine and elegant."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 2,
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 10,
     "sizes": [
-      "S"
+      "L",
+      "M",
+      "XL"
     ],
     "colors": [
       {
-        "id": "violet",
+        "id": "marron-chocolat",
         "label": {
-          "fr": "Violet",
-          "ar": "بنفسجي",
-          "en": "Purple"
+          "fr": "Marron chocolat",
+          "ar": "Marron chocolat",
+          "en": "Marron chocolat"
         },
-        "hex": "#765d87",
+        "hex": "#8a8882",
         "image": "/assets/generated/products/pyjama-pour-femme-violet.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 3,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8681438770486",
+        "colorId": "marron-chocolat",
+        "size": "XL",
+        "stock": 3,
+        "barcode": "8681438770486"
+      },
+      {
+        "id": "8681438770386",
+        "colorId": "marron-chocolat",
+        "size": "L",
+        "stock": 3,
+        "barcode": "8681438770386"
+      },
+      {
+        "id": "8681438770286",
+        "colorId": "marron-chocolat",
+        "size": "M",
+        "stock": 4,
+        "barcode": "8681438770286"
+      }
+    ]
   },
   {
     "id": "pyjama-queen-bride",
@@ -24239,11 +24977,11 @@
       "ar": ". دافئات ساق شبكية أنيقة وعصرية.",
       "en": "Fishnet tights, trendy and elastic design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 1,
+    "regularPrice": 109.0,
+    "price": 76,
+    "stock": 130,
     "sizes": [
-      "95"
+      "Free Size"
     ],
     "colors": [
       {
@@ -24255,21 +24993,30 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/generated/products/jambieres-resille-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
-    "subcategory": null,
-    "fallbackImage": false
+    "subcategory": "collants",
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "6251139045767",
+        "colorId": "noir",
+        "size": "Free Size",
+        "stock": 130,
+        "barcode": "6251139045767"
+      }
+    ]
   },
   {
     "id": "legging-695067504138",
@@ -24551,37 +25298,75 @@
       "ar": ". بيجامة أنيقة وراقية.",
       "en": "Striped pajama, classic and comfortable design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 1,
+    "regularPrice": 379.01,
+    "price": 265,
+    "stock": 11,
     "sizes": [
-      "XL"
+      "4XL",
+      "6XL"
     ],
     "colors": [
       {
-        "id": "blanc-casse",
+        "id": "vert-kaki",
         "label": {
-          "fr": "Blanc cassé",
-          "ar": "أوف وايت",
-          "en": "Off-white"
+          "fr": "Vert kaki",
+          "ar": "Vert kaki",
+          "en": "Vert kaki"
         },
-        "hex": "#e9e2d2",
+        "hex": "#8a8882",
         "image": "/assets/generated/products/pyjama-chic-blanc-casse.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 5,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "4154006243",
+        "colorId": "vert-kaki",
+        "size": "6XL",
+        "stock": 1,
+        "barcode": "4154006243"
+      },
+      {
+        "id": "4150006243",
+        "colorId": "vert-kaki",
+        "size": "4XL",
+        "stock": 1,
+        "barcode": "4150006243"
+      },
+      {
+        "id": "4150006244",
+        "colorId": "vert-kaki",
+        "size": "4XL",
+        "stock": 2,
+        "barcode": "4150006244"
+      },
+      {
+        "id": "4150006245",
+        "colorId": "vert-kaki",
+        "size": "4XL",
+        "stock": 3,
+        "barcode": "4150006245"
+      },
+      {
+        "id": "4150006246",
+        "colorId": "vert-kaki",
+        "size": "4XL",
+        "stock": 4,
+        "barcode": "4150006246"
+      }
+    ]
   },
   {
     "id": "pyjama-court-avec-dentelle-col-v",
@@ -24707,37 +25492,62 @@
       "ar": "بيجامة نسائية بيج، بسيطة وناعمة ومريحة.",
       "en": "Beige women's pyjama, simple, soft and comfortable."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 1,
+    "regularPrice": 359.0,
+    "price": 251,
+    "stock": 10,
     "sizes": [
-      "free size"
+      "L",
+      "M",
+      "XL"
     ],
     "colors": [
       {
-        "id": "beige",
+        "id": "marron-chocolat",
         "label": {
-          "fr": "Beige",
-          "ar": "بيج",
-          "en": "Beige"
+          "fr": "Marron chocolat",
+          "ar": "Marron chocolat",
+          "en": "Marron chocolat"
         },
-        "hex": "#cfb491",
+        "hex": "#8a8882",
         "image": "/assets/generated/products/pyjama-femme-694704642899-beige.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 3,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "8681438770486",
+        "colorId": "marron-chocolat",
+        "size": "XL",
+        "stock": 3,
+        "barcode": "8681438770486"
+      },
+      {
+        "id": "8681438770386",
+        "colorId": "marron-chocolat",
+        "size": "L",
+        "stock": 3,
+        "barcode": "8681438770386"
+      },
+      {
+        "id": "8681438770286",
+        "colorId": "marron-chocolat",
+        "size": "M",
+        "stock": 4,
+        "barcode": "8681438770286"
+      }
+    ]
   },
   {
     "id": "pyjama-garcon-roi-des-pirates",
@@ -24967,37 +25777,46 @@
       "ar": "بيجامة طويلة نسائية بطبعة زهور، ناعمة ومريحة.",
       "en": "Women's long floral print pyjama, soft and comfortable."
     },
-    "regularPrice": null,
-    "price": null,
+    "regularPrice": 399.0,
+    "price": 279,
     "stock": 1,
     "sizes": [
-      "XL"
+      "M"
     ],
     "colors": [
       {
-        "id": "violet",
+        "id": "bleu-ciel",
         "label": {
-          "fr": "Violet",
-          "ar": "بنفسجي",
-          "en": "Purple"
+          "fr": "Bleu ciel",
+          "ar": "أزرق سماوي",
+          "en": "Sky blue"
         },
-        "hex": "#765d87",
+        "hex": "#91b9d0",
         "image": "/assets/generated/products/pyjama-long-femme-imprime-floral-violet.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "140005085",
+        "colorId": "bleu-ciel",
+        "size": "M",
+        "stock": 1,
+        "barcode": "140005085"
+      }
+    ]
   },
   {
     "id": "pyjama-longue-dentelle-demi-manche",
@@ -25019,11 +25838,11 @@
       "ar": ". بيجامة طويلة بدانتيل بأكمام نصفية بتصميم أنيق.",
       "en": "Long pajama with half sleeves and lace details, elegant design."
     },
-    "regularPrice": null,
-    "price": null,
+    "regularPrice": 389.0,
+    "price": 272,
     "stock": 1,
     "sizes": [
-      "M"
+      "3XL"
     ],
     "colors": [
       {
@@ -25036,21 +25855,29 @@
         "hex": "#d0a53a",
         "image": "/assets/excel-products/alsamah/1740005085-5085-pyjama-longue-demi-manche-avec-penoire-fleuri-m-yellow-jaune-10.jpg",
         "imageKind": "source",
-        "lifestyleImage": null,
-        "fallbackImage": false
+        "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "source",
     "sourcePage": null,
     "variantCount": 1,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "1748005085",
+        "colorId": "jaune",
+        "size": "3XL",
+        "stock": 1,
+        "barcode": "1748005085"
+      }
+    ]
   },
   {
     "id": "pyjama-leger",
@@ -25332,37 +26159,70 @@
       "ar": ". بيجامة فستان بدانتيل أنيقة وأنثوية.",
       "en": "Chic lace robe pajama, elegant and feminine."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 1,
+    "regularPrice": 379.0,
+    "price": 265,
+    "stock": 9,
     "sizes": [
-      "3XL"
+      "L",
+      "M",
+      "S",
+      "XL"
     ],
     "colors": [
       {
-        "id": "noir",
+        "id": "blanc-casse",
         "label": {
-          "fr": "Noir",
-          "ar": "أسود",
-          "en": "Black"
+          "fr": "Blanc casse",
+          "ar": "أوف وايت",
+          "en": "Off-white"
         },
-        "hex": "#1d1d1c",
+        "hex": "#e9e2d2",
         "image": "/assets/generated/products/pyjama-robe-dentelle-chic-noir.png",
-        "imageKind": "generated",
+        "imageKind": "source",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
-    "imageStatus": "generated",
+    "purchasable": true,
+    "imageStatus": "source",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 4,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "2144006175",
+        "colorId": "blanc-casse",
+        "size": "XL",
+        "stock": 3,
+        "barcode": "2144006175"
+      },
+      {
+        "id": "2142006175",
+        "colorId": "blanc-casse",
+        "size": "L",
+        "stock": 2,
+        "barcode": "2142006175"
+      },
+      {
+        "id": "2140006175",
+        "colorId": "blanc-casse",
+        "size": "M",
+        "stock": 2,
+        "barcode": "2140006175"
+      },
+      {
+        "id": "2138006175",
+        "colorId": "blanc-casse",
+        "size": "S",
+        "stock": 2,
+        "barcode": "2138006175"
+      }
+    ]
   },
   {
     "id": "pyjama-satin",
@@ -25488,37 +26348,96 @@
       "ar": "بيجامة دانتيل جريئة وأنيقة وجذابة.",
       "en": "Sexy lace pajama, bold and elegant design."
     },
-    "regularPrice": null,
-    "price": null,
-    "stock": 1,
+    "regularPrice": 419.0,
+    "price": 293,
+    "stock": 9,
     "sizes": [
+      "2XL",
+      "L",
+      "M",
       "XL"
     ],
     "colors": [
       {
-        "id": "bordou",
+        "id": "vert",
         "label": {
-          "fr": "Bordou",
-          "ar": "bordou",
-          "en": "Bordou"
+          "fr": "Vert",
+          "ar": "أخضر",
+          "en": "Green"
         },
-        "hex": "#8a8882",
-        "image": "/assets/generated/products/pyjama-sexy-dentelle-bordou.png",
+        "hex": "#627b54",
+        "image": "/assets/generated/colors/pyjama-sexy-dentelle-vert.png",
+        "imageKind": "generated",
+        "lifestyleImage": null
+      },
+      {
+        "id": "rose",
+        "label": {
+          "fr": "Rose",
+          "ar": "وردي",
+          "en": "Pink"
+        },
+        "hex": "#c9828e",
+        "image": "/assets/generated/colors/pyjama-sexy-dentelle-rose.png",
         "imageKind": "generated",
         "lifestyleImage": null
       }
     ],
-    "purchasable": false,
+    "purchasable": true,
     "imageStatus": "generated",
     "sourcePage": null,
-    "variantCount": 1,
+    "variantCount": 6,
     "missing": {
-      "price": true,
+      "price": false,
       "category": false,
       "image": false
     },
     "subcategory": "nuisettes",
-    "fallbackImage": false
+    "fallbackImage": false,
+    "variants": [
+      {
+        "id": "446036044",
+        "colorId": "vert",
+        "size": "2XL",
+        "stock": 1,
+        "barcode": "446036044"
+      },
+      {
+        "id": "442016044",
+        "colorId": "vert",
+        "size": "L",
+        "stock": 1,
+        "barcode": "442016044"
+      },
+      {
+        "id": "246006044",
+        "colorId": "rose",
+        "size": "2XL",
+        "stock": 1,
+        "barcode": "246006044"
+      },
+      {
+        "id": "244006044",
+        "colorId": "rose",
+        "size": "XL",
+        "stock": 2,
+        "barcode": "244006044"
+      },
+      {
+        "id": "242006044",
+        "colorId": "rose",
+        "size": "L",
+        "stock": 3,
+        "barcode": "242006044"
+      },
+      {
+        "id": "240006044",
+        "colorId": "rose",
+        "size": "M",
+        "stock": 1,
+        "barcode": "240006044"
+      }
+    ]
   },
   {
     "id": "pyjama-sexy-nighty",
