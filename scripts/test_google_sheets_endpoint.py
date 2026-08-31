@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Any
 
 
-EXPECTED_VERSION = "2026-08-31-1"
+EXPECTED_VERSION = "2026-08-31-2"
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -82,7 +82,9 @@ def build_test_order() -> dict[str, Any]:
                 "image": "https://www.hawana.ma/assets/brand/hawana-wordmark.png",
             }
         ],
-        "total": 1,
+        "subtotal": 1,
+        "deliveryFee": 35,
+        "total": 36,
         "payment": "Paiement à la livraison",
     }
 

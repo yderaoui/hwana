@@ -7,13 +7,14 @@
  */
 
 var SHEET_NAME = "Orders";
-var SCRIPT_VERSION = "2026-08-31-1";
+var SCRIPT_VERSION = "2026-08-31-2";
 var IMAGE_COLUMN = 7; // "Image" — column G
 
 var HEADERS = [
   "Order ID", "Date", "Name", "Phone", "City", "Address",
   "Image", "Product", "Color", "Size", "Barcode", "Qty",
-  "Unit Price (MAD)", "Line Total (MAD)", "Order Total (MAD)", "Payment",
+  "Unit Price (MAD)", "Line Total (MAD)", "Product Subtotal (MAD)",
+  "Delivery Fee (MAD)", "Order Total (MAD)", "Payment",
 ];
 
 function doGet() {
@@ -44,6 +45,9 @@ function doPost(e) {
 
     var customer = order.customer || {};
     var items = (order.items && order.items.length) ? order.items : [{}];
+    var subtotal = orderSubtotal(order);
+    var delivery = orderDeliveryFee(order);
+    var total = orderTotal(order, subtotal, delivery);
 
     items.forEach(function (item) {
       sheet.appendRow([
@@ -61,7 +65,9 @@ function doPost(e) {
         safeNumber(item.quantity),
         safeNumber(item.unitPrice),
         safeNumber(item.lineTotal),
-        safeNumber(order.total),
+        safeNumber(subtotal),
+        safeNumber(delivery),
+        safeNumber(total),
         safeText(order.payment),
       ]);
 
@@ -104,6 +110,25 @@ function orderExists(sheet, orderId) {
   return values.some(function (row) {
     return String(row[0]) === String(orderId);
   });
+}
+
+function orderSubtotal(order) {
+  if (isFinite(Number(order.subtotal))) return Number(order.subtotal);
+  var items = order.items || [];
+  return items.reduce(function (sum, item) {
+    var lineTotal = Number(item.lineTotal);
+    return sum + (isFinite(lineTotal) ? lineTotal : 0);
+  }, 0);
+}
+
+function orderDeliveryFee(order) {
+  if (isFinite(Number(order.deliveryFee))) return Number(order.deliveryFee);
+  return 0;
+}
+
+function orderTotal(order, subtotal, delivery) {
+  if (isFinite(Number(order.total))) return Number(order.total);
+  return subtotal + delivery;
 }
 
 function safeText(value) {

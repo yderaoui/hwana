@@ -53,6 +53,8 @@ App as a free, serverless endpoint — no backend needed.
   city, address, order total, payment) repeated on each one. Product rows include the
   exact Excel barcode, color, size, quantity, and charged price. Each row also gets an
   `=IMAGE(...)` formula in the Image column, rendering that item's product photo inline.
+- Orders include a fixed **35 MAD delivery fee**. The sheet records product subtotal,
+  delivery fee, and final order total in separate columns.
 - If `VITE_ORDERS_SHEET_URL` is unset, the app behaves exactly as before — order only
   saved to `localStorage`, no network call made.
 - Every call also self-heals the header row: if row 1 doesn't exactly match the expected

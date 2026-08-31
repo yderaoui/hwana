@@ -278,8 +278,10 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
 .quantity { width: fit-content; margin-top: 13px; display: grid; grid-template-columns: 28px 28px 28px; align-items: center; text-align: center; border: 1px solid var(--line); }
 .quantity button { height: 28px; display: grid; place-items: center; }
 .line-price { display: flex; flex-direction: column; align-items: end; justify-content: space-between; white-space: nowrap; font-size: 12px; }
-.cart-totals { margin: 28px 0; }
-.cart-totals > div, .checkout-total { display: flex; justify-content: space-between; font-size: 18px; }
+.cart-totals { margin: 28px 0; display: grid; gap: 9px; }
+.cart-totals > div, .checkout-total { display: flex; justify-content: space-between; gap: 18px; font-size: 18px; }
+.cart-totals > div:not(.grand-total), .checkout-total:not(.grand-total) { color: var(--muted); font-size: 14px; }
+.cart-totals .grand-total, .checkout-total.grand-total { padding-top: 12px; border-top: 1px solid var(--line); font-weight: 800; }
 .cart-totals p { margin-top: 8px; color: var(--muted); font-size: 12px; }
 .checkout-dialog { position: relative; width: min(630px, 100%); max-height: calc(100dvh - 48px); overflow-y: auto; background: var(--paper); }
 .checkout-core { padding: clamp(40px, 6vw, 72px); }
@@ -292,10 +294,28 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
 .checkout-core textarea { padding: 13px; resize: vertical; }
 .checkout-core input:focus, .checkout-core textarea:focus { border-color: var(--navy); }
 .payment-choice { min-height: 50px; padding: 0 13px; display: flex; align-items: center; gap: 10px; background: #ebe6dc; }
-.checkout-total { padding: 20px 0 5px; border-top: 1px solid var(--line); }
+.checkout-total { padding: 10px 0 0; }
+.payment-choice + .checkout-total { padding-top: 20px; border-top: 1px solid var(--line); }
 .order-success { min-height: 430px; padding: 50px; display: grid; place-items: center; align-content: center; gap: 16px; text-align: center; }
 .order-success > svg { width: 62px; height: 62px; padding: 15px; border-radius: 50%; background: var(--navy); color: var(--white); }
 .order-success p { max-width: 420px; color: var(--muted); }
+
+.whatsapp-float {
+  position: fixed;
+  z-index: 70;
+  right: max(22px, env(safe-area-inset-right));
+  bottom: max(22px, env(safe-area-inset-bottom));
+  width: 62px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #25d366;
+  color: white;
+  box-shadow: 0 18px 38px rgba(9, 15, 29, .22);
+  transition: transform .2s, box-shadow .2s;
+}
+.whatsapp-float:hover { transform: translateY(-2px) scale(1.03); box-shadow: 0 22px 46px rgba(9, 15, 29, .28); }
 
 .menu-overlay { position: fixed; z-index: 95; inset: 0; padding: 80px 32px; display: grid; place-items: center; background: var(--navy-deep); color: var(--white); }
 .menu-overlay > img { position: absolute; top: 28px; left: 28px; width: 90px; filter: brightness(0) invert(1); }
@@ -896,6 +916,8 @@ footer > span { grid-column: 1 / -1; padding-top: 30px; border-top: 1px solid rg
   .mobile-dock a, .mobile-dock button { position: relative; min-height: 52px; display: grid; place-items: center; align-content: center; gap: 4px; color: var(--navy-deep); }
   .mobile-dock span { max-width: 82px; overflow: hidden; font-size: 9px; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
   .mobile-dock b { position: absolute; top: 2px; left: calc(50% + 7px); min-width: 18px; height: 18px; padding-inline: 4px; display: grid; place-items: center; border-radius: 50%; background: var(--orange); font-size: 9px; }
+  .whatsapp-float { right: 16px; bottom: calc(82px + env(safe-area-inset-bottom)); width: 56px; height: 56px; }
+  .whatsapp-float svg { width: 30px; height: 30px; }
 
   .menu-overlay { padding: 92px 24px 82px; align-content: center; gap: 42px; }
   .menu-overlay > img { top: 22px; left: 20px; width: 100px; }
