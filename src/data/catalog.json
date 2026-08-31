@@ -40,7 +40,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/collants-brillants-ete-dayana-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-summer-panty-15den.jpg"
       },
       {
         "id": "noir",
@@ -51,7 +52,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-brillants-ete-dayana-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-summer-panty-15den.jpg"
       },
       {
         "id": "bleu-marine",
@@ -62,7 +64,8 @@
         },
         "hex": "#17233d",
         "image": "/assets/catalog/collants-brillants-ete-dayana-bleu-marine.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-summer-panty-15den.jpg"
       },
       {
         "id": "marron",
@@ -73,7 +76,8 @@
         },
         "hex": "#6f4a35",
         "image": "/assets/catalog/collants-brillants-ete-dayana-marron.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-summer-panty-15den.jpg"
       }
     ],
     "variants": [
@@ -702,7 +706,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/jambieres-leen-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/leen-girls-legging.jpg"
       },
       {
         "id": "noir",
@@ -713,7 +718,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/jambieres-leen-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/leen-girls-legging.jpg"
       },
       {
         "id": "bleu-marine",
@@ -724,7 +730,8 @@
         },
         "hex": "#17233d",
         "image": "/assets/catalog/jambieres-leen-bleu-marine.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/leen-girls-legging.jpg"
       },
       {
         "id": "blanc",
@@ -735,7 +742,8 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/catalog/jambieres-leen-blanc.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/leen-girls-legging.jpg"
       }
     ],
     "variants": [
@@ -973,7 +981,8 @@
         },
         "hex": "#6f4a35",
         "image": "/assets/catalog/collants-brillants-marron.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-panty-30den.jpg"
       },
       {
         "id": "beige",
@@ -984,7 +993,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/collants-brillants-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-panty-30den.jpg"
       }
     ],
     "variants": [
@@ -1722,7 +1732,8 @@
         },
         "hex": "#e9e2d2",
         "image": "/assets/catalog/collants-brillants-pour-filles-blanc-casse.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles.jpg"
       },
       {
         "id": "noir",
@@ -1733,7 +1744,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-brillants-pour-filles-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles.jpg"
       },
       {
         "id": "beige",
@@ -1744,7 +1756,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/collants-brillants-pour-filles-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles.jpg"
       },
       {
         "id": "blanc",
@@ -1755,7 +1768,8 @@
         },
         "hex": "#f5f5f0",
         "image": "/assets/catalog/collants-brillants-pour-filles-blanc.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles.jpg"
       }
     ],
     "variants": [
@@ -2695,7 +2709,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/collants-push-up-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/push-up-tight-ultra-sheer-15-den.jpg"
       },
       {
         "id": "noir",
@@ -2706,7 +2721,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-push-up-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/push-up-tight-ultra-sheer-15-den.jpg"
       },
       {
         "id": "marron",
@@ -2717,7 +2733,8 @@
         },
         "hex": "#6f4a35",
         "image": "/assets/catalog/collants-push-up-marron.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/push-up-tight-ultra-sheer-15-den.jpg"
       }
     ],
     "variants": [
@@ -3178,7 +3195,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-brillants-dayana-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-panty-30den.jpg"
       },
       {
         "id": "bleu-marine",
@@ -3189,7 +3207,8 @@
         },
         "hex": "#17233d",
         "image": "/assets/catalog/collants-brillants-dayana-bleu-marine.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-panty-30den.jpg"
       },
       {
         "id": "beige",
@@ -3200,7 +3219,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/collants-brillants-dayana-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/class-panty-30den.jpg"
       }
     ],
     "variants": [
@@ -5975,7 +5995,8 @@
         },
         "hex": "#6f4a35",
         "image": "/assets/catalog/collants-a-motif-tigre-marron.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/fantasia-roshan-pantyhose-20d.jpg"
       }
     ],
     "variants": [
@@ -6697,7 +6718,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collant-grande-resille-pour-filles-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/girls-fishnet-tight.jpg"
       }
     ],
     "variants": [
@@ -7588,7 +7610,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-resille-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg"
       }
     ],
     "variants": [
@@ -7956,7 +7979,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/collants-anti-cernes-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-anti-cernes.jpg"
       },
       {
         "id": "noir",
@@ -7967,7 +7991,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-anti-cernes-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-anti-cernes.jpg"
       }
     ],
     "variants": [
@@ -9412,7 +9437,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-fishnet-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg"
       }
     ],
     "variants": [
@@ -9582,7 +9608,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/collants-pour-femmes-enceintes-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-pour-femmes-enceintes.jpg"
       },
       {
         "id": "noir",
@@ -9593,7 +9620,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-pour-femmes-enceintes-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/excel-products/alsamah-url/collants-pour-femmes-enceintes.jpg"
       }
     ],
     "variants": [
@@ -10200,7 +10228,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-a-motifs-roshan-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/fantasia-roshan-pantyhose-20d.jpg"
       }
     ],
     "variants": [
@@ -10344,7 +10373,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/chaussettes-resille-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg"
       }
     ],
     "variants": [
@@ -13030,7 +13060,8 @@
         },
         "hex": "#cfb491",
         "image": "/assets/catalog/push-up-collants-l-10-beige.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/push-up-tight-ultra-sheer-15-den.jpg"
       }
     ],
     "variants": [
@@ -19686,7 +19717,8 @@
         },
         "hex": "#1d1d1c",
         "image": "/assets/catalog/collants-a-motifs-glamour-noir.webp",
-        "imageKind": "generated"
+        "imageKind": "generated",
+        "lifestyleImage": "/assets/official/fantasia-pantyhose-glamor.jpg"
       }
     ],
     "variants": [
