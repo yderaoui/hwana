@@ -72,7 +72,7 @@ export const translations = {
   fr: {
     nav: { shop: "Boutique", packs: "Packs", brands: "Marques" },
     hero: { titleA: "Tout part.", titleB: "L’allure reste.", body: "Les essentiels ALSAMAH dans leurs vraies coupes et couleurs, réunis par HAWANA.", shop: "Voir les offres", pack: "Composer mon pack" },
-    strip: ["Jusqu’à -40% sur les packs", "Séries limitées", "Livraison partout au Maroc"],
+    strip: ["Jusqu’à -30% sur les packs", "Séries limitées", "Livraison partout au Maroc"],
     catalog: { title: "La sélection HAWANA", body: "Choisissez votre pièce, sa couleur et sa taille, puis commandez directement.", all: "Tous", women: "Femme", men: "Homme", kids: "Enfants", other: "Collants & chaussettes", incomplete: "À compléter", add: "Ajouter", details: "Voir le produit", empty: "Aucun produit dans cette sélection.", count: "produits", loadMore: "Voir plus", imagePending: "Photo en cours de chargement", pricePending: "Indisponible", unavailable: "Indisponible" },
     packs: { title: "Plus on groupe, plus on économise.", body: "Choisissez vos essentiels et profitez automatiquement du prix pack.", create: "Ajouter le pack au panier", selection: "Votre pack", incomplete: "Ajoutez encore", item: "article", items: "articles" },
     brands: { title: "Deux signatures. Une maison.", alsamah: "ALSAMAH accompagne chaque silhouette avec des essentiels pensés pour le quotidien.", elko: "ELKO est disponible dans la sélection HAWANA.", discover: "Voir la sélection", soon: "Disponible chez HAWANA" },
@@ -84,7 +84,7 @@ export const translations = {
   ar: {
     nav: { shop: "المتجر", packs: "الباقات", brands: "العلامات" },
     hero: { titleA: "كل القطع ترحل.", titleB: "الأناقة تبقى.", body: "أساسيات ALSAMAH بقصاتها وألوانها الحقيقية، تجمعها HAWANA في مكان واحد.", shop: "شاهد العروض", pack: "كوّن باقتك" },
-    strip: ["خصم يصل إلى 40% على الباقات", "كميات محدودة", "توصيل إلى جميع مدن المغرب"],
+    strip: ["خصم يصل إلى 30% على الباقات", "كميات محدودة", "توصيل إلى جميع مدن المغرب"],
     catalog: { title: "تشكيلة HAWANA", body: "اختر القطعة واللون والمقاس، ثم اطلبها مباشرة.", all: "الكل", women: "نساء", men: "رجال", kids: "أطفال", other: "كولونات وجوارب", incomplete: "بيانات ناقصة", add: "أضف", details: "شاهد المنتج", empty: "لا توجد منتجات في هذا الاختيار.", count: "منتج", loadMore: "عرض المزيد", imagePending: "الصورة قيد التحميل", pricePending: "غير متاح", unavailable: "غير متاح" },
     packs: { title: "كلما جمعت أكثر، وفرت أكثر.", body: "اختر أساسياتك واستفد تلقائياً من سعر الباقة.", create: "أضف الباقة إلى السلة", selection: "باقتك", incomplete: "أضف", item: "قطعة", items: "قطع" },
     brands: { title: "توقيعان. دار واحدة.", alsamah: "ترافق ALSAMAH كل إطلالة بأساسيات مصممة للحياة اليومية.", elko: "ELKO متوفر ضمن تشكيلة HAWANA.", discover: "شاهد التشكيلة", soon: "متوفر لدى HAWANA" },
@@ -96,7 +96,7 @@ export const translations = {
   en: {
     nav: { shop: "Shop", packs: "Packs", brands: "Brands" },
     hero: { titleA: "Everything goes.", titleB: "Style stays.", body: "ALSAMAH essentials in their real cuts and colors, brought together by HAWANA.", shop: "Shop the offers", pack: "Build my pack" },
-    strip: ["Up to 40% off packs", "Limited runs", "Delivery across Morocco"],
+    strip: ["Up to 30% off packs", "Limited runs", "Delivery across Morocco"],
     catalog: { title: "The HAWANA selection", body: "Choose your piece, color and size, then order directly.", all: "All", women: "Women", men: "Men", kids: "Kids", other: "Tights & socks", incomplete: "Incomplete", add: "Add", details: "View product", empty: "No products in this selection.", count: "products", loadMore: "Show more", imagePending: "Photo loading", pricePending: "Unavailable", unavailable: "Unavailable" },
     packs: { title: "Bundle more. Save more.", body: "Choose your essentials and unlock the pack price automatically.", create: "Add pack to cart", selection: "Your pack", incomplete: "Add", item: "item", items: "items" },
     brands: { title: "Two signatures. One house.", alsamah: "ALSAMAH completes every silhouette with essentials designed for daily life.", elko: "ELKO is available in the HAWANA selection.", discover: "Shop the selection", soon: "Available at HAWANA" },

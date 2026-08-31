@@ -10,6 +10,7 @@
     "check": "tsc -b --pretty false",
     "catalog:launch": "python scripts/prepare_launch_catalog.py && python scripts/apply_excel_product_images.py && python scripts/optimize_catalog_images.py",
     "catalog:images": "python scripts/optimize_catalog_images.py",
+    "db:products": "python scripts/build_product_database.py",
     "assets:plan": "python scripts/kie_generate_assets.py --plan && python scripts/kie_generate_videos.py --plan",
     "assets:videos": "python scripts/kie_generate_videos.py",
     "assets:generate": "python scripts/kie_generate_videos.py"
