@@ -6,6 +6,40 @@ import { Language, LocalizedText, Product, ProductSubcategory, subcategoriesByCa
 
 const products = catalogData as Product[];
 const packProducts = products.filter((product) => product.purchasable && product.imageStatus === "generated");
+const storefrontHeroProductIds = [
+  "ensemble-pyjama-2-pieces",
+  "100-cotton-v-neck-short-sleeve",
+  "pack-100-cotton-men-s-boxer",
+  "sport-bra",
+  "legging-fille-en-coton",
+  "body-a-bretelles-avec-bande-large",
+  "ensemble-pyjama-homewear-femme",
+  "100-cotton-boy-s-tank-top",
+  "top-body-a-bretelles",
+  "pack-100-cotton-men-s-short",
+  "short-sleeved-body-top",
+  "collants-brillants-ete-dayana",
+  "pyjama-pantalon-imprime-fleuri",
+  "100-cotton-crew-neck-short-sleeve",
+  "chaussettes-en-coton",
+  "pyjama-dentel-chic-avec-pantalon-dentel",
+];
+const colorShowcaseProductIds = [
+  "ensemble-pyjama-2-pieces",
+  "ensemble-pyjama-homewear-femme",
+  "top-body-a-bretelles",
+  "body-a-bretelles-avec-bande-large",
+  "100-cotton-v-neck-short-sleeve",
+  "100-cotton-crew-neck-short-sleeve",
+  "sport-bra",
+  "legging-fille-en-coton",
+  "pack-100-cotton-men-s-short",
+  "collants-brillants-ete-dayana",
+];
+const storefrontRank = (product: Product) => {
+  const index = storefrontHeroProductIds.indexOf(product.id);
+  return index === -1 ? Number.MAX_SAFE_INTEGER : index;
+};
 const packDiscountPercent = (target: number) => target === 3 ? 20 : target === 5 ? 25 : 30;
 const packDiscountRate = (target: number) => packDiscountPercent(target) / 100;
 type Filter = "all" | "femme" | "homme" | "enfants" | "autres";
@@ -62,19 +96,19 @@ const pageCopy = {
   fr: {
     menu: "Menu", searchProducts: "Rechercher un produit", heroA: "Tout part.", heroB: "L’allure reste.", heroLead: "Les essentiels ALSAMAH dans leurs vraies coupes et couleurs, réunis par HAWANA.",
     departments: "Entrez par univers", categoriesLead: "Lingerie, sous-vêtements, pyjamas, hauts, enfants et collants. Trouvez directement la bonne pièce.", house: "La maison HAWANA", houseLead: "Les essentiels du quotidien, classés par vrais rayons.", catalogPending: "Disponible chez HAWANA",
-    chapterTitle: "La pièce juste. Dans la couleur juste.", chapterBody: "Explorez les silhouettes, puis choisissez la couleur qui vous ressemble.", colorTitle: "Une coupe. Plusieurs expressions.", colorLead: "Du bleu marine au noir, découvrez chaque pièce dans ses couleurs.",
+    chapterTitle: "La pièce juste. Dans la couleur juste.", chapterBody: "Explorez les silhouettes, puis choisissez la couleur qui vous ressemble.", colorTitle: "Matières, couleurs, envies.", colorLead: "Pyjamas, bodies, coton, enfants et collants : un aperçu varié de la sélection.",
     buildPack: "Composer un pack", packLead: "Réunissez vos essentiels et profitez du prix pack.", shopTitle: "La sélection HAWANA", shopLead: "Choisissez votre pièce, sa couleur et sa taille, puis commandez directement.", worn: "Porté", product: "Produit", cod: "Paiement à la livraison", previous: "Précédent", next: "Suivant", collection: "Collection HAWANA", direct: "HAWANA",
   },
   en: {
     menu: "Menu", searchProducts: "Search products", heroA: "Everything goes.", heroB: "Style stays.", heroLead: "ALSAMAH essentials in their real cuts and colors, brought together by HAWANA.",
     departments: "Enter by department", categoriesLead: "Lingerie, underwear, sleepwear, tops, kids, tights and socks. Go straight to the right piece.", house: "The HAWANA house", houseLead: "Everyday essentials, organized like real retail departments.", catalogPending: "Available at HAWANA",
-    chapterTitle: "The right piece. In the right color.", chapterBody: "Explore the silhouettes, then choose the color that feels like you.", colorTitle: "One cut. Many expressions.", colorLead: "From navy to black, discover every piece in its available colors.",
+    chapterTitle: "The right piece. In the right color.", chapterBody: "Explore the silhouettes, then choose the color that feels like you.", colorTitle: "Textures, colors, moods.", colorLead: "Sleepwear, bodysuits, cotton basics, kids and hosiery: a varied first look at the selection.",
     buildPack: "Build a pack", packLead: "Bring your essentials together and unlock the pack price.", shopTitle: "The HAWANA selection", shopLead: "Choose your piece, color and size, then order directly.", worn: "Worn", product: "Product", cod: "Cash on delivery", previous: "Previous", next: "Next", collection: "HAWANA collection", direct: "HAWANA",
   },
   ar: {
     menu: "القائمة", searchProducts: "ابحث عن منتج", heroA: "كل شيء يرحل.", heroB: "الأناقة تبقى.", heroLead: "مخزون ALSAMAH بقصاته الحقيقية وألوانه المتاحة، في بيع مباشر بتوقيع HAWANA.",
     departments: "تسوق حسب القسم", categoriesLead: "لانجري، ملابس داخلية، بيجامات، قمصان، أطفال، كولونات وجوارب. اختر القطعة المناسبة مباشرة.", house: "دار HAWANA", houseLead: "أساسيات يومية مرتبة حسب أقسام واضحة.", catalogPending: "متوفر لدى HAWANA",
-    chapterTitle: "القطعة المناسبة. باللون المناسب.", chapterBody: "اكتشف القصات ثم اختر اللون الذي يشبهك.", colorTitle: "قصة واحدة. تعبيرات متعددة.", colorLead: "من الأزرق الداكن إلى الأسود، اكتشف كل قطعة بألوانها.",
+    chapterTitle: "القطعة المناسبة. باللون المناسب.", chapterBody: "اكتشف القصات ثم اختر اللون الذي يشبهك.", colorTitle: "خامات، ألوان، اختيارات.", colorLead: "بيجامات، بوديات، قطن، أطفال وكولونات: نظرة أولى متنوعة على التشكيلة.",
     buildPack: "كوّن باقتك", packLead: "اجمع قطعك الأساسية واستفد من سعر الباقة.", shopTitle: "تشكيلة HAWANA", shopLead: "اختر القطعة واللون والمقاس، ثم اطلبها مباشرة.", worn: "عند الارتداء", product: "المنتج", cod: "الدفع عند الاستلام", previous: "السابق", next: "التالي", collection: "تشكيلة HAWANA", direct: "HAWANA",
   },
 } as const;
@@ -393,7 +427,13 @@ function App() {
       const matchesSub = subFilter === "all" || product.subcategory === subFilter;
       const haystack = `${product.name[language]} ${product.short[language]} ${product.brand} ${product.categoryName ?? ""} ${productSubcategoryLabel(product, language)}`.toLocaleLowerCase(language);
       return matchesFilter && matchesSub && (!needle || haystack.includes(needle));
-    }).sort((a, b) => imageScore(b) - imageScore(a) || b.stock - a.stock);
+    }).sort((a, b) => {
+      if (filter === "all" && subFilter === "all" && !needle) {
+        const rank = storefrontRank(a) - storefrontRank(b);
+        if (rank) return rank;
+      }
+      return imageScore(b) - imageScore(a) || b.stock - a.stock;
+    });
   }, [filter, subFilter, language, search]);
   useEffect(() => {
     if (!pageRef.current || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
@@ -438,7 +478,18 @@ function App() {
   const media = campaignMedia as { heroVideo: string | null; cinematicHeroVideo?: string | null; runwayHeroVideo?: string | null; houseVideo?: string | null; packVideo?: string | null; bodyVideo?: string | null; fitVideo?: string | null; kidsVideo?: string | null; hosieryVideo?: string | null };
   const categories: { filter: Filter; label: string; image: string; video: string | null }[] = [{ filter: "femme", label: t.catalog.women, image: "/assets/official/body-top-bretelles.jpg", video: media.bodyVideo ?? null }, { filter: "homme", label: t.catalog.men, image: "/assets/lifestyle/round-neck-navy-worn.webp", video: media.fitVideo ?? media.heroVideo }, { filter: "enfants", label: t.catalog.kids, image: "/assets/official/leen-girls-legging.jpg", video: null }, { filter: "autres", label: t.catalog.other, image: "/assets/official/fashion-large-fishnet-80-den-pantyhose.jpg", video: media.hosieryVideo ?? null }];
   const campaignStories = [{ image: "/assets/lifestyle/round-neck-navy-worn.webp", video: media.heroVideo, title: language === "ar" ? "قميص رجالي بياقة دائرية" : language === "en" ? "Men’s round-neck top" : "Haut homme col rond", detail: language === "ar" ? "أزرق داكن" : language === "en" ? "Navy" : "Bleu marine" }, { image: "/assets/lifestyle/body-offwhite-worn.webp", video: media.bodyVideo ?? null, title: language === "ar" ? "بودي بأكمام قصيرة" : language === "en" ? "Short-sleeve body" : "Body manches courtes", detail: language === "ar" ? "أبيض مائل للسكري" : language === "en" ? "Off-white" : "Blanc cassé" }, { image: "/assets/lifestyle/v-neck-gray-worn.webp", video: media.fitVideo ?? null, title: language === "ar" ? "قميص بياقة V" : language === "en" ? "V-neck top" : "Haut col V", detail: language === "ar" ? "رمادي" : language === "en" ? "Grey" : "Gris" }];
-  const colorItems = packProducts.flatMap((product) => product.colors.map((color) => ({ product, color }))).filter((item) => item.color.image).slice(0, 16);
+  const colorItems = useMemo(() => {
+    const productById = new Map(products.map((product) => [product.id, product]));
+    return colorShowcaseProductIds.flatMap((id) => {
+      const product = productById.get(id);
+      if (!product?.purchasable) return [];
+      const limit = product.subcategory === "collants" ? 1 : 2;
+      return product.colors
+        .filter((color) => color.image)
+        .slice(0, limit)
+        .map((color) => ({ product, color, image: product.subcategory === "collants" && color.lifestyleImage ? color.lifestyleImage : color.image }));
+    }).filter((item) => item.image).slice(0, 16);
+  }, []);
   const heroVideo = media.runwayHeroVideo ?? media.cinematicHeroVideo ?? media.heroVideo;
   const wearTitle = language === "ar" ? "لكل عمر. لكل إطلالة." : language === "en" ? "Every age. Every look." : "Chaque âge. Chaque allure.";
   const wearLead = language === "ar" ? "أساسيات ناعمة للأطفال وجوارب تعبر عن أسلوبك." : language === "en" ? "Soft kids essentials and hosiery that expresses your style." : "Des essentiels doux pour les enfants et des collants qui affirment votre style.";
@@ -452,7 +503,7 @@ function App() {
       <section className="departments-section section-wrap" id="departments"><div className="section-heading section-reveal"><h2>{c.departments}</h2><p>{c.categoriesLead}</p></div><div className="department-accordion">{categories.map((item) => <button key={item.label} onClick={() => goToShop(item.filter)}><MotionMedia video={item.video} poster={item.image} alt={item.label} pending={t.catalog.imagePending} /><span className="department-title">{item.label}<ArrowRight size={23} /></span></button>)}</div></section>
       <section className="house-section" id="brands"><div className="section-wrap"><div className="house-copy section-reveal"><h2>{c.house}</h2><p>{c.houseLead}</p></div><div className="house-unified"><img className="house-watermark" src="/assets/brand/hawana-wordmark.png" alt="HAWANA" /><article className="house-brand house-alsamah"><img src="/assets/brand/alsamah-lockup.png" alt="ALSAMAH - your final touch" /><p>{t.brands.alsamah}</p><button className="text-link" onClick={() => goToShop("all")}>{t.hero.shop}<ArrowRight size={17} /></button></article><ProductImage className="house-product" src="/assets/products/body-black.webp" alt="HAWANA body" pending={t.catalog.imagePending} /><article className="house-brand house-elko"><img src="/assets/brand/elko-logo-transparent.png" alt="ELKO" /><p>{elkoAvailableCopy[language]}</p><button className="text-link" onClick={() => goToShop("all")}>{t.hero.shop}<ArrowRight size={17} /></button></article></div></div></section>
       <section className="campaign-section section-wrap"><div className="campaign-intro"><h2>{c.chapterTitle}</h2><p>{c.chapterBody}</p><button className="text-link" onClick={() => goToShop("all")}>{t.hero.shop}<ArrowRight size={17} /></button></div><div className="campaign-stories">{campaignStories.map((story, index) => <article className="campaign-card" style={{ "--stack-index": index } as CSSProperties} key={story.image}><MotionMedia className="scale-reveal" video={story.video} poster={story.image} alt={story.title} pending={t.catalog.imagePending} /><div><h3>{story.title}</h3><p>{story.detail}</p></div></article>)}</div></section>
-      <section className="color-section"><div className="section-wrap color-heading section-reveal"><div><h2>{c.colorTitle}</h2><p>{c.colorLead}</p></div><div className="rail-controls"><button onClick={() => colorRail.current?.scrollBy({ left: -430, behavior: "smooth" })} aria-label={c.previous}><ArrowLeft size={22} /></button><button onClick={() => colorRail.current?.scrollBy({ left: 430, behavior: "smooth" })} aria-label={c.next}><ArrowRight size={22} /></button></div></div><div className="color-rail" ref={colorRail}>{colorItems.map(({ product, color }) => <button key={`${product.id}-${color.id}`} onClick={() => setActiveProduct(product)}><ProductImage src={color.image} alt={`${product.name[language]}, ${color.label[language]}`} pending={t.catalog.imagePending} /><span>{product.name[language]}</span><small>{color.label[language]}</small></button>)}</div></section>
+      <section className="color-section"><div className="section-wrap color-heading section-reveal"><div><h2>{c.colorTitle}</h2><p>{c.colorLead}</p></div><div className="rail-controls"><button onClick={() => colorRail.current?.scrollBy({ left: -430, behavior: "smooth" })} aria-label={c.previous}><ArrowLeft size={22} /></button><button onClick={() => colorRail.current?.scrollBy({ left: 430, behavior: "smooth" })} aria-label={c.next}><ArrowRight size={22} /></button></div></div><div className="color-rail" ref={colorRail}>{colorItems.map(({ product, color, image }) => <button key={`${product.id}-${color.id}`} onClick={() => setActiveProduct(product)}><ProductImage src={image} alt={`${product.name[language]}, ${color.label[language]}`} pending={t.catalog.imagePending} /><span>{product.name[language]}</span><small>{color.label[language]}</small></button>)}</div></section>
       <section className="wear-story" aria-label={c.collection}><div className="section-wrap"><div className="wear-heading section-reveal"><h2>{wearTitle}</h2><p>{wearLead}</p></div><div className="wear-stage"><button className="wear-panel wear-kids" onClick={() => goToShop("enfants")}><ProductImage src="/assets/official/leen-girls-legging.jpg" alt={language === "ar" ? "طفلة ترتدي جوارب ALSAMAH" : language === "en" ? "Child wearing ALSAMAH leggings" : "Enfant portant un collant ALSAMAH"} pending={t.catalog.imagePending} /><span>{t.catalog.kids}<ArrowRight size={24} /></span></button><button className="wear-panel wear-hosiery" onClick={() => goToShop("autres")}><MotionMedia video={media.hosieryVideo ?? null} poster="/assets/catalog/collants-brillants-ete-dayana-bleu-marine.webp" alt={language === "ar" ? "جوارب ALSAMAH زرقاء" : language === "en" ? "Navy ALSAMAH hosiery" : "Collants ALSAMAH bleu marine"} pending={t.catalog.imagePending} /><span>{language === "ar" ? "جوارب" : language === "en" ? "Hosiery" : "Collants"}<ArrowRight size={24} /></span></button></div></div></section>
       <section className="pack-section section-wrap" id="packs"><div className="pack-stage"><MotionMedia video={media.packVideo ?? null} poster="/assets/storyboards/pack-16x9.webp" alt={c.buildPack} pending={t.catalog.imagePending} /><div className="pack-film-overlay"><img className="pack-logo" src="/assets/brand/hawana-lockup.png" alt="HAWANA" /><span>{language === "ar" ? "اختياراتك. باقتك." : language === "en" ? "Your pieces. Your pack." : "Vos pièces. Votre pack."}</span></div></div><div className="pack-builder"><h2>{c.buildPack}</h2><p>{c.packLead}</p><div className="pack-levels">{[3, 5, 7].map((target) => <button className={packTarget === target ? "active" : ""} onClick={() => { setPackTarget(target); setPackCounts({}); }} key={target}><span>Pack {target}</span><strong>−{packDiscountPercent(target)}%</strong></button>)}</div><div className="pack-products">{packProducts.map((product) => { const count = packCounts[product.id] ?? 0; const choice = firstChoicePricing(product); const image = product.colors.find((color) => color.id === choice.colorId)?.image ?? product.colors[0]?.image ?? null; return <div className="pack-row" key={product.id}><ProductImage src={image} alt={product.name[language]} pending={t.catalog.imagePending} /><span>{product.name[language]}</span><div><button onClick={() => updatePack(product.id, -1)} disabled={!count}><Minus size={14} /></button><b>{count}</b><button onClick={() => updatePack(product.id, 1)} disabled={packCount >= packTarget}><Plus size={14} /></button></div></div>; })}</div><div className="pack-summary"><span>{packCount}/{packTarget}</span><strong>{formatPrice(packTotal, language)} MAD</strong></div><button className="button primary full" disabled={packCount !== packTarget} onClick={addPack}>{packCount === packTarget ? t.packs.create : `${t.packs.incomplete} ${packTarget - packCount}`}<Bag size={17} /></button></div></section>
       <section className="catalog-section section-wrap" id="shop"><div className="section-heading catalog-heading section-reveal"><h2>{c.shopTitle}</h2><p>{c.shopLead}</p></div><div className="catalog-tools"><div className="filters">{filterOptions(t.catalog).map(([value, label]) => <button className={filter === value ? "active" : ""} onClick={() => { setFilter(value); setSubFilter("all"); }} key={value}>{label}</button>)}</div><label className="catalog-search"><MagnifyingGlass size={18} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder={c.searchProducts} /></label></div>{availableSubcategories.length > 0 && <div className="subfilters"><button className={subFilter === "all" ? "active" : ""} onClick={() => setSubFilter("all")}>{t.catalog.all}</button>{availableSubcategories.map((sub) => <button className={subFilter === sub ? "active" : ""} onClick={() => setSubFilter(sub)} key={sub}>{retailSubcategoryLabels[sub][language]}</button>)}</div>}<p className="result-count">{filteredProducts.length} {t.catalog.count}</p>{filteredProducts.length ? <><div className="product-grid">{filteredProducts.slice(0, visibleLimit).map((product) => <ProductCard key={product.id} product={product} language={language} onOpen={setActiveProduct} onAdd={addToCart} />)}</div>{visibleLimit < filteredProducts.length && <div className="load-more"><button className="button secondary" onClick={() => setVisibleLimit((value) => value + 12)}>{t.catalog.loadMore}<Plus size={17} /></button></div>}</> : <div className="empty-state"><Package size={34} /><p>{t.catalog.empty}</p></div>}</section>

@@ -7,6 +7,7 @@
  */
 
 var SHEET_NAME = "Orders";
+var SCRIPT_VERSION = "2026-08-31-1";
 var IMAGE_COLUMN = 7; // "Image" — column G
 
 var HEADERS = [
@@ -14,6 +15,16 @@ var HEADERS = [
   "Image", "Product", "Color", "Size", "Barcode", "Qty",
   "Unit Price (MAD)", "Line Total (MAD)", "Order Total (MAD)", "Payment",
 ];
+
+function doGet() {
+  return jsonResponse({
+    ok: true,
+    service: "hawana-orders",
+    version: SCRIPT_VERSION,
+    sheet: SHEET_NAME,
+    headers: HEADERS,
+  });
+}
 
 function doPost(e) {
   var lock = LockService.getDocumentLock();
@@ -25,10 +36,10 @@ function doPost(e) {
     }
     ensureHeaders(sheet);
 
-    var order = JSON.parse((e.postData && e.postData.contents) || "{}");
+    var order = parseOrderPayload(e);
     if (!order.id) throw new Error("Missing order id");
     if (orderExists(sheet, order.id)) {
-      return jsonResponse({ ok: true, duplicate: true, id: order.id });
+      return jsonResponse({ ok: true, duplicate: true, id: order.id, version: SCRIPT_VERSION });
     }
 
     var customer = order.customer || {};
@@ -62,12 +73,24 @@ function doPost(e) {
       sheet.setRowHeight(lastRow, 84);
     });
 
-    return jsonResponse({ ok: true, id: order.id });
+    return jsonResponse({ ok: true, id: order.id, rows: items.length, version: SCRIPT_VERSION });
   } catch (error) {
-    return jsonResponse({ ok: false, error: String(error && error.message ? error.message : error) });
+    return jsonResponse({
+      ok: false,
+      error: String(error && error.message ? error.message : error),
+      version: SCRIPT_VERSION,
+    });
   } finally {
     lock.releaseLock();
   }
+}
+
+function parseOrderPayload(e) {
+  var raw = (e && e.postData && e.postData.contents) || "";
+  if (!raw && e && e.parameter && e.parameter.payload) {
+    raw = e.parameter.payload;
+  }
+  return JSON.parse(raw || "{}");
 }
 
 function jsonResponse(payload) {

@@ -12,6 +12,7 @@
     "catalog:images": "python scripts/optimize_catalog_images.py",
     "catalog:hosiery-worn": "python scripts/restore_hosiery_lifestyle_images.py",
     "db:products": "python scripts/build_product_database.py",
+    "orders:test": "python scripts/test_google_sheets_endpoint.py",
     "assets:plan": "python scripts/kie_generate_assets.py --plan && python scripts/kie_generate_videos.py --plan",
     "assets:videos": "python scripts/kie_generate_videos.py",
     "assets:generate": "python scripts/kie_generate_videos.py"

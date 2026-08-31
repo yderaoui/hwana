@@ -95,8 +95,23 @@ reshuffled automatically, but nothing new will drift out of alignment again.
 
 ## Testing it
 
-After deploying, place a test order on the site, then check the sheet — a row should
-appear within a few seconds. If nothing shows up:
+After deploying, run the endpoint tester:
+
+```bash
+python scripts/test_google_sheets_endpoint.py --url "https://script.google.com/macros/s/AKfycb.../exec" --post
+```
+
+The tester first calls `GET` and expects the deployed script version to match the repo.
+With `--post`, it also writes one harmless `HW-TEST...` order and posts the same order
+again. The second response must include `duplicate: true`; that proves browser retry
+queues will not duplicate real customer orders.
+
+You can also run `npm run orders:test -- --url "https://script.google.com/macros/s/AKfycb.../exec" --post`
+in shells that forward npm arguments normally. On PowerShell, the direct Python command
+above is more reliable.
+
+You can also place a test order on the site, then check the sheet — a row should appear
+within a few seconds. If nothing shows up:
 - Re-check "Who has access" is set to **Anyone** on the deployment.
 - Open the Apps Script editor's **Executions** log (left sidebar) to see if `doPost` ran
   and whether it threw an error.
