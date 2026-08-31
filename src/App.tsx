@@ -263,10 +263,6 @@ const queueOrder = (order: OrderPayload) => {
 
 const sendOrder = (sheetUrl: string, order: OrderPayload) => {
   const body = JSON.stringify(order);
-  if (navigator.sendBeacon) {
-    const payload = new Blob([body], { type: "text/plain;charset=utf-8" });
-    if (navigator.sendBeacon(sheetUrl, payload)) return;
-  }
   void fetch(sheetUrl, { method: "POST", mode: "no-cors", keepalive: true, headers: { "Content-Type": "text/plain;charset=utf-8" }, body }).catch(() => undefined);
 };
 
