@@ -7,6 +7,7 @@ export const subcategoriesByCategory: Record<string, ProductSubcategory[]> = {
   femme: ["lingerie", "soutien-gorge", "culottes", "corsets", "bodies", "nuisettes", "hauts", "vetements", "collants", "chaussettes"],
   homme: ["hauts", "sous-vetements", "corsets"],
   enfants: ["fille", "garcon", "chaussettes", "collants"],
+  autres: ["collants", "chaussettes"],
 };
 
 export const subcategoryLabels: Record<ProductSubcategory, LocalizedText> = {
@@ -40,6 +41,8 @@ export type ProductVariant = {
   size: string;
   stock: number;
   barcode?: string | null;
+  regularPrice?: number | null;
+  price?: number | null;
 };
 
 export type Product = {

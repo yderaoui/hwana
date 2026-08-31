@@ -1,59 +1,178 @@
 [
   {
+    "id": "collants-brillants-ete-dayana",
+    "name": "Collants brillants été (Dayana)",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-brillants-ete-dayana.jpg"
+  },
+  {
+    "id": "100-cotton-v-neck-short-sleeve",
+    "name": "100% Cotton V Neck Short Sleeve",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/100-cotton-v-neck-short-sleeve.png"
+  },
+  {
+    "id": "100-cotton-crew-neck-short-sleeve",
+    "name": "100% Cotton Crew Neck Short Sleeve",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/100-cotton-crew-neck-short-sleeve.jpg"
+  },
+  {
+    "id": "jambieres-leen",
+    "name": "Jambières Leen",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/jambieres-leen.jpg"
+  },
+  {
     "id": "collants-brillants",
     "name": "Collants brillants",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/collants-brillants-9.jpg"
-  },
-  {
-    "id": "collants-brillants-pour-filles",
-    "name": "Collants brillants pour filles",
-    "brand": "ALSAMAH",
-    "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/collants-brillants.jpg"
   },
   {
     "id": "chaussettes-en-coton",
     "name": "Chaussettes en coton",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/chaussettes-en-coton-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/chaussettes-en-coton.jpg"
+  },
+  {
+    "id": "collants-push-up-ete",
+    "name": "Collants push up été",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-push-up-ete.jpg"
+  },
+  {
+    "id": "collants-brillants-pour-filles",
+    "name": "Collants brillants pour filles",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-brillants-pour-filles.jpg"
   },
   {
     "id": "sport-bra",
     "name": "SPORT BRA",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/sport-bra-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/sport-bra.jpg"
+  },
+  {
+    "id": "simple-silky-style-tight",
+    "name": "Simple Silky Style Tight",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/simple-silky-style-tight.jpg"
+  },
+  {
+    "id": "collants-push-up",
+    "name": "Collants push up",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-push-up.jpg"
+  },
+  {
+    "id": "chaussettes-hautes-brillantes-dayana",
+    "name": "Chaussettes hautes brillantes (Dayana)",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-brillantes-dayana.jpg"
   },
   {
     "id": "slip-en-microfibre-sans-couture",
     "name": "Slip en microfibre sans couture",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/slip-en-microfibre-sans-couture-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/slip-en-microfibre-sans-couture.jpg"
+  },
+  {
+    "id": "collants-brillants-dayana",
+    "name": "Collants brillants (Dayana)",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-brillants-dayana.jpg"
+  },
+  {
+    "id": "short-sleeved-body-top",
+    "name": "Short Sleeved Body Top",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/short-sleeved-body-top.jpg"
   },
   {
     "id": "legging-fille-en-coton",
     "name": "Legging fille en coton",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/legging-fille-en-coton.jpg"
+  },
+  {
+    "id": "jambieres-pour-filles",
+    "name": "Jambières pour filles",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/jambieres-pour-filles.png"
+  },
+  {
+    "id": "top-body-a-bretelles",
+    "name": "Top body à bretelles",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/top-body-a-bretelles.jpg"
+  },
+  {
+    "id": "chaussettes-montantes-en-mousseline-de-soie",
+    "name": "chaussettes montantes en mousseline de soie",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-montantes-en-mousseline-de-soie.jpg"
+  },
+  {
+    "id": "chaussettes-dentelle-fille",
+    "name": "CHAUSSETTES DENTELLE FILLE",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-dentelle-fille.jpg"
   },
   {
     "id": "chaussettes-a-motifs-alice",
     "name": "Chaussettes à motifs Alice",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/chaussettes-a-motifs-alice-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/chaussettes-a-motifs-alice.jpg"
+  },
+  {
+    "id": "100-cotton-boy-s-tank-top",
+    "name": "100% Cotton Boy's Tank Top",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/100-cotton-boy-s-tank-top.png"
+  },
+  {
+    "id": "100-coton-sans-manches-col-en-v",
+    "name": "100 % coton, sans manches, col en V",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/100-coton-sans-manches-col-en-v.jpg"
+  },
+  {
+    "id": "slip-en-microfibre-sans-couture-pop-up",
+    "name": "Slip en microfibre sans couture Pop-Up",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/slip-en-microfibre-sans-couture-pop-up.jpg"
   },
   {
     "id": "chaussettes-en-crepe",
     "name": "Chaussettes en crêpe",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/chaussettes-en-crepe-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/chaussettes-en-crepe.jpg"
   },
   {
     "id": "collants-a-motif-tigre",
@@ -63,123 +182,387 @@
     "image": "/assets/excel-products/alsamah/collants-a-motif-tigre-marron.jpg"
   },
   {
+    "id": "chaussette-leen",
+    "name": "Chaussette leen",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussette-leen.jpg"
+  },
+  {
+    "id": "long-sleeve-body-top",
+    "name": "Long Sleeve Body Top",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/long-sleeve-body-top.jpg"
+  },
+  {
+    "id": "cotton-boys-crewneck-undershirt",
+    "name": "% Cotton Boys' Crewneck Undershirt",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/cotton-boys-crewneck-undershirt.jpg"
+  },
+  {
+    "id": "body-a-bretelles-avec-bande-large",
+    "name": "Body à bretelles avec bande large",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/body-a-bretelles-avec-bande-large.jpg"
+  },
+  {
+    "id": "collant-grande-resille-pour-filles",
+    "name": "Collant grande résille pour filles",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collant-grande-resille-pour-filles.jpg"
+  },
+  {
+    "id": "boxer-en-microfibre-sans-couture",
+    "name": "Boxer en microfibre sans couture",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/boxer-en-microfibre-sans-couture.jpg"
+  },
+  {
+    "id": "open-breast-boxer-corset-with-long-traoser-leg",
+    "name": "Open Breast Boxer Corset With Long-Traoser Leg",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/open-breast-boxer-corset-with-long-traoser-leg.jpg"
+  },
+  {
+    "id": "pack-slip-boy",
+    "name": "pack slip boy",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pack-slip-boy.jpg"
+  },
+  {
     "id": "corset-long-leg",
     "name": "Corset long leg",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/corset-long-leg-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/corset-long-leg.jpg"
+  },
+  {
+    "id": "collants-resille",
+    "name": "Collants résille",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-resille.png"
   },
   {
     "id": "collants-anti-cernes",
     "name": "collants anti-cernes",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/collants-anti-cernes-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/collants-anti-cernes.jpg"
+  },
+  {
+    "id": "corset-high-boxer-dontel",
+    "name": "CORSET HIGH BOXER DONTEL",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/corset-high-boxer-dontel.jpg"
   },
   {
     "id": "chaussettes-hautes-brillantes",
     "name": "Chaussettes hautes brillantes",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-brillantes-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-brillantes.jpg"
   },
   {
     "id": "lace-wrist-armes",
     "name": "Lace Wrist Armes",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/lace-wrist-armes-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/lace-wrist-armes.jpg"
+  },
+  {
+    "id": "pack-100-cotton-men-s-boxer",
+    "name": "Pack 100% Cotton Men's Boxer",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pack-100-cotton-men-s-boxer.png"
+  },
+  {
+    "id": "chaussettes-a-motifs-laryn",
+    "name": "Chaussettes à motifs Laryn",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-a-motifs-laryn.jpg"
+  },
+  {
+    "id": "men-s-corset-boxer",
+    "name": "Men's corset boxer",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/men-s-corset-boxer.jpg"
+  },
+  {
+    "id": "collants-pour-filles",
+    "name": "Collants pour filles",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-pour-filles.jpg"
+  },
+  {
+    "id": "cut-body-top",
+    "name": "Cut - Body Top",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/cut-body-top.jpg"
+  },
+  {
+    "id": "pack-boys-briefs",
+    "name": "pack boys' briefs",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pack-boys-briefs.png"
+  },
+  {
+    "id": "boxer-gainant-double-avec-jambe-longue",
+    "name": "Boxer gainant doublé avec jambe longue",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/boxer-gainant-double-avec-jambe-longue.jpg"
+  },
+  {
+    "id": "collants-fishnet",
+    "name": "Collants fishnet",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-fishnet.jpg"
+  },
+  {
+    "id": "cotton-girls-tank-top",
+    "name": "% Cotton Girls' Tank Top",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/cotton-girls-tank-top.png"
   },
   {
     "id": "collants-pour-femmes-enceintes",
     "name": "Collants pour femmes enceintes",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/collants-pour-femmes-enceintes-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/collants-pour-femmes-enceintes.jpg"
+  },
+  {
+    "id": "corset-taille-haute-double-jambes-longues",
+    "name": "Corset taille haute double jambes longues",
+    "brand": "ALSAMAH",
+    "status": "no_excel_image"
   },
   {
     "id": "slip-hi-cuts",
     "name": "Slip Hi-Cuts",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/slip-hi-cuts-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/slip-hi-cuts.jpg"
   },
   {
     "id": "slip-printed-girls",
     "name": "SLIP Printed Girls",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/slip-printed-girls-9.png"
+    "image": "/assets/excel-products/alsamah-url/slip-printed-girls.png"
   },
   {
     "id": "collants-a-motifs-roshan",
     "name": "Collants à motifs Roshan",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/collants-a-motifs-roshan-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/collants-a-motifs-roshan.jpg"
+  },
+  {
+    "id": "chaussettes-hautes-a-motif-tilma",
+    "name": "Chaussettes hautes à motif Tilma",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-a-motif-tilma.jpg"
+  },
+  {
+    "id": "chaussettes-resille",
+    "name": "Chaussettes résille",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-resille.png"
   },
   {
     "id": "total-control-laser-shaper-short",
     "name": "Total Control Laser Shaper Short",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/total-control-laser-shaper-short-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/total-control-laser-shaper-short.jpg"
+  },
+  {
+    "id": "chaussettes-en-mousseline-de-soie",
+    "name": "chaussettes en mousseline de soie",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-en-mousseline-de-soie.jpg"
+  },
+  {
+    "id": "slip-fille-taille-basse",
+    "name": "Slip fille taille basse",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/slip-fille-taille-basse.png"
+  },
+  {
+    "id": "pack-100-cotton-men-s-short",
+    "name": "Pack 100% Cotton Men's Short",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pack-100-cotton-men-s-short.png"
+  },
+  {
+    "id": "chaussettes-diabetiques-pour-femmes",
+    "name": "Chaussettes diabétiques pour femmes",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-diabetiques-pour-femmes.jpg"
   },
   {
     "id": "chaussettes-hautes-anti-cernes",
     "name": "Chaussettes hautes anti-cernes",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-anti-cernes-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/chaussettes-hautes-anti-cernes.jpg"
+  },
+  {
+    "id": "pack-100-cotton-men-s-striped-short",
+    "name": "Pack 100% Cotton Men's Striped short",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pack-100-cotton-men-s-striped-short.png"
+  },
+  {
+    "id": "100-cotton-men-s-slip",
+    "name": "100% Cotton Men's Slip",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/100-cotton-men-s-slip.png"
   },
   {
     "id": "seamless-slip-pregnant",
     "name": "Seamless slip pregnant",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/seamless-slip-pregnant-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/seamless-slip-pregnant.jpg"
   },
   {
     "id": "chaussettes-a-motifs-gillan",
     "name": "Chaussettes à motifs Gillan",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/chaussettes-a-motifs-gillan-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/chaussettes-a-motifs-gillan.jpg"
+  },
+  {
+    "id": "pantakour-en-microfibre-sans-couture",
+    "name": "Pantakour en microfibre sans couture",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pantakour-en-microfibre-sans-couture.jpg"
+  },
+  {
+    "id": "seamless-legging",
+    "name": "Seamless Legging",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/seamless-legging.jpg"
+  },
+  {
+    "id": "100-cotton-girls-half-sleeve-undershirt",
+    "name": "100% Cotton Girls' Half Sleeve Undershirt",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/100-cotton-girls-half-sleeve-undershirt.jpg"
+  },
+  {
+    "id": "body-de-grossesse-a-large-bande",
+    "name": "Body de grossesse à large bande",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/body-de-grossesse-a-large-bande.jpg"
   },
   {
     "id": "pack-men-ankle-simple-sport-cotton-socks",
     "name": "Pack Men Ankle Simple Sport Cotton socks",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/pack-men-ankle-simple-sport-cotton-socks-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/pack-men-ankle-simple-sport-cotton-socks.jpg"
   },
   {
     "id": "debardeur-corset-femme",
     "name": "Débardeur corset femme",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/debardeur-corset-femme-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/debardeur-corset-femme.jpg"
+  },
+  {
+    "id": "body-top-coupe-en-microfibre-sans-coutures",
+    "name": "Body - top coupe en microfibre sans coutures",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/body-top-coupe-en-microfibre-sans-coutures.jpg"
   },
   {
     "id": "boxer-model-corset",
     "name": "Boxer Model Corset",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/boxer-model-corset-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/boxer-model-corset.jpg"
+  },
+  {
+    "id": "pack-100-cotton-men-s-slip",
+    "name": "pack, 100% Cotton Men's Slip",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pack-100-cotton-men-s-slip.png"
+  },
+  {
+    "id": "push-up-collants-l-10",
+    "name": "push up collants - L/10",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/push-up-collants-l-10.jpg"
   },
   {
     "id": "couvre-orteils-elegant",
     "name": "couvre-orteils élégant",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/couvre-orteils-elegant-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/couvre-orteils-elegant.jpg"
+  },
+  {
+    "id": "chemise-de-nuit-en-lycra-avec-dentelle",
+    "name": "Chemise de nuit en lycra avec dentelle",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/chemise-de-nuit-en-lycra-avec-dentelle-bleu-ciel.jpg"
   },
   {
     "id": "doubled-slip-corset-with-high-rise",
     "name": "Doubled Slip Corset With High-Rise",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/doubled-slip-corset-with-high-rise-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/doubled-slip-corset-with-high-rise.jpg"
+  },
+  {
+    "id": "body-corset-a-fermeture-en-dentelle",
+    "name": "Body corset à fermeture en dentelle",
+    "brand": "ALSAMAH",
+    "status": "no_excel_image"
+  },
+  {
+    "id": "legging-fille",
+    "name": "Legging fille",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/legging-fille.jpg"
   },
   {
     "id": "robe-corset",
@@ -189,6 +572,20 @@
     "image": "/assets/excel-products/alsamah/robe-corset-noir.jpg"
   },
   {
+    "id": "collants-resille-avec-nud",
+    "name": "Collants résille avec nœud",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-resille-avec-nud.jpg"
+  },
+  {
+    "id": "ensemble-pyjama-2-pieces",
+    "name": "Ensemble Pyjama 2 Pièces",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/ensemble-pyjama-2-pieces-gris.jpg"
+  },
+  {
     "id": "slimcontour-shaping-top",
     "name": "SlimContour shaping top",
     "brand": "ALSAMAH",
@@ -196,32 +593,11 @@
     "image": "/assets/excel-products/alsamah/slimcontour-shaping-top-beige.jpg"
   },
   {
-    "id": "pyjama-pantalon-imprime-fleuri",
-    "name": "Pyjama pantalon imprimé fleuri",
+    "id": "boxer-fille-en-dentelle",
+    "name": "Boxer fille en dentelle",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-pantalon-imprime-fleuri-rose.jpg"
-  },
-  {
-    "id": "chemise-de-nuit-en-lycra-avec-dentelle",
-    "name": "Chemise de nuit en lycra avec dentelle",
-    "brand": "ALSAMAH",
-    "status": "mapped",
-    "image": "/assets/excel-products/alsamah/chemise-de-nuit-en-lycra-avec-dentelle-saumon.jpg"
-  },
-  {
-    "id": "printed-girls-boxers",
-    "name": "Printed Girls' Boxers",
-    "brand": "ALSAMAH",
-    "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/printed-girls-boxers-9.png"
-  },
-  {
-    "id": "ensemble-pyjama-homewear-femme",
-    "name": "Ensemble pyjama homewear femme",
-    "brand": "ALSAMAH",
-    "status": "mapped",
-    "image": "/assets/excel-products/alsamah/ensemble-pyjama-homewear-femme-rose.jpg"
+    "image": "/assets/excel-products/alsamah-url/boxer-fille-en-dentelle.png"
   },
   {
     "id": "pyjama-dentel-chic-avec-pantalon-dentel",
@@ -231,6 +607,41 @@
     "image": "/assets/excel-products/alsamah/pyjama-dentel-chic-avec-pantalon-dentel-vert-kaki.jpg"
   },
   {
+    "id": "pyjama-pantalon-imprime-fleuri",
+    "name": "Pyjama pantalon imprimé fleuri",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-pantalon-imprime-fleuri-rose.jpg"
+  },
+  {
+    "id": "printed-girls-boxers",
+    "name": "Printed Girls' Boxers",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/printed-girls-boxers.png"
+  },
+  {
+    "id": "ensemble-pyjama-homewear-femme",
+    "name": "Ensemble pyjama homewear femme",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/ensemble-pyjama-homewear-femme-rose.jpg"
+  },
+  {
+    "id": "96-cotton-4-elastane-long-sleeves",
+    "name": "96% Cotton 4% Elastane Long Sleeves",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/96-cotton-4-elastane-long-sleeves.jpg"
+  },
+  {
+    "id": "pyjama-cotton-avec-legging-pour-femme-fleurie",
+    "name": "pyjama cotton avec legging pour femme fleurie",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-cotton-avec-legging-pour-femme-fleurie-jaune.jpg"
+  },
+  {
     "id": "pyjama-en-coton-avec-legging-pour-femme-a-motif-floral",
     "name": "Pyjama en coton avec legging pour femme à motif floral",
     "brand": "ALSAMAH",
@@ -238,11 +649,44 @@
     "image": "/assets/excel-products/alsamah/pyjama-en-coton-avec-legging-pour-femme-a-motif-floral-bleu-ciel.jpg"
   },
   {
-    "id": "pyjama-femme-2-pieces",
-    "name": "Pyjama femme 2 pièces",
+    "id": "pyjama-epaule-dentelle-fleuri",
+    "name": "pyjama epaule dentelle fleuri",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-femme-2-pieces-marron-chocolat.jpg"
+    "image": "/assets/excel-products/alsamah/pyjama-epaule-dentelle-fleuri-jaune.jpg"
+  },
+  {
+    "id": "ensemble-pyjama-avec-robe-de-chambre-fleurie",
+    "name": "Ensemble pyjama avec robe de chambre fleurie",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/ensemble-pyjama-avec-robe-de-chambre-fleurie-violet.jpg"
+  },
+  {
+    "id": "pack-slip-pour-garcons",
+    "name": "Pack slip pour garçons",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/pack-slip-pour-garcons.jpg"
+  },
+  {
+    "id": "pyjama-pour-femme",
+    "name": "Pyjama pour femme",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-pour-femme-marron-chocolat.jpg"
+  },
+  {
+    "id": "couvre-bras-aleen",
+    "name": "couvre-bras aleen",
+    "brand": "ALSAMAH",
+    "status": "no_excel_image"
+  },
+  {
+    "id": "couvre-bras-en-dentelle",
+    "name": "Couvre-bras en dentelle",
+    "brand": "ALSAMAH",
+    "status": "no_excel_image"
   },
   {
     "id": "ensemble-pyjama-marines-crew-84",
@@ -252,18 +696,18 @@
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-marines-crew-84-gris.jpg"
   },
   {
+    "id": "men-s-boxer-brief",
+    "name": "Men's Boxer Brief",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/men-s-boxer-brief.png"
+  },
+  {
     "id": "pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants",
     "name": "Pyjama 2 pièces fluide à manches longues avec bord-côtes contrastants",
     "brand": "ALSAMAH",
     "status": "mapped",
     "image": "/assets/excel-products/alsamah/pyjama-2-pieces-fluide-a-manches-longues-avec-bord-cotes-contrastants-vert-d-eau.jpg"
-  },
-  {
-    "id": "pyjama-dentelle-avec-haut-court-sexy",
-    "name": "Pyjama dentelle avec haut court sexy",
-    "brand": "ALSAMAH",
-    "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-dentelle-avec-haut-court-sexy-vert.jpg"
   },
   {
     "id": "pyjama-femme-avec-pantalon-imprime-floral",
@@ -280,6 +724,27 @@
     "image": "/assets/excel-products/alsamah/pyjama-robe-floral-en-dentelle-blanc-casse.jpg"
   },
   {
+    "id": "pyjama-sexy-dentelle",
+    "name": "Pyjama sexy dentelle",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-sexy-dentelle-vert.jpg"
+  },
+  {
+    "id": "slip-fille",
+    "name": "Slip fille",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/slip-fille.png"
+  },
+  {
+    "id": "slip-pour-homme",
+    "name": "Slip pour homme",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/slip-pour-homme.png"
+  },
+  {
     "id": "ensemble-pyjama-tete-d-ours",
     "name": "Ensemble Pyjama Tête d'Ours",
     "brand": "ALSAMAH",
@@ -287,11 +752,38 @@
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-tete-d-ours-gris.jpg"
   },
   {
-    "id": "pyjama-femme-epaules-dentelle-imprime-fleuri",
-    "name": "Pyjama femme épaules dentelle imprimé fleuri",
+    "id": "men-s-corset-short-sleeve",
+    "name": "Men's corset short sleeve",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-femme-epaules-dentelle-imprime-fleuri-bleu-ciel.jpg"
+    "image": "/assets/excel-products/alsamah-url/men-s-corset-short-sleeve.jpg"
+  },
+  {
+    "id": "nipple-cover-pad",
+    "name": "NIPPLE COVER PAD",
+    "brand": "ALSAMAH",
+    "status": "no_excel_image"
+  },
+  {
+    "id": "pyjama-epaules-dentelle-fleuri",
+    "name": "Pyjama épaules dentelle fleuri",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-epaules-dentelle-fleuri-bleu-ciel.jpg"
+  },
+  {
+    "id": "root-chaussettes-hautes-a-motif",
+    "name": "root Chaussettes hautes à motif",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/root-chaussettes-hautes-a-motif.jpg"
+  },
+  {
+    "id": "body-top-coupe-en-microfibre-sans-coutures-taille-libre-ivre",
+    "name": "Body-top coupe en microfibre sans coutures-taille Libre -ivre",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/body-top-coupe-en-microfibre-sans-coutures-taille-libre-ivre.jpg"
   },
   {
     "id": "ensemble-pyjama-terracotta-a-pois-weekending",
@@ -322,6 +814,20 @@
     "image": "/assets/excel-products/alsamah/pyjama-a-capuche-angel-baby-gris.jpg"
   },
   {
+    "id": "rawan-chaussettes-hautes-a-motif",
+    "name": "Rawan Chaussettes hautes à motif",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/rawan-chaussettes-hautes-a-motif.jpg"
+  },
+  {
+    "id": "chaussettes-fantasia-lareen",
+    "name": "Chaussettes Fantasia Lareen",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-fantasia-lareen.jpg"
+  },
+  {
     "id": "ensemble-pyjama-2-pieces-a-carreaux-pochette-assortie",
     "name": "Ensemble Pyjama 2 Pièces à Carreaux / Pochette Assortie",
     "brand": "ALSAMAH",
@@ -350,14 +856,8 @@
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-quadrille-blanc-casse.jpg"
   },
   {
-    "id": "grille-de-prise-fantasia-epaisseur-40",
-    "name": "Grille de prise Fantasia épaisseur 40",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "maillot-de-bain-crochet",
-    "name": "Maillot de bain crochet",
+    "id": "grille-de-prise-fantasia-epaisseur-40-taille-libre-le-noir",
+    "name": "Grille de prise Fantasia épaisseur 40-taille Libre -le noir",
     "brand": "ALSAMAH",
     "status": "no_excel_image"
   },
@@ -369,16 +869,46 @@
     "image": "/assets/excel-products/alsamah/pyjama-avec-bretelles-et-manches-en-dentelle-rose.jpg"
   },
   {
-    "id": "pyjama-panda",
-    "name": "PYJAMA PANDA",
+    "id": "pyjama-dentelle-avec-haut-court-sexy",
+    "name": "Pyjama dentelle avec haut court sexy",
     "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-dentelle-avec-haut-court-sexy-bleu-ciel.jpg"
   },
   {
-    "id": "cotton-4-elastane-short-sleeves",
-    "name": "% Cotton 4% Elastane Short Sleeves",
+    "id": "pyjama-panda",
+    "name": "Pyjama panda",
     "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-panda-saumon-blanc.jpg"
+  },
+  {
+    "id": "pyjama-robe-resille",
+    "name": "Pyjama robe résille",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-robe-resille-noir.jpg"
+  },
+  {
+    "id": "robe-imprime",
+    "name": "robe imprime",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/robe-imprime-bleu-marine.jpg"
+  },
+  {
+    "id": "96-cotton-4-elastane-short-sleeves",
+    "name": "96% Cotton 4% Elastane Short Sleeves",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/96-cotton-4-elastane-short-sleeves.jpg"
+  },
+  {
+    "id": "boys-printed-boxer",
+    "name": "boys printed boxer",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/boys-printed-boxer.png"
   },
   {
     "id": "chemise-de-nuit-en-lycra",
@@ -388,6 +918,13 @@
     "image": "/assets/excel-products/alsamah/chemise-de-nuit-en-lycra-blanc-casse.jpg"
   },
   {
+    "id": "debardeur-pour-femme-bande-large-en-cotton",
+    "name": "debardeur pour femme bande large en cotton",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/debardeur-pour-femme-bande-large-en-cotton.jpg"
+  },
+  {
     "id": "ensemble-pyjama-2-pieces-decontracte",
     "name": "Ensemble Pyjama 2 pièces décontracté",
     "brand": "ALSAMAH",
@@ -395,11 +932,11 @@
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-2-pieces-decontracte-gris.jpg"
   },
   {
-    "id": "ensemble-pyjama-d-ete-avec-pantacourt-pour-femme",
-    "name": "Ensemble pyjama d'été avec pantacourt pour femme",
+    "id": "ensemble-pyjama-d-ete-pour-femme-avec-pantakour",
+    "name": "ensemble pyjama d ete pour femme avec pantakour",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah/ensemble-pyjama-d-ete-avec-pantacourt-pour-femme-bleu-ciel.jpg"
+    "image": "/assets/excel-products/alsamah/ensemble-pyjama-d-ete-pour-femme-avec-pantakour-non-renseignee.jpg"
   },
   {
     "id": "ensemble-pyjama-damier-motifs-fantaisie",
@@ -407,6 +944,13 @@
     "brand": "ALSAMAH",
     "status": "mapped",
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-damier-motifs-fantaisie-noir.jpg"
+  },
+  {
+    "id": "ensemble-pyjama-dete-avec-pantacourt",
+    "name": "Ensemble pyjama d’été avec pantacourt",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/ensemble-pyjama-dete-avec-pantacourt-bleu-ciel.jpg"
   },
   {
     "id": "ensemble-pyjama-en-lycra-floral",
@@ -427,7 +971,7 @@
     "name": "high neck",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/high-neck-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/high-neck.jpg"
   },
   {
     "id": "pyjama-2-pieces-fluide-a-manches-longues",
@@ -451,10 +995,18 @@
     "image": "/assets/excel-products/alsamah/pyjama-robe-avec-boutons-rose.jpg"
   },
   {
-    "id": "cotton-girls-half-sleeve-undershirt",
-    "name": "% Cotton Girls' Half Sleeve Undershirt",
+    "id": "sport-cotton-socks",
+    "name": "Sport Cotton socks",
     "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/sport-cotton-socks.jpg"
+  },
+  {
+    "id": "collants-a-motifs-glamour",
+    "name": "Collants à motifs Glamour",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/collants-a-motifs-glamour.jpg"
   },
   {
     "id": "ensemble-homewear-a-capuche-believe",
@@ -524,7 +1076,21 @@
     "name": "Contour Effect Ultra Sheer 15 Den, Silk Reflections Full-Control Top,",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/contour-effect-ultra-sheer-15-den-silk-reflections-full-control-top-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/contour-effect-ultra-sheer-15-den-silk-reflections-full-control-top.jpg"
+  },
+  {
+    "id": "corset-slip",
+    "name": "CORSET SLIP",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/corset-slip.jpg"
+  },
+  {
+    "id": "ensemble-pyjama",
+    "name": "Ensemble Pyjama",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/ensemble-pyjama-gris.jpg"
   },
   {
     "id": "ensemble-pyjama-2-pieces-a-poche-fleurie",
@@ -583,6 +1149,13 @@
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-ours-hipster-gris.jpg"
   },
   {
+    "id": "nuisette-longue-brettelle-avec-penoir",
+    "name": "nuisette longue brettelle avec penoir",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/nuisette-longue-brettelle-avec-penoir-blanc-casse.jpg"
+  },
+  {
     "id": "pyjama-2-pieces-en-maille-avec-motif-cur-carreaux-et-effet-bimatiere",
     "name": "Pyjama 2 pièces en maille avec motif cœur carreaux et effet bimatière",
     "brand": "ALSAMAH",
@@ -604,10 +1177,18 @@
     "image": "/assets/excel-products/alsamah/pyjama-2-pieces-style-jogger-avec-chevilles-et-poignets-resserres-blanc.jpg"
   },
   {
-    "id": "boxer-gainant-double",
-    "name": "Boxer gainant doublé",
+    "id": "pyjama-longue-dentel-demi-manche-pour-femme-fleuri",
+    "name": "pyjama longue dentel demi manche pour femme fleuri",
     "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-longue-dentel-demi-manche-pour-femme-fleuri-bleu-ciel.jpg"
+  },
+  {
+    "id": "pyjama-longue-dentelle-demi-manche",
+    "name": "Pyjama longue dentelle demi-manche",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-longue-dentelle-demi-manche-jaune.jpg"
   },
   {
     "id": "ensemble-pyjama-2-pieces-a-carreaux",
@@ -624,18 +1205,18 @@
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-quadrille-everything-is-possible-blanc-casse.jpg"
   },
   {
-    "id": "legging-fille",
-    "name": "Legging fille",
+    "id": "lot-de-chaussettes-invisibles-garcon",
+    "name": "Lot de chaussettes invisibles garçon",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/legging-fille-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/lot-de-chaussettes-invisibles-garcon.png"
   },
   {
     "id": "pack-no-show-simple-sport-cotton-socks",
     "name": "Pack No-Show Simple, Sport Cotton socks",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/pack-no-show-simple-sport-cotton-socks-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/pack-no-show-simple-sport-cotton-socks.jpg"
   },
   {
     "id": "pyjama-2-pieces-love-pantalon-a-carreaux-multicolores",
@@ -643,13 +1224,6 @@
     "brand": "ALSAMAH",
     "status": "mapped",
     "image": "/assets/excel-products/alsamah/pyjama-2-pieces-love-pantalon-a-carreaux-multicolores-blanc.jpg"
-  },
-  {
-    "id": "pyjama-2-pieces-homewear-bleu-raye",
-    "name": "Pyjama 2 Pièces Homewear Bleu Rayé",
-    "brand": "ALSAMAH",
-    "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-2-pieces-homewear-bleu-raye-bleu-marine-blanc.jpg"
   },
   {
     "id": "pyjama-femme-2-pieces-all-day",
@@ -673,36 +1247,46 @@
     "image": "/assets/excel-products/alsamah/pyjama-femme-pantalon-imprime-fleuri-bleu-ciel.jpg"
   },
   {
-    "id": "pyjama-longue-dentel-demi-manche-pour-femme-fleuri",
-    "name": "pyjama longue dentel demi manche pour femme fleuri",
+    "id": "pyjama-lours",
+    "name": "PYJAMA LOURS",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-longue-dentel-demi-manche-pour-femme-fleuri-bleu-ciel.jpg"
+    "image": "/assets/excel-products/alsamah/pyjama-lours-gris.jpg"
   },
   {
-    "id": "soutien-gorge-d-allaitement-en-coton",
-    "name": "Soutien-gorge d'allaitement en coton",
+    "id": "pyjama-raye-251139051072",
+    "name": "Pyjama rayé",
     "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-raye-251139051072-bleu-marine-blanc.jpg"
   },
   {
-    "id": "cotton-boys-crewneck-undershirt",
-    "name": "% Cotton Boys' Crewneck Undershirt",
+    "id": "pyjama-robe-avec-botton",
+    "name": "pyjama robe avec botton",
     "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-robe-avec-botton-bleu-ciel.jpg"
+  },
+  {
+    "id": "ankle-simple-socks-boy",
+    "name": "Ankle Simple socks boy",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/ankle-simple-socks-boy.jpg"
   },
   {
     "id": "chaussettes-montantes-romantiques",
     "name": "chaussettes montantes romantiques",
     "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/chaussettes-montantes-romantiques.jpg"
   },
   {
     "id": "doubled-slip-corset-with-high",
     "name": "Doubled Slip Corset With High",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah-url/doubled-slip-corset-with-high-9.jpg"
+    "image": "/assets/excel-products/alsamah-url/doubled-slip-corset-with-high.jpg"
   },
   {
     "id": "ensemble-homewear-confortable-pour-femme",
@@ -710,12 +1294,6 @@
     "brand": "ALSAMAH",
     "status": "mapped",
     "image": "/assets/excel-products/alsamah/ensemble-homewear-confortable-pour-femme-bleu-ciel.jpg"
-  },
-  {
-    "id": "ensemble-pyjama-d-ete-pour-femme-avec-pantakour",
-    "name": "ensemble pyjama d ete pour femme avec pantakour",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
   },
   {
     "id": "ensemble-pyjama-femme-en-lycra-floral",
@@ -739,29 +1317,18 @@
     "image": "/assets/excel-products/alsamah/ensemble-pyjama-ecru-volants-sweet-pantalon-quadrille-prune-rouge.jpg"
   },
   {
+    "id": "legging-695067504138",
+    "name": "Legging",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/legging-695067504138.jpg"
+  },
+  {
     "id": "nuisette-longue-bretelle-avec-peignoir",
     "name": "nuisette longue bretelle avec peignoir",
     "brand": "ALSAMAH",
     "status": "mapped",
     "image": "/assets/excel-products/alsamah/nuisette-longue-bretelle-avec-peignoir-rose.jpg"
-  },
-  {
-    "id": "pyjama",
-    "name": "Pyjama",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-681438770286",
-    "name": "PYJAMA",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-694704578983",
-    "name": "pyjama",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
   },
   {
     "id": "pyjama-2-pieces-sweet-today",
@@ -778,18 +1345,25 @@
     "image": "/assets/excel-products/alsamah/pyjama-2-pieces-homewear-noir.jpg"
   },
   {
-    "id": "pyjama-femme-bretelles-et-dentelle",
-    "name": "Pyjama femme bretelles et dentelle",
+    "id": "pyjama-avec-brettelles-et-manche-en-dentelle",
+    "name": "pyjama avec brettelles et manche en dentelle",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-femme-bretelles-et-dentelle-bleu-ciel.jpg"
+    "image": "/assets/excel-products/alsamah/pyjama-avec-brettelles-et-manche-en-dentelle-rose.jpg"
   },
   {
-    "id": "pyjama-long-avec-peignoir-floral-pour-femme",
-    "name": "Pyjama long avec peignoir floral pour femme",
+    "id": "pyjama-court-avec-dentelle-col-v",
+    "name": "Pyjama court avec dentelle col V",
     "brand": "ALSAMAH",
     "status": "mapped",
-    "image": "/assets/excel-products/alsamah/pyjama-long-avec-peignoir-floral-pour-femme-bleu-ciel.jpg"
+    "image": "/assets/excel-products/alsamah/pyjama-court-avec-dentelle-col-v-rose-fushia.jpg"
+  },
+  {
+    "id": "pyjama-femme-en-dentelle",
+    "name": "pyjama femme en dentelle",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-femme-en-dentelle-bleu-ciel.jpg"
   },
   {
     "id": "pyjama-long-femme-en-dentelle-a-motif-floral",
@@ -799,6 +1373,13 @@
     "image": "/assets/excel-products/alsamah/pyjama-long-femme-en-dentelle-a-motif-floral-bleu-ciel.jpg"
   },
   {
+    "id": "pyjama-long-femme-imprime-floral",
+    "name": "Pyjama long femme imprimé floral",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah/pyjama-long-femme-imprime-floral-bleu-ciel.jpg"
+  },
+  {
     "id": "robe-dos-nu-fleuri",
     "name": "robe dos nu fleuri",
     "brand": "ALSAMAH",
@@ -806,694 +1387,11 @@
     "image": "/assets/excel-products/alsamah/robe-dos-nu-fleuri-blanc-casse.jpg"
   },
   {
-    "id": "sport-bra-m-l-grey",
-    "name": "Sport BRA-M L-GREY",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-body-top1",
-    "name": "CORSET BODY TOP1",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-butt-pump-695067008884",
-    "name": "Corset Butt Pump",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-putbump",
-    "name": "CORSET PUTBUMP",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-epaules-dentelle-fleuri",
-    "name": "Pyjama épaules dentelle fleuri",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-coton-avec-legging-fleuri",
-    "name": "Pyjama coton avec legging fleuri",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "sous-vetement-femme",
-    "name": "Sous-vêtement femme",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-but-pump",
-    "name": "CORSET BUT PUMP",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-slip",
-    "name": "CORSET SLIP",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "lot-de-3-slips-colores-pour-garcon",
-    "name": "Lot de 3 slips colorés pour garçon",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-marine",
-    "name": "PYJAMA MARINE",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-butt-pump1",
-    "name": "CORSET BUTT PUMP1",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-double-a-taille-haute",
-    "name": "Corset doublé à taille haute",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-modele-boxer",
-    "name": "Corset modèle boxer",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "couvre-bras-en-dentelle",
-    "name": "Couvre-bras en dentelle",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-a-carreau",
-    "name": "PYJAMA A CARREAU",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "collants-resille-a-strass",
-    "name": "Collants résille à strass",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-high-boxer-dontel",
-    "name": "CORSET HIGH BOXER DONTEL",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "hoodie-femme",
-    "name": "Hoodie femme",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-coeur",
-    "name": "PYJAMA COEUR",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-sexy-en-dentelle",
-    "name": "Soutien-gorge sexy en dentelle",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "collants-fishnet",
-    "name": "Collants fishnet",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "legging",
-    "name": "legging",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "lot-de-boxers-imprimes-pour-garcons",
-    "name": "Lot de boxers imprimés pour garçons",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "slip-fille-taille-basse",
-    "name": "Slip fille taille basse",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-butt-pump-woman",
-    "name": "CORSET BUTT PUMP WOMAN",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-luxe",
-    "name": "Pyjama Luxe",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-robe-resille",
-    "name": "Pyjama robe résille",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama902",
-    "name": "PYJAMA902",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-butt-pump-top",
-    "name": "CORSET BUTT PUMP TOP",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "ensemble-pyjama-dete-avec-pantacourt",
-    "name": "Ensemble pyjama d’été avec pantacourt",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-femme",
-    "name": "Pyjama femme",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-kermiz",
-    "name": "PYJAMA KERMIZ",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-raye",
-    "name": "PYJAMA RAYE",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-sexy",
-    "name": "Pyjama sexy",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamaagreable",
-    "name": "PYJAMAAGREABLE",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamachouette",
-    "name": "PYJAMACHOUETTE",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamagracieuse",
-    "name": "PYJAMAGRACIEUSE",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "slip-fille",
-    "name": "Slip fille",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-rembourre-cute-sexy",
-    "name": "Soutien-gorge rembourré cute sexy",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-rembourre-ensemble",
-    "name": "Soutien-gorge rembourré ensemble",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-sexy-chic-en-dentelle",
-    "name": "Soutien-gorge sexy chic en dentelle",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "lot-de-chaussettes-invisibles-garcon",
-    "name": "Lot de chaussettes invisibles garçon",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pujama-femme-en-dentelle",
-    "name": "pujama femme en dentelle",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "push-up-bra",
-    "name": "Push up bra",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-amazing-home",
-    "name": "Pyjama amazing home",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-aross",
-    "name": "PYJAMA AROSS",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-bride",
-    "name": "Pyjama bride",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-bride-angel",
-    "name": "Pyjama bride angel",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-chic-pour-femme",
-    "name": "pyjama chic pour femme",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-femme-en-dentelle",
-    "name": "pyjama femme en dentelle",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-home-penoir-sexy",
-    "name": "PYJAMA HOME PENOIR SEXY",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-longue-demi-manche-avec-peignoir",
-    "name": "Pyjama longue demi-manche avec peignoir",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-lovely",
-    "name": "PYJAMA LOVELY",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-nighty-love",
-    "name": "Pyjama nighty love",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-pour-femme",
-    "name": "Pyjama pour femme",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-queen-bride",
-    "name": "Pyjama queen bride",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-royal",
-    "name": "Pyjama royal",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-sabahli",
-    "name": "PYJAMA SABAHLI",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-zyn",
-    "name": "PYJAMA ZYN",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama803",
-    "name": "PYJAMA803",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama808",
-    "name": "PYJAMA808",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamacharme",
-    "name": "PYJAMACHARME",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamaforyourcharme",
-    "name": "PYJAMAFORYOURCHARME",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamapenoir-courte-sexy",
-    "name": "PYJAMAPENOIR COURTE SEXY",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-basic",
-    "name": "Soutien-gorge basic",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-dallaitement",
-    "name": "Soutien-gorge d’allaitement",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "corset-butt-pump-1",
-    "name": "Corset Butt Pump 1",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "debardeur",
-    "name": "Débardeur",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "debardeur-turc-pour-filles",
-    "name": "Débardeur turc pour filles",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "ensemble-soutien-gorge-et-slip",
-    "name": "Ensemble soutien-gorge et slip",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "jambieres-resille",
-    "name": "Jambières résille",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "legging-695067504138",
-    "name": "Legging",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "legging-de-grossesse-en-microfibre-sans-couture",
-    "name": "Legging de grossesse en microfibre sans couture",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pantacourt-opaque-en-microfibre-sans-couture",
-    "name": "Pantacourt opaque en microfibre sans couture",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-beaute",
-    "name": "Pyjama Beauté",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-bride-sexy",
-    "name": "PYJAMA BRIDE SEXY",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-chic",
-    "name": "Pyjama chic",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-court-avec-dentelle-col-v",
-    "name": "Pyjama court avec dentelle col V",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-en-dentelle-chic",
-    "name": "pyjama en dentelle chic",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-femme-694704642899",
-    "name": "pyjama femme",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-garcon-roi-des-pirates",
-    "name": "Pyjama garçon roi des pirates",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-glamour",
-    "name": "Pyjama Glamour",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-habille",
-    "name": "Pyjama habillé",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-kiss",
-    "name": "PYJAMA KISS",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-long-femme-imprime-floral",
-    "name": "Pyjama long femme imprimé floral",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-longue-dentelle-demi-manche",
-    "name": "Pyjama longue dentelle demi-manche",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-leger",
-    "name": "Pyjama léger",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-nighty",
-    "name": "Pyjama nighty",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-nuisette",
-    "name": "Pyjama nuisette",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-nuit",
-    "name": "Pyjama nuit",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-penoir-queen-tresor",
-    "name": "PYJAMA PENOIR QUEEN TRESOR",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-robe-dentelle-chic",
-    "name": "Pyjama robe dentelle chic",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-satin",
-    "name": "PYJAMA SATIN",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-scandal",
-    "name": "PYJAMA SCANDAL",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-sexy-dentelle",
-    "name": "Pyjama sexy dentelle",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-sexy-nighty",
-    "name": "Pyjama sexy nighty",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-sweetie",
-    "name": "PYJAMA SWEETIE",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-turkey",
-    "name": "PYJAMA TURKEY",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-velours",
-    "name": "PYJAMA VELOURS",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-elance",
-    "name": "Pyjama élançé",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-elegant",
-    "name": "Pyjama élégant",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama802",
-    "name": "PYJAMA802",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama805",
-    "name": "PYJAMA805",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama807",
-    "name": "PYJAMA807",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamabienmis",
-    "name": "PYJAMABIENMIS",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamabonnequalite",
-    "name": "PYJAMABONNEQUALITE",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamafashion",
-    "name": "PYJAMAFASHION",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjamaglamour",
-    "name": "PYJAMAGLAMOUR",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "short-femme",
-    "name": "Short femme",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "sous-vetement-femme-a-manches-longues",
-    "name": "Sous-vêtement femme à manches longues",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-dentelle",
-    "name": "Soutien-gorge dentelle",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "soutien-gorge-large-en-microfibre-sans-couture",
-    "name": "Soutien-gorge large en microfibre sans couture",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "epaule-large",
-    "name": "Épaule large",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
-  },
-  {
-    "id": "pyjama-bella",
-    "name": "Pyjama Bella",
-    "brand": "ALSAMAH",
-    "status": "no_excel_image"
+    "id": "simple-socks-low-cut-girl",
+    "name": "Simple socks low cut girl",
+    "brand": "ALSAMAH",
+    "status": "mapped",
+    "image": "/assets/excel-products/alsamah-url/simple-socks-low-cut-girl.jpg"
   },
   {
     "id": "elko-women-s-slip",

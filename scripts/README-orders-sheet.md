@@ -50,7 +50,8 @@ App as a free, serverless endpoint — no backend needed.
   writing, so retries are safe and do not duplicate rows.
 - The Apps Script's `doPost` appends **one row per item**, not per order — a 3-item
   order becomes 3 rows, with the order/customer fields (order ID, date, name, phone,
-  city, address, order total, payment) repeated on each one. Each row also gets an
+  city, address, order total, payment) repeated on each one. Product rows include the
+  exact Excel barcode, color, size, quantity, and charged price. Each row also gets an
   `=IMAGE(...)` formula in the Image column, rendering that item's product photo inline.
 - If `VITE_ORDERS_SHEET_URL` is unset, the app behaves exactly as before — order only
   saved to `localStorage`, no network call made.

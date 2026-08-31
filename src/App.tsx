@@ -7,8 +7,8 @@ import { Language, LocalizedText, Product, ProductSubcategory, subcategoriesByCa
 const products = catalogData as Product[];
 const packProducts = products.filter((product) => product.purchasable && product.imageStatus === "generated");
 type Filter = "all" | "femme" | "homme" | "enfants" | "autres";
-type CartLine = { key: string; productId: string; colorId: string; size: string; quantity: number; unitPrice: number; packId?: string };
-type OrderPayload = { id: string; customer: Record<string, string>; items: { name: string; color: string; size: string; quantity: number; unitPrice: number; lineTotal: number; image: string }[]; payment: "cash_on_delivery"; total: number; createdAt: string };
+type CartLine = { key: string; productId: string; colorId: string; size: string; quantity: number; unitPrice: number; variantId?: string; barcode?: string | null; packId?: string };
+type OrderPayload = { id: string; customer: Record<string, string>; items: { name: string; color: string; size: string; quantity: number; unitPrice: number; lineTotal: number; image: string; barcode?: string | null }[]; payment: "cash_on_delivery"; total: number; createdAt: string };
 
 type CatalogFilterCopy = Pick<(typeof translations)[Language]["catalog"], "all" | "women" | "men" | "kids" | "other">;
 
@@ -169,11 +169,26 @@ function HeroFilm({ video, mobileVideo, poster, alt, pending, onReady }: { video
   </div>;
 }
 
+const variantForChoice = (product: Product, colorId: string, size: string) => {
+  const variants = product.variants?.filter((variant) => variant.colorId === colorId && variant.size === size) ?? [];
+  return variants.find((variant) => variant.stock > 0 && variant.regularPrice === product.regularPrice)
+    ?? variants.find((variant) => variant.stock > 0)
+    ?? variants.find((variant) => variant.regularPrice === product.regularPrice)
+    ?? variants[0];
+};
+
+const pricingForChoice = (product: Product, colorId: string, size: string) => {
+  const variant = variantForChoice(product, colorId, size);
+  return {
+    variant,
+    regularPrice: variant?.regularPrice ?? product.regularPrice,
+    price: variant?.price ?? product.price,
+  };
+};
+
 const availableQuantity = (product: Product, colorId: string, size: string) => {
   if (!product.variants?.length) return Math.max(0, Math.floor(product.stock ?? 0));
-  return product.variants
-    .filter((variant) => variant.colorId === colorId && variant.size === size)
-    .reduce((sum, variant) => sum + Math.max(0, Math.floor(variant.stock ?? 0)), 0);
+  return Math.max(0, Math.floor(variantForChoice(product, colorId, size)?.stock ?? 0));
 };
 
 const availableSizesForColor = (product: Product, colorId: string) => {
@@ -188,6 +203,11 @@ const firstAvailableChoice = (product: Product) => {
   const variant = product.variants?.find((item) => item.stock > 0);
   if (variant) return { colorId: variant.colorId, size: variant.size };
   return { colorId: product.colors[0]?.id ?? "default", size: product.sizes[0] ?? "TU" };
+};
+
+const firstChoicePricing = (product: Product) => {
+  const choice = firstAvailableChoice(product);
+  return { ...choice, ...pricingForChoice(product, choice.colorId, choice.size) };
 };
 
 const pendingOrdersKey = "hawana-pending-orders";
@@ -223,8 +243,9 @@ function ProductCard({ product, language, onOpen, onAdd }: { product: Product; l
   const [colorId, setColorId] = useState(() => firstAvailableChoice(product).colorId);
   const color = product.colors.find((item) => item.id === colorId) ?? product.colors[0];
   const t = translations[language];
-  const discount = product.price !== null && product.regularPrice ? Math.round((1 - product.price / product.regularPrice) * 100) : null;
   const quickSize = availableSizesForColor(product, color?.id ?? colorId)[0] ?? firstAvailableChoice(product).size;
+  const pricing = pricingForChoice(product, color?.id ?? colorId, quickSize);
+  const discount = pricing.price !== null && pricing.regularPrice && pricing.price < pricing.regularPrice ? 30 : null;
   const canAdd = product.purchasable && Boolean(color) && availableQuantity(product, color?.id ?? colorId, quickSize) > 0;
   return <article className="product-card">
     <button className="product-media" type="button" onClick={() => onOpen(product)} aria-label={`${t.catalog.details}: ${product.name[language]}`}>
@@ -237,7 +258,7 @@ function ProductCard({ product, language, onOpen, onAdd }: { product: Product; l
       <div className="product-kicker"><span>{productCategoryLabel(product, language)}</span><span>{productSubcategoryLabel(product, language)}</span></div>
       <button className="product-title" type="button" onClick={() => onOpen(product)}>{product.name[language]}</button>
       <div className="product-bottom">
-        {product.price !== null ? <div className="price-line"><strong>{formatPrice(product.price, language)} MAD</strong>{product.regularPrice !== null && <s>{formatPrice(product.regularPrice, language)} MAD</s>}</div> : <p className="price-pending">{t.catalog.pricePending}</p>}
+        {pricing.price !== null ? <div className="price-line"><strong>{formatPrice(pricing.price, language)} MAD</strong>{pricing.regularPrice !== null && <s>{formatPrice(pricing.regularPrice, language)} MAD</s>}</div> : <p className="price-pending">{t.catalog.pricePending}</p>}
         <button className="add-button" type="button" disabled={!canAdd} onClick={() => color && onAdd(product, color.id, quickSize)} aria-label={t.catalog.add}><Plus size={18} /></button>
       </div>
       <div className="swatches">{product.colors.slice(0, 7).map((item) => <button type="button" key={item.id} className={item.id === colorId ? "swatch active" : "swatch"} style={{ "--swatch": item.hex } as CSSProperties} onClick={() => setColorId(item.id)} aria-label={item.label[language]} />)}{product.colors.length > 7 && <small>+{product.colors.length - 7}</small>}</div>
@@ -254,6 +275,7 @@ function ProductDialog({ product, language, onClose, onAdd }: { product: Product
   const t = translations[language]; const c = pageCopy[language];
   const availableSizes = availableSizesForColor(product, color?.id ?? colorId);
   const selectedAvailable = Boolean(color) && availableQuantity(product, color?.id ?? colorId, size) > 0;
+  const pricing = pricingForChoice(product, color?.id ?? colorId, size);
   useEffect(() => setView("product"), [colorId]);
   useEffect(() => { if (!availableSizes.includes(size)) setSize(availableSizes[0] ?? product.sizes[0] ?? "TU"); }, [availableSizes, product.sizes, size]);
   const shownImage = view === "worn" && color?.lifestyleImage ? color.lifestyleImage : color?.image ?? null;
@@ -261,7 +283,7 @@ function ProductDialog({ product, language, onClose, onAdd }: { product: Product
     <button className="close-button" type="button" onClick={onClose} aria-label={t.product.close}><X size={21} /></button>
     <div className="dialog-media"><ProductImage src={shownImage} alt={product.name[language]} pending={t.catalog.imagePending} />{color?.lifestyleImage && <div className="view-switch"><button className={view === "product" ? "active" : ""} onClick={() => setView("product")}>{c.product}</button><button className={view === "worn" ? "active" : ""} onClick={() => setView("worn")}>{c.worn}</button></div>}</div>
     <div className="dialog-copy"><span className="brand-name">{productCategoryLabel(product, language)} / {productSubcategoryLabel(product, language)}</span><h2 id="product-title">{product.name[language]}</h2><p>{product.description[language] || product.short[language]}</p>
-      {product.price !== null ? <div className="price-line large"><strong>{formatPrice(product.price, language)} MAD</strong>{product.regularPrice !== null && <s>{formatPrice(product.regularPrice, language)} MAD</s>}</div> : <p className="price-pending">{t.catalog.pricePending}</p>}
+      {pricing.price !== null ? <div className="price-line large"><strong>{formatPrice(pricing.price, language)} MAD</strong>{pricing.regularPrice !== null && <s>{formatPrice(pricing.regularPrice, language)} MAD</s>}</div> : <p className="price-pending">{t.catalog.pricePending}</p>}
       {color && <div className="option-group"><span>{t.product.color}: <b>{color.label[language]}</b></span><div className="swatches large-swatches">{product.colors.map((item) => <button type="button" key={item.id} className={item.id === colorId ? "swatch active" : "swatch"} style={{ "--swatch": item.hex } as CSSProperties} onClick={() => setColorId(item.id)} aria-label={item.label[language]} />)}</div></div>}
       <div className="option-group"><span>{t.product.size}</span><div className="size-list">{product.sizes.map((item) => <button type="button" key={item} className={item === size ? "active" : ""} disabled={Boolean(product.variants?.length) && !availableSizes.includes(item)} onClick={() => setSize(item)}>{item}</button>)}</div></div>
       <button className="button primary full" type="button" disabled={!product.purchasable || !color || !selectedAvailable} onClick={() => { if (color && selectedAvailable) { onAdd(product, color.id, size); onClose(); } }}>{product.purchasable ? t.product.add : t.catalog.unavailable}<ArrowRight size={17} /></button>
@@ -348,7 +370,14 @@ function App() {
     })();
     return () => { cancelled = true; context?.revert(); };
   }, [language]);
-  const availableSubcategories = subcategoriesByCategory[filter] ?? [];
+  const availableSubcategories = useMemo(() => (
+    (subcategoriesByCategory[filter] ?? []).filter((subcategory) => products.some((product) => (
+      product.purchasable
+      && product.price !== null
+      && product.category === filter
+      && product.subcategory === subcategory
+    )))
+  ), [filter]);
   const filteredProducts = useMemo(() => {
     const needle = search.trim().toLocaleLowerCase(language);
     const imageScore = (product: Product) => {
@@ -372,11 +401,11 @@ function App() {
     ], { duration: 520, delay: Math.min(index * 22, 180), easing: "cubic-bezier(.16,1,.3,1)" }));
     return () => animations.forEach((animation) => animation.cancel());
   }, [filteredProducts, visibleLimit]);
-  const cartCount = cart.reduce((sum, line) => sum + line.quantity, 0); const cartTotal = cart.reduce((sum, line) => sum + line.unitPrice * line.quantity, 0); const packCount = Object.values(packCounts).reduce((sum, count) => sum + count, 0); const packDiscount = packTarget === 3 ? .2 : packTarget === 5 ? .3 : .4; const packBase = packProducts.reduce((sum, product) => sum + (packCounts[product.id] ?? 0) * (product.price ?? 0), 0); const packTotal = packBase * (1 - packDiscount);
-  const addToCart = (product: Product, colorId: string, size: string, unitPrice = product.price, packId?: string) => { const allowed = availableQuantity(product, colorId, size); if (!product.purchasable || unitPrice === null || allowed <= 0) return; const key = `${product.id}:${colorId}:${size}:${packId ?? "single"}`; setCart((current) => { const exists = current.find((line) => line.key === key); return exists ? current.map((line) => line.key === key ? { ...line, quantity: Math.min(line.quantity + 1, allowed) } : line) : [...current, { key, productId: product.id, colorId, size, quantity: 1, unitPrice, packId }]; }); setCartOpen(true); };
-  const changeQuantity = (key: string, amount: number) => setCart((current) => current.map((line) => { if (line.key !== key) return line; const product = products.find((item) => item.id === line.productId); const allowed = product ? availableQuantity(product, line.colorId, line.size) : line.quantity; return { ...line, quantity: Math.min(Math.max(0, line.quantity + amount), allowed) }; }).filter((line) => line.quantity > 0));
+  const cartCount = cart.reduce((sum, line) => sum + line.quantity, 0); const cartTotal = cart.reduce((sum, line) => sum + line.unitPrice * line.quantity, 0); const packCount = Object.values(packCounts).reduce((sum, count) => sum + count, 0); const packDiscount = packTarget === 3 ? .2 : packTarget === 5 ? .3 : .4; const packBase = packProducts.reduce((sum, product) => sum + (packCounts[product.id] ?? 0) * (firstChoicePricing(product).price ?? 0), 0); const packTotal = packBase * (1 - packDiscount);
+  const addToCart = (product: Product, colorId: string, size: string, unitPrice?: number | null, packId?: string) => { const pricing = pricingForChoice(product, colorId, size); const resolvedPrice = unitPrice ?? pricing.price; const allowed = availableQuantity(product, colorId, size); if (!product.purchasable || resolvedPrice === null || allowed <= 0) return; const variantKey = pricing.variant?.id ?? `${colorId}:${size}`; const key = `${product.id}:${variantKey}:${packId ?? "single"}`; setCart((current) => { const exists = current.find((line) => line.key === key); return exists ? current.map((line) => line.key === key ? { ...line, quantity: Math.min(line.quantity + 1, allowed) } : line) : [...current, { key, productId: product.id, colorId, size, quantity: 1, unitPrice: resolvedPrice, variantId: pricing.variant?.id, barcode: pricing.variant?.barcode, packId }]; }); setCartOpen(true); };
+  const changeQuantity = (key: string, amount: number) => setCart((current) => current.map((line) => { if (line.key !== key) return line; const product = products.find((item) => item.id === line.productId); const variant = product?.variants?.find((item) => item.id === line.variantId); const allowed = variant ? Math.max(0, variant.stock) : product ? availableQuantity(product, line.colorId, line.size) : line.quantity; return { ...line, quantity: Math.min(Math.max(0, line.quantity + amount), allowed) }; }).filter((line) => line.quantity > 0));
   const updatePack = (id: string, amount: number) => setPackCounts((current) => { const total = Object.values(current).reduce((sum, count) => sum + count, 0); if (amount > 0 && total >= packTarget) return current; return { ...current, [id]: Math.max(0, (current[id] ?? 0) + amount) }; });
-  const addPack = () => { if (packCount !== packTarget) return; const packId = `pack-${Date.now()}`; packProducts.forEach((product) => { for (let index = 0; index < (packCounts[product.id] ?? 0); index += 1) addToCart(product, product.colors[0].id, product.sizes[0] ?? "TU", Math.round((product.price ?? 0) * (1 - packDiscount)), packId); }); setPackCounts({}); setCartOpen(true); };
+  const addPack = () => { if (packCount !== packTarget) return; const packId = `pack-${Date.now()}`; packProducts.forEach((product) => { const choice = firstChoicePricing(product); for (let index = 0; index < (packCounts[product.id] ?? 0); index += 1) addToCart(product, choice.colorId, choice.size, Math.round((choice.price ?? 0) * (1 - packDiscount)), packId); }); setPackCounts({}); setCartOpen(true); };
   const submitOrder = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form = new FormData(event.currentTarget);
@@ -386,7 +415,7 @@ function App() {
       const product = products.find((item) => item.id === line.productId);
       const color = product?.colors.find((item) => item.id === line.colorId);
       const image = color?.image ? new URL(color.image, window.location.origin).toString() : "";
-      return { name: product?.name[language] ?? line.productId, color: color?.label[language] ?? line.colorId, size: line.size, quantity: line.quantity, unitPrice: line.unitPrice, lineTotal: line.unitPrice * line.quantity, image };
+      return { name: product?.name[language] ?? line.productId, color: color?.label[language] ?? line.colorId, size: line.size, quantity: line.quantity, unitPrice: line.unitPrice, lineTotal: line.unitPrice * line.quantity, image, barcode: line.barcode };
     });
     const order: OrderPayload = { id, customer, items, payment: "cash_on_delivery", total: Math.round(cartTotal), createdAt: new Date().toISOString() };
     localStorage.setItem("hawana-last-order", JSON.stringify(order));
@@ -398,6 +427,8 @@ function App() {
   };
   const goToShop = (nextFilter: Filter) => {
     setFilter(nextFilter);
+    setSubFilter("all");
+    setSearch("");
     const useInstantNavigation = window.matchMedia("(max-width: 780px), (prefers-reduced-motion: reduce)").matches;
     window.requestAnimationFrame(() => document.getElementById("shop")?.scrollIntoView({ behavior: useInstantNavigation ? "auto" : "smooth", block: "start" }));
   };
@@ -420,9 +451,9 @@ function App() {
       <section className="house-section" id="brands"><div className="section-wrap"><div className="house-copy section-reveal"><h2>{c.house}</h2><p>{c.houseLead}</p></div><div className="house-unified"><img className="house-watermark" src="/assets/brand/hawana-wordmark.png" alt="HAWANA" /><article className="house-brand house-alsamah"><img src="/assets/brand/alsamah-lockup.png" alt="ALSAMAH - your final touch" /><p>{t.brands.alsamah}</p><button className="text-link" onClick={() => goToShop("all")}>{t.hero.shop}<ArrowRight size={17} /></button></article><ProductImage className="house-product" src="/assets/products/body-black.webp" alt="HAWANA body" pending={t.catalog.imagePending} /><article className="house-brand house-elko"><img src="/assets/brand/elko-logo-transparent.png" alt="ELKO" /><p>{elkoAvailableCopy[language]}</p><button className="text-link" onClick={() => goToShop("all")}>{t.hero.shop}<ArrowRight size={17} /></button></article></div></div></section>
       <section className="campaign-section section-wrap"><div className="campaign-intro"><h2>{c.chapterTitle}</h2><p>{c.chapterBody}</p><button className="text-link" onClick={() => goToShop("all")}>{t.hero.shop}<ArrowRight size={17} /></button></div><div className="campaign-stories">{campaignStories.map((story, index) => <article className="campaign-card" style={{ "--stack-index": index } as CSSProperties} key={story.image}><MotionMedia className="scale-reveal" video={story.video} poster={story.image} alt={story.title} pending={t.catalog.imagePending} /><div><h3>{story.title}</h3><p>{story.detail}</p></div></article>)}</div></section>
       <section className="color-section"><div className="section-wrap color-heading section-reveal"><div><h2>{c.colorTitle}</h2><p>{c.colorLead}</p></div><div className="rail-controls"><button onClick={() => colorRail.current?.scrollBy({ left: -430, behavior: "smooth" })} aria-label={c.previous}><ArrowLeft size={22} /></button><button onClick={() => colorRail.current?.scrollBy({ left: 430, behavior: "smooth" })} aria-label={c.next}><ArrowRight size={22} /></button></div></div><div className="color-rail" ref={colorRail}>{colorItems.map(({ product, color }) => <button key={`${product.id}-${color.id}`} onClick={() => setActiveProduct(product)}><ProductImage src={color.image} alt={`${product.name[language]}, ${color.label[language]}`} pending={t.catalog.imagePending} /><span>{product.name[language]}</span><small>{color.label[language]}</small></button>)}</div></section>
-      <section className="wear-story" aria-label={c.collection}><div className="section-wrap"><div className="wear-heading section-reveal"><h2>{wearTitle}</h2><p>{wearLead}</p></div><div className="wear-stage"><button className="wear-panel wear-kids" onClick={() => goToShop("enfants")}><ProductImage src="/assets/official/leen-girls-legging.jpg" alt={language === "ar" ? "طفلة ترتدي جوارب ALSAMAH" : language === "en" ? "Child wearing ALSAMAH leggings" : "Enfant portant un collant ALSAMAH"} pending={t.catalog.imagePending} /><span>{t.catalog.kids}<ArrowRight size={24} /></span></button><button className="wear-panel wear-hosiery" onClick={() => goToShop("autres")}><MotionMedia video={media.hosieryVideo ?? null} poster="/assets/generated/colors/collants-brillants-ete-dayana-bleu-marine.png" alt={language === "ar" ? "جوارب ALSAMAH زرقاء" : language === "en" ? "Navy ALSAMAH hosiery" : "Collants ALSAMAH bleu marine"} pending={t.catalog.imagePending} /><span>{language === "ar" ? "جوارب" : language === "en" ? "Hosiery" : "Collants"}<ArrowRight size={24} /></span></button></div></div></section>
-      <section className="pack-section section-wrap" id="packs"><div className="pack-stage"><MotionMedia video={media.packVideo ?? null} poster="/assets/storyboards/pack-16x9.webp" alt={c.buildPack} pending={t.catalog.imagePending} /><div className="pack-film-overlay"><img className="pack-logo" src="/assets/brand/hawana-lockup.png" alt="HAWANA" /><span>{language === "ar" ? "اختياراتك. باقتك." : language === "en" ? "Your pieces. Your pack." : "Vos pièces. Votre pack."}</span></div></div><div className="pack-builder"><h2>{c.buildPack}</h2><p>{c.packLead}</p><div className="pack-levels">{[3, 5, 7].map((target) => <button className={packTarget === target ? "active" : ""} onClick={() => { setPackTarget(target); setPackCounts({}); }} key={target}><span>Pack {target}</span><strong>−{target === 3 ? 20 : target === 5 ? 30 : 40}%</strong></button>)}</div><div className="pack-products">{packProducts.map((product) => { const count = packCounts[product.id] ?? 0; return <div className="pack-row" key={product.id}><ProductImage src={product.colors[0].image} alt={product.name[language]} pending={t.catalog.imagePending} /><span>{product.name[language]}</span><div><button onClick={() => updatePack(product.id, -1)} disabled={!count}><Minus size={14} /></button><b>{count}</b><button onClick={() => updatePack(product.id, 1)} disabled={packCount >= packTarget}><Plus size={14} /></button></div></div>; })}</div><div className="pack-summary"><span>{packCount}/{packTarget}</span><strong>{formatPrice(packTotal, language)} MAD</strong></div><button className="button primary full" disabled={packCount !== packTarget} onClick={addPack}>{packCount === packTarget ? t.packs.create : `${t.packs.incomplete} ${packTarget - packCount}`}<Bag size={17} /></button></div></section>
-      <section className="catalog-section section-wrap" id="shop"><div className="section-heading catalog-heading section-reveal"><h2>{c.shopTitle}</h2><p>{c.shopLead}</p></div><div className="catalog-tools"><div className="filters">{filterOptions(t.catalog).map(([value, label]) => <button className={filter === value ? "active" : ""} onClick={() => setFilter(value)} key={value}>{label}</button>)}</div><label className="catalog-search"><MagnifyingGlass size={18} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder={c.searchProducts} /></label></div>{availableSubcategories.length > 0 && <div className="subfilters"><button className={subFilter === "all" ? "active" : ""} onClick={() => setSubFilter("all")}>{t.catalog.all}</button>{availableSubcategories.map((sub) => <button className={subFilter === sub ? "active" : ""} onClick={() => setSubFilter(sub)} key={sub}>{retailSubcategoryLabels[sub][language]}</button>)}</div>}<p className="result-count">{filteredProducts.length} {t.catalog.count}</p>{filteredProducts.length ? <><div className="product-grid">{filteredProducts.slice(0, visibleLimit).map((product) => <ProductCard key={product.id} product={product} language={language} onOpen={setActiveProduct} onAdd={addToCart} />)}</div>{visibleLimit < filteredProducts.length && <div className="load-more"><button className="button secondary" onClick={() => setVisibleLimit((value) => value + 12)}>{t.catalog.loadMore}<Plus size={17} /></button></div>}</> : <div className="empty-state"><Package size={34} /><p>{t.catalog.empty}</p></div>}</section>
+      <section className="wear-story" aria-label={c.collection}><div className="section-wrap"><div className="wear-heading section-reveal"><h2>{wearTitle}</h2><p>{wearLead}</p></div><div className="wear-stage"><button className="wear-panel wear-kids" onClick={() => goToShop("enfants")}><ProductImage src="/assets/official/leen-girls-legging.jpg" alt={language === "ar" ? "طفلة ترتدي جوارب ALSAMAH" : language === "en" ? "Child wearing ALSAMAH leggings" : "Enfant portant un collant ALSAMAH"} pending={t.catalog.imagePending} /><span>{t.catalog.kids}<ArrowRight size={24} /></span></button><button className="wear-panel wear-hosiery" onClick={() => goToShop("autres")}><MotionMedia video={media.hosieryVideo ?? null} poster="/assets/catalog/collants-brillants-ete-dayana-bleu-marine.webp" alt={language === "ar" ? "جوارب ALSAMAH زرقاء" : language === "en" ? "Navy ALSAMAH hosiery" : "Collants ALSAMAH bleu marine"} pending={t.catalog.imagePending} /><span>{language === "ar" ? "جوارب" : language === "en" ? "Hosiery" : "Collants"}<ArrowRight size={24} /></span></button></div></div></section>
+      <section className="pack-section section-wrap" id="packs"><div className="pack-stage"><MotionMedia video={media.packVideo ?? null} poster="/assets/storyboards/pack-16x9.webp" alt={c.buildPack} pending={t.catalog.imagePending} /><div className="pack-film-overlay"><img className="pack-logo" src="/assets/brand/hawana-lockup.png" alt="HAWANA" /><span>{language === "ar" ? "اختياراتك. باقتك." : language === "en" ? "Your pieces. Your pack." : "Vos pièces. Votre pack."}</span></div></div><div className="pack-builder"><h2>{c.buildPack}</h2><p>{c.packLead}</p><div className="pack-levels">{[3, 5, 7].map((target) => <button className={packTarget === target ? "active" : ""} onClick={() => { setPackTarget(target); setPackCounts({}); }} key={target}><span>Pack {target}</span><strong>−{target === 3 ? 20 : target === 5 ? 30 : 40}%</strong></button>)}</div><div className="pack-products">{packProducts.map((product) => { const count = packCounts[product.id] ?? 0; const choice = firstChoicePricing(product); const image = product.colors.find((color) => color.id === choice.colorId)?.image ?? product.colors[0]?.image ?? null; return <div className="pack-row" key={product.id}><ProductImage src={image} alt={product.name[language]} pending={t.catalog.imagePending} /><span>{product.name[language]}</span><div><button onClick={() => updatePack(product.id, -1)} disabled={!count}><Minus size={14} /></button><b>{count}</b><button onClick={() => updatePack(product.id, 1)} disabled={packCount >= packTarget}><Plus size={14} /></button></div></div>; })}</div><div className="pack-summary"><span>{packCount}/{packTarget}</span><strong>{formatPrice(packTotal, language)} MAD</strong></div><button className="button primary full" disabled={packCount !== packTarget} onClick={addPack}>{packCount === packTarget ? t.packs.create : `${t.packs.incomplete} ${packTarget - packCount}`}<Bag size={17} /></button></div></section>
+      <section className="catalog-section section-wrap" id="shop"><div className="section-heading catalog-heading section-reveal"><h2>{c.shopTitle}</h2><p>{c.shopLead}</p></div><div className="catalog-tools"><div className="filters">{filterOptions(t.catalog).map(([value, label]) => <button className={filter === value ? "active" : ""} onClick={() => { setFilter(value); setSubFilter("all"); }} key={value}>{label}</button>)}</div><label className="catalog-search"><MagnifyingGlass size={18} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder={c.searchProducts} /></label></div>{availableSubcategories.length > 0 && <div className="subfilters"><button className={subFilter === "all" ? "active" : ""} onClick={() => setSubFilter("all")}>{t.catalog.all}</button>{availableSubcategories.map((sub) => <button className={subFilter === sub ? "active" : ""} onClick={() => setSubFilter(sub)} key={sub}>{retailSubcategoryLabels[sub][language]}</button>)}</div>}<p className="result-count">{filteredProducts.length} {t.catalog.count}</p>{filteredProducts.length ? <><div className="product-grid">{filteredProducts.slice(0, visibleLimit).map((product) => <ProductCard key={product.id} product={product} language={language} onOpen={setActiveProduct} onAdd={addToCart} />)}</div>{visibleLimit < filteredProducts.length && <div className="load-more"><button className="button secondary" onClick={() => setVisibleLimit((value) => value + 12)}>{t.catalog.loadMore}<Plus size={17} /></button></div>}</> : <div className="empty-state"><Package size={34} /><p>{t.catalog.empty}</p></div>}</section>
     </main>
     <nav className="mobile-dock" aria-label={language === "ar" ? "التنقل" : language === "en" ? "Mobile navigation" : "Navigation mobile"}><a href="#top"><House size={20} /><span>{language === "ar" ? "الرئيسية" : language === "en" ? "Home" : "Accueil"}</span></a><a href="#departments"><SquaresFour size={20} /><span>{language === "ar" ? "الأقسام" : language === "en" ? "Departments" : "Univers"}</span></a><a href="#shop"><Storefront size={20} /><span>{t.nav.shop}</span></a><button type="button" onClick={() => setCartOpen(true)}><Bag size={20} /><span>{t.cart.title}</span>{cartCount > 0 && <b>{cartCount}</b>}</button></nav>
     <footer><div className="footer-brand"><img src="/assets/brand/hawana-lockup.png" alt="HAWANA" /><p>{t.footer.line}</p></div><nav><a href="#departments">{c.departments}</a><a href="#packs">{t.nav.packs}</a><a href="#shop">{t.nav.shop}</a></nav><div className="footer-brands"><img src="/assets/brand/alsamah-lockup.png" alt="ALSAMAH" /><img src="/assets/brand/elko-logo-transparent.png" alt="ELKO" /></div><span>© {new Date().getFullYear()} HAWANA</span></footer>

@@ -121,13 +121,15 @@ def save_remote_image(url: str, destination: Path) -> str | None:
     suffix = mimetypes.guess_extension(content_type or "") or extension_from_bytes(data)
     if suffix == ".jpe":
         suffix = ".jpg"
-    path = unique_path(destination.with_suffix(suffix))
+    path = destination.with_suffix(suffix)
+    if path.exists():
+        return public_url(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(data)
     return public_url(path)
 
 
-def extract_embedded_images(path: Path, brand: str) -> dict[str, dict[str, str]]:
+def extract_embedded_images(path: Path, brand: str, barcode_to_product: dict[str, str]) -> dict[str, dict[str, str]]:
     if not path.exists():
         return {}
     workbook = load_workbook(path, read_only=False, data_only=True)
@@ -137,6 +139,7 @@ def extract_embedded_images(path: Path, brand: str) -> dict[str, dict[str, str]]
         headers = [clean(value) for value in rows[0]]
         desc_i = headers.index("DESCRIPTION") if "DESCRIPTION" in headers else None
         color_i = headers.index("Color") if "Color" in headers else None
+        barcode_i = headers.index("Code Barre") if "Code Barre" in headers else None
         if desc_i is None:
             continue
         row_data = {index + 1: row for index, row in enumerate(rows[1:], start=1)}
@@ -147,7 +150,8 @@ def extract_embedded_images(path: Path, brand: str) -> dict[str, dict[str, str]]
                 continue
             raw_name = row[desc_i]
             name = elko_base_name(raw_name) if brand == "ELKO" else clean(raw_name)
-            product_id = f"elko-{slug(name)}" if brand == "ELKO" else slug(name)
+            barcode = clean(row[barcode_i]) if barcode_i is not None and barcode_i < len(row) else ""
+            product_id = barcode_to_product.get(barcode) or (f"elko-{slug(name)}" if brand == "ELKO" else slug(name))
             color_id = slug(color_key(row[color_i] if color_i is not None and color_i < len(row) else "default"))
             data = image._data()
             suffix = extension_from_bytes(data)
@@ -183,8 +187,14 @@ def workbook_urls(path: Path) -> dict[str, list[str]]:
 
 def apply_images() -> None:
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
-    embedded = extract_embedded_images(ALSAMAH_BOOK, "ALSAMAH")
-    embedded.update(extract_embedded_images(ELKO_BOOK, "ELKO"))
+    barcode_to_product = {
+        clean(variant.get("barcode")): product["id"]
+        for product in catalog
+        for variant in product.get("variants", [])
+        if clean(variant.get("barcode"))
+    }
+    embedded = extract_embedded_images(ALSAMAH_BOOK, "ALSAMAH", barcode_to_product)
+    embedded.update(extract_embedded_images(ELKO_BOOK, "ELKO", barcode_to_product))
     urls = workbook_urls(ALSAMAH_BOOK)
     report = []
 
@@ -192,7 +202,8 @@ def apply_images() -> None:
         product_id = product["id"]
         source_map = embedded.get(product_id) or embedded.get(slug(product["name"]["fr"])) or {}
         if not source_map and product.get("brand") == "ALSAMAH":
-            for source_url in urls.get(product_id, []):
+            source_urls = [product.get("sourcePage"), *urls.get(product_id, [])]
+            for source_url in dict.fromkeys(url for url in source_urls if url):
                 image_url = direct_image_url(source_url) or scrape_product_image(source_url)
                 if not image_url:
                     continue
@@ -204,9 +215,11 @@ def apply_images() -> None:
         if source_map:
             for color in product.get("colors", []):
                 exact_source = source_map.get(color["id"])
-                if color.get("imageKind") == "generated" and not (product.get("brand") == "ELKO" and exact_source):
+                current_image = color.get("image") or ""
+                old_icon = current_image.startswith("/assets/generated/colors/")
+                if color.get("imageKind") == "generated" and not old_icon:
                     continue
-                image = exact_source or (None if product.get("brand") == "ELKO" else source_map.get("__first__"))
+                image = exact_source or (None if product.get("brand") == "ELKO" or old_icon else source_map.get("__first__"))
                 if image:
                     color["image"] = image
                     color["imageKind"] = "source"

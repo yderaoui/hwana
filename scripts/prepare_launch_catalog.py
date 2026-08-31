@@ -3,16 +3,17 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from decimal import Decimal, ROUND_HALF_UP
+from difflib import SequenceMatcher
 from pathlib import Path
-from statistics import median
 from typing import Any
 
 from openpyxl import load_workbook
 
 
 ROOT = Path(__file__).resolve().parents[1]
+PUBLIC = ROOT / "public"
 CATALOG = ROOT / "src" / "data" / "catalog.json"
 ALSAMAH_BOOK = ROOT / "alsamah 18-08-2026 (1).xlsx"
 ELKO_BOOK = ROOT / "Les articles disponibles ELKO depot 17-08-2026.xlsx"
@@ -46,6 +47,80 @@ COLOR_AR = {
     "vert": "اخضر", "kaki": "كاكي", "bordeaux": "عنابي", "saumon": "سلموني",
     "blanc casse": "اوف وايت", "metal": "معدني",
 }
+
+DESCRIPTION_COLOR_WORDS = {
+    "2", "20", "27", "beige", "black", "blanc", "blanc casse", "blanche",
+    "bleu", "bleu ciel", "bleu marine", "blue", "bordou", "bordeaux", "brown",
+    "colore", "fuchsia", "fushia", "green", "grey", "griis", "gris", "imprime",
+    "imprimee", "ivoire", "ivory", "jaune", "lanc", "marron", "metal", "navy",
+    "noir", "noire", "off white", "orange", "peau", "pink", "printed", "purple",
+    "red", "rose", "rouge", "saumon", "skin", "sky blue", "soman", "somon",
+    "vert", "violet", "white", "yellow",
+}
+
+DESCRIPTION_SIZE_WORDS = {
+    "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14",
+    "xs", "s", "m", "l", "xl", "xxl", "2xl", "3xl", "4xl", "5xl", "6xl",
+    "s m", "m l", "l xl", "xl 2xl", "2xl 3xl", "3xl 4xl", "3 4xl",
+    "taille libre", "free size", "tu",
+}
+
+TOKEN_ALIASES = {
+    "womens": "femme", "women": "femme", "woman": "femme",
+    "mens": "homme", "men": "homme", "man": "homme",
+    "girls": "fille", "girl": "fille", "boys": "garcon", "boy": "garcon",
+    "socks": "chaussette", "sock": "chaussette", "chaussettes": "chaussette",
+    "tights": "collant", "tight": "collant", "pantyhose": "collant", "collants": "collant",
+    "cotton": "coton", "sleeves": "manche", "sleeve": "manche", "manches": "manche",
+    "briefs": "slip", "brief": "slip", "pregnant": "grossesse", "nursing": "allaitement",
+    "seamless": "sanscouture", "dentel": "dentelle", "dantel": "dentelle",
+    "printed": "imprime", "leggings": "legging", "bretelles": "bretelle",
+    "shorts": "short", "hautes": "haute", "montantes": "haute",
+    "longue": "long", "longues": "long", "doubled": "double",
+    "boxers": "boxer", "corsets": "corset", "pyjamas": "pyjama",
+}
+
+MATCH_STOPWORDS = {
+    "a", "avec", "de", "des", "du", "en", "et", "la", "le", "les", "pour",
+    "sans", "taille", "the", "with", "and", "100", "96", "4",
+}
+
+PRODUCT_ALIASES = {
+    "nursing-bra": "soutien-gorge-dallaitement",
+    "pregnant-legging-seamless": "legging-de-grossesse-en-microfibre-sans-couture",
+    "high-elasticity-legging": "legging-695067504138",
+    "chaussette-en-dentelle-fille": "chaussettes-dentelle-fille",
+    "chaussette-en-cotton": "chaussettes-en-coton",
+    "women-diabetic-socks": "chaussettes-diabetiques-pour-femmes",
+    "women-diabetics-cotton-socks": "chaussettes-diabetiques-pour-femmes",
+    "doubled-boxer-corset-with-long-leg": "boxer-gainant-double-avec-jambe-longue",
+    "boxer-double-corset-de-pantalon": "boxer-corset-double-a-taille-haute",
+    "100-cotton-slip-low-waist-girls": "slip-fille-taille-basse",
+    "pregnant-body-wide-band": "body-de-grossesse-a-large-bande",
+    "girls-dantel-boxer-briefs": "boxer-fille-en-dentelle",
+    "bretelles-wide-band": "body-a-bretelles-avec-bande-large",
+    "pantakour": "pantakour-en-microfibre-sans-couture",
+    "mens-corset-short-sleeve-undershirt": "men-s-corset-short-sleeve",
+    "mens-corset-boxer": "men-s-corset-boxer",
+    "bra-dentel": "bra-dentelle",
+    "body-slip-dentel": "body-slip-dentelle",
+    "100-cotton-no-sleeve-v-neck": "100-coton-sans-manches-col-en-v",
+    "fantasia-socket-lareen": "chaussettes-fantasia-lareen",
+    "leggings-fille": "legging-fille",
+    "jambieres-de-leen-collant": "jambieres-leen",
+    "medium-fishnet-pantyhose": "collants-fishnet",
+}
+
+REAL_COLOR_ASSET_DIRS = (
+    ("generated", PUBLIC / "assets" / "catalog"),
+    ("generated", PUBLIC / "assets" / "generated" / "imagegen"),
+    ("generated", PUBLIC / "assets" / "generated" / "products"),
+    ("source", PUBLIC / "assets" / "excel-products" / "alsamah"),
+    ("source", PUBLIC / "assets" / "official"),
+    ("source", PUBLIC / "assets" / "remote-products"),
+    ("source", PUBLIC / "assets" / "source"),
+    ("generated", PUBLIC / "assets" / "products"),
+)
 
 
 def clean(value: Any) -> str:
@@ -113,14 +188,16 @@ def subcategory(category: str, name: str) -> str | None:
             return "soutien-gorge"
         if re.search(r"body|bretelle|caraco", n):
             return "bodies"
+        if re.search(r"boxer|culotte|slip", n):
+            return "culottes"
+        if re.search(r"lingerie|sexy|nuisette|chemise de nuit|peignoir|dentel", n):
+            return "lingerie"
         if "collant" in n or "tight" in n:
             return "collants"
         if "chaussette" in n or "sock" in n:
             return "chaussettes"
-        if "nuisette" in n or "chemise de nuit" in n or "pyjama" in n:
+        if "pyjama" in n or "homewear" in n:
             return "nuisettes"
-        if re.search(r"boxer|culotte|slip", n):
-            return "culottes"
         return "vetements"
     if category == "homme":
         if re.search(r"boxer|slip|brief", n):
@@ -136,13 +213,41 @@ def subcategory(category: str, name: str) -> str | None:
         if re.search(r"chaussette|sock", n):
             return "chaussettes"
         return "collants"
+    if category == "autres":
+        if re.search(r"chaussette|sock", n):
+            return "chaussettes"
+        if re.search(r"collant|tight|jambiere", n):
+            return "collants"
     return None
 
 
-def sale_price(regular: float | None, stock: float) -> int | None:
+def discounted_price(regular: float | None) -> int | None:
     if regular is None:
         return None
     return int((Decimal(str(regular)) * Decimal("0.70")).quantize(Decimal("1"), rounding=ROUND_HALF_UP))
+
+
+def sale_price(regular: float | None, stock: float) -> int | None:
+    return discounted_price(regular) if stock > 0 else None
+
+
+def representative_variant(variants: list[dict[str, Any]]) -> dict[str, Any] | None:
+    priced = [variant for variant in variants if variant.get("regularPrice") is not None]
+    candidates = [variant for variant in priced if variant.get("stock", 0) > 0] or priced
+    if not candidates:
+        return None
+    representative_price = Counter(variant["regularPrice"] for variant in candidates).most_common(1)[0][0]
+    return next(variant for variant in candidates if variant["regularPrice"] == representative_price)
+
+
+def real_color_asset(product_id: str, color_id: str) -> tuple[str, str] | None:
+    stem = f"{product_id}-{color_id}"
+    for image_kind, directory in REAL_COLOR_ASSET_DIRS:
+        for suffix in (".png", ".jpg", ".jpeg", ".webp", ".avif"):
+            path = directory / f"{stem}{suffix}"
+            if path.exists():
+                return "/" + path.relative_to(PUBLIC).as_posix(), image_kind
+    return None
 
 
 def number(value: Any) -> float | None:
@@ -168,6 +273,230 @@ def read_alsamah() -> dict[str, list[dict[str, Any]]]:
             continue
         groups[slug(name)].append(item)
     return groups
+
+
+def normalize_alsamah_description(item: dict[str, Any]) -> str:
+    description = clean(item.get("DESCRIPTION"))
+    barcode = clean(item.get("Code Barre"))
+    if barcode:
+        for prefix in (barcode, barcode.removesuffix(".0")):
+            marker = f"{prefix}-"
+            if description.casefold().startswith(marker.casefold()):
+                description = description[len(marker):].strip()
+                break
+
+    description = re.sub(r"^[A-Z]*\d[A-Z0-9]*\s*-\s*", "", description, flags=re.I)
+    description = re.sub(r"^\d{3,5}\s*(?=[A-Za-zÀ-ÿ])", "", description)
+    for _ in range(5):
+        parts = re.split(r"\s*-\s*", description)
+        if len(parts) < 2:
+            break
+        tail = fold(parts[-1])
+        if tail not in DESCRIPTION_COLOR_WORDS and tail not in DESCRIPTION_SIZE_WORDS:
+            break
+        description = " - ".join(parts[:-1]).strip(" -")
+    return clean(description)
+
+
+def canonical_tokens(value: Any) -> set[str]:
+    text = fold(value)
+    phrase_aliases = {
+        "tank top": "debardeur",
+        "crew neck": "col rond",
+        "v neck": "col v",
+        "no sleeve": "sans manche",
+        "short sleeved": "manche courte",
+        "short sleeve": "manche courte",
+        "long sleeved": "manche longue",
+        "long sleeve": "manche longue",
+        "wide band": "bande large",
+    }
+    for source, destination in phrase_aliases.items():
+        text = text.replace(source, destination)
+    return {
+        TOKEN_ALIASES.get(word, word)
+        for word in text.split()
+        if word not in MATCH_STOPWORDS and not word.isdigit()
+    }
+
+
+def read_alsamah_rows() -> list[dict[str, Any]]:
+    if not ALSAMAH_BOOK.exists():
+        return []
+    ws = load_workbook(ALSAMAH_BOOK, read_only=True, data_only=True).active
+    rows = ws.iter_rows(values_only=True)
+    headers = [clean(value) for value in next(rows)]
+    result = []
+    for row in rows:
+        item = dict(zip(headers, row))
+        if clean(item.get("DESCRIPTION")):
+            result.append(item)
+    return result
+
+
+def best_existing_product(description: str, products: list[dict[str, Any]]) -> str | None:
+    description_folded = fold(description)
+    description_tokens = canonical_tokens(description)
+    matches = []
+    for product in products:
+        name = product["name"]["fr"]
+        name_tokens = canonical_tokens(name)
+        overlap = len(description_tokens & name_tokens)
+        coverage = overlap / max(1, min(len(description_tokens), len(name_tokens)))
+        union = len(description_tokens | name_tokens)
+        jaccard = overlap / max(1, union)
+        sequence = SequenceMatcher(None, description_folded, fold(name)).ratio()
+        score = 0.25 * sequence + 0.45 * coverage + 0.30 * jaccard
+        matches.append((score, sequence, coverage, product["id"]))
+    matches.sort(reverse=True)
+    if not matches:
+        return None
+    best = matches[0]
+    margin = best[0] - matches[1][0] if len(matches) > 1 else best[0]
+    if (best[0] >= 0.82 and margin >= 0.035) or (best[1] >= 0.92 and best[2] >= 0.8):
+        return best[3]
+    return None
+
+
+def rebuild_alsamah(existing_products: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    rows = read_alsamah_rows()
+    existing_by_id = {product["id"]: product for product in existing_products}
+    existing_by_name: dict[str, list[str]] = defaultdict(list)
+    barcode_to_product: dict[str, str] = {}
+    for product in existing_products:
+        existing_by_name[fold(product["name"]["fr"])].append(product["id"])
+        for variant in product.get("variants", []):
+            barcode = clean(variant.get("barcode") or variant.get("id"))
+            if barcode:
+                barcode_to_product[barcode] = product["id"]
+
+    assignments: list[str | None] = []
+    normalized_names = [normalize_alsamah_description(item) for item in rows]
+    for item, normalized_name in zip(rows, normalized_names):
+        barcode = clean(item.get("Code Barre"))
+        product_id = barcode_to_product.get(barcode)
+        if product_id is None:
+            normalized_id = slug(normalized_name)
+            product_id = PRODUCT_ALIASES.get(normalized_id)
+            if product_id not in existing_by_id:
+                product_id = None
+        if product_id is None:
+            for candidate in (slug(clean(item.get("DESCRIPTION"))), slug(normalized_name)):
+                if candidate in existing_by_id:
+                    product_id = candidate
+                    break
+        if product_id is None:
+            for candidate in (fold(clean(item.get("DESCRIPTION"))), fold(normalized_name)):
+                ids = existing_by_name.get(candidate, [])
+                if len(ids) == 1:
+                    product_id = ids[0]
+                    break
+        assignments.append(product_id)
+
+    learned: dict[str, Counter[str]] = defaultdict(Counter)
+    for normalized_name, product_id in zip(normalized_names, assignments):
+        if product_id:
+            learned[slug(normalized_name)][product_id] += 1
+    for index, product_id in enumerate(assignments):
+        if product_id is not None:
+            continue
+        candidates = learned.get(slug(normalized_names[index]))
+        if candidates:
+            assignments[index] = candidates.most_common(1)[0][0]
+
+    for index, product_id in enumerate(assignments):
+        if product_id is not None:
+            continue
+        matched = best_existing_product(normalized_names[index], existing_products)
+        assignments[index] = matched or slug(normalized_names[index])
+
+    grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    names_by_product: dict[str, Counter[str]] = defaultdict(Counter)
+    for item, normalized_name, product_id in zip(rows, normalized_names, assignments):
+        assert product_id is not None
+        grouped[product_id].append(item)
+        names_by_product[product_id][normalized_name] += 1
+
+    products = []
+    for product_id, variants_source in grouped.items():
+        existing = existing_by_id.get(product_id)
+        display_name = existing["name"]["fr"] if existing else names_by_product[product_id].most_common(1)[0][0]
+        variant_rows = []
+        for item in variants_source:
+            color_id = slug(color_key(item.get("Color")))
+            size = clean(item.get("Size")) or "TU"
+            barcode = clean(item.get("Code Barre")) or None
+            quantity = max(0, int(number(item.get("QUANTITE")) or 0))
+            variant_regular = number(item.get("PRIX DE VENTE"))
+            variant_rows.append({
+                "id": barcode or f"{product_id}-{slug(size)}-{color_id}",
+                "colorId": color_id,
+                "size": size,
+                "stock": quantity,
+                "barcode": barcode,
+                "regularPrice": variant_regular,
+                "price": discounted_price(variant_regular),
+            })
+
+        priced_variants = [variant for variant in variant_rows if variant["regularPrice"] is not None]
+        representative = representative_variant(variant_rows)
+        regular = representative["regularPrice"] if representative else None
+        current_price = representative["price"] if representative else None
+
+        preserved_colors = {
+            color.get("id"): {
+                key: color.get(key)
+                for key in ("image", "imageKind", "lifestyleImage")
+                if color.get(key) is not None
+            }
+            for color in (existing or {}).get("colors", [])
+        }
+        colors = []
+        for color_name in dict.fromkeys(color_key(item.get("Color")) for item in variants_source):
+            entry = color_entry(color_name)
+            exact_asset = real_color_asset(product_id, entry["id"])
+            if exact_asset:
+                entry["image"], entry["imageKind"] = exact_asset
+            elif preserved_colors.get(entry["id"], {}).get("image"):
+                entry.update(preserved_colors[entry["id"]])
+            colors.append(entry)
+
+        category = category_from_name(display_name)
+        stock = sum(variant["stock"] for variant in variant_rows)
+        source_page = next((clean(item.get("MODELE")) for item in variants_source if clean(item.get("MODELE")).startswith("http")), None)
+        product = {
+            "id": product_id,
+            "brand": "ALSAMAH",
+            "category": category,
+            "categoryName": {"femme": "Femme", "homme": "Homme", "enfants": "Enfants", "autres": "Collants & chaussettes"}[category],
+            "subcategory": subcategory(category, display_name),
+            "name": (existing or {}).get("name", {"fr": display_name, "ar": display_name, "en": display_name}),
+            "short": (existing or {}).get("short", {
+                "fr": f"{display_name}, selection ALSAMAH.",
+                "ar": display_name,
+                "en": f"{display_name}, an ALSAMAH essential.",
+            }),
+            "description": (existing or {}).get("description", {
+                "fr": "Produit ALSAMAH disponible dans les tailles et couleurs indiquees.",
+                "ar": display_name,
+                "en": "ALSAMAH product available in the listed sizes and colors.",
+            }),
+            "regularPrice": regular,
+            "price": current_price,
+            "stock": stock,
+            "sizes": sorted({variant["size"] for variant in variant_rows}),
+            "colors": colors,
+            "variants": variant_rows,
+            "purchasable": any(variant["price"] is not None and variant["stock"] > 0 for variant in variant_rows),
+            "imageStatus": "generated" if any(color.get("imageKind") == "generated" for color in colors) else "source" if any(color.get("image") for color in colors) else "missing",
+            "fallbackImage": False,
+            "sourcePage": source_page,
+            "sourceWorkbook": ALSAMAH_BOOK.name,
+            "variantCount": len(variant_rows),
+            "missing": {"price": not priced_variants, "category": False, "image": not any(color.get("image") for color in colors)},
+        }
+        products.append(product)
+    return products
 
 
 def elko_base_name(description: str) -> str:
@@ -198,28 +527,37 @@ def read_elko() -> list[dict[str, Any]]:
                 product_id = f"{base}-{suffix}"
                 suffix += 1
             used.add(product_id)
-            prices = [number(item.get("PRIX DE VENTE")) for item in variants]
-            prices = [price for price in prices if price is not None]
-            regular = float(median(prices)) if prices else None
             stock = sum(max(0, number(item.get("QUANTITE")) or 0) for item in variants)
             colors = []
             for color in dict.fromkeys(color_key(item.get("Color")) for item in variants):
                 colors.append(color_entry(color))
             variant_rows = []
+            variant_ids: Counter[str] = Counter()
             for item in variants:
                 qty = max(0, int(number(item.get("QUANTITE")) or 0))
+                variant_regular = number(item.get("PRIX DE VENTE"))
+                barcode = clean(item.get("Code Barre")) or None
+                base_variant_id = barcode or f"{product_id}-{slug(item.get('Size'))}-{slug(item.get('Color'))}"
+                variant_ids[base_variant_id] += 1
+                variant_id = base_variant_id if variant_ids[base_variant_id] == 1 else f"{base_variant_id}-{variant_ids[base_variant_id]}"
                 variant_rows.append({
-                    "id": clean(item.get("Code Barre")) or f"{product_id}-{slug(item.get('Size'))}-{slug(item.get('Color'))}",
+                    "id": variant_id,
                     "colorId": slug(color_key(item.get("Color"))),
                     "size": clean(item.get("Size")) or "TU",
                     "stock": qty,
-                    "barcode": clean(item.get("Code Barre")) or None,
+                    "barcode": barcode,
+                    "regularPrice": variant_regular,
+                    "price": discounted_price(variant_regular),
                 })
+            priced_variants = [variant for variant in variant_rows if variant["regularPrice"] is not None]
+            representative = representative_variant(variant_rows)
+            regular = representative["regularPrice"] if representative else None
+            current_price = representative["price"] if representative else None
             products.append({
                 "id": product_id,
                 "brand": "ELKO",
                 "category": category,
-                "categoryName": "Homme" if category == "homme" else "Fashion Femme",
+                "categoryName": "Homme" if category == "homme" else "Femme",
                 "subcategory": subcategory(category, name),
                 "name": {"fr": name, "ar": name, "en": name},
                 "short": {
@@ -233,18 +571,18 @@ def read_elko() -> list[dict[str, Any]]:
                     "en": "ELKO product available in the listed sizes and colors.",
                 },
                 "regularPrice": regular,
-                "price": sale_price(regular, stock),
+                "price": current_price,
                 "stock": stock,
                 "sizes": sorted({variant["size"] for variant in variant_rows}),
                 "colors": colors,
                 "variants": variant_rows,
-                "purchasable": bool(regular and stock > 0),
+                "purchasable": any(variant["price"] is not None and variant["stock"] > 0 for variant in variant_rows),
                 "imageStatus": "missing",
                 "fallbackImage": False,
                 "sourcePage": None,
                 "sourceWorkbook": ELKO_BOOK.name,
                 "variantCount": len(variant_rows),
-                "missing": {"price": regular is None, "category": False, "image": True},
+                "missing": {"price": not priced_variants, "category": False, "image": True},
             })
     return products
 
@@ -252,24 +590,27 @@ def read_elko() -> list[dict[str, Any]]:
 def enrich_existing(product: dict[str, Any], source_groups: dict[str, list[dict[str, Any]]]) -> None:
     group = source_groups.get(product["id"]) or source_groups.get(slug(product["name"]["fr"]))
     if group:
-        prices = [number(item.get("PRIX DE VENTE")) for item in group]
-        prices = [price for price in prices if price is not None]
-        regular = float(median(prices)) if prices else product.get("regularPrice")
         variants = []
         for item in group:
             qty = max(0, int(number(item.get("QUANTITE")) or 0))
+            variant_regular = number(item.get("PRIX DE VENTE"))
             variants.append({
                 "id": clean(item.get("Code Barre")) or f"{product['id']}-{slug(item.get('Size'))}-{slug(item.get('Color'))}",
                 "colorId": slug(color_key(item.get("Color"))),
                 "size": clean(item.get("Size")) or "TU",
                 "stock": qty,
                 "barcode": clean(item.get("Code Barre")) or None,
+                "regularPrice": variant_regular,
+                "price": discounted_price(variant_regular),
             })
+        priced_variants = [variant for variant in variants if variant["regularPrice"] is not None]
+        representative = representative_variant(variants)
+        regular = representative["regularPrice"] if representative else product.get("regularPrice")
         product["variants"] = variants
         product["stock"] = sum(variant["stock"] for variant in variants)
         product["variantCount"] = len(variants)
         product["regularPrice"] = regular
-        product["price"] = sale_price(regular, product["stock"])
+        product["price"] = representative["price"] if representative else sale_price(regular, product["stock"])
         product["sizes"] = sorted({variant["size"] for variant in variants}) or product.get("sizes", [])
         existing_colors = {color["id"] for color in product.get("colors", [])}
         for item in group:
@@ -279,12 +620,13 @@ def enrich_existing(product: dict[str, Any], source_groups: dict[str, list[dict[
                 product.setdefault("colors", []).append(color_entry(color))
                 existing_colors.add(color_id)
 
-    if product.get("category") == "non-classe" or product.get("missing", {}).get("category"):
+    if product.get("brand") == "ALSAMAH":
         category = category_from_name(product["name"]["fr"])
         product["category"] = category
-        product["categoryName"] = {"femme": "Fashion Femme", "homme": "Homme", "enfants": "Enfants", "autres": "Hosiery & Accessories"}[category]
-        product["subcategory"] = subcategory(category, product["name"]["fr"])
+        product["categoryName"] = {"femme": "Femme", "homme": "Homme", "enfants": "Enfants", "autres": "Collants & chaussettes"}[category]
         product.setdefault("missing", {})["category"] = False
+
+    product["subcategory"] = subcategory(product["category"], product["name"]["fr"])
 
     has_real_image = False
     for color in product.get("colors", []):
@@ -308,50 +650,58 @@ def enrich_existing(product: dict[str, Any], source_groups: dict[str, list[dict[
 
 def normalize_prices(products: list[dict[str, Any]]) -> None:
     for product in products:
-        regular = product.get("regularPrice")
-        product["price"] = sale_price(float(regular), float(product.get("stock") or 0)) if regular is not None else None
-        product.setdefault("missing", {})["price"] = regular is None
-        product["purchasable"] = bool(product["price"] is not None and product.get("stock", 0) > 0)
+        variants = product.get("variants", [])
+        for variant in variants:
+            regular = variant.get("regularPrice")
+            if regular is None:
+                regular = product.get("regularPrice")
+                variant["regularPrice"] = regular
+            variant["price"] = discounted_price(float(regular)) if regular is not None else None
+        priced_variants = [variant for variant in variants if variant.get("regularPrice") is not None]
+        representative = representative_variant(variants)
+        if representative:
+            product["regularPrice"] = representative["regularPrice"]
+            product["price"] = representative["price"]
+        else:
+            regular = product.get("regularPrice")
+            product["price"] = sale_price(float(regular), float(product.get("stock") or 0)) if regular is not None else None
+        product.setdefault("missing", {})["price"] = product.get("regularPrice") is None
+        product["purchasable"] = any(variant.get("price") is not None and variant.get("stock", 0) > 0 for variant in variants) if variants else bool(product["price"] is not None and product.get("stock", 0) > 0)
 
 
 def main() -> None:
-    products = json.loads(CATALOG.read_text(encoding="utf-8"))
-    source_groups = read_alsamah()
-    for product in products:
-        enrich_existing(product, source_groups)
+    existing_products = json.loads(CATALOG.read_text(encoding="utf-8"))
+    existing_by_id = {product["id"]: product for product in existing_products}
+    products = rebuild_alsamah([product for product in existing_products if product.get("brand") == "ALSAMAH"])
 
-    products_by_id = {product["id"]: product for product in products}
     for product in read_elko():
-        existing = products_by_id.get(product["id"])
-        if existing is None:
-            products.append(product)
-            products_by_id[product["id"]] = product
-            continue
-
+        existing = existing_by_id.get(product["id"])
         images_by_color = {
             color.get("id"): {
                 key: color.get(key)
                 for key in ("image", "imageKind", "lifestyleImage", "fallbackImage")
                 if color.get(key) is not None
             }
-            for color in existing.get("colors", [])
+            for color in (existing or {}).get("colors", [])
         }
-        existing.clear()
-        existing.update(product)
-        for color in existing.get("colors", []):
+        for color in product.get("colors", []):
+            exact_asset = real_color_asset(product["id"], color["id"])
             preserved = images_by_color.get(color.get("id"))
-            if preserved and preserved.get("image"):
+            if exact_asset:
+                color["image"], color["imageKind"] = exact_asset
+            elif preserved and preserved.get("image"):
                 color.update(preserved)
-        has_any_image = any(color.get("image") for color in existing.get("colors", []))
-        existing["imageStatus"] = (
+        has_any_image = any(color.get("image") for color in product.get("colors", []))
+        product["imageStatus"] = (
             "generated"
-            if any(color.get("imageKind") == "generated" for color in existing.get("colors", []))
+            if any(color.get("imageKind") == "generated" for color in product.get("colors", []))
             else "source"
             if has_any_image
             else "missing"
         )
-        existing["fallbackImage"] = False
-        existing.setdefault("missing", {})["image"] = not has_any_image
+        product["fallbackImage"] = False
+        product.setdefault("missing", {})["image"] = not has_any_image
+        products.append(product)
 
     normalize_prices(products)
 

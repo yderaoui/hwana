@@ -212,14 +212,16 @@ def subcategory(category: str, name: str) -> str | None:
             return "soutien-gorge"
         if re.search(r"body|bretelle|caraco", n):
             return "bodies"
+        if re.search(r"boxer|culotte|slip", n):
+            return "culottes"
+        if re.search(r"lingerie|sexy|nuisette|chemise de nuit|peignoir|dentel", n):
+            return "lingerie"
         if "collant" in n or "tight" in n:
             return "collants"
         if "chaussette" in n or "sock" in n:
             return "chaussettes"
-        if "nuisette" in n or "chemise de nuit" in n or "pyjama" in n:
+        if "pyjama" in n or "homewear" in n:
             return "nuisettes"
-        if re.search(r"boxer|culotte|slip", n):
-            return "culottes"
         return "vetements"
     if category == "homme":
         if re.search(r"boxer|slip|brief", n):

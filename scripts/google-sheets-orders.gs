@@ -11,7 +11,7 @@ var IMAGE_COLUMN = 7; // "Image" — column G
 
 var HEADERS = [
   "Order ID", "Date", "Name", "Phone", "City", "Address",
-  "Image", "Product", "Color", "Size", "Qty",
+  "Image", "Product", "Color", "Size", "Barcode", "Qty",
   "Unit Price (MAD)", "Line Total (MAD)", "Order Total (MAD)", "Payment",
 ];
 
@@ -46,6 +46,7 @@ function doPost(e) {
         safeText(item.name),
         safeText(item.color),
         safeText(item.size),
+        safeText(item.barcode),
         safeNumber(item.quantity),
         safeNumber(item.unitPrice),
         safeNumber(item.lineTotal),
