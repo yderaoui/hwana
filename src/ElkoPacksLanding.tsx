@@ -235,8 +235,26 @@ const firstAvailableChoice = (product: Product) => {
   };
 };
 
+const preferredDisplayChoice = (product: Product) => {
+  const blackColor = product.colors.find((color) => {
+    const label = `${color.id} ${color.label.fr} ${color.label.en}`.toLowerCase();
+    return label.includes("noir") || label.includes("black");
+  });
+  const variant = blackColor
+    ? product.variants?.find((item) => item.colorId === blackColor.id && item.stock > 0)
+    : undefined;
+  if (blackColor) {
+    return {
+      color: blackColor,
+      size: variant?.size ?? availableSizes(product, blackColor.id)[0] ?? product.sizes[0] ?? "A confirmer",
+      barcode: variant?.barcode,
+    };
+  }
+  return firstAvailableChoice(product);
+};
+
 const defaultSelectionForProduct = (product: Product): OrderSelection => {
-  const choice = firstAvailableChoice(product);
+  const choice = preferredDisplayChoice(product);
   return {
     colorId: choice.color?.id ?? product.colors[0]?.id ?? "",
     size: choice.size,
@@ -259,7 +277,7 @@ const preparePack = (pack: PackSpec): PreparedPack => {
   const count = expanded.length;
   const discount = discountForCount(count);
   const itemsResolved = expanded.map((product) => {
-    const choice = firstAvailableChoice(product);
+    const choice = preferredDisplayChoice(product);
     const regularPrice = choice.barcode
       ? product.variants?.find((variant) => variant.barcode === choice.barcode)?.regularPrice ?? product.regularPrice
       : product.regularPrice;
@@ -283,7 +301,7 @@ const preparePack = (pack: PackSpec): PreparedPack => {
 };
 
 const prepareProduct = (product: Product): PreparedProduct => {
-  const choice = firstAvailableChoice(product);
+  const choice = preferredDisplayChoice(product);
   const variantPrice = choice.barcode ? product.variants?.find((variant) => variant.barcode === choice.barcode)?.price : null;
   const variantRegularPrice = choice.barcode ? product.variants?.find((variant) => variant.barcode === choice.barcode)?.regularPrice : null;
   const rawSubtotal = Math.round(variantPrice ?? product.price ?? product.regularPrice ?? 0);
@@ -367,9 +385,8 @@ function ElkoPacksLanding() {
       gsap.utils.toArray<HTMLElement>(".elko-pack-card, .elko-product-card").forEach((card, index) => {
         gsap.fromTo(
           card,
-          { opacity: 0, y: 48, scale: 0.96 },
+          { y: 28, scale: 0.985 },
           {
-            opacity: 1,
             y: 0,
             scale: 1,
             duration: 0.7,
@@ -506,12 +523,11 @@ function ElkoPacksLanding() {
         <div className="elko-hero-copy">
           <img src="/assets/brand/elko-logo-transparent.png" alt="ELKO" />
           <p className="elko-eyebrow">HAWANA x ELKO</p>
-          <h1>Des essentiels coton prets a commander.</h1>
+          <h1>ELKO coton, pret a commander.</h1>
           <p>Packs publicitaires et produits ELKO a l'unite, avec prix final arrondi et livraison gratuite incluse partout au Maroc.</p>
           <div className="elko-hero-actions">
             <a href="#packs" className="elko-button primary">Voir les packs<ArrowRight size={18} /></a>
             <a href="#produits" className="elko-button ghost">Produits individuels<ArrowRight size={18} /></a>
-            <a href={whatsappUrl} target="_blank" rel="noreferrer" className="elko-button secondary"><WhatsappLogo size={18} weight="fill" />Commander WhatsApp</a>
           </div>
         </div>
         <div className="elko-hero-media">

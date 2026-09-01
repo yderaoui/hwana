@@ -1,9 +1,22 @@
 .elko-page {
+  --page: #f2eadf;
+  --surface: #fffaf1;
+  --surface-strong: #f8f0e3;
+  --ink: #17120f;
+  --muted: #6e6257;
+  --line: rgba(23, 18, 15, 0.12);
+  --green: #0d7f49;
+  --green-deep: #10251c;
+  --wine: #5b1628;
+  --rose: #c8465a;
+  --gold: #c48a3a;
   min-height: 100vh;
   overflow-x: hidden;
-  background: #f8f6f1;
-  color: #151412;
-  font-family: "Geist Variable", "Outfit Variable", system-ui, sans-serif;
+  background: var(--page);
+  color: var(--ink);
+  font-family: "Geist Variable", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .elko-page * {
@@ -15,22 +28,28 @@
   text-decoration: none;
 }
 
+.elko-page button,
+.elko-page input,
+.elko-page textarea,
+.elko-page select {
+  font: inherit;
+}
+
 .elko-nav {
   position: sticky;
-  top: 0;
+  top: 14px;
   z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: min(1160px, calc(100% - 28px));
+  min-height: 60px;
   margin: 14px auto 0;
-  width: min(1180px, calc(100% - 28px));
-  min-height: 58px;
-  border: 1px solid rgba(21, 20, 18, 0.12);
-  border-radius: 8px;
   padding: 0 12px 0 18px;
-  background: rgba(255, 253, 248, 0.88);
+  border-radius: 8px;
+  background: rgba(255, 250, 241, 0.9);
+  box-shadow: 0 16px 48px rgba(42, 25, 17, 0.14);
   backdrop-filter: blur(18px);
-  box-shadow: 0 16px 42px rgba(21, 20, 18, 0.08);
 }
 
 .elko-nav img {
@@ -46,36 +65,46 @@
   justify-content: center;
   gap: 8px;
   min-height: 44px;
-  border: 1px solid rgba(21, 20, 18, 0.16);
+  border: 1px solid transparent;
   border-radius: 8px;
   padding: 0 17px;
-  color: #151412;
-  font: 800 14px/1 "Geist Variable", system-ui, sans-serif;
+  font-weight: 850;
+  font-size: 14px;
+  line-height: 1;
   cursor: pointer;
-  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+  transition-property: transform, box-shadow, background-color, border-color;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+}
+
+.elko-nav-link:active,
+.elko-button:active {
+  transform: scale(0.96);
+}
+
+.elko-nav-link,
+.elko-button.primary {
+  background: var(--green);
+  color: #fff;
+  border-color: var(--green);
+  box-shadow: 0 14px 28px rgba(13, 127, 73, 0.24);
+}
+
+.elko-button.secondary {
+  background: var(--surface);
+  color: var(--ink);
+  border-color: var(--line);
+}
+
+.elko-button.ghost {
+  background: rgba(255, 250, 241, 0.08);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .elko-button:hover,
 .elko-nav-link:hover {
   transform: translateY(-2px);
-}
-
-.elko-nav-link,
-.elko-button.primary {
-  background: #118447;
-  color: #fff;
-  border-color: #118447;
-  box-shadow: 0 14px 28px rgba(17, 132, 71, 0.24);
-}
-
-.elko-button.secondary {
-  background: #fff;
-}
-
-.elko-button.ghost {
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  border-color: rgba(255, 255, 255, 0.28);
 }
 
 .elko-button.full {
@@ -85,29 +114,29 @@
 .elko-hero {
   position: relative;
   display: grid;
-  gap: 34px;
-  place-items: center;
+  grid-template-columns: minmax(520px, 0.95fr) minmax(420px, 1.05fr);
+  align-items: end;
+  gap: clamp(34px, 5vw, 74px);
   min-height: 820px;
-  margin-top: -72px;
-  padding: 136px clamp(18px, 5vw, 70px) 72px;
+  margin-top: -74px;
+  padding: 154px clamp(18px, 5vw, 72px) 72px;
+  overflow: hidden;
   background:
-    radial-gradient(circle at 18% 18%, rgba(176, 24, 47, 0.36), transparent 30%),
-    radial-gradient(circle at 78% 20%, rgba(17, 132, 71, 0.36), transparent 28%),
-    linear-gradient(135deg, #11100f 0%, #25221d 56%, #101010 100%);
+    radial-gradient(circle at 14% 18%, rgba(91, 22, 40, 0.68), transparent 34%),
+    radial-gradient(circle at 76% 16%, rgba(196, 138, 58, 0.18), transparent 34%),
+    linear-gradient(135deg, #120f0e 0%, #10251c 54%, #2a1512 100%);
   color: #fff;
-  text-align: center;
 }
 
-.elko-hero::after {
+.elko-hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  pointer-events: none;
-  opacity: 0.28;
+  opacity: 0.18;
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
-  background-size: 70px 70px;
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 92px 92px;
 }
 
 .elko-hero-copy,
@@ -117,101 +146,132 @@
 }
 
 .elko-hero-copy {
-  display: grid;
-  justify-items: center;
-  width: min(1120px, 100%);
+  max-width: 820px;
+  padding-bottom: 44px;
 }
 
 .elko-hero-copy > img {
-  width: 126px;
+  width: 122px;
   height: auto;
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   filter: brightness(0) invert(1);
 }
 
 .elko-eyebrow {
   margin: 0 0 14px;
-  color: #e35c66;
+  color: #f0a9b3;
   font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0;
+  font-weight: 950;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .elko-hero h1 {
   margin: 0;
-  max-width: 1120px;
   font-family: "Outfit Variable", "Geist Variable", system-ui, sans-serif;
-  font-size: clamp(48px, 7vw, 98px);
+  font-size: clamp(46px, 5.2vw, 76px);
+  font-weight: 860;
   line-height: 0.92;
   letter-spacing: 0;
   text-wrap: balance;
 }
 
 .elko-hero-copy p:not(.elko-eyebrow) {
-  max-width: 730px;
-  margin: 22px 0 0;
-  color: rgba(255, 255, 255, 0.78);
-  font-size: clamp(17px, 1.7vw, 21px);
-  line-height: 1.55;
+  max-width: 620px;
+  margin: 24px 0 0;
+  color: rgba(255, 250, 241, 0.78);
+  font-size: clamp(17px, 1.5vw, 20px);
+  line-height: 1.58;
+  text-wrap: pretty;
 }
 
 .elko-hero-actions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 12px;
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 .elko-hero-media {
   display: grid;
-  grid-template-columns: repeat(5, minmax(120px, 1fr));
-  align-items: end;
-  width: min(1040px, 100%);
-  min-height: 260px;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-rows: repeat(6, 86px);
+  min-height: 560px;
+}
+
+.elko-hero-media::before {
+  content: "";
+  grid-column: 1 / 11;
+  grid-row: 2 / 7;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 250, 241, 0.92), rgba(235, 219, 201, 0.86)),
+    var(--surface);
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.26);
 }
 
 .elko-hero-media img {
   width: 100%;
-  height: clamp(150px, 18vw, 250px);
+  height: 100%;
+  min-width: 0;
   object-fit: contain;
-  padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 14px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.92);
-  filter: drop-shadow(0 22px 26px rgba(0, 0, 0, 0.24));
+  background: var(--surface);
+  outline: 1px solid rgba(0, 0, 0, 0.08);
+  filter: contrast(1.08) drop-shadow(0 24px 26px rgba(0, 0, 0, 0.2));
 }
 
-.elko-hero-media img:nth-child(even) {
-  transform: translateY(34px);
+.elko-hero-media img:nth-child(1) {
+  grid-column: 1 / 5;
+  grid-row: 1 / 4;
+}
+
+.elko-hero-media img:nth-child(2) {
+  grid-column: 5 / 8;
+  grid-row: 2 / 5;
+}
+
+.elko-hero-media img:nth-child(3) {
+  grid-column: 7 / 11;
+  grid-row: 1 / 4;
+}
+
+.elko-hero-media img:nth-child(4) {
+  grid-column: 2 / 6;
+  grid-row: 4 / 7;
+}
+
+.elko-hero-media img:nth-child(5) {
+  grid-column: 6 / 10;
+  grid-row: 4 / 7;
 }
 
 .elko-hero-media span {
   position: absolute;
-  right: 2%;
-  bottom: -20px;
+  right: 28px;
+  bottom: 28px;
   display: inline-flex;
-  min-height: 42px;
   align-items: center;
+  min-height: 40px;
   border-radius: 8px;
-  padding: 0 16px;
-  background: #fff;
-  color: #118447;
+  padding: 0 14px;
+  background: var(--green);
+  color: #fff;
   font-weight: 950;
-  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 18px 36px rgba(13, 127, 73, 0.28);
 }
 
 .elko-proof {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  width: min(1180px, calc(100% - 28px));
-  margin: -28px auto 0;
+  width: min(1160px, calc(100% - 28px));
+  margin: -30px auto 0;
   overflow: hidden;
-  border: 1px solid rgba(21, 20, 18, 0.11);
   border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 20px 46px rgba(21, 20, 18, 0.1);
+  background: var(--surface);
+  box-shadow: 0 18px 48px rgba(42, 25, 17, 0.13);
 }
 
 .elko-proof div {
@@ -219,25 +279,27 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  min-height: 74px;
-  border-left: 1px solid rgba(21, 20, 18, 0.08);
+  min-height: 72px;
+  border-inline-start: 1px solid var(--line);
   font-weight: 850;
 }
 
 .elko-proof div:first-child {
-  border-left: 0;
+  border-inline-start: 0;
 }
 
 .elko-packs,
 .elko-products {
   width: min(1260px, 100%);
   margin: 0 auto;
-  padding: clamp(86px, 11vw, 150px) clamp(14px, 4vw, 34px);
+  padding: clamp(64px, 7vw, 104px) clamp(14px, 4vw, 34px);
 }
 
 .elko-products {
   width: 100%;
-  background: #fffdf8;
+  background:
+    linear-gradient(180deg, rgba(91, 22, 40, 0.05), transparent 180px),
+    #fbf6ec;
 }
 
 .elko-products > * {
@@ -247,33 +309,42 @@
 
 .elko-section-head {
   display: grid;
-  grid-template-columns: minmax(0, 0.75fr) minmax(300px, 0.45fr);
-  gap: 28px;
+  grid-template-columns: minmax(0, 0.95fr) minmax(260px, 0.55fr);
+  gap: 10px 28px;
   align-items: end;
   margin-bottom: 30px;
 }
 
+.elko-section-head .elko-eyebrow {
+  grid-column: 1 / -1;
+}
+
 .elko-section-head h2 {
+  max-width: 680px;
   margin: 0;
   font-family: "Outfit Variable", "Geist Variable", system-ui, sans-serif;
-  font-size: clamp(38px, 5.8vw, 74px);
-  line-height: 0.92;
+  font-size: clamp(38px, 5.4vw, 70px);
+  font-weight: 850;
+  line-height: 0.96;
   letter-spacing: 0;
   text-wrap: balance;
 }
 
 .elko-section-head p:last-child {
+  max-width: 440px;
   margin: 0;
-  color: #625d54;
+  color: var(--muted);
   font-size: 17px;
-  line-height: 1.55;
+  line-height: 1.56;
+  justify-self: end;
+  text-wrap: pretty;
 }
 
 .elko-pack-grid,
 .elko-product-grid {
   display: grid;
   grid-auto-flow: dense;
-  gap: 14px;
+  gap: 16px;
 }
 
 .elko-pack-grid {
@@ -290,22 +361,24 @@
   min-width: 0;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid rgba(21, 20, 18, 0.1);
   border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 18px 40px rgba(21, 20, 18, 0.07);
-  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+  background: var(--surface);
+  box-shadow: 0 18px 44px rgba(42, 25, 17, 0.1);
+  transition-property: transform, box-shadow;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
 }
 
 .elko-pack-card:hover,
 .elko-product-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(17, 132, 71, 0.36);
-  box-shadow: 0 28px 68px rgba(21, 20, 18, 0.13);
+  box-shadow: 0 28px 74px rgba(42, 25, 17, 0.16);
 }
 
 .elko-pack-card.featured {
-  border-color: rgba(176, 24, 47, 0.5);
+  box-shadow:
+    0 0 0 1px rgba(196, 138, 58, 0.48),
+    0 24px 74px rgba(42, 25, 17, 0.14);
 }
 
 .elko-pack-media,
@@ -314,12 +387,20 @@
   display: grid;
   align-items: center;
   overflow: hidden;
-  background: linear-gradient(135deg, #e8f3e8, #f8f6f1 55%, #f4e6e7);
+  background:
+    radial-gradient(circle at 18% 10%, rgba(196, 138, 58, 0.2), transparent 34%),
+    linear-gradient(135deg, #1d1512, #10251c);
 }
 
 .elko-pack-media {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  min-height: 208px;
+  min-height: 214px;
+  padding: 16px;
+}
+
+.elko-product-media {
+  min-height: 242px;
+  place-items: center;
   padding: 18px;
 }
 
@@ -327,15 +408,23 @@
 .elko-product-media img {
   min-width: 0;
   width: 100%;
-  height: 166px;
+  height: 174px;
   object-fit: contain;
-  filter: drop-shadow(0 14px 18px rgba(21, 20, 18, 0.16));
-  transition: transform 650ms ease;
+  border-radius: 8px;
+  background: rgba(255, 250, 241, 0.96);
+  outline: 1px solid rgba(255, 255, 255, 0.1);
+  filter: contrast(1.1) drop-shadow(0 16px 20px rgba(0, 0, 0, 0.22));
+  transition: transform 650ms cubic-bezier(0.2, 0, 0, 1);
 }
 
 .elko-pack-card:hover .elko-pack-media img,
 .elko-product-card:hover .elko-product-media img {
-  transform: scale(1.06);
+  transform: scale(1.045);
+}
+
+.elko-product-media img {
+  height: 190px;
+  padding: 6px;
 }
 
 .elko-pack-body,
@@ -366,33 +455,55 @@
   padding: 0 9px;
   font-size: 12px;
   font-weight: 900;
+  white-space: nowrap;
 }
 
 .elko-pack-top span,
 .elko-meta span,
 .elko-product-media span {
-  background: #f1eee6;
-  color: #4f4941;
+  background: #eee5d7;
+  color: #54473d;
+}
+
+.elko-product-media span {
+  position: absolute;
+  inset-block-start: 12px;
+  inset-inline-start: 12px;
+  background: rgba(255, 250, 241, 0.92);
 }
 
 .elko-pack-top strong {
-  background: #b0182f;
+  background: var(--wine);
   color: #fff;
 }
 
 .elko-pack-body h3,
 .elko-product-body h3 {
   margin: 14px 0 8px;
+  font-family: "Outfit Variable", "Geist Variable", system-ui, sans-serif;
   font-size: 21px;
+  font-weight: 780;
   line-height: 1.08;
   letter-spacing: 0;
+  overflow-wrap: break-word;
+}
+
+.elko-product-body h3 {
+  min-height: 45px;
+  font-size: 18px;
 }
 
 .elko-pack-body p,
 .elko-product-body p {
   margin: 0;
-  color: #625d54;
+  color: var(--muted);
   line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.elko-product-body p {
+  min-height: 42px;
+  font-size: 14px;
 }
 
 .elko-pack-body ul {
@@ -404,15 +515,16 @@
 }
 
 .elko-pack-body li {
-  color: #302c27;
+  color: #342b25;
   font-size: 13px;
   line-height: 1.25;
+  overflow-wrap: break-word;
 }
 
 .elko-pack-body li::before {
   content: "+";
-  margin-right: 7px;
-  color: #118447;
+  margin-inline-end: 7px;
+  color: var(--green);
   font-weight: 950;
 }
 
@@ -421,59 +533,35 @@
   gap: 3px;
   margin-top: auto;
   padding-top: 15px;
-  border-top: 1px solid rgba(21, 20, 18, 0.1);
+  border-top: 1px solid var(--line);
+  font-variant-numeric: tabular-nums;
 }
 
 .elko-price span {
   min-height: 19px;
-  color: #625d54;
+  color: var(--muted);
   font-size: 13px;
 }
 
 .elko-price strong {
-  color: #151412;
+  color: var(--ink);
   font-size: 34px;
+  font-weight: 900;
   line-height: 1;
 }
 
 .elko-price small {
-  color: #118447;
+  color: var(--green);
   font-weight: 900;
+}
+
+.elko-price.compact strong {
+  font-size: 27px;
 }
 
 .elko-pack-card .elko-button,
 .elko-product-card .elko-button {
   margin-top: 16px;
-}
-
-.elko-product-card {
-  background: #fff;
-}
-
-.elko-product-media {
-  min-height: 230px;
-  padding: 20px;
-}
-
-.elko-product-media span {
-  position: absolute;
-  left: 12px;
-  top: 12px;
-  background: #fff;
-}
-
-.elko-product-body h3 {
-  min-height: 45px;
-  font-size: 18px;
-}
-
-.elko-product-body p {
-  min-height: 42px;
-  font-size: 14px;
-}
-
-.elko-price.compact strong {
-  font-size: 27px;
 }
 
 .elko-whatsapp {
@@ -486,9 +574,9 @@
   width: 62px;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: #118447;
+  background: var(--green);
   color: #fff;
-  box-shadow: 0 18px 36px rgba(17, 132, 71, 0.34);
+  box-shadow: 0 18px 36px rgba(13, 127, 73, 0.34);
 }
 
 .elko-modal {
@@ -498,7 +586,7 @@
   display: grid;
   place-items: center;
   padding: 18px;
-  background: rgba(14, 13, 12, 0.68);
+  background: rgba(18, 15, 14, 0.72);
   backdrop-filter: blur(10px);
 }
 
@@ -510,9 +598,8 @@
   width: min(1040px, 100%);
   max-height: min(830px, calc(100vh - 36px));
   overflow: auto;
-  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
-  background: #fffdf8;
+  background: var(--surface);
   padding: 24px;
   box-shadow: 0 34px 110px rgba(0, 0, 0, 0.36);
 }
@@ -526,20 +613,20 @@
   place-items: center;
   width: 40px;
   aspect-ratio: 1;
-  border: 1px solid rgba(21, 20, 18, 0.14);
+  border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
-  color: #151412;
+  color: var(--ink);
   cursor: pointer;
 }
 
 .elko-dialog-summary {
   grid-column: 1 / -1;
-  padding-right: 50px;
+  padding-inline-end: 50px;
 }
 
 .elko-dialog-summary span {
-  color: #b0182f;
+  color: var(--wine);
   font-weight: 950;
 }
 
@@ -549,14 +636,17 @@
   max-width: 840px;
   font-family: "Outfit Variable", "Geist Variable", system-ui, sans-serif;
   font-size: clamp(30px, 4vw, 50px);
+  font-weight: 850;
   line-height: 0.98;
   letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .elko-dialog-summary p,
 .elko-success p {
   margin: 0;
-  color: #625d54;
+  color: var(--muted);
+  line-height: 1.5;
 }
 
 .elko-order-items {
@@ -574,10 +664,10 @@
   display: grid;
   grid-template-columns: 112px minmax(0, 1fr);
   gap: 12px;
-  border: 1px solid rgba(21, 20, 18, 0.1);
   border-radius: 8px;
   padding: 10px;
   background: #fff;
+  box-shadow: inset 0 0 0 1px var(--line);
 }
 
 .elko-choice-card > img {
@@ -585,7 +675,9 @@
   height: 138px;
   object-fit: contain;
   border-radius: 8px;
-  background: #f3efe6;
+  background: var(--surface-strong);
+  outline: 1px solid rgba(0, 0, 0, 0.08);
+  filter: contrast(1.08);
 }
 
 .elko-choice-content {
@@ -605,12 +697,14 @@
   min-width: 0;
   font-size: 14px;
   line-height: 1.2;
+  overflow-wrap: break-word;
 }
 
 .elko-choice-head span {
-  color: #118447;
+  color: var(--green);
   white-space: nowrap;
   font-weight: 950;
+  font-variant-numeric: tabular-nums;
 }
 
 .elko-choice-colors {
@@ -625,16 +719,16 @@
   width: 38px;
   aspect-ratio: 1;
   overflow: hidden;
-  border: 1px solid rgba(21, 20, 18, 0.16);
+  border: 1px solid var(--line);
   border-radius: 8px;
   padding: 2px;
-  background: #fff;
+  background: var(--surface-strong);
   cursor: pointer;
 }
 
 .elko-choice-colors button.active {
-  border-color: #118447;
-  box-shadow: 0 0 0 2px rgba(17, 132, 71, 0.18);
+  border-color: var(--green);
+  box-shadow: 0 0 0 2px rgba(13, 127, 73, 0.18);
 }
 
 .elko-choice-colors img,
@@ -648,7 +742,7 @@
 .elko-choice-size {
   display: grid;
   gap: 5px;
-  color: #302c27;
+  color: #342b25;
   font-size: 12px;
   font-weight: 900;
 }
@@ -657,35 +751,40 @@
 .elko-form input,
 .elko-form textarea {
   width: 100%;
-  border: 1px solid rgba(21, 20, 18, 0.15);
+  border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
-  color: #151412;
+  color: var(--ink);
   padding: 12px;
-  font: 700 15px/1.25 "Geist Variable", system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .elko-choice-content small {
-  color: #625d54;
+  color: var(--muted);
+  font-size: 12px;
   font-weight: 750;
 }
 
 .elko-form {
+  position: sticky;
+  top: 0;
   display: grid;
   align-content: start;
   gap: 12px;
-  position: sticky;
-  top: 0;
-  border: 1px solid rgba(21, 20, 18, 0.1);
   border-radius: 8px;
   padding: 16px;
   background: #fff;
+  box-shadow:
+    inset 0 0 0 1px var(--line),
+    0 18px 40px rgba(42, 25, 17, 0.08);
 }
 
 .elko-form label {
   display: grid;
   gap: 7px;
-  color: #302c27;
+  color: #342b25;
   font-size: 13px;
   font-weight: 900;
 }
@@ -704,14 +803,34 @@
 }
 
 .elko-success svg {
-  color: #118447;
+  color: var(--green);
 }
 
 .elko-success strong {
   font-size: 20px;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .elko-page *,
+  .elko-page *::before,
+  .elko-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+    animation-duration: 0.001ms !important;
+  }
 }
 
 @media (max-width: 1180px) {
+  .elko-hero {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .elko-hero-copy {
+    padding-bottom: 0;
+  }
+
   .elko-pack-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -736,15 +855,33 @@
   }
 
   .elko-hero-media {
-    grid-template-columns: repeat(3, minmax(88px, 1fr));
+    grid-template-rows: repeat(5, 68px);
+    min-height: 380px;
   }
 
-  .elko-hero-media img {
-    height: 150px;
+  .elko-hero-media img:nth-child(1) {
+    grid-column: 1 / 6;
+    grid-row: 1 / 3;
   }
 
-  .elko-hero-media img:nth-child(even) {
-    transform: none;
+  .elko-hero-media img:nth-child(2) {
+    grid-column: 6 / 11;
+    grid-row: 1 / 3;
+  }
+
+  .elko-hero-media img:nth-child(3) {
+    grid-column: 1 / 5;
+    grid-row: 3 / 6;
+  }
+
+  .elko-hero-media img:nth-child(4) {
+    grid-column: 4 / 8;
+    grid-row: 3 / 6;
+  }
+
+  .elko-hero-media img:nth-child(5) {
+    grid-column: 7 / 11;
+    grid-row: 3 / 6;
   }
 
   .elko-proof,
@@ -757,8 +894,8 @@
     justify-content: flex-start;
     min-height: 58px;
     padding-inline: 18px;
-    border-left: 0;
-    border-top: 1px solid rgba(21, 20, 18, 0.08);
+    border-inline-start: 0;
+    border-top: 1px solid var(--line);
   }
 
   .elko-proof div:first-child {
@@ -768,6 +905,7 @@
 
 @media (max-width: 640px) {
   .elko-nav {
+    top: 10px;
     width: calc(100% - 20px);
     margin-top: 10px;
   }
@@ -787,6 +925,10 @@
     height: 22px;
   }
 
+  .elko-hero {
+    padding-inline: 14px;
+  }
+
   .elko-hero h1 {
     font-size: clamp(42px, 13vw, 64px);
   }
@@ -796,6 +938,16 @@
   .elko-product-grid {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .elko-hero-media {
+    grid-template-rows: repeat(5, 54px);
+    min-height: 320px;
+  }
+
+  .elko-packs,
+  .elko-products {
+    padding-inline: 14px;
   }
 
   .elko-choice-card {
