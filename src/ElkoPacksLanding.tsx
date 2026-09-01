@@ -524,7 +524,7 @@ function ElkoPacksLanding() {
           <img src="/assets/brand/elko-logo-transparent.png" alt="ELKO" />
           <p className="elko-eyebrow">HAWANA x ELKO</p>
           <h1>ELKO coton, pret a commander.</h1>
-          <p>Packs publicitaires et produits ELKO a l'unite, avec prix final arrondi et livraison gratuite incluse partout au Maroc.</p>
+          <p>Essentiels ELKO en coton pour femme et homme, disponibles en packs ou a l'unite avec livraison gratuite partout au Maroc.</p>
           <div className="elko-hero-actions">
             <a href="#packs" className="elko-button primary">Voir les packs<ArrowRight size={18} /></a>
             <a href="#produits" className="elko-button ghost">Produits individuels<ArrowRight size={18} /></a>
@@ -544,9 +544,9 @@ function ElkoPacksLanding() {
 
       <section className="elko-packs" id="packs">
         <div className="elko-section-head">
-          <p className="elko-eyebrow">Packs publicitaires</p>
+          <p className="elko-eyebrow">Offres ELKO</p>
           <h2>8 packs prets a lancer</h2>
-          <p>Les prix affiches incluent la livraison et finissent toujours par 0 ou 5.</p>
+          <p>Des packs simples a commander pour renouveler les essentiels du quotidien.</p>
         </div>
         <div className="elko-pack-grid">
           {preparedPacks.map((pack) => <article className={pack.id === "elko-couple" ? "elko-pack-card featured" : "elko-pack-card"} key={pack.id}>
@@ -562,7 +562,7 @@ function ElkoPacksLanding() {
                 {pack.itemsResolved.length > 5 && <li>+ {pack.itemsResolved.length - 5} autres pieces</li>}
               </ul>
               <div className="elko-price">
-                <span><s>{formatPrice(pack.originalTotal)} DH</s> prix normal livre</span>
+                <span><s>{formatPrice(pack.originalTotal)} DH</s> prix habituel</span>
                 <strong>{formatPrice(pack.subtotal)} DH</strong>
                 <small>Livraison gratuite</small>
               </div>
@@ -576,7 +576,7 @@ function ElkoPacksLanding() {
         <div className="elko-section-head">
           <p className="elko-eyebrow">Produits individuels</p>
           <h2>Chaque produit ELKO individuellement</h2>
-          <p>Tous les produits ELKO restent commandables un par un avec livraison gratuite incluse.</p>
+          <p>Choisissez le modele, la couleur et la taille qui vous conviennent.</p>
         </div>
         <div className="elko-product-grid">
           {preparedProducts.map((item) => <article className="elko-product-card" key={item.id}>
