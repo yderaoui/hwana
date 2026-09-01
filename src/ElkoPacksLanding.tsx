@@ -1,5 +1,7 @@
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, Check, Phone, ShieldCheck, WhatsappLogo, X } from "@phosphor-icons/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import catalogData from "./data/catalog.json";
 import { Product } from "./data/catalog";
 import "./elko-packs.css";
@@ -26,6 +28,7 @@ type PreparedPack = PackSpec & {
   count: number;
   discount: number;
   originalTotal: number;
+  rawSubtotal: number;
   subtotal: number;
   total: number;
   itemsResolved: PackItem[];
@@ -38,12 +41,17 @@ type PreparedProduct = {
   badge: string;
   product: Product;
   originalTotal: number;
+  rawSubtotal: number;
   subtotal: number;
   total: number;
   image: string | null;
   color: string;
   size: string;
   barcode?: string | null;
+};
+type OrderSelection = {
+  colorId: string;
+  size: string;
 };
 type OrderPayload = {
   id: string;
@@ -60,9 +68,10 @@ const products = catalogData as Product[];
 const elkoProducts = products
   .filter((product) => product.brand.toLowerCase() === "elko" && product.purchasable)
   .sort((a, b) => `${a.category}-${a.name.fr}`.localeCompare(`${b.category}-${b.name.fr}`));
-const deliveryFee = 35;
 const pendingOrdersKey = "hawana-pending-orders";
 const whatsappUrl = "https://api.whatsapp.com/send?phone=212689765468&text=Hawana.ma%20-%20Pack%20ELKO";
+const includedDeliveryFee = 35;
+const sheetDeliveryFee = 0;
 
 const packSpecs: PackSpec[] = [
   {
@@ -199,9 +208,22 @@ const sendOrder = (sheetUrl: string, order: OrderPayload) => {
   void fetch(sheetUrl, { method: "POST", mode: "no-cors", keepalive: true, headers: { "Content-Type": "text/plain;charset=utf-8" }, body }).catch(() => undefined);
 };
 
+const roundCommercePrice = (value: number) => Math.round(value / 5) * 5;
 const discountForCount = (count: number) => count === 3 ? 0.2 : count === 5 ? 0.25 : 0.3;
 const formatPrice = (value: number) => new Intl.NumberFormat("fr-MA", { maximumFractionDigits: 0 }).format(value);
 const productById = new Map(products.map((product) => [product.id, product]));
+
+const uniqueValues = (values: string[]) => Array.from(new Set(values.filter(Boolean)));
+
+const availableSizes = (product: Product, colorId: string) => {
+  const variantSizes = uniqueValues(product.variants?.filter((variant) => variant.colorId === colorId && variant.stock > 0).map((variant) => variant.size) ?? []);
+  return variantSizes.length ? variantSizes : product.sizes;
+};
+
+const availableColors = (product: Product) => {
+  const colors = product.colors.filter((color) => availableSizes(product, color.id).length > 0);
+  return colors.length ? colors : product.colors;
+};
 
 const firstAvailableChoice = (product: Product) => {
   const variant = product.variants?.find((item) => item.stock > 0);
@@ -212,6 +234,21 @@ const firstAvailableChoice = (product: Product) => {
     barcode: variant?.barcode,
   };
 };
+
+const defaultSelectionForProduct = (product: Product): OrderSelection => {
+  const choice = firstAvailableChoice(product);
+  return {
+    colorId: choice.color?.id ?? product.colors[0]?.id ?? "",
+    size: choice.size,
+  };
+};
+
+const selectedVariant = (product: Product, selection: OrderSelection) =>
+  product.variants?.find((variant) => variant.colorId === selection.colorId && variant.size === selection.size && variant.stock > 0)
+  ?? product.variants?.find((variant) => variant.colorId === selection.colorId && variant.stock > 0)
+  ?? product.variants?.find((variant) => variant.stock > 0);
+
+const packItemKey = (packId: string, index: number) => `${packId}-${index}`;
 
 const preparePack = (pack: PackSpec): PreparedPack => {
   const expanded = pack.items.flatMap((item) => {
@@ -238,17 +275,20 @@ const preparePack = (pack: PackSpec): PreparedPack => {
     };
   });
 
-  const originalTotal = expanded.reduce((sum, product) => sum + (product.regularPrice ?? product.price ?? 0), 0);
-  const subtotal = itemsResolved.reduce((sum, item) => sum + item.unitPrice, 0);
-  return { ...pack, count, discount: Math.round(discount * 100), originalTotal, subtotal, total: subtotal + deliveryFee, itemsResolved };
+  const rawOriginalTotal = expanded.reduce((sum, product) => sum + (product.regularPrice ?? product.price ?? 0), 0);
+  const rawSubtotal = itemsResolved.reduce((sum, item) => sum + item.unitPrice, 0);
+  const originalTotal = roundCommercePrice(rawOriginalTotal + includedDeliveryFee);
+  const subtotal = roundCommercePrice(rawSubtotal + includedDeliveryFee);
+  return { ...pack, count, discount: Math.round(discount * 100), originalTotal, rawSubtotal, subtotal, total: subtotal, itemsResolved };
 };
 
 const prepareProduct = (product: Product): PreparedProduct => {
   const choice = firstAvailableChoice(product);
   const variantPrice = choice.barcode ? product.variants?.find((variant) => variant.barcode === choice.barcode)?.price : null;
   const variantRegularPrice = choice.barcode ? product.variants?.find((variant) => variant.barcode === choice.barcode)?.regularPrice : null;
-  const subtotal = Math.round(variantPrice ?? product.price ?? product.regularPrice ?? 0);
-  const originalTotal = Math.round(variantRegularPrice ?? product.regularPrice ?? subtotal);
+  const rawSubtotal = Math.round(variantPrice ?? product.price ?? product.regularPrice ?? 0);
+  const subtotal = roundCommercePrice(rawSubtotal + includedDeliveryFee);
+  const originalTotal = roundCommercePrice((variantRegularPrice ?? product.regularPrice ?? rawSubtotal) + includedDeliveryFee);
   return {
     id: `single-${product.id}`,
     title: product.name.fr,
@@ -257,8 +297,9 @@ const prepareProduct = (product: Product): PreparedProduct => {
     badge: "A l'unite",
     product,
     originalTotal,
+    rawSubtotal,
     subtotal,
-    total: subtotal + deliveryFee,
+    total: subtotal,
     image: choice.color?.image ?? product.colors[0]?.image ?? null,
     color: choice.color?.label.fr ?? "A confirmer",
     size: choice.size,
@@ -266,9 +307,47 @@ const prepareProduct = (product: Product): PreparedProduct => {
   };
 };
 
+function ItemChoice({ itemKey, product, selection, onChange, price }: { itemKey: string; product: Product; selection: OrderSelection; onChange: (itemKey: string, product: Product, next: Partial<OrderSelection>) => void; price?: number }) {
+  const colors = availableColors(product);
+  const color = product.colors.find((entry) => entry.id === selection.colorId) ?? colors[0] ?? product.colors[0];
+  const sizes = color ? availableSizes(product, color.id) : product.sizes;
+  const image = color?.image ?? product.colors[0]?.image ?? "";
+
+  return <article className="elko-choice-card">
+    <img src={image} alt={product.name.fr} />
+    <div className="elko-choice-content">
+      <div className="elko-choice-head">
+        <strong>{product.name.fr}</strong>
+        {price !== undefined && <span>{formatPrice(price)} DH</span>}
+      </div>
+      <div className="elko-choice-colors" aria-label={`Couleurs pour ${product.name.fr}`}>
+        {colors.map((option) => <button
+          type="button"
+          className={option.id === color?.id ? "active" : ""}
+          onClick={() => onChange(itemKey, product, { colorId: option.id })}
+          key={`${itemKey}-${option.id}`}
+          aria-label={option.label.fr}
+          title={option.label.fr}
+        >
+          {option.image ? <img src={option.image} alt="" /> : <span style={{ background: option.hex }} />}
+        </button>)}
+      </div>
+      <label className="elko-choice-size">
+        Taille
+        <select value={selection.size} onChange={(event) => onChange(itemKey, product, { size: event.target.value })}>
+          {sizes.map((size) => <option value={size} key={`${itemKey}-${size}`}>{size}</option>)}
+        </select>
+      </label>
+      <small>{color?.label.fr ?? "Couleur"} disponible</small>
+    </div>
+  </article>;
+}
+
 function ElkoPacksLanding() {
+  const pageRef = useRef<HTMLDivElement>(null);
   const [selectedPack, setSelectedPack] = useState<PreparedPack | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<PreparedProduct | null>(null);
+  const [selections, setSelections] = useState<Record<string, OrderSelection>>({});
   const [orderId, setOrderId] = useState("");
   const preparedPacks = useMemo(() => packSpecs.map(preparePack), []);
   const preparedProducts = useMemo(() => elkoProducts.map(prepareProduct), []);
@@ -277,9 +356,82 @@ function ElkoPacksLanding() {
   const activeSubtotal = selectedPack?.subtotal ?? selectedProduct?.subtotal ?? 0;
   const activeTotal = selectedPack?.total ?? selectedProduct?.total ?? 0;
 
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+    const context = gsap.context(() => {
+      gsap.fromTo(
+        ".elko-hero-copy, .elko-hero-media",
+        { opacity: 0, y: 34 },
+        { opacity: 1, y: 0, duration: 0.9, ease: "power3.out", stagger: 0.12 },
+      );
+      gsap.utils.toArray<HTMLElement>(".elko-pack-card, .elko-product-card").forEach((card, index) => {
+        gsap.fromTo(
+          card,
+          { opacity: 0, y: 48, scale: 0.96 },
+          {
+            opacity: 1,
+            y: 0,
+            scale: 1,
+            duration: 0.7,
+            ease: "power3.out",
+            scrollTrigger: { trigger: card, start: "top 88%" },
+            delay: (index % 4) * 0.035,
+          },
+        );
+      });
+      gsap.to(".elko-hero-media img", {
+        yPercent: -8,
+        ease: "none",
+        scrollTrigger: { trigger: ".elko-hero", start: "top top", end: "bottom top", scrub: true },
+      });
+    }, pageRef);
+    return () => context.revert();
+  }, []);
+
   const closeOrder = () => {
     setSelectedPack(null);
     setSelectedProduct(null);
+  };
+
+  const openPack = (pack: PreparedPack) => {
+    setSelectedPack(pack);
+    setSelectedProduct(null);
+    setOrderId("");
+    setSelections(Object.fromEntries(pack.itemsResolved.map((item, index) => [packItemKey(pack.id, index), defaultSelectionForProduct(item.product)])));
+  };
+
+  const openProduct = (product: PreparedProduct) => {
+    setSelectedProduct(product);
+    setSelectedPack(null);
+    setOrderId("");
+    setSelections({ [product.id]: defaultSelectionForProduct(product.product) });
+  };
+
+  const updateSelection = (itemKey: string, product: Product, next: Partial<OrderSelection>) => {
+    setSelections((current) => {
+      const previous = current[itemKey] ?? defaultSelectionForProduct(product);
+      const colorId = next.colorId ?? previous.colorId;
+      const sizes = availableSizes(product, colorId);
+      const size = next.size && sizes.includes(next.size)
+        ? next.size
+        : sizes.includes(previous.size)
+          ? previous.size
+          : sizes[0] ?? previous.size;
+      return { ...current, [itemKey]: { colorId, size } };
+    });
+  };
+
+  const pricedPackItems = (pack: PreparedPack) => {
+    if (pack.rawSubtotal <= 0) return pack.itemsResolved;
+    let runningTotal = 0;
+    return pack.itemsResolved.map((item, index) => {
+      if (index === pack.itemsResolved.length - 1) {
+        return { ...item, unitPrice: pack.subtotal - runningTotal };
+      }
+      const unitPrice = Math.max(0, roundCommercePrice((item.unitPrice / pack.rawSubtotal) * pack.subtotal));
+      runningTotal += unitPrice;
+      return { ...item, unitPrice };
+    });
   };
 
   const submitOfferOrder = (event: FormEvent<HTMLFormElement>) => {
@@ -288,28 +440,38 @@ function ElkoPacksLanding() {
     const form = new FormData(event.currentTarget);
     const customer = Object.fromEntries(form) as Record<string, string>;
     const id = `HW-${new Date().getFullYear()}-${crypto.randomUUID().slice(0, 8).toUpperCase()}`;
-    const preference = [customer.sizes, customer.colors].filter(Boolean).join(" / ");
     const items = selectedPack
-      ? selectedPack.itemsResolved.map((item) => ({
-        name: `${selectedPack.title} - ${item.product.name.fr}`,
-        color: customer.colors ? `A confirmer: ${customer.colors}` : item.color,
-        size: customer.sizes ? `A confirmer: ${customer.sizes}` : item.size,
-        quantity: item.quantity,
-        unitPrice: item.unitPrice,
-        lineTotal: item.unitPrice * item.quantity,
-        image: item.image ? new URL(item.image, window.location.origin).toString() : "",
-        barcode: item.barcode,
-      }))
-      : selectedProduct ? [{
-        name: `ELKO - ${selectedProduct.product.name.fr}`,
-        color: customer.colors ? `A confirmer: ${customer.colors}` : selectedProduct.color,
-        size: customer.sizes ? `A confirmer: ${customer.sizes}` : selectedProduct.size,
-        quantity: 1,
-        unitPrice: selectedProduct.subtotal,
-        lineTotal: selectedProduct.subtotal,
-        image: selectedProduct.image ? new URL(selectedProduct.image, window.location.origin).toString() : "",
-        barcode: selectedProduct.barcode,
-      }] : [];
+      ? pricedPackItems(selectedPack).map((item, index) => {
+        const selection = selections[packItemKey(selectedPack.id, index)] ?? defaultSelectionForProduct(item.product);
+        const color = item.product.colors.find((entry) => entry.id === selection.colorId) ?? item.product.colors[0];
+        const variant = selectedVariant(item.product, selection);
+        return {
+          name: `${selectedPack.title} - ${item.product.name.fr}`,
+          color: color?.label.fr ?? item.color,
+          size: selection.size,
+          quantity: item.quantity,
+          unitPrice: item.unitPrice,
+          lineTotal: item.unitPrice * item.quantity,
+          image: color?.image ? new URL(color.image, window.location.origin).toString() : "",
+          barcode: variant?.barcode ?? item.barcode,
+        };
+      })
+      : selectedProduct ? (() => {
+        const selection = selections[selectedProduct.id] ?? defaultSelectionForProduct(selectedProduct.product);
+        const color = selectedProduct.product.colors.find((entry) => entry.id === selection.colorId) ?? selectedProduct.product.colors[0];
+        const variant = selectedVariant(selectedProduct.product, selection);
+        return [{
+          name: `ELKO - ${selectedProduct.product.name.fr}`,
+          color: color?.label.fr ?? selectedProduct.color,
+          size: selection.size,
+          quantity: 1,
+          unitPrice: selectedProduct.subtotal,
+          lineTotal: selectedProduct.subtotal,
+          image: color?.image ? new URL(color.image, window.location.origin).toString() : "",
+          barcode: variant?.barcode ?? selectedProduct.barcode,
+        }];
+      })() : [];
+    const preference = items.map((item) => `${item.name}: ${item.color} / ${item.size}`).join(" | ");
     const order: OrderPayload = {
       id,
       customer: {
@@ -323,7 +485,7 @@ function ElkoPacksLanding() {
       items,
       payment: "cash_on_delivery",
       subtotal: activeSubtotal,
-      deliveryFee,
+      deliveryFee: sheetDeliveryFee,
       total: activeTotal,
       createdAt: new Date().toISOString(),
     };
@@ -334,7 +496,7 @@ function ElkoPacksLanding() {
     setOrderId(id);
   };
 
-  return <div className="elko-page">
+  return <div className="elko-page" ref={pageRef}>
     <header className="elko-nav">
       <a href="/" aria-label="HAWANA"><img src="/assets/brand/hawana-wordmark.png" alt="HAWANA" /></a>
       <a className="elko-nav-link" href={whatsappUrl} target="_blank" rel="noreferrer"><WhatsappLogo size={20} weight="fill" />WhatsApp</a>
@@ -343,17 +505,18 @@ function ElkoPacksLanding() {
       <section className="elko-hero">
         <div className="elko-hero-copy">
           <img src="/assets/brand/elko-logo-transparent.png" alt="ELKO" />
-          <p className="elko-eyebrow">Offres speciales HAWANA</p>
-          <h1>Packs ELKO 100% coton pour commander plus simple.</h1>
-          <p>Choisissez un pack pret a vendre en pub, laissez vos tailles et couleurs, puis commandez. Livraison partout au Maroc: 35 DH.</p>
+          <p className="elko-eyebrow">HAWANA x ELKO</p>
+          <h1>Des essentiels coton prets a commander.</h1>
+          <p>Packs publicitaires et produits ELKO a l'unite, avec prix final arrondi et livraison gratuite incluse partout au Maroc.</p>
           <div className="elko-hero-actions">
             <a href="#packs" className="elko-button primary">Voir les packs<ArrowRight size={18} /></a>
+            <a href="#produits" className="elko-button ghost">Produits individuels<ArrowRight size={18} /></a>
             <a href={whatsappUrl} target="_blank" rel="noreferrer" className="elko-button secondary"><WhatsappLogo size={18} weight="fill" />Commander WhatsApp</a>
           </div>
         </div>
         <div className="elko-hero-media">
           {preparedPacks[2].itemsResolved.slice(0, 5).map((item) => <img key={`${item.product.id}-${item.size}`} src={item.image ?? ""} alt={item.product.name.fr} />)}
-          <span>Jusqu'a -30%</span>
+          <span>Livraison gratuite</span>
         </div>
       </section>
 
@@ -365,9 +528,9 @@ function ElkoPacksLanding() {
 
       <section className="elko-packs" id="packs">
         <div className="elko-section-head">
-          <p className="elko-eyebrow">Selection pub</p>
+          <p className="elko-eyebrow">Packs publicitaires</p>
           <h2>8 packs prets a lancer</h2>
-          <p>Les prix sont calcules depuis les prix originaux ELKO, pas depuis le prix deja remise.</p>
+          <p>Les prix affiches incluent la livraison et finissent toujours par 0 ou 5.</p>
         </div>
         <div className="elko-pack-grid">
           {preparedPacks.map((pack) => <article className={pack.id === "elko-couple" ? "elko-pack-card featured" : "elko-pack-card"} key={pack.id}>
@@ -383,11 +546,11 @@ function ElkoPacksLanding() {
                 {pack.itemsResolved.length > 5 && <li>+ {pack.itemsResolved.length - 5} autres pieces</li>}
               </ul>
               <div className="elko-price">
-                <span><s>{formatPrice(pack.originalTotal)} DH</s> pack</span>
+                <span><s>{formatPrice(pack.originalTotal)} DH</s> prix normal livre</span>
                 <strong>{formatPrice(pack.subtotal)} DH</strong>
-                <small>+ 35 DH livraison = {formatPrice(pack.total)} DH</small>
+                <small>Livraison gratuite</small>
               </div>
-              <button className="elko-button primary full" onClick={() => { setSelectedPack(pack); setSelectedProduct(null); setOrderId(""); }}>Commander ce pack</button>
+              <button className="elko-button primary full" onClick={() => openPack(pack)}>Voir et commander</button>
             </div>
           </article>)}
         </div>
@@ -395,9 +558,9 @@ function ElkoPacksLanding() {
 
       <section className="elko-products" id="produits">
         <div className="elko-section-head">
-          <p className="elko-eyebrow">Produits a l'unite</p>
+          <p className="elko-eyebrow">Produits individuels</p>
           <h2>Chaque produit ELKO individuellement</h2>
-          <p>Pour les clients qui arrivent depuis la pub et veulent commander une seule piece avant de prendre un pack.</p>
+          <p>Tous les produits ELKO restent commandables un par un avec livraison gratuite incluse.</p>
         </div>
         <div className="elko-product-grid">
           {preparedProducts.map((item) => <article className="elko-product-card" key={item.id}>
@@ -415,9 +578,9 @@ function ElkoPacksLanding() {
               <div className="elko-price compact">
                 <span>{item.originalTotal > item.subtotal && <s>{formatPrice(item.originalTotal)} DH</s>}</span>
                 <strong>{formatPrice(item.subtotal)} DH</strong>
-                <small>+ 35 DH livraison = {formatPrice(item.total)} DH</small>
+                <small>Livraison gratuite</small>
               </div>
-              <button className="elko-button secondary full" onClick={() => { setSelectedProduct(item); setSelectedPack(null); setOrderId(""); }}>Commander</button>
+              <button className="elko-button secondary full" onClick={() => openProduct(item)}>Commander</button>
             </div>
           </article>)}
         </div>
@@ -438,15 +601,35 @@ function ElkoPacksLanding() {
           <div className="elko-dialog-summary">
             <span>{activeBadge}</span>
             <h2 id="elko-order-title">{activeTitle}</h2>
-            <p>{formatPrice(activeSubtotal)} DH + 35 DH livraison = <b>{formatPrice(activeTotal)} DH</b></p>
+            <p><b>{formatPrice(activeTotal)} DH</b> avec livraison gratuite</p>
           </div>
+          {selectedPack && <div className="elko-order-items" aria-label="Produits inclus dans le pack">
+            {pricedPackItems(selectedPack).map((item, index) => {
+              const itemKey = packItemKey(selectedPack.id, index);
+              return <ItemChoice
+                itemKey={itemKey}
+                product={item.product}
+                selection={selections[itemKey] ?? defaultSelectionForProduct(item.product)}
+                onChange={updateSelection}
+                price={item.unitPrice}
+                key={itemKey}
+              />;
+            })}
+          </div>}
+          {selectedProduct && <div className="elko-order-items single" aria-label="Produit selectionne">
+            <ItemChoice
+              itemKey={selectedProduct.id}
+              product={selectedProduct.product}
+              selection={selections[selectedProduct.id] ?? defaultSelectionForProduct(selectedProduct.product)}
+              onChange={updateSelection}
+              price={selectedProduct.subtotal}
+            />
+          </div>}
           <form className="elko-form" onSubmit={submitOfferOrder}>
             <label>Nom complet<input name="name" required autoComplete="name" /></label>
             <label>Telephone<input name="phone" required autoComplete="tel" inputMode="tel" /></label>
             <label>Ville<input name="city" required autoComplete="address-level2" /></label>
             <label>Adresse<textarea name="address" required rows={3} autoComplete="street-address" /></label>
-            <label>Tailles souhaitees<input name="sizes" placeholder="Ex: Homme M, Femme S" /></label>
-            <label>Couleurs preferees<input name="colors" placeholder="Ex: blanc, noir" /></label>
             <button className="elko-button primary full" type="submit">Confirmer la commande<ArrowRight size={18} /></button>
           </form>
         </>}
