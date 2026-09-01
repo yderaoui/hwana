@@ -1,7 +1,7 @@
 .elko-page {
   min-height: 100vh;
   overflow-x: hidden;
-  background: #f8f6f1;
+  background: #eeeadf;
   color: #151412;
   font-family: "Geist Variable", "Outfit Variable", system-ui, sans-serif;
 }
@@ -70,6 +70,7 @@
 
 .elko-button.secondary {
   background: #fff;
+  color: #151412;
 }
 
 .elko-button.ghost {
@@ -91,9 +92,9 @@
   margin-top: -72px;
   padding: 136px clamp(18px, 5vw, 70px) 72px;
   background:
-    radial-gradient(circle at 18% 18%, rgba(176, 24, 47, 0.36), transparent 30%),
-    radial-gradient(circle at 78% 20%, rgba(17, 132, 71, 0.36), transparent 28%),
-    linear-gradient(135deg, #11100f 0%, #25221d 56%, #101010 100%);
+    radial-gradient(circle at 16% 10%, rgba(176, 24, 47, 0.22), transparent 28%),
+    radial-gradient(circle at 76% 18%, rgba(31, 76, 55, 0.58), transparent 30%),
+    linear-gradient(135deg, #0b0d0b 0%, #17231d 52%, #0f100f 100%);
   color: #fff;
   text-align: center;
 }
@@ -177,10 +178,10 @@
   height: clamp(150px, 18vw, 250px);
   object-fit: contain;
   padding: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.92);
-  filter: drop-shadow(0 22px 26px rgba(0, 0, 0, 0.24));
+  background: #17231d;
+  filter: brightness(1.08) contrast(1.06) drop-shadow(0 22px 26px rgba(0, 0, 0, 0.24));
 }
 
 .elko-hero-media img:nth-child(even) {
@@ -237,7 +238,7 @@
 
 .elko-products {
   width: 100%;
-  background: #fffdf8;
+  background: #f8f4ea;
 }
 
 .elko-products > * {
@@ -292,8 +293,8 @@
   overflow: hidden;
   border: 1px solid rgba(21, 20, 18, 0.1);
   border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 18px 40px rgba(21, 20, 18, 0.07);
+  background: #fbf8f0;
+  box-shadow: 0 18px 40px rgba(21, 20, 18, 0.09);
   transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
 }
 
@@ -314,7 +315,9 @@
   display: grid;
   align-items: center;
   overflow: hidden;
-  background: linear-gradient(135deg, #e8f3e8, #f8f6f1 55%, #f4e6e7);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.09), transparent 34%),
+    #17231d;
 }
 
 .elko-pack-media {
@@ -329,7 +332,9 @@
   width: 100%;
   height: 166px;
   object-fit: contain;
-  filter: drop-shadow(0 14px 18px rgba(21, 20, 18, 0.16));
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  filter: brightness(1.08) contrast(1.06) drop-shadow(0 14px 18px rgba(0, 0, 0, 0.24));
   transition: transform 650ms ease;
 }
 
@@ -452,14 +457,16 @@
 
 .elko-product-media {
   min-height: 230px;
-  padding: 20px;
+  place-items: center;
+  padding: 16px;
 }
 
 .elko-product-media span {
   position: absolute;
   left: 12px;
   top: 12px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.92);
+  color: #151412;
 }
 
 .elko-product-body h3 {
@@ -512,7 +519,7 @@
   overflow: auto;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
-  background: #fffdf8;
+  background: #f8f4ea;
   padding: 24px;
   box-shadow: 0 34px 110px rgba(0, 0, 0, 0.36);
 }
@@ -577,7 +584,7 @@
   border: 1px solid rgba(21, 20, 18, 0.1);
   border-radius: 8px;
   padding: 10px;
-  background: #fff;
+  background: #fffaf0;
 }
 
 .elko-choice-card > img {
@@ -585,7 +592,9 @@
   height: 138px;
   object-fit: contain;
   border-radius: 8px;
-  background: #f3efe6;
+  background: #17231d;
+  box-shadow: inset 0 0 0 1px rgba(21, 20, 18, 0.12);
+  filter: brightness(1.08) contrast(1.06);
 }
 
 .elko-choice-content {
@@ -628,7 +637,7 @@
   border: 1px solid rgba(21, 20, 18, 0.16);
   border-radius: 8px;
   padding: 2px;
-  background: #fff;
+  background: #17231d;
   cursor: pointer;
 }
 

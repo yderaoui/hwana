@@ -33,7 +33,12 @@ function runtimeAssetPaths() {
   const catalog = JSON.parse(fs.readFileSync(CATALOG, "utf8"));
   for (const product of catalog) {
     for (const color of product.colors ?? []) {
-      if (color.image) assets.add(color.image);
+      if (color.image) {
+        assets.add(color.image);
+        if (String(product.brand).toLowerCase() === "elko" && color.image.endsWith(".webp")) {
+          assets.add(color.image.replace(/\.webp$/i, "-studio.webp"));
+        }
+      }
       if (color.lifestyleImage) assets.add(color.lifestyleImage);
     }
     if (typeof product.fallbackImage === "string") assets.add(product.fallbackImage);

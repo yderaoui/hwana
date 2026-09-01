@@ -212,6 +212,7 @@ const roundCommercePrice = (value: number) => Math.round(value / 5) * 5;
 const discountForCount = (count: number) => count === 3 ? 0.2 : count === 5 ? 0.25 : 0.3;
 const formatPrice = (value: number) => new Intl.NumberFormat("fr-MA", { maximumFractionDigits: 0 }).format(value);
 const productById = new Map(products.map((product) => [product.id, product]));
+const studioImage = (image: string | null | undefined) => image?.replace(/\.webp$/i, "-studio.webp") ?? null;
 
 const uniqueValues = (values: string[]) => Array.from(new Set(values.filter(Boolean)));
 
@@ -268,7 +269,7 @@ const preparePack = (pack: PackSpec): PreparedPack => {
       product,
       quantity: 1,
       unitPrice,
-      image: choice.color?.image ?? product.colors[0]?.image ?? null,
+      image: studioImage(choice.color?.image ?? product.colors[0]?.image),
       color: choice.color?.label.fr ?? "A confirmer",
       size: choice.size,
       barcode: choice.barcode,
@@ -300,7 +301,7 @@ const prepareProduct = (product: Product): PreparedProduct => {
     rawSubtotal,
     subtotal,
     total: subtotal,
-    image: choice.color?.image ?? product.colors[0]?.image ?? null,
+    image: studioImage(choice.color?.image ?? product.colors[0]?.image),
     color: choice.color?.label.fr ?? "A confirmer",
     size: choice.size,
     barcode: choice.barcode,
@@ -311,7 +312,7 @@ function ItemChoice({ itemKey, product, selection, onChange, price }: { itemKey:
   const colors = availableColors(product);
   const color = product.colors.find((entry) => entry.id === selection.colorId) ?? colors[0] ?? product.colors[0];
   const sizes = color ? availableSizes(product, color.id) : product.sizes;
-  const image = color?.image ?? product.colors[0]?.image ?? "";
+  const image = studioImage(color?.image ?? product.colors[0]?.image) ?? "";
 
   return <article className="elko-choice-card">
     <img src={image} alt={product.name.fr} />
@@ -329,7 +330,7 @@ function ItemChoice({ itemKey, product, selection, onChange, price }: { itemKey:
           aria-label={option.label.fr}
           title={option.label.fr}
         >
-          {option.image ? <img src={option.image} alt="" /> : <span style={{ background: option.hex }} />}
+          {option.image ? <img src={studioImage(option.image) ?? option.image} alt="" /> : <span style={{ background: option.hex }} />}
         </button>)}
       </div>
       <label className="elko-choice-size">
@@ -452,7 +453,7 @@ function ElkoPacksLanding() {
           quantity: item.quantity,
           unitPrice: item.unitPrice,
           lineTotal: item.unitPrice * item.quantity,
-          image: color?.image ? new URL(color.image, window.location.origin).toString() : "",
+          image: color?.image ? new URL(studioImage(color.image) ?? color.image, window.location.origin).toString() : "",
           barcode: variant?.barcode ?? item.barcode,
         };
       })
@@ -467,7 +468,7 @@ function ElkoPacksLanding() {
           quantity: 1,
           unitPrice: selectedProduct.subtotal,
           lineTotal: selectedProduct.subtotal,
-          image: color?.image ? new URL(color.image, window.location.origin).toString() : "",
+          image: color?.image ? new URL(studioImage(color.image) ?? color.image, window.location.origin).toString() : "",
           barcode: variant?.barcode ?? selectedProduct.barcode,
         }];
       })() : [];
