@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/elko-packs", "destination": "/index.html" },
+    { "source": "/elko-packs/(.*)", "destination": "/index.html" }
+  ]
+}
