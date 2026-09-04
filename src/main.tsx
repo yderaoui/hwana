@@ -4,10 +4,11 @@ import "@fontsource-variable/geist";
 import "@fontsource-variable/outfit";
 import App from "./App";
 import ElkoPacksLanding from "./ElkoPacksLanding";
+import ElkoDuoLanding from "./ElkoDuoLanding";
 import "./styles.css";
 
 const pathname = window.location.pathname.replace(/\/+$/, "");
-const Root = pathname === "/elko-packs" ? ElkoPacksLanding : App;
+const Root = pathname === "/elko-packs" ? ElkoPacksLanding : pathname === "/elko-duo" ? ElkoDuoLanding : App;
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
